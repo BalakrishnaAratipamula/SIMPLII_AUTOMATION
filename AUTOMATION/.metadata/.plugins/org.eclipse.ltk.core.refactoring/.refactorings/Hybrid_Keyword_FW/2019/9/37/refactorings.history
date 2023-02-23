@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.OHRM.lib.MercuryTours_Ex&apos; to &apos;MercuryTours_Exp&apos;&#x0D;&#x0A;- Original project: &apos;Hybrid_Keyword_FW&apos;&#x0D;&#x0A;- Original element: &apos;com.OHRM.lib.MercuryTours_Ex&apos;&#x0D;&#x0A;- Renamed element: &apos;com.OHRM.lib.MercuryTours_Exp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MercuryTours_Ex&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.OHRM.lib{MercuryTours_Ex.java[MercuryTours_Ex" matchStrategy="1" name="MercuryTours_Exp" qualified="false" references="true" similarDeclarations="false" stamp="1568374787558" textual="false" version="1.0"/>
+</session>

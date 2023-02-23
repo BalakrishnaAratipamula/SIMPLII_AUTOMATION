@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DataDrivenTesting.Enter_data_Excel&apos; to &apos;Write_data_in_Excel&apos;&#x0D;&#x0A;- Original project: &apos;DDTorFW_Re-testing&apos;&#x0D;&#x0A;- Original element: &apos;DataDrivenTesting.Enter_data_Excel&apos;&#x0D;&#x0A;- Renamed element: &apos;DataDrivenTesting.Write_data_in_Excel&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Enter_data_Excel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;DataDrivenTesting{Enter_data_Excel.java[Enter_data_Excel" matchStrategy="1" name="Write_data_in_Excel" qualified="false" references="true" similarDeclarations="false" stamp="1567605996325" textual="false" version="1.0"/>
+</session>

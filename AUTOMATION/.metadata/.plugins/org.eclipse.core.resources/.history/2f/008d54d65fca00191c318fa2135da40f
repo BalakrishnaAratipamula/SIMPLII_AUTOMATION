@@ -1,0 +1,16 @@
+package WD_Examples;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class EX41_JsE_enter_data_in_editbox {
+public static void main(String[] args) {
+	//to initialize browser
+	System.setProperty("webdriver.gecko.driver", "D://SelResource//geckodriver.exe");
+	WebDriver driver= new FirefoxDriver();
+	driver.manage().window().maximize();	
+	//creating JavascriptExecutor interface object by type casting
+	JavascriptExecutor js = ((JavascriptExecutor)driver);
+}
+}

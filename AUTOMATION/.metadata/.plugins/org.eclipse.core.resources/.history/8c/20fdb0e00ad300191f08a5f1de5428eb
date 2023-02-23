@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="my TestNg suite" >
+<test name="Sample tests">
+	<classes>
+		<class name="Sample1.Class01" />
+		<methods>
+				<include name="method01" />
+				<exclude name="method02" />
+			</methods>
+		<class name="Sample1.Class02" />
+		<class name="Sample2.Class03" />
+	</classes>
+</test>
+
+</suite>
+

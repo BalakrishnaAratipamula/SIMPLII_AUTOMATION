@@ -1,0 +1,21 @@
+package WD_Examples;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class EX41_JsE_enter_data_in_editbox {
+public static void main(String[] args)throws Exception {
+	//to initialize browser
+	System.setProperty("webdriver.gecko.driver", "E://Drivers//geckodriver.exe");
+	WebDriver driver= new FirefoxDriver();
+	driver.manage().window().maximize();	
+	//creating JavascriptExecutor interface object by TypeCasting
+	//TypeCasting----->we need to convert variable from one data type to another this can use
+	JavascriptExecutor js = ((JavascriptExecutor)driver);
+	//to open url
+	js.executeScript("window.location='http://login.salesforce.com'");
+	Thread.sleep(2000);
+	js.executeScript("window.document.getElementByid('username').value='bala'");
+}
+}

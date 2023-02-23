@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Java_Examples.If&apos; to &apos;if_&apos;&#x0D;&#x0A;- Original project: &apos;Java_Project&apos;&#x0D;&#x0A;- Original element: &apos;Java_Examples.If&apos;&#x0D;&#x0A;- Renamed element: &apos;Java_Examples.if_&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;If&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Java_Examples{If.java[If" matchStrategy="1" name="if_" qualified="false" references="true" similarDeclarations="false" stamp="1566059200614" textual="false" version="1.0"/>
+</session>

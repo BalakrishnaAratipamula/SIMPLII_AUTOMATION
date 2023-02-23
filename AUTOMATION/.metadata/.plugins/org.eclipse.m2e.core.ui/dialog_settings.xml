@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="x" value="720"/>
+		<item key="y" value="71"/>
+		<item key="height" value="667"/>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\LT eclipse-workspace\CucumberA\src\test\java\myTestRunner\TestRunner.java"/>
+			<item value="F:\LT eclipse-workspace\Java_WD_Ex\TestNG\TestNG_CrossBrowser_Testing\CrossBrowser_Testing.java"/>
+			<item value="C:\Users\B K\git\myQA\Test_Artifact\pom.xml"/>
+			<item value="F:\LT eclipse-workspace\Java_WD_Ex\CrossBrowser_Testing.xml"/>
+			<item value="F:\LT eclipse-workspace\Java_WD_Ex\src\WD_Examples\EX01_editbox.java"/>
+			<item value="C:\Users\B K\OneDrive\Documents\LT eclipse-workspace\Ramesh"/>
+			<item value="F:\LT eclipse-workspace\Java_WD_Ex\src\WD_Examples\EX10_StaticDD.java"/>
+			<item value="F:\LT eclipse-workspace\Artifact_Test"/>
+			<item value="F:\LT eclipse-workspace\RunFromCMD_TestNG.XML"/>
+			<item value="F:\LT eclipse-workspace\PracticeMaven\pom.xml"/>
+			<item value="F:\LT eclipse-workspace\Practice_Pr\src\ExtentReportsV4\ExtentDemo.java"/>
+			<item value="F:\LT eclipse-workspace\Maven_Prject\pom.xml"/>
+			<item value="F:\LT eclipse-workspace\ModularFW\src\ModularFrameWork\Parent1.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="DemoGitRepo.DemoGitRepo"/>
+			<item value="GroupId.Cucumber"/>
+		</list>
+		<list key="groupId">
+			<item value="DemoGitRepo"/>
+			<item value="GroupId"/>
+		</list>
+		<list key="artifactId">
+			<item value="DemoGitRepo"/>
+			<item value="Cucumber"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

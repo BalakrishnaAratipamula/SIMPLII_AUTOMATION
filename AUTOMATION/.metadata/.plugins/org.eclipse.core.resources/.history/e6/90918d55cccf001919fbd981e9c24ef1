@@ -1,0 +1,48 @@
+//write program to select options in "Country" dropdown using different methods at mercury tours application
+package WD_Examples;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class EX10_staticdropdown_m {
+public static void main(String[] args) throws Exception {
+	//to initialize browser
+	System.setProperty("webdriver.gecko.driver","E:\\Drivers\\geckodriver.exe");
+	WebDriver driver= new FirefoxDriver();
+	driver.get("http://newtours.demoaut.com");
+	driver.manage().window().maximize();
+	
+	//driver.findElement(By.linkText("REGISTER")).click();
+	driver.findElement(By.linkText("REGISTER")).click();
+	Thread.sleep(800);
+	driver.findElement(By.name("country")).click();
+	Thread.sleep(800);
+	
+	//to read each option from dropdown
+	Select a = new Select(driver.findElement(By.name("country")));
+	List<WebElement> options = a.getOptions();
+	System.out.println("total dd options are: "+options.size());
+	
+	//to select 'ARMENIA' by using selectByVisibleText()
+	a.selectByVisibleText("ARMENIA");
+	System.out.println("ARMENIA selected");
+	Thread.sleep(5000);
+	
+	//to select 1st option
+	a.selectByIndex(05);
+	System.out.println("ALBANIA selected");
+	Thread.sleep(5000);
+	
+	//to select 'BELARUS' by using selectbyValue (by inspect text box will get value="241"
+	a.selectByValue("241");
+	System.out.println("BELARUS selected");
+	Thread.sleep(5000);
+	
+}
+}

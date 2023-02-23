@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.robotframework.ide.project.editor.activePage.RobotFrameworkKT">
+		<item key="activePage" value="ProjectValidationConfigurationEditorPart"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./RobotFrameworkKT/Demo/Demo.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./RobotFrameworkKT/MyFirstRobot.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./RobotFrameworkKT/Demo/MyFirstRobot.robot">
+		<item key="activePage" value=""/>
+	</section>
+</section>
