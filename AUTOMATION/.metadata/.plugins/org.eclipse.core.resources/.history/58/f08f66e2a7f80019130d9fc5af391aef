@@ -1,0 +1,41 @@
+//write script to click on "Sign Up" button in FB-Home page if that object is enabled and also read visibletext and name attribute values of that element
+package WD_Examples;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class EX03_isEnable_click_Submit {
+public static void main(String[] args) {
+	//to initialize browser
+	System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+	driver.navigate().to("http://facebook.com");
+	driver.manage().window().maximize();
+	
+	//to create reference object for "Sign Up" button
+	WebElement refobj = driver.findElement(By.name("websubmit"));
+	
+	//to read visibleText
+	String str1 = refobj.getText();
+	//to print read visibleText
+	System.out.println("object VisibleText is: "+str1);
+	
+	//to read attributevalue
+	String str2 = refobj.getAttribute("name");//above qun asked to retrive name attribute value//"name" or "class" or "id".............
+	//to print read attributevalue
+	System.out.println("object name attribute value is: "+str2);
+	
+	//to click on Sign-up
+			if(refobj.isEnabled()) {   //(or) if(refobj.isEnabled()==true)
+				//to click on Sign up
+				refobj.click();
+				System.out.println("Object is enabled");
+			}
+			else {
+				System.out.println("Object is disabled");
+			}
+			driver.close();
+}
+}

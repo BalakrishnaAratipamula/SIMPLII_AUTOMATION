@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Practice_Pa.Find_Broken_Links&apos; to &apos;EX46_Find_Broken_Links&apos;&#x0D;&#x0A;- Original project: &apos;Practice_Pr&apos;&#x0D;&#x0A;- Original element: &apos;Practice_Pa.Find_Broken_Links&apos;&#x0D;&#x0A;- Renamed element: &apos;Practice_Pa.EX46_Find_Broken_Links&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Find_Broken_Links&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Practice_Pa{Find_Broken_Links.java[Find_Broken_Links" matchStrategy="1" name="EX46_Find_Broken_Links" qualified="false" references="true" similarDeclarations="false" stamp="1583749351183" textual="false" version="1.0"/>
+</session>

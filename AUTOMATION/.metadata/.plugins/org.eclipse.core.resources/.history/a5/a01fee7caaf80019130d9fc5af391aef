@@ -1,0 +1,32 @@
+//write script to find number of radiobuttons in FB-home page, read name of each radio button then select one by one radio button
+package WD_Examples;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class EX07_num_name_select_each_Radiobtn {
+public static void main(String[] args) throws Exception{
+	//to initialize the browser
+	System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+	driver.navigate().to("https://facebook.com");
+	driver.manage().window().maximize();
+	
+	//to find number of radio buttons
+	List<WebElement> refobj = driver.findElements(By.className("_58mt"));
+	/*while working with multiple radio buttons 'findElements' & name("sex") is common for all check boxes otherwise can take 'name("sex")' this can get by inspecting on 
+	  radio button name(if u click on radio button name it will select radio button)*/
+	System.out.println("Number of Radiobuttons are: "+refobj.size());
+	for(WebElement rad:refobj) {
+		System.out.println(rad.getText());
+		rad.click();
+		Thread.sleep(3000);
+		
+	}
+	driver.close();
+}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;WD_Examples.Ex21_orangrHRM&apos; to &apos;Ex21_OrangeHRM_Follwingsiblig&apos;&#x0D;&#x0A;- Original project: &apos;Java_Project&apos;&#x0D;&#x0A;- Original element: &apos;WD_Examples.Ex21_orangrHRM&apos;&#x0D;&#x0A;- Renamed element: &apos;WD_Examples.Ex21_OrangeHRM_Follwingsiblig&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ex21_orangrHRM&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;WD_Examples{Ex21_orangrHRM.java[Ex21_orangrHRM" matchStrategy="1" name="Ex21_OrangeHRM_Follwingsiblig" qualified="false" references="true" similarDeclarations="false" stamp="1625758892932" textual="false" version="1.0"/>
+</session>

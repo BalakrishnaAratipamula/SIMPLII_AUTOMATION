@@ -1,0 +1,230 @@
+package Java_Examples;
+
+import java.util.Scanner;
+
+public class EX2_java {
+public static void main(String[] args) {
+	/*/Printing prime numbers from 1 t0 20
+	System.out.println("Prime numbers from 1 to 20");
+	for(int n=2; n<=100; n++) {
+		int count=0;//"0" because we r checking from zero
+		for(int i=2; i<n; i++) {
+			if (n%i==0) {
+				count++;   //count=count+1;
+				break;  
+			}
+		}
+		if(count==0) {
+			System.out.print(n+ ", ");
+		}
+	}*/
+	
+	
+	
+	/*/Printing prime numbers from 1 t0 20
+	System.out.println("Prime numbers from 1 to 20");
+	for(int n=1; n<=200; n++) {
+		int count=0;//"0" because we r checking from zero
+		for(int i=1; i<=n; i++) {
+			if (n%i==0) {
+				count++;   //count=count+1;
+			}
+		}
+		if(count==2) {
+			System.out.print(n+ ", ");
+		}
+	}*/
+	
+	
+	
+	/*/to find given num is prime num or not
+	Scanner sc = new Scanner(System.in);//object creation for scanner class
+	System.out.println("Enter any number");
+	int n = sc.nextInt();//to read data from console
+	
+		int count=0;   
+		int m=n/2;      
+		  if(n==0||n==1){  
+		   System.out.println(n+" is not prime number");      
+		  }
+		  else{  
+		   for(int i=2;i<=m;i++){      
+			   if(n%i==0){      
+				   System.out.println(n+" is not prime number");      
+				   count++;      
+				   break;      
+		    }      
+		   }      
+		   if(count==0) { 
+			   System.out.println(n+" is prime number"); 
+			   }  
+		  	} */
+	
+	
+	/*/Printing prime number programing using method in java	
+	static void checkPrime(int n){  
+		  int count=0;      
+		  int m=n/2;      
+		  if(n==0||n==1){  
+		   System.out.println(n+" is not prime number");      
+		  }else{  
+		   for(int i=2;i<=m;i++){      
+		    if(n%i==0){      
+		     System.out.println(n+" is not prime number");      
+		     count++;      
+		     break;      
+		    }      
+		   }      
+		   if(count==0) {
+			   System.out.println(n+" is prime number"); }  
+		  } 
+		}  
+		 public static void main(String args[]){    
+		  checkPrime(1);  
+		  checkPrime(3);  
+		  checkPrime(17);  
+		  checkPrime(20); */
+	
+	
+	/*/prime number program
+	 public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);//object creation for scanner class
+		 System.out.println("Enter any number");
+		 int n = sc.nextInt();//to read data from console
+	       if (isPrime(n)) { //true 
+	           System.out.println(n + " is a prime number");  
+	       } else { //false 
+	           System.out.println(n + " is not a prime number");  
+	       }  
+	   }  
+	  
+	   public static boolean isPrime(int n) { 
+		   int m=n/2;
+	       if (n==0||n==1) { //or if(n<=1) 
+	           return false;  
+	       }  
+	       for (int i = 2; i<=m; i++) {  //Math.sqrt(n)
+	           if(n%i==0) {  
+	               return false;
+	           }  
+	       }  
+	       return true; */ 
+	
+	
+	/*/prime numbers b/n two specified numbers
+	public static void main(String[] args) {  
+	       Scanner s = new Scanner(System.in);  
+	       System.out.print("Enter the first number : ");  
+	       int start = s.nextInt();  
+	       System.out.print("Enter the second number : ");  
+	       int end = s.nextInt();  
+	       System.out.println("List of prime numbers between " + start + " and " + end);  
+	       for (int i=start; i<=end; i++) {  
+	           if (isPrime(i)) {  
+	               System.out.print(i+ ", ");  
+	           }  
+	       }  
+	   }  
+	   public static boolean isPrime(int n) { 
+		   int m=n/2;
+	       if (n==0||n==1) { //or if(n<=1) 
+	           return false;  
+	       }  
+	       for (int i = 2; i<=m; i++) {  //Math.sqrt(n)
+	           if(n%i==0) {  
+	               return false;
+	           }  
+	       }  
+	       return true;  */   
+		   
+
+
+	
+	/*/printing fibanoci series
+	int a=0;
+	int b=1;
+	System.out.print(a+", ");
+	System.out.print(b+", ");
+	int c=a+b;
+	while(c<=100) {
+		System.out.print(c+", ");
+		//To swap values
+		a=b;
+		b=c;
+		c=a+b;
+	}*/
+	
+	
+	//fibanoci series
+	int i = 1, n = 10, t1 = 0, t2 = 1;
+    System.out.print("First " + n + " terms: ");
+    while (i <= n)
+    {
+        System.out.print(t1 + " + ");
+        int sum = t1 + t2;
+        t1 = t2;
+        t2 = sum;
+        i++;
+    }
+	
+	
+	
+	/*//To factorial for given numbers
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter any number: ");
+	int n = sc.nextInt();
+	int fact=1;
+	for(int i=1; i<=n; i++) {
+		fact=fact*i;
+	}
+	System.out.println(fact);*/
+	
+	
+	
+	/*//to find number of times occurence of "a" and index of "BalaKrishna"
+	String str = "BalaKrishna";
+	int n=0;
+	for(int i=0; i<=str.length()-1; i++) {
+		if(str.charAt(i)=='a') {
+			n++;
+			System.out.println("index of 'a' is: "+i);
+		}
+	}
+	System.out.println("occurence of 'a' is: "+n);*/
+	
+	
+	
+	/*//To check given string is palindrom or not
+	String str="referd";
+	String strRev="";
+	//To reverse given String
+	for(int i=str.length()-1; i>=0; i--) {//Reading can starts from last
+		strRev=strRev+str.charAt(i);
+	}
+	System.out.println(strRev);
+	//To check given string is pelindrome or not
+	if(str.equals(strRev)){
+		System.out.println("Given string is palindrome");
+	}else {
+		System.out.println("Given string is not palindrome");
+	}*/
+	
+	/*//fabionaci serice
+	int a=0;
+	int b=1;
+	System.out.println(a);
+	System.out.println(b);
+	int c=a+b;
+	while(c<=100)
+	{	
+	System.out.println(c);
+	a=b;
+	b=c;
+	c=a+b;
+	}*/
+	
+	//Palindaram program
+	
+	
+} 
+}

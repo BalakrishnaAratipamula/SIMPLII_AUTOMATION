@@ -1,0 +1,27 @@
+package WD_Examples;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class EX38_mousehover {
+public static void main(String[] args) throws Exception {
+	// To initialize browser
+	System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
+	WebDriver driver= new FirefoxDriver();
+	driver.navigate().to("https://www.amazon.in/");
+	driver.manage().window().maximize();
+			
+	WebElement menuOption=driver.findElement(By.xpath("//span[text()='Hello. Sign in']"));
+	WebElement option=driver.findElement(By.xpath("//span[text()='Your Wish List']"));
+	
+	Actions act= new Actions(driver);
+	//to perform mouseHover operation
+	act.moveToElement(menuOption).build().perform();
+	Thread.sleep(3000);
+	option.click();
+	
+}
+}

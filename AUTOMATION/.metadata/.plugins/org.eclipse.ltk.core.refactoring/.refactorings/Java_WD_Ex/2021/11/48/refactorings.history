@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Java_Quizs.SpecialSymbol&apos; to &apos;Ternary&apos;&#x0D;&#x0A;- Original project: &apos;Java_WD_Ex&apos;&#x0D;&#x0A;- Original element: &apos;Java_Quizs.SpecialSymbol&apos;&#x0D;&#x0A;- Renamed element: &apos;Java_Quizs.Ternary&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SpecialSymbol&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Java_Quizs{SpecialSymbol.java[SpecialSymbol" matchStrategy="1" name="Ternary" qualified="false" references="true" similarDeclarations="false" stamp="1637559165506" textual="false" version="1.0"/>
+</session>

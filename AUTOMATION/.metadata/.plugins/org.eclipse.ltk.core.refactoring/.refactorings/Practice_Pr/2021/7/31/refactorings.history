@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 packages to &apos;Java_WD_Ex/src&apos;&#x0D;&#x0A;- Original project: &apos;Practice_Pr&apos;&#x0D;&#x0A;- Destination element: &apos;Java_WD_Ex/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Practice_Pr/src/TestNG_App_Login_Parametrs&#x0D;&#x0A;     Practice_Pr/src/TestNG_Simple1&#x0D;&#x0A;     Practice_Pr/src/TestNG_Simple2&#x0D;&#x0A;     Practice_Pr/src/TestNG_CrossBrowser_Testing" description="Copy packages" destination="=Java_WD_Ex/src" element1="/src&lt;TestNG_App_Login_Parametrs" element2="/src&lt;TestNG_Simple1" element3="/src&lt;TestNG_Simple2" element4="/src&lt;TestNG_CrossBrowser_Testing" flags="589830" fragments="4" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1627538549156" version="1.0"/>
+</session>
