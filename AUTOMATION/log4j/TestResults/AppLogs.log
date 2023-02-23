@@ -1,0 +1,102 @@
+18-10-2019 06:52:11  Log4jDemo.class setUp -Browser executable file running
+18-10-2019 06:52:25  Log4jDemo.class setUp -Browser launched
+18-10-2019 06:52:29  Log4jDemo.class setUp -Application opened
+18-10-2019 06:55:49  Log4jDemo.class setUp -Browser executable file running
+18-10-2019 06:56:01  Log4jDemo.class setUp -Browser launched
+18-10-2019 06:56:07  Log4jDemo.class setUp -Application opened
+18-10-2019 06:57:46  Log4jDemo.class setUp -Browser executable file running
+18-10-2019 06:57:59  Log4jDemo.class setUp -Browser launched
+18-10-2019 06:58:03  Log4jDemo.class setUp -Application opened
+18-10-2019 07:01:42  Log4jDemo.class setUp -Browser executable file running
+18-10-2019 07:01:55  Log4jDemo.class setUp -Browser launched
+18-10-2019 07:02:00  Log4jDemo.class setUp -Application opened
+18-10-2019 07:22:25  Log4jDemo.class setUp -Browser executable file running
+18-10-2019 07:22:33  Log4jDemo.class setUp -Browser launched
+18-10-2019 07:22:37  Log4jDemo.class setUp -Application opened
+18-10-2019 07:30:05  Log4jDemo.class setUp -Browser executable file running
+18-10-2019 07:30:13  Log4jDemo.class setUp -Browser launched
+18-10-2019 07:30:16  Log4jDemo.class setUp -Application opened
+18-10-2019 08:26:37  Log4jDemo.class setUp ---------------Browser executable file running-------------
+18-10-2019 08:26:49  Log4jDemo.class setUp --------Browser launched-----------
+18-10-2019 08:26:54  Log4jDemo.class setUp ------------------Application opened /info/----------------
+18-10-2019 08:26:54  Log4jDemo.class setUp -----------------Application opened /error/---------------
+18-10-2019 08:26:54  Log4jDemo.class setUp ------------------Application opened /warn/----------------
+18-10-2019 08:26:54  Log4jDemo.class setUp -----------------Application opened /fatal/---------------
+18-10-2019 08:26:54  Log4jDemo.class setUp -----------------Application opened /fatal/---------------
+18-10-2019 08:28:39  Log4jDemo.class setUp ---------------Browser executable file running-------------
+18-10-2019 08:28:48  Log4jDemo.class setUp ----------------Browser launched-----------
+18-10-2019 08:28:51  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+18-10-2019 08:28:51  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+18-10-2019 08:28:51  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+18-10-2019 08:28:51  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+18-10-2019 08:28:51  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+11-08-2021 12:51:31  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 11-08-2021 12:51:36  Log4jDemo.class setUp ----------------Browser launched-----------
+ 11-08-2021 12:51:40  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 11-08-2021 12:51:40  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 11-08-2021 12:51:40  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 11-08-2021 12:51:40  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 11-08-2021 12:51:40  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 11-08-2021 01:25:18  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 11-08-2021 01:25:23  Log4jDemo.class setUp ----------------Browser launched-----------
+ 11-08-2021 01:25:27  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 11-08-2021 01:25:27  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 11-08-2021 01:25:27  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 11-08-2021 01:25:27  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 11-08-2021 01:25:27  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 21-08-2021 10:36:08  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 21-08-2021 10:36:14  Log4jDemo.class setUp ----------------Browser launched-----------
+ 21-08-2021 10:36:18  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 21-08-2021 10:36:18  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 21-08-2021 10:36:18  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 21-08-2021 10:36:18  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 21-08-2021 10:36:18  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 21-08-2021 10:43:34  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 21-08-2021 10:43:37  Log4jDemo.class setUp ----------------Browser launched-----------
+ 21-08-2021 10:43:41  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 21-08-2021 10:43:41  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 21-08-2021 10:43:41  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 21-08-2021 10:43:41  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 21-08-2021 10:43:41  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 21-08-2021 10:43:41  Log4jDemo.class setUp ----------------Browser closed-----------
+ 21-08-2021 11:12:40  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 21-08-2021 11:12:42  Log4jDemo.class setUp ----------------Browser launched-----------
+ 21-08-2021 11:12:46  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 21-08-2021 11:12:46  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 21-08-2021 11:12:46  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 21-08-2021 11:12:46  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 21-08-2021 11:12:46  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 21-08-2021 11:12:46  Log4jDemo.class setUp ----------------Browser closed-----------
+ 21-08-2021 11:14:23  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 21-08-2021 11:14:26  Log4jDemo.class setUp ----------------Browser launched-----------
+ 21-08-2021 11:14:29  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 21-08-2021 11:14:29  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 21-08-2021 11:14:29  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 21-08-2021 11:14:29  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 21-08-2021 11:14:29  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 21-08-2021 11:14:30  Log4jDemo.class setUp ----------------Browser closed-----------
+ 21-08-2021 11:24:08  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 21-08-2021 11:24:10  Log4jDemo.class setUp ----------------Browser launched-----------
+ 21-08-2021 11:24:13  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 21-08-2021 11:24:13  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 21-08-2021 11:24:13  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 21-08-2021 11:24:13  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 21-08-2021 11:24:13  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 21-08-2021 11:24:14  Log4jDemo.class setUp ----------------Browser closed-----------
+ 21-08-2021 11:26:19  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 21-08-2021 11:26:22  Log4jDemo.class setUp ----------------Browser launched-----------
+ 21-08-2021 11:26:25  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 21-08-2021 11:26:25  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 21-08-2021 11:26:25  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 21-08-2021 11:26:25  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 21-08-2021 11:26:25  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 21-08-2021 11:26:27  Log4jDemo.class setUp ----------------Browser closed-----------
+ 06-11-2021 09:43:28  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 06-11-2021 09:43:33  Log4jDemo.class setUp ----------------Browser launched-----------
+ 06-11-2021 09:43:37  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 06-11-2021 09:43:37  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 06-11-2021 09:43:37  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 06-11-2021 09:43:37  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 06-11-2021 09:43:37  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 06-11-2021 09:43:39  Log4jDemo.class setUp ----------------Browser closed-----------
+ 

@@ -1,0 +1,10 @@
+<suite name="-----my TestNG suite3------">
+<test name="-----run on FF browser----">
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+	<parameter name="uid" value="Admin" />
+	<parameter name="pwd" value="admin123" />
+	<classes>
+		<class name="TestNG_App_Login.OrangeHRM_Login" />
+	</classes>
+</test>
+</suite>

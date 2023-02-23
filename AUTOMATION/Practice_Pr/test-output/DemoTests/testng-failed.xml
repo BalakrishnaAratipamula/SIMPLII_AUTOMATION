@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoTests]">
+  <parameter name="testBrowser" value="Chrome"/>
+  <test name="FF browser">
+    <parameter name="testBrowser" value="FF"/>
+    <classes>
+      <class name="TestNG_CrossBrowser_Testing.CrossBrowser_Testing"/>
+    </classes>
+  </test> <!-- FF browser -->
+  <test name="Chrome browser">
+    <parameter name="testBrowser" value="Chrome"/>
+    <classes>
+      <class name="TestNG_CrossBrowser_Testing.CrossBrowser_Testing"/>
+    </classes>
+  </test> <!-- Chrome browser -->
+</suite> <!-- Failed suite [DemoTests] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="-------DemoTests-------">
+<test name="-------FF browser------">
+<parameter name="testBrowser" value="FF" />
+<classes>
+	<class name="TestNG_CrossBrowser_Testing.CrossBrowser_Testing"/>
+</classes>
+</test>
+
+<test name="--------Chrome browser-------">
+<parameter name="testBrowser" value="Chrome" />
+<classes>
+	<class name="TestNG_CrossBrowser_Testing.CrossBrowser_Testing"/>
+</classes>
+</test>
+</suite>
+

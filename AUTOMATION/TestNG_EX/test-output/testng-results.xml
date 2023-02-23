@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Successful login operation]]>
+    </line>
+    <line>
+      <![CDATA[Successful login operation]]>
+    </line>
+  </reporter-output>
+  <suite name="DemoTests" duration-ms="61803" started-at="2020-01-05T03:50:19Z" finished-at="2020-01-05T03:51:21Z">
+    <groups>
+    </groups>
+    <test name="FF browser" duration-ms="27644" started-at="2020-01-05T03:50:19Z" finished-at="2020-01-05T03:50:47Z">
+      <class name="CrossBrowser_Testing.CrossBrowser_Testing_Ex">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:CrossBrowser_Testing.CrossBrowser_Testing_Ex@61443d8f]" name="setUp" is-config="true" duration-ms="13439" started-at="2020-01-05T09:20:19Z" finished-at="2020-01-05T09:20:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userLogin()[pri:0, instance:CrossBrowser_Testing.CrossBrowser_Testing_Ex@61443d8f]" name="userLogin" duration-ms="10485" started-at="2020-01-05T09:20:33Z" finished-at="2020-01-05T09:20:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successful login operation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CrossBrowser_Testing.CrossBrowser_Testing_Ex@61443d8f]" name="tearDown" is-config="true" duration-ms="3697" started-at="2020-01-05T09:20:43Z" finished-at="2020-01-05T09:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowser_Testing.CrossBrowser_Testing_Ex -->
+    </test> <!-- FF browser -->
+    <test name="Chrome browser" duration-ms="34126" started-at="2020-01-05T03:50:47Z" finished-at="2020-01-05T03:51:21Z">
+      <class name="CrossBrowser_Testing.CrossBrowser_Testing_Ex">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:CrossBrowser_Testing.CrossBrowser_Testing_Ex@2aaf7cc2]" name="setUp" is-config="true" duration-ms="23207" started-at="2020-01-05T09:20:47Z" finished-at="2020-01-05T09:21:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userLogin()[pri:0, instance:CrossBrowser_Testing.CrossBrowser_Testing_Ex@2aaf7cc2]" name="userLogin" duration-ms="10688" started-at="2020-01-05T09:21:10Z" finished-at="2020-01-05T09:21:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successful login operation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CrossBrowser_Testing.CrossBrowser_Testing_Ex@2aaf7cc2]" name="tearDown" is-config="true" duration-ms="224" started-at="2020-01-05T09:21:21Z" finished-at="2020-01-05T09:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowser_Testing.CrossBrowser_Testing_Ex -->
+    </test> <!-- Chrome browser -->
+  </suite> <!-- DemoTests -->
+</testng-results>

@@ -1,0 +1,139 @@
+package com.MMS.TestScripts;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+import com.MMS.lib.MercuryTours_Exp;
+
+public class MercuryTours_Exc {
+		@Test
+		public void login() throws IOException, InterruptedException {
+		//create object for class
+		MercuryTours_Exp keys = new MercuryTours_Exp();
+		//to specify keywords file location
+		FileInputStream fi = new FileInputStream("F:\\Actionskeywords1.xlsx"); 	//F:\\ActionsKeywords.xlsx
+		XSSFWorkbook wb = new XSSFWorkbook(fi);
+		XSSFSheet ws = wb.getSheet("Sheet1");
+		
+		//to find num of rows 
+		int rowcount = ws.getLastRowNum();
+		for(int i=1; i<=rowcount; i++ ) {
+			XSSFRow row = ws.getRow(i);
+			//to read run mode
+			String runMode=row.getCell(4).getStringCellValue();
+			System.out.println(runMode);
+			if (runMode.equals("Y")) {
+				//to read Step Description
+				String keyWord=row.getCell(2).getStringCellValue();
+				System.out.println(keyWord);
+				switch(keyWord) {
+				case "LaunchBrowser":
+				keys.launchBrowser();
+				break;
+				case "NavigateURL":
+				keys.navigateURL();
+				break;
+				case "RegisterLink":
+				keys.registerlink();
+				break;
+				case "FirstName":
+				keys.firstname(); 
+				break;
+				case "LastName":
+				keys.lastname(); 
+				break;
+				case "Phone Num":
+				keys.phonenum(); 
+				break;
+				case "Address":
+				keys.address();
+				break;
+				case "City":
+				keys.city(); 
+				break;
+				case "State":
+				keys.state(); 
+				break;
+				case "Postal Code":
+				keys.postalcode();
+				case "Country":
+				keys.country();
+				break;
+				case "UserName":
+				keys.username();
+				break;
+				case "Pass":
+				keys.pass(); 
+				break;
+				case "CPass":
+				keys.cpass();
+				break;
+				case "Submit":
+				keys.submit();
+				Thread.sleep(5000);
+				break;
+				case "SignOff":
+				keys.signoff(); 
+				break;
+				case "Username2":
+				keys.username2(); 
+				break;
+				case "Pass2":
+				keys.pass2(); 
+				break;
+				case "Submit2":
+				keys.submit2();
+				Thread.sleep(5000);
+				break;
+				case "Passengers":
+				keys.passengers();
+				break;
+				case "Dptfrom":
+				keys.dptfrom(); 
+				break;
+				case "ON":
+				keys.on(); 
+				break;
+				case "ON2":
+				keys.on2(); 
+				break;
+				case "Voiarrin":
+				keys.arrin();
+				break;
+				case "Ret":
+				keys.ret(); 
+				break;
+				case "Ret2":
+				keys.ret2(); 
+				break;
+				case "SC":
+				keys.sc();
+				break;
+				case "AirLine":
+				keys.airline();
+				break;
+				case "Continu":
+				keys.continu(); 
+				break;
+				case "DEP":
+				keys.DEP(); 
+				break;
+				case "RET":
+				keys.RET(); 
+				break;
+				case "cotntnu2":
+				keys.cotntnu2(); 
+				break;
+				}
+		}
+}
+}
+}		

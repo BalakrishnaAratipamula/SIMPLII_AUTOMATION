@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-21T12:34:23 IST" name="Default suite" finished-at="2021-08-21T12:34:32 IST" duration-ms="8402">
+    <groups>
+    </groups>
+    <test started-at="2021-08-21T12:34:23 IST" name="Default test" finished-at="2021-08-21T12:34:32 IST" duration-ms="8402">
+      <class name="sample.pack.ExtentDemo">
+        <test-method is-config="true" signature="extentInfo()[pri:0, instance:sample.pack.ExtentDemo@6aba2b86]" started-at="2021-08-21T12:34:24 IST" name="extentInfo" finished-at="2021-08-21T12:34:24 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentInfo -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.pack.ExtentDemo@6aba2b86]" started-at="2021-08-21T12:34:24 IST" name="setUp" finished-at="2021-08-21T12:34:30 IST" duration-ms="6725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="titleTest()[pri:0, instance:sample.pack.ExtentDemo@6aba2b86]" started-at="2021-08-21T12:34:30 IST" name="titleTest" finished-at="2021-08-21T12:34:31 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.pack.ExtentDemo@6aba2b86]" started-at="2021-08-21T12:34:31 IST" name="tearDown" finished-at="2021-08-21T12:34:32 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:sample.pack.ExtentDemo@6aba2b86]" started-at="2021-08-21T12:34:32 IST" name="endReport" finished-at="2021-08-21T12:34:32 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- sample.pack.ExtentDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
