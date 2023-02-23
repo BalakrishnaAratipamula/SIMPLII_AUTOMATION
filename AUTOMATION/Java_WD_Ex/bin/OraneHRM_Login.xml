@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="--------Demo Suite-----">
+	<test name="-------Demo Test-------">
+		<parameter name="urlfromsuite" value="https://opensource-demo.orangehrmlive.com/"/>
+		<parameter name="uidfromsuite" value="Admin" />	
+		<parameter name="pwdfromsuite" value="admin123"/>
+		<classes>
+			<class name="TestNG_Pass_App_Login_Parametrs.OrangeHRM_Login" />           <!-- packageName.className -->
+		</classes>
+	</test>
+</suite>

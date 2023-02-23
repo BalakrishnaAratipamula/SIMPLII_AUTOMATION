@@ -1,0 +1,13 @@
+<suite name="---my TestNG suite---">
+<test name="---my sample tests---">
+	<classes>
+		<class name="TestNG_Simple1.Class001" />
+			<methods>
+				<include name="method01" /> 	<!-- Execute -->
+				<exclude name="method02" />		<!-- Not Execute -->
+			</methods>
+		<class name="TestNG_Simple1.Class002" />
+		<class name="TestNG_Simple2.Class003" />
+	</classes>
+</test>
+</suite>
