@@ -1,0 +1,296 @@
+2021-11-18 20:58:33,177 [main] INFO inetbanking - URL is opened
+2021-11-18 20:58:33,433 [main] INFO inetbanking - Entered username
+2021-11-18 20:58:33,602 [main] INFO inetbanking - Entered password
+2021-11-18 20:58:34,768 [main] INFO inetbanking - Login test passed
+2021-11-18 20:58:39,599 [main] INFO inetbanking - User name is provided
+2021-11-18 20:58:39,740 [main] INFO inetbanking - Passsword is provided
+2021-11-18 20:58:45,322 [main] INFO inetbanking - providing customer details....
+2021-11-18 20:58:56,188 [main] INFO inetbanking - validation started....
+2021-11-18 20:58:56,221 [main] INFO inetbanking - test case passed....
+2021-11-19 14:26:55,085 [main] INFO inetbanking - URL is opened
+2021-11-19 14:26:55,314 [main] INFO inetbanking - Entered username
+2021-11-19 14:26:55,364 [main] INFO inetbanking - Entered password
+2021-11-19 14:26:56,766 [main] INFO inetbanking - Login test passed
+2021-11-19 14:27:07,026 [main] INFO inetbanking - User name is provided
+2021-11-19 14:27:07,069 [main] INFO inetbanking - Passsword is provided
+2021-11-19 14:27:12,242 [main] INFO inetbanking - providing customer details....
+2021-11-19 14:27:21,252 [main] INFO inetbanking - validation started....
+2021-11-19 14:28:07,074 [main] INFO inetbanking - URL is opened
+2021-11-19 14:28:07,370 [main] INFO inetbanking - Entered username
+2021-11-19 14:28:07,530 [main] INFO inetbanking - Entered password
+2021-11-19 14:28:09,883 [main] INFO inetbanking - Login test passed
+2021-11-19 14:28:15,491 [main] INFO inetbanking - User name is provided
+2021-11-19 14:28:15,621 [main] INFO inetbanking - Passsword is provided
+2021-11-19 14:28:21,812 [main] INFO inetbanking - providing customer details....
+2021-11-19 14:28:33,556 [main] INFO inetbanking - validation started....
+2021-11-19 14:28:33,591 [main] INFO inetbanking - test case passed....
+2021-11-19 14:32:15,481 [main] INFO inetbanking - URL is opened
+2021-11-19 14:32:15,911 [main] INFO inetbanking - Entered username
+2021-11-19 14:32:15,984 [main] INFO inetbanking - Entered password
+2021-11-19 14:32:17,644 [main] INFO inetbanking - Login test passed
+2021-11-19 14:32:27,062 [main] INFO inetbanking - User name is provided
+2021-11-19 14:32:27,103 [main] INFO inetbanking - Passsword is provided
+2021-11-19 14:32:32,811 [main] INFO inetbanking - providing customer details....
+2021-11-19 14:32:41,769 [main] INFO inetbanking - validation started....
+2021-11-19 14:41:09,060 [main] INFO inetbanking - URL is opened
+2021-11-19 14:41:09,426 [main] INFO inetbanking - Entered username
+2021-11-19 14:41:09,601 [main] INFO inetbanking - Entered password
+2021-11-19 14:41:11,555 [main] INFO inetbanking - Login test passed
+2021-11-19 14:41:11,996 [main] INFO inetbanking - browser cloased
+2021-11-19 14:41:17,648 [main] INFO inetbanking - User name is provided
+2021-11-19 14:41:17,795 [main] INFO inetbanking - Passsword is provided
+2021-11-19 14:41:23,206 [main] INFO inetbanking - providing customer details....
+2021-11-19 14:41:34,281 [main] INFO inetbanking - validation started....
+2021-11-19 14:41:34,319 [main] INFO inetbanking - test case passed....
+2021-11-19 14:41:34,747 [main] INFO inetbanking - browser cloased
+2021-11-19 15:10:13,841 [main] INFO inetbanking - URL is opened
+2021-11-19 15:10:14,149 [main] INFO inetbanking - Entered username
+2021-11-19 15:10:14,296 [main] INFO inetbanking - Entered password
+2021-11-19 15:10:16,079 [main] INFO inetbanking - Login test passed
+2021-11-19 15:10:16,527 [main] INFO inetbanking - browser closed
+2021-11-19 15:10:21,327 [main] INFO inetbanking - User name is provided
+2021-11-19 15:10:21,432 [main] INFO inetbanking - Passsword is provided
+2021-11-19 15:10:27,474 [main] INFO inetbanking - providing customer details....
+2021-11-19 15:10:38,295 [main] INFO inetbanking - validation started....
+2021-11-19 15:10:38,332 [main] INFO inetbanking - test case passed....
+2021-11-19 15:10:38,768 [main] INFO inetbanking - browser closed
+2021-11-19 15:18:33,014 [main] INFO inetbanking - URL is opened
+2021-11-19 15:18:33,441 [main] INFO inetbanking - Entered username
+2021-11-19 15:18:33,599 [main] INFO inetbanking - Entered password
+2021-11-19 15:18:35,165 [main] INFO inetbanking - Login test passed
+2021-11-19 15:18:35,538 [main] INFO inetbanking - browser closed
+2021-11-19 15:18:42,313 [main] INFO inetbanking - User name is provided
+2021-11-19 15:18:42,425 [main] INFO inetbanking - Passsword is provided
+2021-11-19 15:18:50,320 [main] INFO inetbanking - providing customer details....
+2021-11-19 15:19:01,064 [main] INFO inetbanking - validation started....
+2021-11-19 15:19:01,081 [main] INFO inetbanking - test case passed....
+2021-11-19 15:19:01,547 [main] INFO inetbanking - browser closed
+2021-11-19 15:26:07,799 [main] INFO inetbanking - URL is opened
+2021-11-19 15:26:08,132 [main] INFO inetbanking - Entered username
+2021-11-19 15:26:08,290 [main] INFO inetbanking - Entered password
+2021-11-19 15:26:10,054 [main] INFO inetbanking - Login test passed
+2021-11-19 15:26:10,513 [main] INFO inetbanking - browser closed
+2021-11-19 15:26:14,988 [main] INFO inetbanking - User name is provided
+2021-11-19 15:26:15,118 [main] INFO inetbanking - Passsword is provided
+2021-11-19 15:26:20,359 [main] INFO inetbanking - providing customer details....
+2021-11-19 15:26:31,109 [main] INFO inetbanking - validation started....
+2021-11-19 15:26:31,143 [main] INFO inetbanking - test case passed....
+2021-11-19 15:26:31,599 [main] INFO inetbanking - browser closed
+2021-11-19 18:32:24,627 [main] INFO inetbanking - URL is opened
+2021-11-19 18:32:25,000 [main] INFO inetbanking - Entered username
+2021-11-19 18:32:25,163 [main] INFO inetbanking - Entered password
+2021-11-19 18:32:26,650 [main] INFO inetbanking - browser closed
+2021-11-19 18:32:31,284 [main] INFO inetbanking - User name is provided
+2021-11-19 18:32:31,417 [main] INFO inetbanking - Passsword is provided
+2021-11-19 18:32:35,352 [main] INFO inetbanking - browser closed
+2021-11-19 18:34:26,617 [main] INFO inetbanking - URL is opened
+2021-11-19 18:34:27,122 [main] INFO inetbanking - Entered username
+2021-11-19 18:34:27,379 [main] INFO inetbanking - Entered password
+2021-11-19 18:34:28,825 [main] INFO inetbanking - browser closed
+2021-11-19 18:34:33,469 [main] INFO inetbanking - User name is provided
+2021-11-19 18:34:33,581 [main] INFO inetbanking - Passsword is provided
+2021-11-19 18:34:37,541 [main] INFO inetbanking - browser closed
+2021-11-19 18:37:19,655 [main] INFO inetbanking - URL is opened
+2021-11-19 18:37:19,840 [main] INFO inetbanking - Entered username
+2021-11-19 18:37:19,957 [main] INFO inetbanking - Entered password
+2021-11-19 18:37:20,828 [main] INFO inetbanking - browser closed
+2021-11-19 18:38:21,748 [main] INFO inetbanking - URL is opened
+2021-11-19 18:38:21,939 [main] INFO inetbanking - Entered username
+2021-11-19 18:38:22,058 [main] INFO inetbanking - Entered password
+2021-11-19 18:38:25,965 [main] INFO inetbanking - browser closed
+2021-11-19 18:41:22,723 [main] INFO inetbanking - URL is opened
+2021-11-19 18:41:22,960 [main] INFO inetbanking - Entered username
+2021-11-19 18:41:23,083 [main] INFO inetbanking - Entered password
+2021-11-19 18:41:30,978 [main] INFO inetbanking - browser closed
+2021-11-19 18:55:10,867 [main] INFO inetbanking - URL is opened
+2021-11-19 18:55:11,126 [main] INFO inetbanking - Entered username
+2021-11-19 18:55:11,277 [main] INFO inetbanking - Entered password
+2021-11-19 18:55:20,377 [main] INFO inetbanking - browser closed
+2021-11-19 19:04:00,791 [main] INFO inetbanking - URL is opened
+2021-11-19 19:04:00,978 [main] INFO inetbanking - Entered username
+2021-11-19 19:04:01,092 [main] INFO inetbanking - Entered password
+2021-11-19 19:04:04,600 [main] INFO inetbanking - Login test passed
+2021-11-19 19:04:10,820 [main] INFO inetbanking - browser closed
+2021-11-19 19:05:06,935 [main] INFO inetbanking - URL is opened
+2021-11-19 19:05:07,119 [main] INFO inetbanking - Entered username
+2021-11-19 19:05:07,247 [main] INFO inetbanking - Entered password
+2021-11-19 19:05:13,996 [main] INFO inetbanking - browser closed
+2021-11-19 19:08:13,851 [main] INFO inetbanking - URL is opened
+2021-11-19 19:08:14,101 [main] INFO inetbanking - Entered username
+2021-11-19 19:08:14,249 [main] INFO inetbanking - Entered password
+2021-11-19 19:08:22,813 [main] INFO inetbanking - browser closed
+2021-11-19 19:09:20,700 [main] INFO inetbanking - URL is opened
+2021-11-19 19:09:20,995 [main] INFO inetbanking - Entered username
+2021-11-19 19:09:21,106 [main] INFO inetbanking - Entered password
+2021-11-19 19:09:25,014 [main] INFO inetbanking - Login test passed
+2021-11-19 19:09:27,906 [main] INFO inetbanking - browser closed
+2021-11-19 21:34:47,452 [main] INFO inetbanking - browser closed
+2021-11-19 21:38:20,501 [main] INFO inetbanking - user name provided
+2021-11-19 21:38:20,626 [main] INFO inetbanking - password provided
+2021-11-19 21:38:26,074 [main] INFO inetbanking - user name provided
+2021-11-19 21:38:26,156 [main] INFO inetbanking - password provided
+2021-11-19 21:38:31,532 [main] INFO inetbanking - user name provided
+2021-11-19 21:38:31,615 [main] INFO inetbanking - password provided
+2021-11-19 21:38:36,546 [main] INFO inetbanking - user name provided
+2021-11-19 21:38:36,626 [main] INFO inetbanking - password provided
+2021-11-19 21:38:41,985 [main] INFO inetbanking - user name provided
+2021-11-19 21:38:42,066 [main] INFO inetbanking - password provided
+2021-11-19 21:38:50,605 [main] INFO inetbanking - browser closed
+2021-11-19 21:39:36,200 [main] INFO inetbanking - user name provided
+2021-11-19 21:39:36,362 [main] INFO inetbanking - password provided
+2021-11-19 21:39:42,001 [main] INFO inetbanking - user name provided
+2021-11-19 21:39:42,090 [main] INFO inetbanking - password provided
+2021-11-19 21:39:47,479 [main] INFO inetbanking - user name provided
+2021-11-19 21:39:47,567 [main] INFO inetbanking - password provided
+2021-11-19 21:39:52,820 [main] INFO inetbanking - user name provided
+2021-11-19 21:39:52,901 [main] INFO inetbanking - password provided
+2021-11-19 21:39:58,052 [main] INFO inetbanking - user name provided
+2021-11-19 21:39:58,131 [main] INFO inetbanking - password provided
+2021-11-19 21:40:05,991 [main] INFO inetbanking - browser closed
+2021-11-19 21:42:21,125 [main] INFO inetbanking - user name provided
+2021-11-19 21:42:21,260 [main] INFO inetbanking - password provided
+2021-11-19 21:42:25,984 [main] INFO inetbanking - Login passed
+2021-11-19 21:42:31,720 [main] INFO inetbanking - user name provided
+2021-11-19 21:42:31,821 [main] INFO inetbanking - password provided
+2021-11-19 21:42:36,881 [main] INFO inetbanking - user name provided
+2021-11-19 21:42:36,969 [main] INFO inetbanking - password provided
+2021-11-19 21:42:42,097 [main] INFO inetbanking - user name provided
+2021-11-19 21:42:42,185 [main] INFO inetbanking - password provided
+2021-11-19 21:42:46,147 [main] INFO inetbanking - Login passed
+2021-11-19 21:42:52,060 [main] INFO inetbanking - user name provided
+2021-11-19 21:42:52,152 [main] INFO inetbanking - password provided
+2021-11-19 21:43:00,106 [main] INFO inetbanking - browser closed
+2021-11-19 21:48:15,652 [main] INFO inetbanking - user name provided
+2021-11-19 21:48:15,853 [main] INFO inetbanking - password provided
+2021-11-19 21:48:20,913 [main] INFO inetbanking - Login passed
+2021-11-19 21:48:26,594 [main] INFO inetbanking - user name provided
+2021-11-19 21:48:26,688 [main] INFO inetbanking - password provided
+2021-11-19 21:48:33,892 [main] INFO inetbanking - user name provided
+2021-11-19 21:48:33,980 [main] INFO inetbanking - password provided
+2021-11-19 21:48:42,226 [main] INFO inetbanking - user name provided
+2021-11-19 21:48:42,316 [main] INFO inetbanking - password provided
+2021-11-19 21:48:46,827 [main] INFO inetbanking - Login passed
+2021-11-19 21:48:52,482 [main] INFO inetbanking - user name provided
+2021-11-19 21:48:52,569 [main] INFO inetbanking - password provided
+2021-11-19 21:49:02,632 [main] INFO inetbanking - browser closed
+2021-11-19 21:51:12,277 [main] INFO inetbanking - user name provided
+2021-11-19 21:51:12,417 [main] INFO inetbanking - password provided
+2021-11-19 21:51:17,204 [main] INFO inetbanking - Login passed
+2021-11-19 21:51:23,374 [main] INFO inetbanking - user name provided
+2021-11-19 21:51:23,486 [main] INFO inetbanking - password provided
+2021-11-19 21:51:31,384 [main] WARN inetbanking - Login failed
+2021-11-19 21:51:31,528 [main] INFO inetbanking - user name provided
+2021-11-19 21:51:31,618 [main] INFO inetbanking - password provided
+2021-11-19 21:51:38,967 [main] WARN inetbanking - Login failed
+2021-11-19 21:51:39,090 [main] INFO inetbanking - user name provided
+2021-11-19 21:51:39,171 [main] INFO inetbanking - password provided
+2021-11-19 21:51:43,763 [main] INFO inetbanking - Login passed
+2021-11-19 21:51:49,225 [main] INFO inetbanking - user name provided
+2021-11-19 21:51:49,317 [main] INFO inetbanking - password provided
+2021-11-19 21:51:56,142 [main] WARN inetbanking - Login failed
+2021-11-19 21:51:59,038 [main] INFO inetbanking - browser closed
+2021-11-19 21:53:52,253 [main] INFO inetbanking - user name provided
+2021-11-19 21:53:52,412 [main] INFO inetbanking - password provided
+2021-11-19 21:53:56,894 [main] INFO inetbanking - Login passed
+2021-11-19 21:54:03,050 [main] INFO inetbanking - user name provided
+2021-11-19 21:54:03,171 [main] INFO inetbanking - password provided
+2021-11-19 21:54:10,292 [main] INFO inetbanking - user name provided
+2021-11-19 21:54:10,392 [main] INFO inetbanking - password provided
+2021-11-19 21:54:18,040 [main] INFO inetbanking - user name provided
+2021-11-19 21:54:18,122 [main] INFO inetbanking - password provided
+2021-11-19 21:54:22,390 [main] INFO inetbanking - Login passed
+2021-11-19 21:54:27,918 [main] INFO inetbanking - user name provided
+2021-11-19 21:54:28,000 [main] INFO inetbanking - password provided
+2021-11-19 21:54:37,864 [main] INFO inetbanking - browser closed
+2021-11-20 19:43:04,470 [main] INFO inetbanking - User name is provided
+2021-11-20 19:43:04,667 [main] INFO inetbanking - Passsword is provided
+2021-11-20 19:43:10,192 [main] INFO inetbanking - providing customer details....
+2021-11-20 19:43:22,293 [main] INFO inetbanking - validation started....
+2021-11-20 19:43:25,329 [main] INFO inetbanking - browser closed
+2021-11-20 19:46:11,023 [main] INFO inetbanking - User name is provided
+2021-11-20 19:46:11,181 [main] INFO inetbanking - Passsword is provided
+2021-11-20 19:46:16,600 [main] INFO inetbanking - providing customer details....
+2021-11-20 19:46:38,182 [main] INFO inetbanking - browser closed
+2021-11-20 19:47:16,145 [main] INFO inetbanking - User name is provided
+2021-11-20 19:47:16,281 [main] INFO inetbanking - Passsword is provided
+2021-11-20 19:47:22,540 [main] INFO inetbanking - providing customer details....
+2021-11-20 19:47:37,431 [main] INFO inetbanking - validation started....
+2021-11-20 19:47:37,479 [main] INFO inetbanking - test case passed....
+2021-11-20 19:47:40,409 [main] INFO inetbanking - browser closed
+2021-11-20 19:48:08,799 [main] INFO inetbanking - User name is provided
+2021-11-20 19:48:08,863 [main] INFO inetbanking - Passsword is provided
+2021-11-20 19:48:15,301 [main] INFO inetbanking - providing customer details....
+2021-11-20 19:48:28,681 [main] INFO inetbanking - validation started....
+2021-11-20 19:48:32,904 [main] INFO inetbanking - browser closed
+2021-11-20 19:53:43,467 [main] INFO inetbanking - User name is provided
+2021-11-20 19:53:43,557 [main] INFO inetbanking - Passsword is provided
+2021-11-20 19:53:50,031 [main] INFO inetbanking - providing customer details....
+2021-11-20 19:54:03,164 [main] INFO inetbanking - validation started....
+2021-11-20 19:54:07,126 [main] INFO inetbanking - browser closed
+2021-11-20 19:54:39,937 [main] INFO inetbanking - User name is provided
+2021-11-20 19:54:39,988 [main] INFO inetbanking - Passsword is provided
+2021-11-20 19:54:46,467 [main] INFO inetbanking - providing customer details....
+2021-11-20 19:54:59,473 [main] INFO inetbanking - validation started....
+2021-11-20 19:54:59,519 [main] INFO inetbanking - test case failed....
+2021-11-20 19:55:03,505 [main] INFO inetbanking - browser closed
+2021-11-20 19:57:31,532 [main] INFO inetbanking - User name is provided
+2021-11-20 19:57:31,574 [main] INFO inetbanking - Passsword is provided
+2021-11-20 19:57:37,837 [main] INFO inetbanking - providing customer details....
+2021-11-20 19:57:50,925 [main] INFO inetbanking - validation started....
+2021-11-20 19:57:55,135 [main] INFO inetbanking - browser closed
+2021-11-20 20:04:40,637 [main] INFO inetbanking - User name is provided
+2021-11-20 20:04:40,738 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:04:47,199 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:05:00,302 [main] INFO inetbanking - validation started....
+2021-11-20 20:05:04,272 [main] INFO inetbanking - browser closed
+2021-11-20 20:06:13,660 [main] INFO inetbanking - User name is provided
+2021-11-20 20:06:13,839 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:06:20,209 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:06:35,004 [main] INFO inetbanking - validation started....
+2021-11-20 20:06:35,053 [main] INFO inetbanking - test case passed....
+2021-11-20 20:06:37,993 [main] INFO inetbanking - browser closed
+2021-11-20 20:10:20,848 [main] INFO inetbanking - User name is provided
+2021-11-20 20:10:20,981 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:10:27,136 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:10:40,287 [main] INFO inetbanking - validation started....
+2021-11-20 20:10:44,379 [main] INFO inetbanking - browser closed
+2021-11-20 20:15:34,453 [main] INFO inetbanking - User name is provided
+2021-11-20 20:15:34,510 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:15:40,690 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:15:53,904 [main] INFO inetbanking - validation started....
+2021-11-20 20:15:58,145 [main] INFO inetbanking - browser closed
+2021-11-20 20:20:15,409 [main] INFO inetbanking - User name is provided
+2021-11-20 20:20:15,544 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:20:21,668 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:20:36,504 [main] INFO inetbanking - validation started....
+2021-11-20 20:20:36,551 [main] INFO inetbanking - test case passed....
+2021-11-20 20:20:39,605 [main] INFO inetbanking - browser closed
+2021-11-20 20:26:15,560 [main] INFO inetbanking - User name is provided
+2021-11-20 20:26:15,807 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:26:21,951 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:26:36,670 [main] INFO inetbanking - validation started....
+2021-11-20 20:26:36,732 [main] INFO inetbanking - test case passed....
+2021-11-20 20:26:39,715 [main] INFO inetbanking - browser closed
+2021-11-20 20:27:43,214 [main] INFO inetbanking - User name is provided
+2021-11-20 20:27:43,350 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:27:49,382 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:28:02,991 [main] INFO inetbanking - validation started....
+2021-11-20 20:28:03,072 [main] INFO inetbanking - test case failed....
+2021-11-20 20:28:06,250 [main] INFO inetbanking - browser closed
+2021-11-20 20:28:40,518 [main] INFO inetbanking - User name is provided
+2021-11-20 20:28:40,605 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:28:47,178 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:29:00,602 [main] INFO inetbanking - validation started....
+2021-11-20 20:29:00,642 [main] INFO inetbanking - test case failed....
+2021-11-20 20:29:04,770 [main] INFO inetbanking - browser closed
+2021-11-20 20:36:06,150 [main] INFO inetbanking - User name is provided
+2021-11-20 20:36:06,309 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:36:12,384 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:36:27,269 [main] INFO inetbanking - validation started....
+2021-11-20 20:36:27,317 [main] INFO inetbanking - test case passed....
+2021-11-20 20:36:30,288 [main] INFO inetbanking - browser closed
+2021-11-20 20:39:48,812 [main] INFO inetbanking - User name is provided
+2021-11-20 20:39:48,870 [main] INFO inetbanking - Passsword is provided
+2021-11-20 20:39:55,294 [main] INFO inetbanking - providing customer details....
+2021-11-20 20:40:08,415 [main] INFO inetbanking - validation started....
+2021-11-20 20:40:12,608 [main] INFO inetbanking - browser closed
