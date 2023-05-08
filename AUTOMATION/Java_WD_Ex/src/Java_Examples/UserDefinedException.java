@@ -1,14 +1,19 @@
 package Java_Examples;
 
-public class UserDefinedException extends Exception{
-
+//First of all, the user should create an exception class as a subclass of Exception class. All the exceptions are the... 
+//...subclasses of Exception class. 
+public class UserDefinedException extends Exception{ 
+	//Create a parameterized constructor with a string as a parameter to store exception details. We call super class...
+	//...constructor from this and send the string there.
 	public UserDefinedException(String str){
 		super(str);
 	} 
 
 	public static void withdraw(int amount) throws UserDefinedException{
 		if(amount>2000) {
-			throw new UserDefinedException("***user msg: You dont have sufficient amount to withdraw***");
+			//Finally, to raise exception as user-defined type, we have to create an object to our exception class and...
+			//...throw it using throw class.
+			throw new UserDefinedException("***User Defined msg: You dont have sufficient amount to withdraw***");
 		}
 		else {
 			System.out.println("please withdraw money");
@@ -27,3 +32,7 @@ public class UserDefinedException extends Exception{
 	}
 
 }
+
+
+
+
