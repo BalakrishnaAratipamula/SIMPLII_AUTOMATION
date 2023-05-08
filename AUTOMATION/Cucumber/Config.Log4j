@@ -1,1 +1,98 @@
+Data Driven Testing is a software testing method in which test data is stored in spreadsheet format. Execute same Test Case 
+multiple times with different sets of and expect the test output in the same table. It is also called table-driven or 
+parameterized testing. Specify the data in Excel or csv format.
+Data driven framework is an automation testing framework in which test data is stored in spreadsheet format so that input 
+values are read from data files and stored into variables inside test scripts. It enables testers to build both positive 
+and negative test cases into a single test. Here input data is stored in single or multiple data sources like .xls, .xml, 
+etc...
+Keyword driven framework: The keyword driven framework requires the development of data tables and keywords independent of 
 the test automation these keywords representing an action.  In keyword driven test, the functionality of the application 
+under test is documented in a table as well as step by step instructions for each test.
+
+In older languages like C++ public, private, protected, default is considered as Access Specifiers / Visibility Specifiers. 
+Except this the remaining like static are considered as Access Modifiers. But in java there is no terminology of specifiers 
+all are by default considered as Modifiers. Java provides Access Modifiers for creating access right to our Java
+ code to other classes, fields and methods in Java. It can represent whether other classes can access our code or not. For 
+ Ex: public, private, default, protected, final, static, abstract, transient, volatile, etc are considered as Access Modifiers. 
+Proof: if we declare top level class as private will get compile-time error as “modifier private not allowed here”
+
+An algorithm is a sequence of steps for computing a task and these are usually executed by computer programs. A Code is a 
+sequence of steps that can be executed by machines. In many cases, code is composed in a high-level language that is 
+automatically translated into machines understandable code.
+
+when we use get() method to navigate particular URL the WD will wait until the page is loaded (after refreshing the page).
+It doesn't maintain browser history or Cookies
+When we use navigate().to() to navigate particular URL the WD will go to next step in the script irrespective of page is 
+loaded (with out refreshing the page.so it may have chance to get exception it maintain browser history or cookies so we 
+can navigate forword and backword in browser history
+
+java -jar TestOne.jar	#(TestOne --- Exported JAR name)  Enter
+
+A software metrics is used to measuring software performance, quality, productivity, planning work items and many other uses.
+ It can be classified into 3 types those are:
+•	Product metrics describe the product char’s such as size, complexity, design features, performance and quality.
+•	Process metrics can be used to improve software development process and testing process such as effectiveness of defect
+    removal during development, the pattern of testing defect arrival and the response time of the fix process. 
+•	Project metrics describe the project characteristics and execution such as the number of software developers require, 
+    the staffing pattern over the life cycle of the software, cost, schedule and productivity.
+
+java -jar TestOne.jar	#(TestOne --- Exported JAR name)  Delete
+
+Performance testing: Performance testing is the process of checking whether the application is maintaining the targeted 
+response time for the specific load. These are two types those are: Load testing and Stress testing.
+Load Testing: Load means number of users. The process of increasing the load within the limits (for ex if application limit 
+is 100 users, we will test from 1, 10, …. Up to 99) on the application and performance test engineer will check the response
+ time of the application is known as Load Testing.
+Stress Testing: The process of increasing the load beyond the limits (for ex if application limit is 100 users, we will test
+ from 101, 110….) on the application and performance test engineer will check the response time of the application i.e., 
+ At what point (load & time) the application is taking more time to process the request is known as Stress Testing.
+
+java -jar TestOne.jar	#(TestOne --- Exported JAR name)  Enter
+
+Show stopper Defect: A defect which is not permitting to continue for other Testing is called Show stopper Defect.
+
+Error guessing: Based on our testing experience we know that particular thing is not working properly this will know only 
+if we already worked on such type. It’s nothing but guessing defects which was there in the software.
+ECP: ECP stands for Equivalence Class Partition. This technique is used to deriving the test cases where it is not possible 
+to develop the Test Cases with all the positive and negative flows. Equivalence class Partition drastically cuts down the 
+number of test cases required to test a system reasonably. We will use ECP as:
+-	First divide the test data equally into valid and invalid partitions.
+-	Test the field with valid data so that the field should accept it.
+-	Test the field with invalid data so that the field should not accept it.
+BVA: BVA stands for Boundary Value Analysis. This technique is used to deriving the test cases to search the boundary 
+conditions have a higher probability of detecting error for ex, when we are planning to test the range like 0-100 or 0-1000 
+or 1Lac to 2Lac etc., It is very difficult to test the field with all the values and even to write the Test Cases for all
+ the positive and negative flows. The following are the reasons to introduce BVA:
+-	Verify faults at near boundaries
+-	Faults tend to around near boundaries
+-	Test values on both sides of boundaries
+-	Good place to look for faults
+We will use BVA as: test the field with min, min+1, middle, max-1 and max values. If the field is accepting, then we can 
+conclude that the test has been passed.
+And test the field with min-1 and max+1 value. If the field is not accepting, then we can conclude that it is accepting 
+only the range.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
