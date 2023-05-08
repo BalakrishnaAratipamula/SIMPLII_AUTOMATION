@@ -18,7 +18,7 @@ public static void main(String[] args) throws Exception {
 	Thread.sleep(6000);
 	
 	Actions act = new Actions(driver);
-	act.moveToElement(menuOption).build().perform();
+	act.moveToElemen(menuOption).build().perform();
 	Thread.sleep(12000);
 	driver.findElement(By.xpath("//span[contains(text(),'Your Wish List')]")).click();
 	

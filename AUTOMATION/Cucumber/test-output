@@ -35,3 +35,11 @@ window.CUCUMBER_MESSAGES = [{"meta":{"protocolVersion":"17.1.1","implementation"
 </script>
 </body>
 </html>
+
+
+
+
+#include directive makes the compiler go to C/C++ standard library, copy the code from the header files into the program. 
+As a result, the program size increases, thus wasting memory and processor’s time. import statement makes the JVM go to the 
+Java standard library, execute the code here and substitute the result into the program. Here, no code is copied so no 
+waste of memory and processor’s time. So, import is an efficient mechanism than #include.
