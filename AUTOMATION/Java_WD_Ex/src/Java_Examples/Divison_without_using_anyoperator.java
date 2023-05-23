@@ -31,8 +31,9 @@ public class Divison_without_using_anyoperator {
 	public static void main(String[] args){
 		int dividend = 22; //x
 		int divisor = -7; //y
-
+		
 		System.out.println("Quotient is " +divide(dividend, divisor));
 	}
 
 }
+
