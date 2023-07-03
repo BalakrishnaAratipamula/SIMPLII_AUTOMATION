@@ -3,7 +3,7 @@ package Java_Examples;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayList_to_Array_conv {
+public class AAEX_ArrayList_to_Array_conv {
 	public static void main(String[] args) {
 
 		ArrayList<String> color_list = new ArrayList<String>(Arrays.asList("White", "Black", "7", "White", "Yellow"));
