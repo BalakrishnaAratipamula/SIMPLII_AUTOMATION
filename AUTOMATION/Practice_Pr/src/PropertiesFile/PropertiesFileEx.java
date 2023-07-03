@@ -12,9 +12,9 @@ public static void main(String[] args) throws Exception {
 	//to specify file path
 	FileInputStream fi = new FileInputStream("./PropertiesF\\inputdata.properties");
 	//create object for properties class
-	Properties proObj = new Properties();
+	Properties proObj = new Properties();	
 	//to load properties file
-	proObj.load(fi);
+	proObj.load(fi);	
 	
 	//to read data from properties file
 	String key1=proObj.getProperty("key");//Key from properties file
