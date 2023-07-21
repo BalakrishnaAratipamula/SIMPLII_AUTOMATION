@@ -3,8 +3,9 @@
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
-/inputdata.properties
 /test-output/
+/to execuete all classes.xml
+/to execute some of methods only.xml
 /AbstractClass/
 /CompiletimeP_or_MethodOverloading/
 /ConstructorConcept/
