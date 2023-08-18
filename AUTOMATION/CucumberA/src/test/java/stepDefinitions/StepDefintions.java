@@ -33,7 +33,7 @@ public class StepDefintions {
 		Thread.sleep(5000);
 	}
 
-	@When("^Enter Registered user name and Password$")
+	@When("^Enter Registered user name and Password$n")
 	public void enter_Registered_user_name_and_Password() throws Throwable {
 		driver.findElement(By.name("username")).sendKeys("Admin");
 		driver.findElement(By.name("password")).sendKeys("admin123");
@@ -106,3 +106,5 @@ public class StepDefintions {
 	}
 
 }
+
+// https://paytm.com/
