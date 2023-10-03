@@ -51,6 +51,4 @@ public class EX49_find_BrokenLinks { /////////////////////////// -------- https:
 		driver.close();
 	}	
 
-
-
 }

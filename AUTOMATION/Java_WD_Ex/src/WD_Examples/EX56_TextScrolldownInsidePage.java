@@ -1,18 +1,20 @@
 package WD_Examples;
 
 	
-	import org.openqa.selenium.By;
-	import org.openqa.selenium.JavascriptExecutor;
-	import org.openqa.selenium.WebDriver;
-	import org.openqa.selenium.WebElement;
-	import org.openqa.selenium.chrome.ChromeDriver;
-	import org.openqa.selenium.chrome.ChromeOptions;
-	import org.openqa.selenium.interactions.Actions;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 
 public class EX56_TextScrolldownInsidePage {
 
 		public static void main(String[] args) throws Throwable {
-			// TODO Auto-generated method stub
 			ChromeOptions opt = new ChromeOptions();
 			opt.addArguments("--remote-allow-origins=*");
 
@@ -33,13 +35,12 @@ public class EX56_TextScrolldownInsidePage {
 			
 			WebElement ele = driver.findElement(By.xpath("//*[@id='product']/tbody/tr[9]/td[text()='Delhi']"));
 			Actions action = new Actions(driver);
-	        action.scrollToElement(ele).perform();
+			action.scrollToElement(ele).perform();
 	        Thread.sleep(5000);
 	        js.executeScript("window.scrollBy(0,200)", "");
 			Thread.sleep(5000);
 			driver.quit();
 		}
 
-	
 
 }
