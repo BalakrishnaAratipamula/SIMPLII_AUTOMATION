@@ -49,7 +49,4 @@ public class LoginPage {
 		btnLogout.click();
 	}
 	
-	
-	
-	
 }
