@@ -23,7 +23,7 @@ public class EX56_TextScrolldownInsidePage {
 			driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			
+		
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,650)", "");
 			WebElement parent = driver.findElement(By.xpath("//div/table[@id='product']"));
@@ -31,7 +31,6 @@ public class EX56_TextScrolldownInsidePage {
 			List<WebElement> trs = parent.findElements(By.xpath("//div/table[@id='product']/tbody/tr"));
 			System.out.println("total no of tr tags: " + trs.size());
 			Thread.sleep(10000);
-
 			
 			WebElement ele = driver.findElement(By.xpath("//*[@id='product']/tbody/tr[9]/td[text()='Delhi']"));
 			Actions action = new Actions(driver);

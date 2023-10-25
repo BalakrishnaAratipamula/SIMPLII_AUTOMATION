@@ -18,7 +18,7 @@ public class LoginPage {
 	//identifying WebElements ---- declaration
 	@FindBy(id="Email")
 	WebElement txtEmail;
-	
+
 	@FindBy(id="Password")
 	WebElement txtPassword;
 	
