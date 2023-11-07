@@ -1,5 +1,6 @@
 package WD_Examples;
 
+import java.time.Duration;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
@@ -23,12 +24,21 @@ public static void main(String[] args) throws Exception {
 	WebDriver driver= new ChromeDriver();
 	
 	//-------------------pageLoadTimeout
-	driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+	driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(6));
 	driver.navigate().to("https://www.apsrtconline.in/oprs-web/");
 	driver.manage().window().maximize();
 	
 	//------------------ImplicitlyWait
-	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));	//Deprecated in Selenium 3
+
+	
+	/////////////////////////////////////////////////
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120, 1));  //Bcz of Deprecation we use this cmd
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='right click me']")));
+	
+	
+	
+	
 		
 	//to enter "NLR"
 	driver.findElement(By.name("source")).sendKeys("NLR");
@@ -53,7 +63,7 @@ public static void main(String[] args) throws Exception {
 		} 
 		
 	}); */
-		
+	
 	driver.quit(); 
 						
 }
