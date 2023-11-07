@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="------Selenium Webdriver Demo suite------">
+	<test name="------Selenium Web Automatiin tests-------" enabled="false">
+		<classes>
+			<class
+				name="SeleniumLatestFeaturesGroup.NewFeatures.EX01_SeleniumManager_BrowserManagement"> <!-- pak_name.cls_name -->
+				<methods>
+					<include name='tesOnChrome' />
+					<include name='testOnFirefox' />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="------Selenium Browser Automatiin tests------" enabled="true">
+		<classes>
+			<class
+				name="SeleniumLatestFeaturesGroup.NewFeatures.EX01_SeleniumManager_BrowserManagement2">
+				<methods>
+					<include name='testChromeVersion' />
+					<include name='testFirefoxVersion' />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
