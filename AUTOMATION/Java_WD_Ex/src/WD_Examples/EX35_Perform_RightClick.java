@@ -48,23 +48,5 @@ public class EX35_Perform_RightClick {
 		//to close alert window
 		driver.switchTo().alert().accept();
 
-		// Selenium 4 new features
-        WebElement clickable = driver.findElement(By.id("clickable"));
-        new Actions(driver)
-                .moveToElement(clickable)
-                .pause(Duration.ofSeconds(1))
-                .clickAndHold()
-                .pause(Duration.ofSeconds(1))
-                .sendKeys("abc")
-                .perform();
-
-     // Find an element above the reference element
-     WebElement referenceElement = driver.findElement(By.id("referenceElement"));
-     WebElement elementAbove = driver.findElement(withTagName("input").above(referenceElement));
-
-     // Find an element to the right of the reference element
-     WebElement elementToRight = driver.findElement(withTagName("button").toRightOf(referenceElement));
-
-		
 	}
 }

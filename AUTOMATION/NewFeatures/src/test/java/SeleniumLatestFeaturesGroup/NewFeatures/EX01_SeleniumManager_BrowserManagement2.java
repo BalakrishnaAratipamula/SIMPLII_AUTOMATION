@@ -31,6 +31,10 @@ public class EX01_SeleniumManager_BrowserManagement2 {
 		driver.navigate().to("https://www.selenium.dev/");
 		assertEquals(driver.getTitle(), "Selenium");
 		// driver.quit();
+		
+		
 	}
+	
+	
 	
 }
