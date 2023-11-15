@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="InetBankingV1">
 
 	<listeners>
-		<listener class-name="com.inetbanking.utilities.Reporting" /> <!-- Here making switch between Reporting class to TC's Class -->
+		<listener class-name="com.inetbanking.utilities.Reporting" /> <!-- Here
+		making switch between Reporting class to TC's Class -->
 	</listeners>
 
 
