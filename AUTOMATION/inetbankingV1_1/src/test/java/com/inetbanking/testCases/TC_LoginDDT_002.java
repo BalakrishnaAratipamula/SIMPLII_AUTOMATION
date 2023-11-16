@@ -40,8 +40,7 @@ public class TC_LoginDDT_002 extends BaseClass {
 
 	}
 
-	public boolean isAlertPresent() // user defined method created to check alert is presetn or not
-	{
+	public boolean isAlertPresent() {	// user defined method created to check alert is presetn or not
 		try {
 			driver.switchTo().alert();
 			return true;
