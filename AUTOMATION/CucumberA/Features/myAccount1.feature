@@ -1,11 +1,11 @@
-Feature: ***********Testing HRMS application**********
+Feature: *********** Testing HRMS application **********
 #Given - is used to indicate a known step in a scenario
 #When - is used to indicate an action
 #And - is used to combine two steps or gherkin steps in a scenario 
 #Then - is used to validate an output
 #regular expression - is 
 
-
+#----After installing 'CucumberEclipsePlugin' in Eclipse market place then only we will get 'log in Feature File'------#
 #==========================================Execution 1===========================================#
 @tag1
 Scenario: a
