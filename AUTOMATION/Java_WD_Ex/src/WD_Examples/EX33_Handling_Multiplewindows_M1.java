@@ -2,6 +2,7 @@ package WD_Examples;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.By;
 
 import java.util.Iterator;
@@ -50,5 +51,6 @@ public class EX33_Handling_Multiplewindows_M1 {
 		Thread.sleep(3000);
 		
 		driver.quit();
+		
 	}
 }
