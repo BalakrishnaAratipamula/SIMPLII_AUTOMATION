@@ -42,4 +42,18 @@ When Browser is close
 #Then Home page should be shown
 #When Browser is close
 
-
+#============================== We can write Feature file like be,low also (Just dummy implementation not there) =====================================#
+#Feature: Login
+#
+#@tag1
+#Scenario: Successful login with valid credentials
+#
+   #Given 	User Launch Chrome browser
+   #When    User opens URL "https://admin-demo.nopcommerce.com/login"
+   #Then    User Enter Email as "admin@yourstore.com" and password as "admin"
+   #And     Click on Login
+   #Then    Page Title should be "Dashboard / nopCommerce administration"
+   #When    User click on Log out Link
+   #Then    page title should be "Your store.Login"
+   #And     close browser
+   

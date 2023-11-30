@@ -20,7 +20,7 @@ Scenario Outline: Login Data Driven
 	Then page title should be "Your store. Login" 
 	And close browser 
 	
-	Examples: 
+Examples: 
 		|email|password|
 		|admin@yourstore.com|admin|
 		|admin@yourstore.com|admin123456|
