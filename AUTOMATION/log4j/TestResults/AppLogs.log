@@ -99,4 +99,13 @@
  06-11-2021 09:43:37  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
  06-11-2021 09:43:37  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
  06-11-2021 09:43:39  Log4jDemo.class setUp ----------------Browser closed-----------
+ 01-12-2023 12:42:27  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 01-12-2023 12:46:54  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 01-12-2023 12:47:00  Log4jDemo.class setUp ----------------Browser launched-----------
+ 01-12-2023 12:47:04  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 01-12-2023 12:47:04  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 01-12-2023 12:47:04  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 01-12-2023 12:47:04  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 01-12-2023 12:47:04  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 01-12-2023 12:47:05  Log4jDemo.class setUp ----------------Browser closed-----------
  
