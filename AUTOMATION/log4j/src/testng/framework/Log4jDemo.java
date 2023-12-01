@@ -9,14 +9,17 @@ import org.testng.annotations.Test;
 public class Log4jDemo {
 	Logger logger;
 	WebDriver driver;
+
 	@Test
 	public void setUp() throws InterruptedException {
-		logger = Logger.getLogger("Log4jDemo.class"); //classname.class
-		PropertyConfigurator.configure("log4j.properties"); //property file name
+		logger = Logger.getLogger("Log4jDemo.class"); // classname.class
+		PropertyConfigurator.configure("log4j.properties"); // Log4j-property file name
 
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+		// System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+		
 		logger.info("--------------Browser executable file running-------------");
-		driver=new ChromeDriver();
+		driver = new ChromeDriver();
+
 		logger.info("---------------Browser launched-----------");
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		logger.info("-----------------Application opened /info1/----------------");
@@ -26,9 +29,8 @@ public class Log4jDemo {
 		logger.debug("----------------Application opened /debug5/---------------");
 		driver.manage().window().maximize();
 		Thread.sleep(1000);
-		
+
 		driver.quit();
 		logger.info("---------------Browser closed-----------");
 	}
-} //logging levels: 
-
+} // logging levels:

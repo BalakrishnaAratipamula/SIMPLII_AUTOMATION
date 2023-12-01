@@ -58,8 +58,9 @@ public class ExtentDemo {
 	}
 	@BeforeMethod
 	public void setUp(){
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+		// System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
+		
 		extenttest.log(Status.INFO,"Chrome browser launched");
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");//https://opensource-demo.orangehrmlive.com/
