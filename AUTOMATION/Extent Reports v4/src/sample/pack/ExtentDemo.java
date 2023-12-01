@@ -53,7 +53,7 @@ public class ExtentDemo {
 		extentreports.setSystemInfo("Tester Name", "Balakrishna");
 		extentreports.setSystemInfo("Browser", "Chrome");
 
-		//To create ExtentTest object and specify Report Title
+		///To create ExtentTest object and specify Report Title
 		extenttest = extentreports.createTest("OrangeHRM_TitleTest"); //which test
 	}
 	@BeforeMethod
