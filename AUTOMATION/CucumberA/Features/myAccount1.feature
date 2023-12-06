@@ -9,7 +9,7 @@ Feature: *********** Testing HRMS application **********
 #==========================================Execution 1===========================================#
 @tag1
 Scenario: a
-Given User is already on Open HRMS application
+Given User is already on Open HRMS application	### If we have duplicate steps 'Duplicate Stepdefinition exception' will occur
 When Enter Registered user name and Password
 Then Home page should be shown
 When Browser is close

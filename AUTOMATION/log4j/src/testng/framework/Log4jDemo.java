@@ -19,8 +19,8 @@ public class Log4jDemo {
 		
 		logger.info("--------------Browser executable file running-------------");	//info, fatel, warn, error
 		driver = new ChromeDriver();
-
 		logger.info("---------------Browser launched-----------");
+	
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		logger.info("-----------------Application opened /info1/----------------");
 		logger.error("----------------Application opened /error2/---------------");
@@ -28,6 +28,7 @@ public class Log4jDemo {
 		logger.fatal("----------------Application opened /fatal4/---------------");
 		logger.debug("----------------Application opened /debug5/---------------");
 		driver.manage().window().maximize();
+		logger.info("---------------Browser Maximized-----------");
 		Thread.sleep(1000);
 
 		driver.quit();
