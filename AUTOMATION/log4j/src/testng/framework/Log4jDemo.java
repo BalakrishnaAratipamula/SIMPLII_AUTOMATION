@@ -17,7 +17,7 @@ public class Log4jDemo {
 
 		// System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		
-		logger.info("--------------Browser executable file running-------------");
+		logger.info("--------------Browser executable file running-------------");	//info, fatel, warn, error
 		driver = new ChromeDriver();
 
 		logger.info("---------------Browser launched-----------");

@@ -1,0 +1,40 @@
+06-12-2023 03:03:10  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 06-12-2023 03:03:16  Log4jDemo.class setUp ----------------Browser launched-----------
+ 06-12-2023 03:03:20  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 06-12-2023 03:03:20  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 06-12-2023 03:03:20  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 06-12-2023 03:03:20  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 06-12-2023 03:03:20  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 06-12-2023 03:03:21  Log4jDemo.class setUp ----------------Browser closed-----------
+ 06-12-2023 03:04:49  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 06-12-2023 03:04:52  Log4jDemo.class setUp ----------------Browser launched-----------
+ 06-12-2023 03:04:55  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 06-12-2023 03:04:55  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 06-12-2023 03:04:55  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 06-12-2023 03:04:55  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 06-12-2023 03:04:55  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 06-12-2023 03:04:57  Log4jDemo.class setUp ----------------Browser closed-----------
+ 06-12-2023 03:09:53  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 06-12-2023 03:09:55  Log4jDemo.class setUp ----------------Browser launched-----------
+ 06-12-2023 03:09:59  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 06-12-2023 03:09:59  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 06-12-2023 03:09:59  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 06-12-2023 03:09:59  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 06-12-2023 03:09:59  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 06-12-2023 03:10:00  Log4jDemo.class setUp ----------------Browser closed-----------
+ 06-12-2023 03:11:58  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 06-12-2023 03:12:01  Log4jDemo.class setUp ----------------Browser launched-----------
+ 06-12-2023 03:12:28  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 06-12-2023 03:12:28  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 06-12-2023 03:12:28  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 06-12-2023 03:12:28  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 06-12-2023 03:12:28  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 06-12-2023 03:12:59  Log4jDemo.class setUp ---------------Browser executable file running-------------
+ 06-12-2023 03:13:02  Log4jDemo.class setUp ----------------Browser launched-----------
+ 06-12-2023 03:13:53  Log4jDemo.class setUp ------------------Application opened /info1/----------------
+ 06-12-2023 03:13:53  Log4jDemo.class setUp -----------------Application opened /error2/---------------
+ 06-12-2023 03:13:53  Log4jDemo.class setUp ------------------Application opened /warn3/----------------
+ 06-12-2023 03:13:53  Log4jDemo.class setUp -----------------Application opened /fatal4/---------------
+ 06-12-2023 03:13:53  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
+ 06-12-2023 03:13:54  Log4jDemo.class setUp ----------------Browser closed-----------
+ 

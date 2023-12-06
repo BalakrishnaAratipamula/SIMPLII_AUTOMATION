@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-01T12:46:54 IST" name="Default suite" finished-at="2023-12-01T12:47:05 IST" duration-ms="11644">
+  <suite started-at="2023-12-06T15:12:59 IST" name="Default suite" finished-at="2023-12-06T15:13:54 IST" duration-ms="55577">
     <groups>
     </groups>
-    <test started-at="2023-12-01T12:46:54 IST" name="Default test" finished-at="2023-12-01T12:47:05 IST" duration-ms="11644">
+    <test started-at="2023-12-06T15:12:59 IST" name="Default test" finished-at="2023-12-06T15:13:54 IST" duration-ms="55577">
       <class name="testng.framework.Log4jDemo">
-        <test-method signature="setUp()[pri:0, instance:testng.framework.Log4jDemo@16a0ee18]" started-at="2023-12-01T12:46:54 IST" name="setUp" finished-at="2023-12-01T12:47:05 IST" duration-ms="11561" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:testng.framework.Log4jDemo@16a0ee18]" started-at="2023-12-06T15:12:59 IST" name="setUp" finished-at="2023-12-06T15:13:54 IST" duration-ms="55511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
