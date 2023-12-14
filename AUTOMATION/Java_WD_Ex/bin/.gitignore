@@ -1,4 +1,3 @@
-/test-output/
 /AbstractClass/
 /CompiletimeP_or_MethodOverloading/
 /ConstructorConcept/
@@ -23,6 +22,7 @@
 /TestNG_with_WD/
 /WD_Examples/
 /com/
+/test-output/
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/

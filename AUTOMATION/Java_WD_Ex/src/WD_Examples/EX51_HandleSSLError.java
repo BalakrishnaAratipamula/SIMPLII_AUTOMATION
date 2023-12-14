@@ -25,9 +25,9 @@ public static void main(String[] args) { /////////---------- https://youtu.be/yW
 	//capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true); //this will accept all the insecure certificates
 	//capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true); //this will accept all the SSL certificates
 	
-	WebDriver driver= new ChromeDriver(capabilities); //arg - capabilities
+	////////////????? WebDriver driver= new ChromeDriver(capabilities); //arg - capabilities
 	//why this depricated
-	driver.get("https://expired.badssl.com/");
+	////////////????? driver.get("https://expired.badssl.com/");
 	//driver.get("https://badssl.com/");
 	//driver.findElement(By.linkText("expired")).click();
 	

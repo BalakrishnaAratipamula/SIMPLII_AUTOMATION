@@ -46,4 +46,13 @@
  06-12-2023 03:37:14  Log4jDemo.class setUp -----------------Application opened /debug5/---------------
  06-12-2023 03:37:14  Log4jDemo.class setUp ----------------Browser Maximized-----------
  06-12-2023 03:37:16  Log4jDemo.class setUp ----------------Browser closed-----------
+ 06-12-2023 08:46:36  Log4jDemo.class setUp ------------------Browser executable file running-------------
+ 06-12-2023 08:47:01  Log4jDemo.class setUp ------------------Browser launched-----------
+ 06-12-2023 08:47:03  Log4jDemo.class setUp ------------------Application opened /info=2/-----------------
+ 06-12-2023 08:47:03  Log4jDemo.class setUp ------------------Application opened /error=3/----------------
+ 06-12-2023 08:47:03  Log4jDemo.class setUp ------------------Application opened /warn=4/-----------------
+ 06-12-2023 08:47:03  Log4jDemo.class setUp ------------------Application opened /fatal=5/----------------
+ 06-12-2023 08:47:03  Log4jDemo.class setUp ------------------Application opened /debug=6/----------------
+ 06-12-2023 08:47:03  Log4jDemo.class setUp ------------------Browser Maximized--------------
+ 06-12-2023 08:47:04  Log4jDemo.class setUp ------------------Browser closed-----------
  
