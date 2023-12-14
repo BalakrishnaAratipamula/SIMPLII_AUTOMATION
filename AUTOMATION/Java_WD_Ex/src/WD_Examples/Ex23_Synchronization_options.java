@@ -17,7 +17,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Ex23_Synchronization_options {
 
-@SuppressWarnings("deprecation")
 public static void main(String[] args) throws Exception {
 	//to Initialize browser
 	System.setProperty("webdriver.chrome.driver","E:\\Drivers\\chromedriver.exe");
@@ -47,7 +46,7 @@ public static void main(String[] args) throws Exception {
 	
 	//------------------ExplicitWait
 	//to pause execution based on "KOVUR-NLR" WebElement availability
-	Wait<WebDriver> wt = new WebDriverWait(driver, 100); //don't need to mention seconds or minutes or hours
+	Wait<WebDriver> wt = new WebDriverWait(driver, Duration.ofSeconds(6)); //don't need to mention seconds or minutes or hours
 	wt.until(ExpectedConditions.presenceOfElementLocated(By.linkText("KOVUR-NLR")));
 	
 	driver.findElement(By.linkText("KOVUR-NLR")).click();
