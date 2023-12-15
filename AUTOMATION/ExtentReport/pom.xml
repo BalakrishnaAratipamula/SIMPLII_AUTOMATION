@@ -15,7 +15,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium-java.version>4.14.1</selenium-java.version>
 		<testng.version>7.8.0</testng.version>
-		<extentreports.version>5.0.9</extentreports.version>
+		<extentreports.version>5.1.1</extentreports.version>
 		<webdrivermanager.version>5.6.2</webdrivermanager.version>
 	</properties>
 
@@ -32,7 +32,6 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<!-- <version>4.14.1</version> -->
 			<version>${selenium-java.version}</version>
 		</dependency>
 
