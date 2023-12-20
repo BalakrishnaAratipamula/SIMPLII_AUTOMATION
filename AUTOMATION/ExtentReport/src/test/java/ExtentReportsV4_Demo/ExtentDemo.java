@@ -29,7 +29,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentDemo {
 
-	ExtentHtmlReporter extenthtmlReporter;
+	//ExtentHtmlReporter extenthtmlReporter;
 	ExtentReports extentreports;
 	ExtentTest extenttest;
 	WebDriver driver;
@@ -37,21 +37,21 @@ public class ExtentDemo {
 	@BeforeClass
 	public void extentInfo() {
 		// to specify the file location
-		extenthtmlReporter = new ExtentHtmlReporter("./TestResults//ExtentReporter.html"); // ./-means current working
+		//extenthtmlReporter = new ExtentHtmlReporter("./TestResults//ExtentReporter.html"); // ./-means current working
 																							// folder
 		// Title of the Report
-		extenthtmlReporter.config().setDocumentTitle("/*******Title of the Report*******/"); // @@@@@@@@// Browser Title
+		//extenthtmlReporter.config().setDocumentTitle("/*******Title of the Report*******/"); // @@@@@@@@// Browser Title
 																								// level
 		// Name of the Report
-		extenthtmlReporter.config().setReportName("/*******Name of the Report*******/"); // @@@@@@@@// Report Name
+		//extenthtmlReporter.config().setReportName("/*******Name of the Report*******/"); // @@@@@@@@// Report Name
 		// To Specify Theme like STANDARD/DARK
-		extenthtmlReporter.config().setTheme(Theme.STANDARD);
+		//extenthtmlReporter.config().setTheme(Theme.STANDARD);
 
 		// To create ExtentReports object and to attach Reports and to entry data in
 		// reports
 		extentreports = new ExtentReports();
 		// to attach Reports
-		extentreports.attachReporter(extenthtmlReporter);
+		//extentreports.attachReporter(extenthtmlReporter);
 		// to print data in report
 		extentreports.setSystemInfo("Hostname", "LocalHost");// key, value
 		extentreports.setSystemInfo("OS", "Windows10");
