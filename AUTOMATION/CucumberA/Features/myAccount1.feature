@@ -7,13 +7,13 @@ Feature: *********** Testing HRMS application **********
 
 #----After installing 'CucumberEclipsePlugin' in Eclipse market place then only we will get 'log in Feature File'------#
 #==========================================Execution 1===========================================#
+### If we have duplicate steps under Scenario 'Duplicate Stepdefinition exception' will occur
 @tag1
 Scenario: a
-Given User is already on Open HRMS application	### If we have duplicate steps 'Duplicate Stepdefinition exception' will occur
+Given User is already on Open HRMS application				
 When Enter Registered user name and Password
 Then Home page should be shown
 When Browser is close
-
 
 #==========================================Execution 2===========================================#
 #@tag2
@@ -57,3 +57,5 @@ When Browser is close
    #Then    page title should be "Your store.Login"
    #And     close browser
    
+
+
