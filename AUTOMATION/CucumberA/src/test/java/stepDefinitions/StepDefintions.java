@@ -67,7 +67,7 @@ public class StepDefintions extends Utility{
 		driver = new ChromeDriver();
 		driver.manage().window().maximize(); // https://www.google.co.in/
 		driver.get("https://www.google.co.in/");
-		getExtentReport("Message 1", "Google1.jpg", "Description 1");
+		getExtentReport("Message 1", "Google1.jpg", "ImgTitle 1");
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		Thread.sleep(5000);
 	}
@@ -76,7 +76,7 @@ public class StepDefintions extends Utility{
 	public void enter_Registered_user_name_and_Password() throws Throwable {
 		driver.findElement(By.name("username")).sendKeys("Admin");
 		driver.findElement(By.name("password")).sendKeys("admin123");
-		getExtentReport("Message 2", "Google2.jpg", "Description 2");
+		getExtentReport("Message 2", "Google2.jpg", "ImgTitle 2");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(5000);
 	}
@@ -151,7 +151,7 @@ public class StepDefintions extends Utility{
 //		driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
 //		test1.info("------Msg from StepDefinition-------");
 //		test1.addScreenCaptureFromPath(captureScreenshot());
-		getExtentReport("Message 3", "Google3.jpg", "Description 3");
+		getExtentReport("Message 3", "Google3.jpg", "ImgTitle 3");
 		driver.quit();
 		Desktop.getDesktop().browse(new File("report.html").toURI()); // To open Reports file Automatically from java
 	}
