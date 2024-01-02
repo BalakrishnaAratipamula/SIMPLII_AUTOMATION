@@ -49,7 +49,7 @@ public class Ex23_Synchronization_options {
 
 		driver.findElement(By.linkText("KOVUR-NLR")).click();
 
-		/*
+		/*//Deprecated FluentWait
 		 * FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 		 * .withTimeout(30, TimeUnit.SECONDS) .pollingEvery(5, TimeUnit.SECONDS)
 		 * .ignoring(NoSuchElementException.class); WebElement ele = wait.until(new
@@ -60,8 +60,10 @@ public class Ex23_Synchronization_options {
 		 * 
 		 * });
 		 */
-
-		Wait<WebDriver> wait2 = new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(30))
+		
+		// ------------------FluentWait
+		Wait<WebDriver> wait2 = new FluentWait<WebDriver>(driver)
+				.withTimeout(Duration.ofSeconds(30))
 				.pollingEvery(Duration.ofSeconds(5))
 				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class);
 		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.name("destination")));
