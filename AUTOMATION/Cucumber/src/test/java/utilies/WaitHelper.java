@@ -27,3 +27,6 @@ public class WaitHelper {
 //Post - to insert the data  
 //Put - to update the data 
 //Delete - to delete the data
+
+
+// https://reqres.in/
