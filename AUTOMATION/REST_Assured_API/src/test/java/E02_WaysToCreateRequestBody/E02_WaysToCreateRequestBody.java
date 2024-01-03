@@ -143,7 +143,7 @@ public class E02_WaysToCreateRequestBody {
 		given()
 			
 		.when()
-			.delete("http://localhost:3000/students/wWcHCNi")	//id
+			.delete("http://localhost:3000/students/_S7--NK")	//id
 		.then()
 			.log().all();
 			
