@@ -22,7 +22,7 @@ import java.util.List;
  * 3) Using POJO Class
  * 4) Using External JSON File data
  * */
-public class E02_WaysToCreateRequestBody {
+public class E02_WaysToCreateRequestBody { 
 
 	//--------------------- Create Post request body Using HashMap
 	//@Test(priority=1)
@@ -41,7 +41,7 @@ public class E02_WaysToCreateRequestBody {
 		 	.contentType("application/json")
 		 	.body(data)
 		 .when()
-		 	.post("http://localhost:3000/students")
+		 	.post("http://localhost:3000/students")		/////// F:\JSON Files
 		 .then()
 		 	.statusCode(201) //some APIs it would be 200
 		 	.body("name", equalTo("Simon"))
@@ -116,7 +116,7 @@ public class E02_WaysToCreateRequestBody {
 				//@Test(priority=4)
 				void testPostUsingExternalJSONFile() throws FileNotFoundException, IOException {
 							 
-					File f = new File(".\\body.json"); 
+					File f = new File(".\\body.json");	//project level JSON file path
 					FileReader fr = new FileReader(f);
 					JSONTokener jt = new JSONTokener(fr);
 					JSONObject data = new JSONObject(jt); 

@@ -17,7 +17,7 @@ import java.util.List;
  *			Delete - to delete the data
  * then() - all Validations - like status code, headers, cookies, response body, response......
  * */
-public class E01_RequestTypes {
+public class E01_RequestTypes {	// https://reqres.in/
 	
 	int id;	//to capture id from response
 	
@@ -36,7 +36,7 @@ public class E01_RequestTypes {
 	}
 	
 	@Test(priority=2) //create user
-	void createUser() {	//create
+	void createUser() {	//create - post
 			
 		String[] strArr = new String[] {"C", "C++"};
 		
@@ -59,7 +59,7 @@ public class E01_RequestTypes {
 		}
 	
 	//@Test(priority=2) //create user and return id from response
-	void createUserAndReturnId() {	//create
+	void createUserAndReturnId() {	//create - post
 			
 		HashMap hm = new HashMap();
 		hm.put("name", "Bala");
@@ -78,7 +78,7 @@ public class E01_RequestTypes {
 		}
 		
 	//@Test(priority=3, dependsOnMethods= {"createUserAndReturnId"})
-	void updateUser() {	//update
+	void updateUser() {	//update - put
 			
 		HashMap hm = new HashMap();
 		hm.put("name", "Bala222");
@@ -97,7 +97,7 @@ public class E01_RequestTypes {
 		}
 	
 	//@Test(priority=4)
-	void deleteUser() {	// get
+	void deleteUser() {	// delete
 		
 		given()
 			
