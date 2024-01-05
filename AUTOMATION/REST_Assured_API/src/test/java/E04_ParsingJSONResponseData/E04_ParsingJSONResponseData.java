@@ -15,6 +15,15 @@ import org.testng.annotations.Test;
 
 public class E04_ParsingJSONResponseData {
 	
+	/* JSON Object - always starts with {}	//Section 7, 1:04 - check for JSON Path finding
+	 * JSON Array - always starts with []
+	 * JSON Element - It can be JSON Object or JSON Array
+	 * 
+	 * JSON Object --> JSON Array --> JSON Object
+	 * */
+	
+	
+	
 	// @Test
 	void parsingJsonResponseApproach1() {
 		
