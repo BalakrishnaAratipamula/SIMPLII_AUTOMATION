@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import E02_WaysToCreateRequestBody.POJO_PostRequest;
 
-public class E06c_SerializationDeserialization {
+public class E06c_SerializationDeserialization {	//not that much Imp - Its internal approach
 
 	// Serialization ----> convert Object (POJO) to JSON
 	// De-Searialization ----> convert JSON to Object (POJO)
