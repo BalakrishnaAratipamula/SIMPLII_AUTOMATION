@@ -17,6 +17,10 @@ import java.util.List;
  *			Delete - to delete the data
  * then() - all Validations - like status code, headers, cookies, response body, response......
  * */
+
+// JSON - Java Script Object Notation
+// POJO - Plane Old Java Object
+
 public class E01_RequestTypes {	// https://reqres.in/
 	
 	int id;	//to capture id from response
