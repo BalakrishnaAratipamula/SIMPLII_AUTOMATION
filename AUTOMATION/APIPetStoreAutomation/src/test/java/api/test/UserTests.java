@@ -37,7 +37,7 @@ public class UserTests {
 	@Test(priority=1)
 	public void testPostUser(){
 		Response response=UserEndPoints.createUser(userPayload);
-		response.then().log().all();
+		response.then().log().body();	//.all() unnecessary stuff will print
 		
 		Assert.assertEquals(response.getStatusCode(),200);
 		
@@ -66,12 +66,13 @@ public class UserTests {
 		
 		//Validation 1 - checking data before update
 		Response response = UserEndPoints.updateUser(this.userPayload.getUsername(), userPayload); //parameters - (getting userName - bcz we have to update user as per username as requirements, update (latest) user details)
-		response.then().log().body();
+		Response responseBeforeUpdate = UserEndPoints.readUser(this.userPayload.getUsername()); //updated (latest) details by userName
+		responseBeforeUpdate.then().log().body();
 		
 		Assert.assertEquals(response.getStatusCode(), 200);
 		
 		//Validation 2 - checking data after update
-		Response responseAfterUpdate = UserEndPoints.readUser(this.userPayload.getUsername()); //updated (latest) userName 
+		Response responseAfterUpdate = UserEndPoints.readUser(this.userPayload.getUsername()); //updated (latest) details by userName 
 
 		Assert.assertEquals(responseAfterUpdate.getStatusCode(), 200);
 		
