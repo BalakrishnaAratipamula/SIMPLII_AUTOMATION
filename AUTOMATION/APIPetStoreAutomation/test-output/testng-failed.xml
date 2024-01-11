@@ -5,7 +5,8 @@
     <classes>
       <class name="api.test.DDTests">
         <methods>
-          <include name="testUpdateUser" invocation-numbers="0 1 2"/>
+          <include name="setup"/>
+          <include name="testUpdateUser"/>
         </methods>
       </class> <!-- api.test.DDTests -->
     </classes>

@@ -7,10 +7,10 @@
 	<artifactId>APIPetStoreAutomation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
+	
 	<name>APIPetStoreAutomation</name>
 	<url>http://maven.apache.org</url>
-
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>3.8.1</junit.version>
@@ -27,8 +27,11 @@
 		<javafaker.version>1.0.2</javafaker.version>
 		<poi.version>5.2.5</poi.version>
 		<poi-ooxml.version>5.2.5</poi-ooxml.version>
+		<extentreports.version>5.1.1</extentreports.version>
+		<log4j-api.version>2.22.1</log4j-api.version>
+		<log4j-core.version>2.22.1</log4j-core.version>
 	</properties>
-
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -116,5 +119,22 @@
 			<version>${poi-ooxml.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>${extentreports.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${log4j-api.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j-core.version}</version>
+		</dependency>
 	</dependencies>
 </project>
