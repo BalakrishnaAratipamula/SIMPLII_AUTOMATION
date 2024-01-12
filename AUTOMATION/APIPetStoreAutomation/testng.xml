@@ -8,8 +8,9 @@
 
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="api.test.UserTests" />
+			<!--class name="api.test.UserTests"/-->	<!-- PackageName.ClassName-->
 			<!--class name="api.test.DDTests"/-->
+			<class name="api.test.UserTests2ReadDataFromPropertiesFile"/>
 		</classes>
 	</test> <!--Test -->
 </suite> <!-- Suite -->

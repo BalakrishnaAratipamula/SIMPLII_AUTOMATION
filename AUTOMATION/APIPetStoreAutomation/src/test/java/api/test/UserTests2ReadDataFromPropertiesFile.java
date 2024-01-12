@@ -11,12 +11,12 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.github.javafaker.Faker;
 
-import api.endpoints.UserEndPoints;
+import api.endpoints.UserEndPointsReadDataFromPropertiesFile;
 import api.payload.User;
 import io.restassured.response.Response;
 
 
-public class UserTests {
+public class UserTests2ReadDataFromPropertiesFile {
 
 	Faker faker;
 	User userPayload;
@@ -51,7 +51,7 @@ public class UserTests {
 		ExtentTest test1 = extentreports.createTest("testPostUser()"); 
 		logger.info("**************Creating the User****************");
 		
-		Response response=UserEndPoints.createUser(userPayload);
+		Response response=UserEndPointsReadDataFromPropertiesFile.createUser(userPayload);
 		response.then().log().body();	//.all() unnecessary stuff will print
 		
 		Assert.assertEquals(response.getStatusCode(),200);
@@ -67,7 +67,7 @@ public class UserTests {
 	public void getUserByName(){
 		ExtentTest test2 = extentreports.createTest("getUserByName()"); 
 		logger.info("**************Reading user info****************");
-		Response response = UserEndPoints.readUser(this.userPayload.getUsername());    //'userName' will get from 'userPayload' obj that is avl in current (this) class based upon 'userName' we have to get data as requirement specified
+		Response response = UserEndPointsReadDataFromPropertiesFile.readUser(this.userPayload.getUsername());    //'userName' will get from 'userPayload' obj that is avl in current (this) class based upon 'userName' we have to get data as requirement specified
 		response.then().log().all();												   // this - can be used to call (get) the current class obj
 		
 		Assert.assertEquals(response.getStatusCode(), 200);
@@ -89,15 +89,15 @@ public class UserTests {
 		userPayload.setEmail(faker.internet().safeEmailAddress());
 		
 		//Validation 1 - checking data before update
-		Response response = UserEndPoints.updateUser(this.userPayload.getUsername(), userPayload); //parameters - (getting userName - bcz we have to update user as per username as requirements, update (latest) user details)
-		Response responseBeforeUpdate = UserEndPoints.readUser(this.userPayload.getUsername()); //updated (latest) details by userName
+		Response response = UserEndPointsReadDataFromPropertiesFile.updateUser(this.userPayload.getUsername(), userPayload); //parameters - (getting userName - bcz we have to update user as per username as requirements, update (latest) user details)
+		Response responseBeforeUpdate = UserEndPointsReadDataFromPropertiesFile.readUser(this.userPayload.getUsername()); //updated (latest) details by userName
 		responseBeforeUpdate.then().log().body();
 		
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("**************User info Updated****************");
 		
 		//Validation 2 - checking data after update
-		Response responseAfterUpdate = UserEndPoints.readUser(this.userPayload.getUsername()); //updated (latest) details by userName 
+		Response responseAfterUpdate = UserEndPointsReadDataFromPropertiesFile.readUser(this.userPayload.getUsername()); //updated (latest) details by userName 
 		
 		Assert.assertEquals(responseAfterUpdate.getStatusCode(), 200);
 		
@@ -110,7 +110,7 @@ public class UserTests {
 	public void testDeleteUserByName(){
 		ExtentTest test4 = extentreports.createTest("testDeleteUserByName()"); 
 		logger.info("**************User info deleting****************");
-		Response response = UserEndPoints.deleteUser(this.userPayload.getUsername());
+		Response response = UserEndPointsReadDataFromPropertiesFile.deleteUser(this.userPayload.getUsername());
 		
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("**************User info deleted****************");

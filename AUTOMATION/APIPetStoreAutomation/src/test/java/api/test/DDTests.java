@@ -22,8 +22,8 @@ public class DDTests {
 	Faker faker;
 	User userPayload;
 	
-	//SetUp		//this is only for Update data
-	@BeforeClass
+	//SetUp		//this is only for 'Update data'
+	//@BeforeClass
 	public void setup()	{
 		faker=new Faker();
 		userPayload=new User();
