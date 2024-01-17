@@ -35,6 +35,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION"/>
 			<item value="F:\LT eclipse-workspace\Hybrid_Framework\inetbankingV1"/>
 			<item value="F:\LT eclipse-workspace\inetbankingV1"/>
 			<item value="F:\LT eclipse-workspace\cucumberSdet"/>
