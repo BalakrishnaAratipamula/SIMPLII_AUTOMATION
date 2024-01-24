@@ -1,38 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Successful login operation***]]>
+      <![CDATA[Method02 from Class001]]>
+    </line>
+    <line>
+      <![CDATA[Method02 from Class002]]>
+    </line>
+    <line>
+      <![CDATA[Method02 from Class003]]>
+    </line>
+    <line>
+      <![CDATA[Method03 from Class003]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-02T19:43:56 IST" name="---DemoSuite----" finished-at="2021-12-02T19:44:15 IST" duration-ms="18809">
+  <suite started-at="2024-01-24T17:56:18 IST" name="Suite" finished-at="2024-01-24T17:57:17 IST" duration-ms="58986">
     <groups>
     </groups>
-    <test started-at="2021-12-02T19:43:56 IST" name="---Firefox Browser---" finished-at="2021-12-02T19:44:15 IST" duration-ms="18809">
-      <class name="TestNG_CrossBrowser_Testing.CrossBrowser_Testing">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestNG_CrossBrowser_Testing.CrossBrowser_Testing@12468a38]" started-at="2021-12-02T19:43:56 IST" name="setUp" finished-at="2021-12-02T19:44:03 IST" duration-ms="7388" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-01-24T17:56:18 IST" name="Test" finished-at="2024-01-24T17:57:17 IST" duration-ms="58986">
+      <class name="TestNG_ParallelTesting.copy.Class001">
+        <test-method signature="method01()[pri:0, instance:TestNG_ParallelTesting.copy.Class001@2c35e847]" started-at="2024-01-24T17:56:18 IST" name="method01" finished-at="2024-01-24T17:56:30 IST" duration-ms="11374" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="userLogin()[pri:0, instance:TestNG_CrossBrowser_Testing.CrossBrowser_Testing@12468a38]" started-at="2021-12-02T19:44:03 IST" name="userLogin" finished-at="2021-12-02T19:44:14 IST" duration-ms="10153" status="PASS">
+        </test-method> <!-- method01 -->
+        <test-method signature="method02()[pri:0, instance:TestNG_ParallelTesting.copy.Class001@2c35e847]" started-at="2024-01-24T17:56:30 IST" name="method02" finished-at="2024-01-24T17:56:30 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Successful login operation***]]>
+              <![CDATA[Method02 from Class001]]>
             </line>
           </reporter-output>
-        </test-method> <!-- userLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_CrossBrowser_Testing.CrossBrowser_Testing@12468a38]" started-at="2021-12-02T19:44:14 IST" name="tearDown" finished-at="2021-12-02T19:44:15 IST" duration-ms="1222" status="PASS">
+        </test-method> <!-- method02 -->
+      </class> <!-- TestNG_ParallelTesting.copy.Class001 -->
+      <class name="TestNG_ParallelTesting.copy.Class003">
+        <test-method signature="method01()[pri:0, instance:TestNG_ParallelTesting.copy.Class003@434a63ab]" started-at="2024-01-24T17:57:00 IST" name="method01" finished-at="2024-01-24T17:57:17 IST" duration-ms="16937" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestNG_CrossBrowser_Testing.CrossBrowser_Testing -->
-    </test> <!-- -Firefox Browser- -->
-  </suite> <!-- -DemoSuite- -->
+        </test-method> <!-- method01 -->
+        <test-method signature="method02()[pri:0, instance:TestNG_ParallelTesting.copy.Class003@434a63ab]" started-at="2024-01-24T17:57:17 IST" name="method02" finished-at="2024-01-24T17:57:17 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method02 from Class003]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method02 -->
+        <test-method signature="method03()[pri:0, instance:TestNG_ParallelTesting.copy.Class003@434a63ab]" started-at="2024-01-24T17:57:17 IST" name="method03" finished-at="2024-01-24T17:57:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method03 from Class003]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method03 -->
+      </class> <!-- TestNG_ParallelTesting.copy.Class003 -->
+      <class name="TestNG_ParallelTesting.copy.Class002">
+        <test-method signature="method01()[pri:0, instance:TestNG_ParallelTesting.copy.Class002@37d4349f]" started-at="2024-01-24T17:56:30 IST" name="method01" finished-at="2024-01-24T17:57:00 IST" duration-ms="30569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method01 -->
+        <test-method signature="method02()[pri:0, instance:TestNG_ParallelTesting.copy.Class002@37d4349f]" started-at="2024-01-24T17:57:00 IST" name="method02" finished-at="2024-01-24T17:57:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method02 from Class002]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method02 -->
+      </class> <!-- TestNG_ParallelTesting.copy.Class002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
