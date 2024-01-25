@@ -29,3 +29,6 @@
 /TestNG_with_WD/
 /WD_Examples/
 /com/
+/ReRun_Failed_TestCases/
+/ReRun_Failed_TCs_usingIRetryAnalyzer/
+/ReRun_Failed_TCs_usingTestNgXML/

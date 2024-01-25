@@ -22,32 +22,33 @@ import org.testng.annotations.Parameters;
 
 public class OrangeHRM_Login {
 	WebDriver driver;
-	//to initialize browser
+
+	// to initialize browser
 	@BeforeClass
-	@Parameters({"urlfromsuite"})
+	@Parameters({ "urlfromsuite" })
 	public void setUp(String URL) {
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
-		driver= new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.get(URL);
 		driver.manage().window().maximize();
-		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		// driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
-	
-	//to perform login validation
+
+	// to perform login validation
 	@Test
-	@Parameters({"uidfromsuite","pwdfromsuite"})
+	@Parameters({ "uidfromsuite", "pwdfromsuite" })
 	public void userLogin(String userId, String passWd) throws Exception {
 		driver.findElement(By.id("txtUsername")).sendKeys(userId);
 		driver.findElement(By.id("txtPassword")).sendKeys(passWd);
 		driver.findElement(By.id("btnLogin")).click();
 		Thread.sleep(5000);
 		Assert.assertEquals(driver.getTitle(), "OrangeHRM", "---------Title not match-------");
-		//to send user msg into HTML reports and log section
+		// to send user msg into HTML reports and log section
 		Reporter.log("Successful Login operation", true);
 	}
-	
+
 	@AfterClass
-	//to close application
+	// to close application
 	public void tearDown() throws InterruptedException {
 		driver.close();
 	}
