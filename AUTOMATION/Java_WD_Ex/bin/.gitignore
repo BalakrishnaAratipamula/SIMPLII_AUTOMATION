@@ -4,6 +4,7 @@
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
+/inputdata.properties
 /test-output/
 /AbstractClass/
 /CompiletimeP_or_MethodOverloading/
@@ -21,6 +22,8 @@
 /POM_TestCases/
 /POM_objectRepository/
 /ProFile/
+/ReRun_Failed_TCs_usingIRetryAnalyzer/
+/ReRun_Failed_TCs_usingTestNgFailedXMLfile/
 /RuntimeP_or_MethodOverriding/
 /RuntimeP_or_MethodOverriding2/
 /TestNG_Pass_App_Login_Parametrs/
@@ -29,6 +32,3 @@
 /TestNG_with_WD/
 /WD_Examples/
 /com/
-/ReRun_Failed_TestCases/
-/ReRun_Failed_TCs_usingIRetryAnalyzer/
-/ReRun_Failed_TCs_usingTestNgXML/

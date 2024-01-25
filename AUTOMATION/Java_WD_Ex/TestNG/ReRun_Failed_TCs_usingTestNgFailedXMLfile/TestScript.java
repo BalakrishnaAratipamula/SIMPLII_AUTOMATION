@@ -1,4 +1,4 @@
-package ReRun_Failed_TCs_usingTestNgXML;
+package ReRun_Failed_TCs_usingTestNgFailedXMLfile;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
