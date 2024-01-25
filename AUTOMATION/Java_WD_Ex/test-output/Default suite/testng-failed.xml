@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_ParallelTesting.copy.Class002">
+      <class name="ReRun_Failed_TCs_usingTestNgXML.TestScript">
         <methods>
-          <include name="method01"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="testMethod3"/>
         </methods>
-      </class> <!-- TestNG_ParallelTesting.copy.Class002 -->
+      </class> <!-- ReRun_Failed_TCs_usingTestNgXML.TestScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
