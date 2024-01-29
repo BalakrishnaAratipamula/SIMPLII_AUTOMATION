@@ -35,7 +35,7 @@ public class EX28_AuotoIT {
 
 		//to call the autoIT script file (.exe file) into Eclipse using "Runtime" class
 		Runtime.getRuntime().exec("F:\\AutoIT\\file.exe"); 	//.exec - AutoIT script executable file	
-
+		////// solution for deprecated: https://stackoverflow.com/questions/21908645/command-in-runtime-getruntime-exec-not-working
 
 
 		/*;focus on "File Name" edit box
