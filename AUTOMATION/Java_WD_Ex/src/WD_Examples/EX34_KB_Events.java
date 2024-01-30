@@ -1,7 +1,6 @@
 package WD_Examples;
 
-import java.util.List;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -16,7 +15,7 @@ public class EX34_KB_Events {
 		WebDriver driver= new FirefoxDriver();
 		driver.get("http:\\google.co.in");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		//Create Reference object for Search editbox
 		WebElement txtSearch=driver.findElement(By.name("q"));
