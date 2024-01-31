@@ -3,8 +3,8 @@ package AbstractClass;
 public class HDFCBank extends Bank {
 
 	@Override
-	public void Loan() { //Overridden method (Override from abstract class)
-		System.out.println("HDFCBank.Loan()----Loan");
+	public void Loan1() { //Overridden method (Override from abstract class)
+		System.out.println("HDFCBank.Loan1()----Loan");
 		
 	}
 	
