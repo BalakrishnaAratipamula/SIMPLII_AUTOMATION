@@ -2,6 +2,7 @@
 
 package WD_Examples;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -15,7 +16,7 @@ public class EX55_ClickOnpertWebElement_UsingXYcord {
 	public static void main(String[] args){
 		System.setProperty("webdriver.chrome.driver","D:\\software\\chromedriver_win32\\chromedriver.exe"); 
 		WebDriver driver = new ChromeDriver(); 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http:\\www.google.com"); 
 		driver.manage().window().maximize(); 
 		
@@ -30,7 +31,7 @@ public class EX55_ClickOnpertWebElement_UsingXYcord {
 		Actions act= new Actions(driver); 
 		act.moveByOffset(NumberX+1, NumberY+1).click().build().perform(); 	//(or) NumberY
 		
-///////////Its completely depends upon the screen resolution. It SR is changed this approach may not works////////////
+///////////Its completely depends upon the screen resolution. If SR is changed this approach may not works////////////
 		
 	}
 }
