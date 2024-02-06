@@ -4,7 +4,7 @@ final class Bike {
 	
 }
 //class 1
-class Honda2 extends Bike {	//we can't inherited final classes so getting compile time error
+class Honda2 extends Bike {	//we can't inherited final classes so getting compile time error	//class declare as Default
 	void run() {
 		System.out.println("running safely with 100kmph");
 	}

@@ -1,6 +1,6 @@
 package Java_Examples;
 
-/*class Bike9 {
+/*class Bike9 {	//class declare as Default
 	final int speedlimit = 90; // final variable
 
 	void method1() {

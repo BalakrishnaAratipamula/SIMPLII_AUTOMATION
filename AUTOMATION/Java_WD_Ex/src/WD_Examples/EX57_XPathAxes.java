@@ -4,12 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class EX57_XPathAxes {
+public class EX57_XPathAxes {	
+///// https://youtu.be/BYIit7MV6cs?si=yzvSoYQqD_4Zq0yf	 ////SimpleWay//// https://youtu.be/aAWvwGFkySI?si=CHi2WlTaslzwQkky
 	public static void main(String args[]) {
 
 		System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
-		driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
+		driver.get("file:///F:/XAxes.html");
 		driver.manage().window().maximize();
 
 		// AND 
@@ -19,7 +20,7 @@ public class EX57_XPathAxes {
 		driver.findElement(By.xpath("//*[@id='twotabsearchtextbox' or @type='text']"));
 		driver.findElement(By.xpath("//*[@id='twotabsearchtextbox'] | //*[@type='text']"));
 		
-		// Navigate Child to Parent element
+		// parent - Navigate Child to Parent element
 		driver.findElement(By.xpath("//div[@class='Crustacean']/.."));	///parent will navigate
 		driver.findElement(By.xpath("//div[@class='Crustacean']/../.."));	///parent-of-parent will navigate
 		driver.findElement(By.xpath("//div[@class='Crustacean']/../../.."));	///parent-of-parent-of-parent will navigate
@@ -28,7 +29,7 @@ public class EX57_XPathAxes {
 		driver.findElement(By.xpath("//h3[text()='Invertebrate']/parent::div")); /// SAA
 		driver.findElement(By.xpath("//h3[text()='Invertebrate']/parent::*")); /// SAA
 		
-		// Navigate Parent to Child element
+		// child - Navigate Parent to Child element
 		driver.findElement(By.xpath("//div[@class='Mammal']/child::h4"));	/// (parent_ele_XPath)/child::child_TagName)
 		driver.findElement(By.xpath("//div[@class='Mammal']/child::*"));	/// SAA
 		
