@@ -12,7 +12,8 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 		} 
 	 *//////////////////////////check link for more programs ----- https://www.edureka.co/blog/30-pattern-programs-in-java/
 
-	/*for(int n=1; n<=5; n++) {
+	/*/public static void main(String[] args) {
+	for(int n=1; n<=5; n++) {
 			System.out.println(n+ " bala");
 			if(n==3) {
 				System.out.println("break performed");
@@ -21,15 +22,16 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 		} */
 
 
-
-	/*for(int i=0; i<=3; i++){  //rows
+	/*public static void main(String[] args) {
+	for(int i=0; i<=3; i++){  //rows
 			for(int j=0; j<=3; j++){  //columns  
 				System.out.println(i+" "+j);  
 			} 
 		} */
 
-
-	/*for(int i=0;i<=3;i++){  //rows 
+	
+	/*public static void main(String[] args) {
+	for(int i=0;i<=3;i++){  //rows 
 			for(int j=0; j<=i; j++){  //columns
 				System.out.println(i+" "+j);  
 			} 
@@ -37,6 +39,7 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 
 
 	/*/square and rectangle
+	public static void main(String[] args) {
 		for(int i=1; i<=4; i++) {	 //rows
 			for(int j=1; j<=4; j++) {	 //columns
 				System.out.print("* ");
@@ -46,6 +49,7 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 
 
 	/*/square to close
+	public static void main(String[] args) {
 		for(int i=1; i<=4; i++) {	 //rows
 			for(int j=1; j<=4; j++) {	 //columns
 				System.out.print("*");
@@ -55,8 +59,8 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 
 
 
-
 	/*/right angle triangle with same numbers numbers
+	public static void main(String[] args) {
 		for(int i=1; i<=4; i++) {
 			for(int j=1; j<=i; j++) {
 				System.out.print(j+" ");
@@ -67,11 +71,12 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 
 
 	/*/right angle triangle with numbers increment order
-		int num=0;
+	public static void main(String[] args) {
+		int k=0;
 		for(int i=1; i<=4; i++) {
 			for(int j=1; j<=i; j++) {
-				System.out.print(num+" ");
-				num++;
+				System.out.print(k+" ");
+				k++;
 			}
 			System.out.println();
 		} */
@@ -79,6 +84,7 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 
 
 	/*/right angle triangle with numbers decrement order
+	public static void main(String[] args) {
 		int num=9;
 		for(int i=1; i<=4; i++) {
 			for(int j=1; j<=i; j++) {
@@ -90,16 +96,18 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 
 
 	/*/right angle triangle with numbers depends on i iterations
+	public static void main(String[] args) {
 		for(int i=1; i<=4; i++) {
 			for(int j=1; j<=i; j++) {
 				System.out.print(i+" ");
 
 			}
 			System.out.println();
-		} */  
+		}  */
 
 
 	/*/Right triangle with numbers
+	public static void main(String[] args) {
 		for(int i=0; i<4; i++) { 
 			int num=1; 
 			for(int j=0; j<=i; j++) { 
@@ -107,17 +115,19 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 				num++; 
 			} 
 			System.out.println();
-		} */  
+		} */ 
 
 
-
-	/*int alphabet = 65;
+	/*public static void main(String[] args) {
+	int alphabet = 65;
 		for(int i=0; i<26; i++) {
-			System.out.print((char)(alphabet++) + " ");
+			System.out.print((char)(alphabet) + " ");
+			alphabet++;
 		} */
 
 
-	/*/Right Alphabetic triangle 
+	/*/Right Alphabetic triangle
+	public static void main(String[] args) {
 		int alphabet = 65;
 		for(int i=0; i<=5; i++) {
 			for(int j=0; j<=i; j++) {
@@ -147,10 +157,10 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 	//Priority order is Rows-space-columns
 	public static void subMethod(int n) {  	
 		for(int i=1; i<=n; i++){  //loop for Row iterations
-			for(int j=i; j<=n; j++){  //nested-loop of dec triandle (for space)
+			for(int j=i; j<n; j++){  //nested-loop of dec triandle (for space)
 				System.out.print("  "); ///////("  ") //2-spaces  //here we want to print spaces only
 			}
-			for(int j=1; j<=i; j++) {	//columns 
+			for(int k=1; k<=i; k++) {	//columns 
 				System.out.print("* ");	//////("* ")  //1-space	//here we want to print *
 			}
 			System.out.println(); 
@@ -167,10 +177,10 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 	//pattern rows-space-columns
 	public static void subMethod(int n) {
 		for(int i=1; i<=n; i++) { 
-			for(int j=1; j<=i; j++) {	 
+			for(int j=1; j<i; j++) {	 
 				System.out.print("  "); //2-spaces //inc
 			}
-			for(int j=i; j<=4; j++){  
+			for(int k=i; k<=4; k++){  
 				System.out.print("* "); //1-space //dec
 			}
 			System.out.println();
@@ -186,13 +196,13 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 	//pattern decT of space--incT of *---incT of *---decT of space (last one is not require)
 	public static void subMethod(int n) { 
 		for(int i=1; i<=n; i++) { 
-			for(int j=i; j<=n; j++){  //decT of space
+			for(int j=i; j<n; j++){  //decT of space
 				System.out.print("  ");  
 			}  
-			for(int j=1; j<i; j++) {  //incT of * //if j<=i one extra col will print  
+			for(int k=1; k<i; k++) {  //incT of * //if j<=i one extra col will print  
 				System.out.print("* ");
 			}
-			for(int j=1; j<=i; j++) {	//incT of * //above same modification can do here or above
+			for(int m=1; m<=i; m++) {	//incT of * //above same modification can do here or above
 				System.out.print("* ");
 			}
 			System.out.println(); 
@@ -200,13 +210,13 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 	} 
 	// Driver Function 
 	public static void main(String args[]) { 
-		int num=5; 
+		int num=4; 
 		subMethod(num); */
 
 
 
 
-	/*/reverse triangle 
+	//reverse triangle 
 	//pattern incT of space--decT of *---decT of *---incT of space (last one is not require)
 	public static void subMethod(int n) {
 		for(int i=1; i<=n; i++) {
@@ -224,7 +234,7 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 	}
 	public static void main(String[] args) {
 		int n=5;
-		subMethod(n); */
+		subMethod(n); 
 
 
 	/*/take reference as triangle and Reverse triangle
@@ -264,8 +274,8 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 
 
 
-	//Right Pascal’s Triangle
-	//pattern incT of *--DecT of * 
+	//Right Pascals Triangle
+	/*/pattern incT of *--DecT of * 
 	public static void submethod(int n) {
 		for(int i=1; i<n; i++) { //if i<=n one extra row will print 
 			for(int j=1; j<=i; j++) { //incT of *
@@ -282,13 +292,13 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 	}
 	public static void main(String[] args) {
 		int n = 5;
-		submethod(n); 
+		submethod(n); */
 
 
 		/////////////from here not did as youtube (link in above)
 
 
-		/*/Left Pascal’s Triangle --------System.out.print(" *");-----result will get diamond pattern 
+		/*/Left Pascalï¿½s Triangle --------System.out.print(" *");-----result will get diamond pattern 
 	public static void submethod(int n){
 		for (int i=1; i<=n ; i++) { 	///Line iterations
 			for (int j=i; j<n; j++) {	 ////space iterations
@@ -341,5 +351,6 @@ public class Loops_for_loop { //////// https://youtu.be/xzstcj3Cuso
 		int n=2;
 
 		submethod(n); */
-	} 
+	
+}
 }
