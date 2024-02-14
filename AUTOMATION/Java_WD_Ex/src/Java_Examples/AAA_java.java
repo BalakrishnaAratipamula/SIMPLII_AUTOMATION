@@ -2,10 +2,11 @@ package Java_Examples;
 
 import java.util.Scanner;
 
-public class EX2_java {
-//public static void main(String[] args) {
-	/*/----------------------prime numbers
-	for(int n=1; n<=15; n++) {
+public class AAA_java {
+
+/*/prime numbers
+public static void main(String[] args) {
+	for(int n=1; n<=30; n++) {
 		int count=0;
 		for(int i=1; i<=n; i++) {
 			if(n%i==0) {
@@ -17,22 +18,10 @@ public class EX2_java {
 		}
 	} */
 	
-	/*for(int n=2; n<=100; n++) {
-		int count=0;
-		for(int i=2; i<n; i++) {
-			if(n%i==0) {
-				count++;
-				break;
-			}
-		}
-		if(count==0) {
-			System.out.print(n+", ");
-		}
-	} */
 	
 	
-	
-	/*/--------------------fibonacci numbers print based on given value
+//--------------------fibonacci numbers print based on given value
+public static void main(String[] args) {
 	int a=0;
 	int b=1;
 	System.out.print(a+", "+b+", ");
@@ -43,19 +32,8 @@ public class EX2_java {
 		a=b;
 		b=c;
 		c=a+b;
-	} */
+	}
 	
-	
-	/*/fibonacci numbers print based on given count
-	int a=0,b=1;    
-	System.out.print(a+", "+b+", ");//printing 0 and 1   
-	int c=a+b; 
-	for(int i=2; i<20; ++i){//loop starts from 2 because 0 and 1 are already printed //// ++i & i++ both are same
-		System.out.print(c+", ");
-		a=b;
-		b=c;
-		c=a+b;
-	 }*/
 	
 	
 	/*/fibonacci series program in java using recursion
@@ -69,6 +47,7 @@ public class EX2_java {
 	        subMethod(count-1);    
 	     }    
 	 }    
+	 
 	 public static void main(String args[]){    
 	 int count=5;    
 	 System.out.print(a+" "+b); //printing 0 and 1 & it will call one time only
@@ -149,7 +128,7 @@ public class EX2_java {
 	//Result: java.lang.StackOverflowError    */
 	
 	
-	//print statement using Recursion
+	/*/print statement using Recursion
 	static int count=0; //Global variable -- if not declare will get StackOverflowError
 	public static void subMethod() {
 		count++;
@@ -159,7 +138,7 @@ public class EX2_java {
 		}		
 	}
 	public static void main(String[] args) {
-		subMethod(); 
+		subMethod(); */
 	
 	 
 	 
