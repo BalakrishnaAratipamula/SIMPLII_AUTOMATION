@@ -1,19 +1,18 @@
 package ConstructorConcept;
 
-public class ClassA { 
+public class E1_SuperClass { 
 
-	public ClassA() { // a
+	public E1_SuperClass() { // a
 		System.out.println("Parent class constructor"); 
 	} 
 	
 	//after execution create this parameterized constructor //to call this method will use super KW
-	public ClassA(int i) {
+	public E1_SuperClass(int i) {
 		System.out.println("Parent class constructor with value of i: "+i);
 	}
 	
-	public ClassA(int i, int j) {
-		System.out.println("Parent class constructor with value of i: "+i);
-		System.out.println("Parent class constructor with value of j: "+j);
+	public E1_SuperClass(int i, int j) {
+		System.out.println("Parent class constructor with value of i: "+i+"   and value of j: "+j);
 	} 
 }
 

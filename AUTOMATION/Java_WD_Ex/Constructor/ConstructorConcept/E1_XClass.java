@@ -1,16 +1,17 @@
 package ConstructorConcept;
 
-public class ClassB extends ClassA{
+public class E1_XClass extends E1_SuperClass{
 
 	/*/1st scenario ---- Pass values by super()
-	public ClassB() {
-		super(10); //b
+	public XClass() {
+		//super(10); //b
 		//super(10, 20); //c
-		System.out.println("Child class constructor");
+		//super();
+		System.out.println("msg from Child class constructor");
 	} 
 
 	public static void main(String[] args) {
-		ClassB obj1 = new ClassB();
+		XClass obj1 = new XClass();
 
 	} */
 
@@ -24,28 +25,28 @@ public class ClassB extends ClassA{
 
 
 	//2nd scenario - constr to constr maping ---- Pass values By class
-	public ClassB() {
+	public E1_XClass() {
 		super(); //b
 		//super(10, 20); //c
-		System.out.println("Child class constructor");
+		System.out.println("msg from Child class constructor\n");
 	}
 
-	public ClassB(int i) {
+	public E1_XClass(int i) {
 		super(i); //b
 		//super(10, 20); //c
-		System.out.println("Child class constructor");
+		System.out.println("msg from Child class constructor\n");
 	}
 
-	public ClassB(int i, int j) {
+	public E1_XClass(int i, int j) {
 		super(i , j); //b
-		System.out.println("Child class constructor");
+		System.out.println("msg from Child class constructor");
 	}
 
 	public static void main(String[] args) {
-		ClassB obj = new ClassB();
-		ClassB obj1 = new ClassB(10);
-		ClassB obj2 = new ClassB(20, 30); 
-	} 
+		E1_XClass obj = new E1_XClass();
+		E1_XClass obj1 = new E1_XClass(10);
+		E1_XClass obj2 = new E1_XClass(20, 30); 
+	}
 
 }
 
