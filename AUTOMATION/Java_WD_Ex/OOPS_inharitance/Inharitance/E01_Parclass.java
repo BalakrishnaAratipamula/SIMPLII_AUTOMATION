@@ -1,6 +1,6 @@
 package Inharitance;
 
-public class Parclass {
+public class E01_Parclass {
 	
 public void setUp() {
 	System.out.println("to initialize browser......from parentClass");
