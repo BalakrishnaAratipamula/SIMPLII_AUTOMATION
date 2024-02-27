@@ -47,7 +47,7 @@ public class Log4jDemo {
 		driver.quit();
 		logger.info("-----------------Browser closed-----------");
 	}
-} // logging levels:
+} // logging levels: If main method is return without static it could not be a compilation error. at runtime we will get NoSuchmethodexception
 
 
 

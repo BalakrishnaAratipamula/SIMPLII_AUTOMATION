@@ -8,21 +8,24 @@ public class TestClass {
 		obj.add(2,3); //Overriden method
 		obj.classCMethod();
 		obj.classPMethod(); 
-		System.out.println(obj.speedlimit); */
+		System.out.println(obj.speedlimit); //*/
 
 		/*/2nd scenario --- DC
 		ClassP obj = new ClassP(); ///call ClassP mtds & vars
 		obj.add(4,6); 
 		obj.classPMethod();
 		//obj.classCMethod(); ///compile-time error
-		System.out.println(obj.speedlimit); */
+		System.out.println(obj.speedlimit); //*/
 		
 		//3rd scenario //Runtime Polymorphism --- UC
-		ClassP obj = new ClassC(); //UC
+		ClassP obj = new ClassC(); //UC //exe
 		obj.add(2,3); //Overridden method
 		obj.classPMethod();  
 		//obj.classCMethod(); ///compile-time error
 		System.out.println(obj.speedlimit); ////ClassP variable will print //bcz cannot override data members */
 
+		
+		/*/4th scenario
+		ClassC obj = new ClassP(); ///compile-time error //*/
 	}
 }
