@@ -7,7 +7,7 @@ public abstract class Bank {
 	static int loanRate = 5;	//static
 	
 	public abstract void Loan1(); /////m1 //abstract method 
-	public static void Loan2() { /////m2 //non-abstract method - Abstract method cannot be declared as a static because we have to Override abstract method 
+	public static void Loan2() { /////m2 //non-abstract method - Abstract method cannot be declared as a static bcz we have to Override ab method 
 	}									 //so Overriding is not possible with static methods.
 	
 	public void Credit() {
@@ -21,4 +21,5 @@ public abstract class Bank {
 	/*public static void Debit2() {
 		System.out.println("Bank---Debit2");
 	} */
+	
 }
