@@ -10,8 +10,8 @@ class Thread_ImplementingRunnableInterface implements Runnable {
 	}
 
 	public static void main(String[] args) {
-		Thread_ImplementingRunnableInterface threadObject = new Thread_ImplementingRunnableInterface();
-		Thread thread = new Thread(threadObject);
+		Thread_ImplementingRunnableInterface t1 = new Thread_ImplementingRunnableInterface();
+		Thread thread = new Thread(t1);
 		System.out.println("Thread about to start...");		//1st print
 		thread.start();
 	}

@@ -13,14 +13,14 @@ public class UserDefinedException extends Exception {
 	public static void main(String[] args) {
 		try {
 			withdraw(5000);
-		} catch (UserDefinedException e) {
+		} 
+		catch (UserDefinedException e) {
 			e.printStackTrace();
 		}
 
 		System.out.println("\nThanks for visiting");
 	}
 
-	
 	public static void withdraw(int amount) throws UserDefinedException {
 		if (amount > 2000) {
 			// Finally, to raise exception as user-defined type, we have to create an object
