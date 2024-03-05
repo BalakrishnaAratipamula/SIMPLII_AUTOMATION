@@ -1,10 +1,3 @@
-/Baby Boy Name
-/OraneHRM_Login.xml
-/TestNG_Annotations.xml
-/TestNG_CrossBrowser_Testing/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
-/test-output/
 /AbstractClass/
 /CompiletimeP_or_MethodOverloading/
 /ConstructorConcept/
@@ -32,3 +25,7 @@
 /TestNG_with_WD/
 /WD_Examples/
 /com/
+/test-output/
+/TestNG_CrossBrowser_Testing/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/
