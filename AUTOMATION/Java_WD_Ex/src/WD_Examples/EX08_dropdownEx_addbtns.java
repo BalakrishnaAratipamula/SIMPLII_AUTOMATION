@@ -24,7 +24,7 @@ public class EX08_dropdownEx_addbtns {
 		driver.navigate().to("https://book.spicejet.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(800);
-
+		
 		driver.findElement(By.id("ControlGroupSearchView_AvailabilitySearchInputSearchVieworiginStation1_CTXT")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.linkText("Goa (GOI)")).click();
