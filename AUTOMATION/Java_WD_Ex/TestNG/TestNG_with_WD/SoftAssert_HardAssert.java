@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class SoftAssert_HardAssert {
 
-	/*/--------------------HardAssert
+	//--------------------HardAssert
 	@Test
 	public void x() {
 		Assert.assertEquals(true, true); //pass
@@ -15,7 +15,7 @@ public class SoftAssert_HardAssert {
 		System.out.println("Xstatement2");
 		Assert.assertEquals(true, true); //pass
 		System.out.println("Xstatement3");
-	} */
+	} //*/
 
 	/*/--------------------SoftAssert
 	@Test
@@ -29,5 +29,5 @@ public class SoftAssert_HardAssert {
 		System.out.println("Ystatement3");
 		
 		softassert.assertAll(); //if we not give this command exception msg will not print at the end
-	} */
+	} //*/
 }
