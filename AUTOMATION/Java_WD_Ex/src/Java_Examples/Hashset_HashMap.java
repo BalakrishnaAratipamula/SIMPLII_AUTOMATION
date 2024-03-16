@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Hastset_HashMap { // HashSet stores data as objects && HashMap stores the data as key-value pairs
+public class Hashset_HashMap { // HashSet stores data as objects && HashMap stores the data as key-value pairs
 	public static void main(String[] args) {
 		// creating HashSet
 		Set<String> set = new HashSet<>();
