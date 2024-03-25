@@ -37,5 +37,4 @@ public class TransientKeyword implements Serializable {
 		System.out.println("m = " + output.m);
 
 	}
-
 }
