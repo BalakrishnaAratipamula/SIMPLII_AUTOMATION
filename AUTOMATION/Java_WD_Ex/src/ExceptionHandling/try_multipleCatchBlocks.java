@@ -1,4 +1,4 @@
-package Java_Examples;
+package ExceptionHandling;
 
 public class try_multipleCatchBlocks {
 	public static void main(String[] args) {
