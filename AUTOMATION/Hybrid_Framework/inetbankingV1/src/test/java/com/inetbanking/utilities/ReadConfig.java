@@ -23,7 +23,7 @@ public class ReadConfig { //This is almost similar to POM like constructor (to l
 	
 	//to read PF and capture each value into string variable and return that value
 	public String getApplicationURL() {
-		String url = pro.getProperty("baseURL"); //from properties file
+		String url = pro.getProperty("baseURL"); //from config.properties file
 		return url;
 	}
 
