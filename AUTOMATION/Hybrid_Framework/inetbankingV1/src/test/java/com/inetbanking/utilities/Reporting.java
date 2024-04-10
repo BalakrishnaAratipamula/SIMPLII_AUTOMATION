@@ -36,7 +36,7 @@ public class Reporting extends TestListenerAdapter { //////Listener class used t
 		extenthtmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml"); //this is for Lisnerclass
 
 		extentreports = new ExtentReports();
-		extentreports.attachReporter(extenthtmlReporter);
+		extentreports.attachReporter(extenthtmlReporter);   //Extent Reporter
 		extentreports.setSystemInfo("Host name", "localhost");
 		extentreports.setSystemInfo("Environemnt", "QA");
 		extentreports.setSystemInfo("user", "Balakrishna");

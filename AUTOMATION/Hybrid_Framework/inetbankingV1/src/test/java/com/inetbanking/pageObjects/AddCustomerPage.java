@@ -12,12 +12,12 @@ public class AddCustomerPage {
 	WebDriver ldriver;
 
 	public AddCustomerPage(WebDriver rdriver) {
-		ldriver=rdriver;
+		ldriver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
 
-	//Identifying WebElements
-	@FindBy(how = How.XPATH, using ="/html/body/div[3]/div/ul/li[2]/a")
+	// Identifying WebElements
+	@FindBy(how = How.XPATH, using = "/html/body/div[3]/div/ul/li[2]/a")
 	@CacheLookup
 	WebElement lnkAddNewCustomer;
 
@@ -30,7 +30,7 @@ public class AddCustomerPage {
 	WebElement rdGender;
 
 	@CacheLookup
-	@FindBy(css="#dob")	//@FindBy(how = How.ID_OR_NAME, using = "dob")
+	@FindBy(css = "#dob") // @FindBy(how = How.ID_OR_NAME, using = "dob")
 	WebElement txtdob;
 
 	@CacheLookup
@@ -65,8 +65,7 @@ public class AddCustomerPage {
 	@FindBy(how = How.NAME, using = "sub")
 	WebElement btnSubmit;
 
-	
-	//Action methods to WebElements
+	// Action methods to WebElements
 	public void clickAddNewCustomer() {
 		lnkAddNewCustomer.click();
 
@@ -81,7 +80,7 @@ public class AddCustomerPage {
 		rdGender.click();
 	}
 
-	public void custdob(String mm,String dd,String yy) {
+	public void custdob(String mm, String dd, String yy) {
 		txtdob.sendKeys(String.valueOf(mm));
 		txtdob.sendKeys(String.valueOf(dd));
 		txtdob.sendKeys(String.valueOf(yy));
@@ -101,10 +100,11 @@ public class AddCustomerPage {
 	}
 
 	public void custpinno(String cpinno) {
-		txtpinno.sendKeys(String.valueOf(cpinno)); //to convert integer to string format bcz sendKeys method will not accept numbers will accept only characters
+		txtpinno.sendKeys(String.valueOf(cpinno)); // to convert integer to string format bcz sendKeys method will not
+													// accept numbers will accept only characters
 	}
 
-	public void custtelephoneno(String ctelephoneno) { //(or) above like String.valueOf(ctelephoneno)
+	public void custtelephoneno(String ctelephoneno) { // (or) above like String.valueOf(ctelephoneno)
 		txttelephoneno.sendKeys(ctelephoneno);
 	}
 
@@ -120,8 +120,4 @@ public class AddCustomerPage {
 		btnSubmit.click();
 	}
 
-
-
 }
-
-

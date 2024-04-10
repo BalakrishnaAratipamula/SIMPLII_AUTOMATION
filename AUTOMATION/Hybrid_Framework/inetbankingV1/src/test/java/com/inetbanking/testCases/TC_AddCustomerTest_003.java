@@ -53,7 +53,6 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		if(result==true) {
 			Assert.assertTrue(true);
 			logger.info("test case passed....");
-
 		}
 		else {
 			logger.info("test case failed....");
@@ -62,6 +61,5 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		}
 
 	}
-
 
 }

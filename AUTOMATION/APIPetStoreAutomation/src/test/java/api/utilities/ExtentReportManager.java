@@ -33,7 +33,7 @@ public class ExtentReportManager implements ITestListener {
 		sparkReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
-		extent.attachReporter(sparkReporter);
+		extent.attachReporter(sparkReporter);	//Spark Reporter
 		extent.setSystemInfo("Application", "Pest Store Users API");
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
