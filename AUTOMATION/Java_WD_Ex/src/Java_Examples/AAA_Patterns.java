@@ -324,11 +324,11 @@ public class AAA_Patterns { //////// https://youtu.be/xzstcj3Cuso
 
 
 
-
+/*/
 	public static void submethod(int n) {
 		for(int i=1; i<=n; i++) {
 			for(int j=1; j<i; j++) {	 
-				System.out.print("  ");
+				System.out.print("  "); 
 			}
 			for(int k=i; k<n; k++){  
 				System.out.print("* ");  //decT of * //if j<=i one extra col will print
@@ -356,5 +356,53 @@ public class AAA_Patterns { //////// https://youtu.be/xzstcj3Cuso
 
 		submethod(n); 
 	
-}
+} //*/
+	
+	
+	
+	
+	
+	// Butterfly pattern
+	public static void main(String[] args) {
+		printButterfly();
+	}
+	
+	static void printButterfly() {
+		int wW = 15;    //wingWidth
+		int wH = 10;	//wingHeight
+		
+		//print the upper part of the wing
+		for(int i=0; i<wH; i++) {
+			for(int j=0; j<wW; j++) {
+				if((i<(wH/2) && j>=(wW/2-i) && j<(wW/2+i)) || 
+				   (i>=(wH/2) && j>=(i-wH/2) && j<(wW-(i-wH/2)))) {
+					System.out.print("*");
+				}else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+		//if(i<(ww))
+		//print lower part of the wings
+		for(int i=wH-1; i>=0; i--) {
+			for(int j=0; j<wW; j++) {
+				if((i<wH/2 && j>=(wW/2-i) && j<(wW/2+i)) ||
+				   (i>=wH/2 && j>=(i-wH/2) && j<(wW-(i-wH/2)))) {
+					System.out.print("*");
+				}else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }
