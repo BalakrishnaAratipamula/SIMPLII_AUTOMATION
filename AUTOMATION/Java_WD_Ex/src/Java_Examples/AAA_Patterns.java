@@ -383,7 +383,7 @@ public class AAA_Patterns { //////// https://youtu.be/xzstcj3Cuso
 			}
 			System.out.println();
 		}
-		//if(i<(ww))
+
 		//print lower part of the wings
 		for(int i=wH-1; i>=0; i--) {
 			for(int j=0; j<wW; j++) {
