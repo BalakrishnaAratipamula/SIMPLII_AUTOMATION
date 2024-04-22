@@ -16,7 +16,7 @@ public class SoftAssert_HardAssert {
 		Assert.assertEquals(true, true); //pass
 		System.out.println("Xstatement3");
 	} //*/
-
+	
 	/*/--------------------SoftAssert
 	@Test
 	public void y() {
