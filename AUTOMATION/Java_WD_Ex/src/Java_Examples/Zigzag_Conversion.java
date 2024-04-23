@@ -9,20 +9,26 @@ public class Zigzag_Conversion {
 			return str;
 		}
 		
-		ArrayList<StringBuilder> al = new ArrayList<>();
+		ArrayList<StringBuilder> al = new ArrayList<>();	//or can take all time 'StringBuffer' also
 		int k=0;
+		
 		for(int i=0; i<strRow; i++) {
-			al.add(new StringBuilder());	//String Builder element (i.e., SB object)
+			//al.add(new StringBuilder());   //String Builder element (i.e., SB object)  //or can take 'StringBuffer' obj also
+			System.out.println(al.add(new StringBuilder()));	//return only boolean result
 		}
 		
+		System.out.print("\n");
 		boolean down = false;
 		for(char ch : str.toCharArray()) {
-			al.get(k).append(ch);
-			if(k==0 || k==strRow-1) {
-				down = !down;
-			}				   
-			int min = k+=down ? 1:-1;    //cond ? val1:val2	//if cond 'false' print 'min' value
-			System.out.println(min);
+			System.out.println("ch: at k="+k+" : "+ch);
+			System.out.println("append: "+al.get(k).append(ch));
+			if(k==0 || k==strRow-1) {	// 0 'or' strRow-1	//// 0 || 2
+//				down = !down;
+				System.out.println(down = !down);
+			}								// taking false-true from down i.e. if down is 'false' ==> then cond is 'false' (or) if down is 'true' ==> then cond is 'true'		   				
+			int value = k+= down ? 1:-1;    //cond ? val1:val2	//if cond 'false' print 'min' value  //simply if 'true' +1 will add to 'k' value  
+			System.out.println("value: "+value);	//value = k+1 or k-1							 //simply if 'false' -1 will add to 'k' value
+			System.out.println();
 		}					   						//if cond 'true' print 'max' value
 		
 		StringBuilder sb = new StringBuilder();
@@ -34,8 +40,8 @@ public class Zigzag_Conversion {
 	}
 	
 	public static void main(String[] args) {
-		String str = "BAL";
-		int strRow = 2;
+		String str = "BALAKRISHNAARATIPAMULA";
+		int strRow = 7;
 		
 		System.out.print("\n"+convert(str, strRow));
 	}
