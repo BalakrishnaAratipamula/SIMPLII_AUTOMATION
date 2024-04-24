@@ -10,14 +10,14 @@ public class Zigzag_Conversion {
 		}
 		
 		ArrayList<StringBuilder> al = new ArrayList<>();	//or can take all time 'StringBuffer' also
-		int k=0;
-		
 		for(int i=0; i<strRow; i++) {
 			//al.add(new StringBuilder());   //String Builder element (i.e., SB object)  //or can take 'StringBuffer' obj also
-			System.out.println(al.add(new StringBuilder()));	//return only boolean result
+			System.out.println(al.add(new StringBuilder()));  //'add()' belongs to ArrayList and return boolean result after adding 'StringBuilder objects' into 'ArrayList'  
 		}
-		
 		System.out.print("\n");
+		
+		int k=0; 
+		
 		boolean down = false;
 		for(char ch : str.toCharArray()) {
 			System.out.println("ch: at k="+k+" : "+ch);
@@ -40,7 +40,7 @@ public class Zigzag_Conversion {
 	}
 	
 	public static void main(String[] args) {
-		String str = "BALAKRISHNAARATIPAMULA";
+		String str = "BALAKRISHNAARATIPAMULA123";
 		int strRow = 7;
 		
 		System.out.print("\n"+convert(str, strRow));
