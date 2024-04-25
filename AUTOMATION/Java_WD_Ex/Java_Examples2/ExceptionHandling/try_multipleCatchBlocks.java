@@ -1,6 +1,7 @@
 package ExceptionHandling;
 
 public class try_multipleCatchBlocks {
+	/*/
 	public static void main(String[] args) {
 		try {
 			System.out.println(1);
@@ -18,5 +19,34 @@ public class try_multipleCatchBlocks {
 		}
 		
 		System.out.println("Due to proper & mul catch blocks prog executed successfully");
+	} //*/
+	
+	
+	
+	public static void main(String[] args) {
+		try {
+			int a[] = new int[5];
+			a[4]=30/0;
+		}catch(ArithmeticException e) {
+			System.out.println("---ArithmeticException---");
+		}catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("---ArrayIndexOutOfBoundsException---");
+		}catch(Exception e) {
+			System.out.println("---Exception---");
+		}
+		
+		System.out.println("Due to proper & mul catch blocks prog executed successfully");
 	}
+		
 }
+
+
+
+
+
+
+
+
+
+
+
