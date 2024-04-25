@@ -18,6 +18,7 @@ public class Ternary_Operator {
 		System.out.println(max);
 	} //*/
 	
+	
 	/*/
 	public static void main(String[] args) {
         int n1 = 5, n2 = 10, res;
@@ -35,7 +36,7 @@ public class Ternary_Operator {
 //		System.out.println(value);
 //	}	
 		
-	
+	/*/
 	public static void main(String[] args) {
 		int a = 7, b=5; //check with 0, 1, 2, 3, 4, 5, 6.....
 		boolean result = false;
@@ -45,5 +46,14 @@ public class Ternary_Operator {
 		
 //		int value2 = a+=false ? 1:-1;
 //		System.out.println("false scenarion: "+value2);
+	} //*/
+	
+	
+	
+	public static void main(String[] args) {
+		int a=7, b=5;
+		boolean res;
+		res= a==b ? true:false; 	//cond 'false'-->res 'false'    //cond 'true'-->res 'true' 
+		System.out.println(res);
 	}
 }
