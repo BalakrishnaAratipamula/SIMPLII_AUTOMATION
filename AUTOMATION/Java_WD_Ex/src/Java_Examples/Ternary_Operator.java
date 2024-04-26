@@ -49,11 +49,36 @@ public class Ternary_Operator {
 	} //*/
 	
 	
-	
+	/*/
 	public static void main(String[] args) {
 		int a=7, b=5;
 		boolean res;
 		res= a==b ? true:false; 	//cond 'false'-->res 'false'    //cond 'true'-->res 'true' 
 		System.out.println(res);
+	} //*/
+	
+	/*/
+	void print(String str){
+		boolean res1, res2;
+		res1= str==null ? true:false;
+		res2= str=="" ? true:false;
+		System.out.println("res1:  "+res1);
+		System.out.println("res2:  "+res2);
+	}
+	public static void main(String[] args) {
+		Ternary_Operator to = new Ternary_Operator();
+		to.print(null);
+	} //*/
+	
+	
+	void print(String str) {
+		boolean res;
+		res= str==null?true : "".equals(str)?true:false; //see below
+		// cond1?true : con2?true:false  ///'cond1' belongs to 'null' cond2' belongs to '"" & strContent'
+		System.out.println(res);
+	}
+	public static void main(String[] args) {
+		Ternary_Operator to = new Ternary_Operator();
+		to.print("xyz");	//chheck with null, "", strContent
 	}
 }

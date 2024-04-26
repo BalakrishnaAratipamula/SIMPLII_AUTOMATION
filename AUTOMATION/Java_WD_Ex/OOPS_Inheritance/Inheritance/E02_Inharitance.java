@@ -1,4 +1,4 @@
-package Inharitance;
+package Inheritance;
 
 class Animal{
 	String sound() {
