@@ -1,4 +1,4 @@
-package Inharitance;
+package Inheritance;
 
 public class E01_Parclass {
 	
