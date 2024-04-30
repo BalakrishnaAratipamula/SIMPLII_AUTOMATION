@@ -398,11 +398,4 @@ public class AAA_Patterns { //////// https://youtu.be/xzstcj3Cuso
 		}
 	}
 	
-	
-	
-	
-	
-	
-	
-	
 }
