@@ -8,3 +8,8 @@ public class MainMethod_without_Static {
 		System.out.println(res);
 	}
 }
+
+
+ 
+
+
