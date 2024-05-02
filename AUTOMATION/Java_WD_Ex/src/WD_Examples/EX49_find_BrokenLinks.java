@@ -1,6 +1,7 @@
 package WD_Examples;
 
 import java.net.HttpURLConnection;
+import java.net.URI;
 import java.net.URL;
 import java.util.List;
 
@@ -34,7 +35,7 @@ public class EX49_find_BrokenLinks { /////////////////////////// -------- https:
 	// method to validate the response
 	public static void verifyLinkActive(String linkUrl) {
 		try {
-			URL url = new URL(linkUrl);
+			URL url = new URI(linkUrl).toURL();		//URL(linkUrl) ----> this is deprecated
 			HttpURLConnection httpurlconnection = (HttpURLConnection) url.openConnection(); // to create connection by
 																							// using URL connection
 			httpurlconnection.setConnectTimeout(3500); // to set timeout
