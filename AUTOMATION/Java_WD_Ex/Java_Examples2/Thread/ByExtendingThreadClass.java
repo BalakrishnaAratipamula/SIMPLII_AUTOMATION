@@ -1,6 +1,6 @@
-package Java_Examples;
+package Thread;
 
-class Thread_ExtendingThreadClass extends Thread {
+class ByExtendingThreadClass extends Thread {
 	
 	public void run() {
 		System.out.println("Thread is under Running...");	//2nd print
@@ -10,7 +10,7 @@ class Thread_ExtendingThreadClass extends Thread {
 	}
 
 	public static void main(String args[]) {
-		Thread_ExtendingThreadClass t1 = new Thread_ExtendingThreadClass();
+		ByExtendingThreadClass t1 = new ByExtendingThreadClass();
 		System.out.println("Thread about to start...");		//1st print
 		t1.start();
 	}

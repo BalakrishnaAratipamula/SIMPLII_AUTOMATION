@@ -2,12 +2,12 @@ package Java_Examples;
 
 //First of all, the user should create an exception class as a subclass of Exception class. All the exceptions are the... 
 //...subclasses of Exception class. 
-public class UserDefinedException extends Exception {
+public class UserDefinedException extends Exception {	//Exception class internally extends Throwable class
 	// Create a parameterized constructor with a string as a parameter to store
 	// exception details. We call super class...
 	// ...constructor from this and send the string there.
 	public UserDefinedException(String str) {
-		super(str);
+		super(str);	//calling super class constructor
 	}
 
 	public static void main(String[] args) {
