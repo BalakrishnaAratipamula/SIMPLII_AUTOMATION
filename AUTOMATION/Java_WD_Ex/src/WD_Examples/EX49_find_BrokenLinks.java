@@ -26,7 +26,7 @@ public class EX49_find_BrokenLinks { /////////////////////////// -------- https:
 		for (int i = 0; i < links.size(); i++) {
 			String url = links.get(i).getAttribute("href"); // href - bcz every link having 'href' attribute (by
 															// inspecting any 3 links and take common one)
-			verifyLinkActive(url);
+			verifyLinkActive(url);	
 		}
 
 		driver.close();
