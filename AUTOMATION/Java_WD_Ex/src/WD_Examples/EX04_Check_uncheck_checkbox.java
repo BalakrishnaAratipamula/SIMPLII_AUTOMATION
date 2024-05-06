@@ -2,6 +2,7 @@
 package WD_Examples;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,8 +15,12 @@ public class EX04_Check_uncheck_checkbox {
 		driver.manage().window().maximize();
 
 		//to select checkbox
-		driver.findElement(By.id("rememberUn")).click();
+/*M1*/	driver.findElement(By.id("rememberUn")).click();
 		Thread.sleep(5000);
+/*M2*/	//driver.findElement(By.id("rememberUn")).sendKeys(Keys.ENTER); 
+		//Thread.sleep(5000);
+/*M3*/	//driver.findElement(By.id("rememberUn")).submit();
+		//Thread.sleep(5000);
 		//to uncheck checkbox
 		driver.findElement(By.id("rememberUn")).click();
 		Thread.sleep(1800);
