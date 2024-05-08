@@ -18,7 +18,7 @@ public class EX49_find_BrokenLinks { /////////////////////////// -------- https:
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.theworldsworstwebsiteever.com/");
 		driver.manage().window().maximize();
-
+		
 		// to get links information
 		List<WebElement> links = driver.findElements(By.tagName("a")); // tagName 'a' is common for all links
 		System.out.println("num of language links are: " + links.size());
