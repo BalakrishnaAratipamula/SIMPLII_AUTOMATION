@@ -9,6 +9,9 @@ public class E2_Default_Parameterized_Constructor {
 	public E2_Default_Parameterized_Constructor() {
 		this.number = 0;
 		this.text = "Simple Default Text";
+		/*
+		after code compilation java provides a default constructor in case of no constructor present
+		*/
 	}
 	
 	// Parameterized Constructor
