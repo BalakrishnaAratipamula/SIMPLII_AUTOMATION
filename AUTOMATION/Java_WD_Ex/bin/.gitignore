@@ -4,11 +4,17 @@
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
+/inputdata.properties
 /test-output/
+/to execuete all classes.xml
+/to execute some of methods only.xml
 /AbstractClass/
 /AccessModifier/
+/ArrayOfObjects/
 /CompiletimeP_or_MethodOverloading/
 /ConstructorConcept/
+/Constructor_Chaining/
+/Constructor_Overloading/
 /DDT/
 /DDT_FW/
 /EncapuslationEx1/
@@ -30,6 +36,7 @@
 /ProFile/
 /ReRun_Failed_TCs_usingIRetryAnalyzer/
 /ReRun_Failed_TCs_usingTestNgFailedXMLfile/
+/Relationships_or_Associations/
 /RuntimeP_or_MethodOverriding/
 /RuntimeP_or_MethodOverridingE2/
 /RuntimeP_or_MethodOverridingE3/
@@ -44,6 +51,5 @@
 /WD_Examples/
 /Why_Interface_Intraduced/
 /com/
-/ArrayOfObjects/
-/MethodOverriding_MethodHiding_Diff.class
-/Parameter_vs_Argument/
+/Multiple_Inheritance.class
+/Multiple_Inheritance/

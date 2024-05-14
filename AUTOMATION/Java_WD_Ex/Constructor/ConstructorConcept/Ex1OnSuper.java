@@ -13,7 +13,7 @@ class Derived extends Base{
 	}
 }
 
-public class ExOnSuper {
+public class Ex1OnSuper {
 	public static void main(String[] args) {
 		Derived derived = new Derived();
 		derived.print();

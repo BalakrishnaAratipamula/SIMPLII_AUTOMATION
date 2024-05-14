@@ -1,21 +1,21 @@
 package ConstructorConcept;
 
-public class E2_Default_Parameterized_Constructor {
+public class Default_Parameterized_Constructor {
 
 	private int number;
 	private String text;
 	
 	// Default Constructor
-	public E2_Default_Parameterized_Constructor() {
+	public Default_Parameterized_Constructor() {
 		this.number = 0;
 		this.text = "Simple Default Text";
 		/*
-		after code compilation java provides a default constructor in case of no constructor present
+		after code compilation java provides a default constructor in case of no constructor present 
 		*/
 	}
 	
 	// Parameterized Constructor
-	public E2_Default_Parameterized_Constructor(int number, String text) {
+	public Default_Parameterized_Constructor(int number, String text) {
 		this.number = number;
 		this.text = text;
 	}
@@ -26,8 +26,8 @@ public class E2_Default_Parameterized_Constructor {
 	}
 	
 	public static void main(String[] args) {
-		E2_Default_Parameterized_Constructor defaultExample = new E2_Default_Parameterized_Constructor();
-		E2_Default_Parameterized_Constructor paraExample = new E2_Default_Parameterized_Constructor(10, "Simple Parameterized Text");
+		Default_Parameterized_Constructor defaultExample = new Default_Parameterized_Constructor();
+		Default_Parameterized_Constructor paraExample = new Default_Parameterized_Constructor(10, "Simple Parameterized Text");
 		
 		// Displaying details of both objects
 		System.out.println("DefaultExample");
