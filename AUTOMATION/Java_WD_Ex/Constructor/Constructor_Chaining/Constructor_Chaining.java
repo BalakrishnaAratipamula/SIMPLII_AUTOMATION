@@ -19,7 +19,7 @@ class employee{
 public class Constructor_Chaining extends employee{ //main class
 	private String company;
 	public Constructor_Chaining() {
-		super("john s", 42);
+		super("john s", 42);	//Here we can use 'super()' and 'this' keywords together
 		this.company="Google";
 		System.out.println(company);
 	}
