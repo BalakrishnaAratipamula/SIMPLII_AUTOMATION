@@ -1,6 +1,7 @@
 package Java_Examples;
 
 public class VariableHiding {
+	
 	/*/EX-1
 	static int x = 10;
 	public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class VariableHiding {
 	
 	
 	
-	//EX-3
+	/*/EX-3
 	private String message = "this is instance variable";
 
 	VariableHiding() {
@@ -47,5 +48,5 @@ public class VariableHiding {
         VariableHiding variable = new VariableHiding();
         variable.printLocalVariable();
         variable.printInstanceVariable();
-	}
+	} //*/
 }
