@@ -4,7 +4,6 @@
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
-/inputdata.properties
 /test-output/
 /to execuete all classes.xml
 /to execute some of methods only.xml
@@ -29,6 +28,7 @@
 /Java_Quizs/
 /MFW_com/
 /ModularFrameWork/
+/Multiple_Inheritance/
 /POM_TestCases/
 /POM_objectRepository/
 /Packages_Types_E1A/
@@ -51,6 +51,3 @@
 /WD_Examples/
 /Why_Interface_Intraduced/
 /com/
-/Multiple_Inheritance.class
-/Multiple_Inheritance/
-/Multiple_Inheritance_UsingClass/

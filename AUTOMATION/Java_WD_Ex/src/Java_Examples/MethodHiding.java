@@ -22,7 +22,7 @@ public class MethodHiding {
 		Complex d2 = new Sample();
 
 		// But here method will be call using type of reference
-		d1.f1();
+		d1.f1();	//The subclass method hides the superclass method.
 		d2.f1();
 	}
 }
