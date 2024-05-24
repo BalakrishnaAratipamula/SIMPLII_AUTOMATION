@@ -13,6 +13,7 @@ public class KIA implements Car{
 		System.out.println(finalWheels);
 		System.out.println(staticWheels);
 		System.out.println(nonStaticWheels);
+		System.out.println(nonStaticWheels2);
 	}
 	
 	@Override
