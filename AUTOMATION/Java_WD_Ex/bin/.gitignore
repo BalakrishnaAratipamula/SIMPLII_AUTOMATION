@@ -6,7 +6,6 @@
 /TestNG_ParallelTesting/
 /inputdata.properties
 /test-output/
-/to execute some of methods only.xml
 /AbstractClass/
 /AccessModifier/
 /ArrayOfObjects/
@@ -51,3 +50,4 @@
 /WD_Examples/
 /Why_Interface_Intraduced/
 /com/
+/Coupling/
