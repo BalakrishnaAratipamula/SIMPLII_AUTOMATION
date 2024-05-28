@@ -13,7 +13,6 @@ class Child2 extends Parent2{
 }
 public class MethodHiding2 {
 	public static void main(String[] args) {
-		Child2 ch = new Child2();
-		ch.print();
+		Child2.print();
 	}
 }

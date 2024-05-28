@@ -6,6 +6,8 @@
 /TestNG_ParallelTesting/
 /inputdata.properties
 /test-output/
+/to execuete all classes.xml
+/to execute some of methods only.xml
 /AbstractClass/
 /AccessModifier/
 /ArrayOfObjects/
@@ -13,6 +15,7 @@
 /ConstructorConcept/
 /Constructor_Chaining/
 /Constructor_Overloading/
+/Coupling/
 /DDT/
 /DDT_FW/
 /EncapuslationEx1/
@@ -26,6 +29,7 @@
 /Java_Examples/
 /Java_Quizs/
 /MFW_com/
+/MethodReference/
 /ModularFrameWork/
 /Multiple_Inheritance/
 /POM_TestCases/
@@ -50,4 +54,3 @@
 /WD_Examples/
 /Why_Interface_Intraduced/
 /com/
-/Coupling/

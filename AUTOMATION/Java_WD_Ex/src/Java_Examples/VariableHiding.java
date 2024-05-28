@@ -26,6 +26,7 @@ public class VariableHiding {
 	
 	
 	
+	
 	/*/EX-3
 	private String message = "this is instance variable";
 
