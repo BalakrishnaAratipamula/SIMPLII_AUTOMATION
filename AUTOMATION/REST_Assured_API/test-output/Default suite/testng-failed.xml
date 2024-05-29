@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="E08_API_Chaining.E08a_CreateUser">
+      <class name="E02_WaysToCreateRequestBody.E02_WaysToCreateRequestBody">
         <methods>
-          <include name="createUser"/>
+          <include name="testPostUsingExternalJSONFile"/>
         </methods>
-      </class> <!-- E08_API_Chaining.E08a_CreateUser -->
+      </class> <!-- E02_WaysToCreateRequestBody.E02_WaysToCreateRequestBody -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

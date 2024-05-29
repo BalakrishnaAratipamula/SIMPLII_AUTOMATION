@@ -1,63 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-05T21:43:36 IST" name="Suite" finished-at="2024-01-05T21:43:42 IST" duration-ms="6247">
+  <suite started-at="2024-05-29T17:05:31 IST" name="Default suite" finished-at="2024-05-29T17:05:35 IST" duration-ms="4163">
     <groups>
     </groups>
-    <test started-at="2024-01-05T21:43:36 IST" name="Test" finished-at="2024-01-05T21:43:42 IST" duration-ms="6247">
-      <class name="E08_API_Chaining.E08a_CreateUser">
-        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:E08_API_Chaining.E08a_CreateUser@26e356f0]" started-at="2024-01-05T21:43:36 IST" name="createUser" finished-at="2024-01-05T21:43:41 IST" duration-ms="4404" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6f15d60e]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-05-29T17:05:31 IST" name="Default test" finished-at="2024-05-29T17:05:35 IST" duration-ms="4163">
+      <class name="E02_WaysToCreateRequestBody.E02_WaysToCreateRequestBody">
+        <test-method signature="testPostUsingExternalJSONFile()[pri:4, instance:E02_WaysToCreateRequestBody.E02_WaysToCreateRequestBody@4310d43]" started-at="2024-05-29T17:05:31 IST" name="testPostUsingExternalJSONFile" finished-at="2024-05-29T17:05:35 IST" duration-ms="4090" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- E08_API_Chaining.E08a_CreateUser -->
-      <class name="E08_API_Chaining.E08c_updateUser">
-        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:E08_API_Chaining.E08c_updateUser@73e9cf30]" started-at="2024-01-05T21:43:41 IST" name="createUser" finished-at="2024-01-05T21:43:42 IST" duration-ms="417" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6f15d60e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- E08_API_Chaining.E08c_updateUser -->
-      <class name="E08_API_Chaining.E08d_DeleteUser">
-        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:E08_API_Chaining.E08d_DeleteUser@771a660]" started-at="2024-01-05T21:43:42 IST" name="deleteUser" finished-at="2024-01-05T21:43:42 IST" duration-ms="552" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6f15d60e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- E08_API_Chaining.E08d_DeleteUser -->
-      <class name="E08_API_Chaining.E08b_GetUser">
-        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:E08_API_Chaining.E08b_GetUser@272113c4]" started-at="2024-01-05T21:43:41 IST" name="getUser" finished-at="2024-01-05T21:43:41 IST" duration-ms="778" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6f15d60e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUser -->
-      </class> <!-- E08_API_Chaining.E08b_GetUser -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testPostUsingExternalJSONFile -->
+      </class> <!-- E02_WaysToCreateRequestBody.E02_WaysToCreateRequestBody -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -113,7 +113,7 @@ public class E02_WaysToCreateRequestBody {
 		}
 		
 		//------------------------ Create Post request body Using External JSON File
-				//@Test(priority=4)
+				@Test(priority=4)
 				void testPostUsingExternalJSONFile() throws FileNotFoundException, IOException {
 							 
 					File f = new File(".\\body.json");	//project level JSON file path
@@ -137,7 +137,7 @@ public class E02_WaysToCreateRequestBody {
 						.log().all();
 				}
 				
-	@Test(priority=5)
+	//@Test(priority=5)
 	void testDelete() {
 		
 		given()

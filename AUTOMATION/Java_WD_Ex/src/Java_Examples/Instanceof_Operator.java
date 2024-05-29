@@ -7,7 +7,6 @@ interface Vehicle{
 class implement implements Vehicle{
 	@Override
 	public void car() {
-		// TODO Auto-generated method stub
 		
 	}
 }
