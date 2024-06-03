@@ -16,7 +16,7 @@ import junit.framework.Assert;
 public class E05a_ParsingXMLResponseData {
 	
 	// http://restapi.adequateshop.com/api/Traveler?page=1
-	// http://restapi.adequateshop.com/swagger/ui/index
+	// http://restapi.adequateshop.com/swagger/ui/index    // if not work try this: https://petstore3.swagger.io/ // https://petstore.swagger.io/
 	
 	//toString() - Convert Data into String format
 	//asSString - Convert entire Response into String format
@@ -28,7 +28,7 @@ public class E05a_ParsingXMLResponseData {
 	void testXmlResponse_Approach1() {
 		
 		given()
-		
+			
 		.when()
 			.get("http://restapi.adequateshop.com/api/Traveler?page=1")
 		.then()
