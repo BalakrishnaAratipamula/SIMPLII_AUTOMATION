@@ -34,9 +34,9 @@ public class E04_ParsingJSONResponseData {
 			.get("http://localhost:3000/store")
 		.then()
 			.statusCode(200)
-		.body("book[3].title", equalTo("Danny Of The Century")) // https://jsonpathfinder.com/ - to get path from JSON code
-		.body("book[5].price", equalTo(130.5F)) //F - FLot value // https://jsonpathfinder.com/ - to get path from JSON code
-		.body("book[4].phone", equalTo("104356789")); //F - FLot value // https://jsonpathfinder.com/ - to get path from JSON code
+			.body("book[3].title", equalTo("Danny Of The Century")) // https://jsonpathfinder.com/ - to get path from JSON code
+			.body("book[5].price", equalTo(130.5F)) //F - FLot value // https://jsonpathfinder.com/ - to get path from JSON code
+			.body("book[4].phone", equalTo("104356789")); //F - FLot value // https://jsonpathfinder.com/ - to get path from JSON code
 			
 	}
 	
