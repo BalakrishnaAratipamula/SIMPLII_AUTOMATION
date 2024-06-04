@@ -3,7 +3,7 @@ package Java_Examples;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 
-public class Diff_bn_throw_throws {
+public class throw_throws {
 
 	// Java program to demonstrate the working
 	// of throw keyword in exception handling
