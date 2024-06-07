@@ -17,6 +17,7 @@ public class E06a_JSONSchemaValidation {
 	
 	@Test
 	void jsonSchemaValidation() {
+		// pre-requisites Refer once: https://stackoverflow.com/questions/46195599/type-of-id-number-in-user-json-is-not-supported-use-objects-or-arrays-of-ob
 		// pre-requisites - convert JSON to JSON Schema - https://jsonformatter.org/json-to-jsonschema - store in any folder (F:\JSON Files\JsonSchema.json)
 		// pre-requisites run - jsonForSchema.json (F:\JSON Files\jsonForSchema.json) through cmd
 		// maintain (F:\JSON Files\JsonSchema.json) file in Resources folder

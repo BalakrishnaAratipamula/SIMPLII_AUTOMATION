@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome2",
+    "definitions": {
+        "Welcome2": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "department": {
+                    "type": "string"
+                },
+                "college": {
+                    "type": "string"
+                },
+                "subjects": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Subject"
+                    }
+                }
+            },
+            "required": [
+                "college",
+                "department",
+                "id",
+                "name",
+                "subjects"
+            ],
+            "title": "Data"
+        },
+        "Subject": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "active": {
+                    "type": "boolean"
+                },
+                "faculty": {
+                    "type": "string"
+                },
+                "notifications": {
+                    "type": "integer"
+                },
+                "color": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "active",
+                "color",
+                "faculty",
+                "notifications",
+                "title"
+            ],
+            "title": "Subject"
+        }
+    }
+}

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="E06_JSONandXMLSchemaValidation.E06a_JSONSchemaValidation">
+      <class name="E06_JSONandXMLSchemaValidation.E06a_JSONSchemaValidation3">
         <methods>
           <include name="jsonSchemaValidation"/>
         </methods>
-      </class> <!-- E06_JSONandXMLSchemaValidation.E06a_JSONSchemaValidation -->
+      </class> <!-- E06_JSONandXMLSchemaValidation.E06a_JSONSchemaValidation3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
