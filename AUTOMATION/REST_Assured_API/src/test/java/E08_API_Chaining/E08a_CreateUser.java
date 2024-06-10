@@ -25,8 +25,9 @@ public class E08a_CreateUser {
 		jsonobj.put("email", faker.internet().emailAddress());
 		jsonobj.put("status", "active");
 		
-		String bearerToken = "9295a53d63fdd668f059d691f7b8334354ecd3e6c12216c547a6c116dcad9091";	//generate token in 'https://gorest.co.in/' --> get your access token
-
+		String bearerToken = "197a23397724d3564e715be91132aea792ddb25c86a3cbf5cddf496a3bb73414";	//generate token in 'https://gorest.co.in/' --> get your access token
+		
+//		9295a53d63fdd668f059d691f7b8334354ecd3e6c12216c547a6c116dcad9091
 		int id =	//int bcz here we are returning the id here id is int type
 		given()
 			.header("Authorization", "Bearer "+bearerToken)

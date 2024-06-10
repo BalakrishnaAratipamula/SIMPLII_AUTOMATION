@@ -22,7 +22,7 @@ public class E06a_JSONSchemaValidation2 {
 		// pre-requisites run - jsonForSchema3.json (F:\JSON Files\jsonForSchema.json) through cmd
 		// maintain (F:\JSON Files\JsonSchema.json) file in Resources folder
 		// N: json file must be in { "store":{ "book":[{},{},{}...]}} hierarchy and after converting json-jsonschema remove store part
-
+		
 		given()
 		
 		.when()
