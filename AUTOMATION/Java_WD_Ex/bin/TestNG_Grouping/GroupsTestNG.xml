@@ -5,7 +5,7 @@
 
 		<groups>
 			<run>
-				<include name="sanity" /> 
+				<include name="sanity" />
 				<!--  include name="regression" /> -->
 				<!-- <exclude name="sanity" /> -->
 			</run>
@@ -14,5 +14,7 @@
 		<classes>
 			<class name="TestNG_Grouping.GroupingExample" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

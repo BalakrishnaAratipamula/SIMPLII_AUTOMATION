@@ -1,13 +1,3 @@
-/Baby Boy Name
-/OraneHRM_Login.xml
-/TestNG_Annotations.xml
-/TestNG_CrossBrowser_Testing/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
-/inputdata.properties
-/test-output/
-/to execuete all classes.xml
-/to execute some of methods only.xml
 /AbstractClass/
 /AccessModifier/
 /ArrayOfObjects/
@@ -16,8 +6,6 @@
 /Constructor_Chaining/
 /Constructor_Overloading/
 /Coupling/
-/DDT/
-/DDT_FW/
 /EncapuslationEx1/
 /ExceptionHandling/
 /Hybrid_FW_com/
@@ -36,6 +24,7 @@
 /POM_objectRepository/
 /Packages_Types_E1A/
 /Packages_Types_E1B/
+/PrimitiveDataTypes/
 /ProFile/
 /ReRun_Failed_TCs_usingIRetryAnalyzer/
 /ReRun_Failed_TCs_usingTestNgFailedXMLfile/
@@ -44,6 +33,10 @@
 /RuntimeP_or_MethodOverridingE2/
 /RuntimeP_or_MethodOverridingE3/
 /RuntimeP_or_MethodOverridingE4/
+/Singleton_Class/
+/TestNG_CrossBrowser_Testing/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/
 /TestNG_Pass_App_Login_Parametrs/
 /TestNG_Simple1/
 /TestNG_Simple2/
@@ -54,5 +47,4 @@
 /WD_Examples/
 /Why_Interface_Intraduced/
 /com/
-/Singleton_Class/
-/PrimitiveDataTypes/
+/test-output/
