@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [--------DemoTests-----]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="-------FF browser-------(failed)">
-    <parameter name="pwdfromsuite" value="admin123"/>
-    <parameter name="urlfromsuite" value="https://opensource-demo.orangehrmlive.com/"/>
-    <parameter name="uidfromsuite" value="Admin"/>
-    <classes>
-      <class name="TestNG_Pass_App_Login_Parametrs.OrangeHRM_Login">
-        <methods>
-          <include name="userLogin" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestNG_Pass_App_Login_Parametrs.OrangeHRM_Login -->
-    </classes>
-  </test> <!-- -FF browser-(failed) -->
-</suite> <!-- Failed suite [-DemoTests-] -->
+	<test thread-count="5" name="-------FF browser-------(failed)">
+		<parameter name="pwdfromsuite" value="admin123" />
+		<parameter name="urlfromsuite"
+			value="https://opensource-demo.orangehrmlive.com/" />
+		<parameter name="uidfromsuite" value="Admin" />
+		<classes>
+			<class name="TestNG_Pass_App_Login_Parametrs.OrangeHRM_Login">
+				<methods>
+					<include name="userLogin" invocation-numbers="0" />
+					<include name="setUp" />
+					<include name="tearDown" />
+				</methods>
+			</class> <!--
+			TestNG_Pass_App_Login_Parametrs.OrangeHRM_Login -->
+		</classes>
+	</test> <!--
+	-FF browser-(failed) -->
+</suite> <!--
+Failed suite [-DemoTests-] -->

@@ -1,11 +1,13 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<!-- single application can run on multiple browsers is known as 'CrossBroeser testing' -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- single application can run on multiple browsers is known as 'CrossBroeser
+testing' -->
 <suite name="---DemoSuite----">
-<test name="---Firefox Browser---">
-	<parameter name="Desired_Browser" value="chrome" />		<!-- toUpperCase() is used in script -->
- 	<classes>
-		<class name="TestNG_CrossBrowser_Testing.CrossBrowser_Testing"/>
-	</classes>
-</test>
+	<test name="---Firefox Browser---">
+		<parameter name="Desired_Browser" value="chrome" />		<!-- toUpperCase() is
+		used in script -->
+		<classes>
+			<class name="TestNG_CrossBrowser_Testing.CrossBrowser_Testing" />
+		</classes>
+	</test>
 </suite>
 
