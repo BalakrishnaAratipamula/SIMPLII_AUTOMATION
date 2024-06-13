@@ -15,7 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class EX56_TextScrolldownInsidePage {
 
-		public static void main(String[] args) throws Throwable {
+	public static void main(String[] args) throws Throwable {
 			ChromeOptions opt = new ChromeOptions();
 			opt.addArguments("--remote-allow-origins=*");
 
