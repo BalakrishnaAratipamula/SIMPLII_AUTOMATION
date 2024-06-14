@@ -8,7 +8,7 @@ class Students implements Comparable<Students> {
 	String name;
 	int age;
 
-	Students(int rollno, String name, int age) {
+	Students(int rollno, String name, int age) { //<---- check this order
 		this.rollno = rollno;
 		this.name = name;
 		this.age = age;
@@ -28,7 +28,7 @@ public class Comparable_Interface {
 	public static void main(String[] args) {
 		// for Sorting
 		ArrayList<Students> al = new ArrayList<Students>();
-		al.add(new Students(101, "Mohanty", 23));
+		al.add(new Students(101, "Mohanty", 30));
 		al.add(new Students(106, "Siyaa", 27));
 		al.add(new Students(105, "Jayansh", 21));
 

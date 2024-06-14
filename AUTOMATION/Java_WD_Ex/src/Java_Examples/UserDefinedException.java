@@ -23,11 +23,10 @@ public class UserDefinedException extends Exception {	//Exception class internal
 
 	public static void withdraw(int amount) throws UserDefinedException {
 		if (amount > 2000) {
-			// Finally, to raise exception as user-defined type, we have to create an object
-			// to our exception class and...
+			// Finally, to raise exception as user-defined type, we have to create an object to our exception class and...
 			// ...throw it using throw class.
 			throw new UserDefinedException("***User Defined msg: You dont have sufficient amount to withdraw***");
-		} else {
+		} else { // new UserDefinedException() -- Exception class objects
 			System.out.println("please withdraw money");
 		}
 	}
