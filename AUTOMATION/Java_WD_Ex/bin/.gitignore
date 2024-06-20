@@ -1,3 +1,11 @@
+/Baby Boy Name
+/OraneHRM_Login.xml
+/TestNG_Annotations.xml
+/TestNG_CrossBrowser_Testing/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/
+/inputdata.properties
+/test-output/
 /AbstractClass/
 /AccessModifier/
 /ArrayOfObjects/
@@ -6,6 +14,8 @@
 /Constructor_Chaining/
 /Constructor_Overloading/
 /Coupling/
+/DDT/
+/DDT_FW/
 /EncapuslationEx1/
 /ExceptionHandling/
 /Hybrid_FW_com/
@@ -34,9 +44,6 @@
 /RuntimeP_or_MethodOverridingE3/
 /RuntimeP_or_MethodOverridingE4/
 /Singleton_Class/
-/TestNG_CrossBrowser_Testing/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
 /TestNG_Pass_App_Login_Parametrs/
 /TestNG_Simple1/
 /TestNG_Simple2/
@@ -47,4 +54,3 @@
 /WD_Examples/
 /Why_Interface_Intraduced/
 /com/
-/test-output/
