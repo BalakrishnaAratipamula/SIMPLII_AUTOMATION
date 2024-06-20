@@ -9,8 +9,8 @@ class employee{
 	}
 
 	employee(String n, int a) {
-		this.name=n;
-		this.age=a;
+//		this.name=n;
+//		this.age=a;
 		System.out.println(n);
 		System.out.println(a);
 	}
