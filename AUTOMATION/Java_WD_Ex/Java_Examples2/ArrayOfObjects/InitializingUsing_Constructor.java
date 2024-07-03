@@ -11,28 +11,23 @@ public class InitializingUsing_Constructor {
 		obj[3] = new Product(11908, "MI Note Pro Max 9");
 		obj[4] = new Product(43590, "Kingston USB");
 		// display the product object data
-		System.out.println("Product Object 1:");
 		obj[0].display();
-		System.out.println("Product Object 2:");
 		obj[1].display();
-		System.out.println("Product Object 3:");
 		obj[2].display();
-		System.out.println("Product Object 4:");
 		obj[3].display();
-		System.out.println("Product Object 5:");
 		obj[4].display();
 	}
 }
 
-//Product class with product Id and product name as attributes  
+//Product class with product_Id and product_name as attributes  
 class Product {
 	int pro_Id;
 	String pro_name;
 
-//Product class constructor 		//using constructor 
-	Product(int pid, String n) {
-		pro_Id = pid;
-		pro_name = n;
+	//initialize Array Of Objects 'using constructor' 
+	Product(int pid, String pname) {
+		pro_Id = pid;	//this.pro_Id = pid
+		pro_name = pname;	//this.pro_name = pname;
 	}
 
 	public void display() {
