@@ -27,7 +27,7 @@ public class DDTests {
 	public void setup()	{
 		faker=new Faker();
 		userPayload=new User();
-			
+		
 		userPayload.setId(faker.idNumber().hashCode());
 		userPayload.setUsername(faker.name().username());
 		userPayload.setFirstName(faker.name().firstName());
@@ -35,8 +35,7 @@ public class DDTests {
 		userPayload.setEmail(faker.internet().safeEmailAddress());
 		userPayload.setPassword(faker.internet().password(5, 10));
 		userPayload.setPhone(faker.phoneNumber().cellPhone());
-			
-			
+		
 	}
 	
 	//Create User
@@ -112,7 +111,6 @@ public class DDTests {
 		Response response = UserEndPoints.deleteUser(UserName);
 		
 		Assert.assertEquals(response.getStatusCode(), 200);
-		
 		
 	}
 }
