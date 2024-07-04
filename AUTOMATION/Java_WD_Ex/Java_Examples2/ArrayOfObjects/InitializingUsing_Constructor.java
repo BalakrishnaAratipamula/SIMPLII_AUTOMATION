@@ -32,6 +32,5 @@ class Product {
 
 	public void display() {
 		System.out.print("Product Id = " + pro_Id + "  " + " Product Name = " + pro_name);
-		System.out.println();
 	}
 }
