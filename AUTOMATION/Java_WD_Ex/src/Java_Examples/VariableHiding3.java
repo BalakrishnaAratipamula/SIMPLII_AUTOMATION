@@ -1,17 +1,17 @@
 package Java_Examples;
 
 class Super {
-	String name = "Krishna";
-	int age = 25;
+	String className = "Super";	//super class variable
+	int age = 25;				//super class variable
 }
 
-class Sub extends Super {
-	String name = "Vishnu";
-	int age = 22;
+class Sub extends Super {		
+	String className = "Sub";	//sub class variable
+	int age = 22;				//sub class variable
 
 	public void display() {
 		Sub obj = new Sub();
-		System.out.println("Name: " + obj.name);
+		System.out.println("Name: " + obj.className);
 		System.out.println("age: " + obj.age);
 	}
 }
