@@ -6,12 +6,14 @@ public class IncrementOperators {
 
 	void incrementCount() { //comment one-by-one and then check
 		//Pre-increment
-		System.out.println(++count);
+/*Exe1*/System.out.println(++count);
 //		System.out.println(++count);	//check
+/*Exe3*/System.out.println(1+count);
 		//Post-increment
-		System.out.println(count++);
+/*Exe2*/System.out.println(count++);
 //		System.out.println(count++);	//check
 //		System.out.println(count++);	//check
+//*Exe4*/System.out.println(count+1);
 	}
 
 	public static void main(String[] args) {

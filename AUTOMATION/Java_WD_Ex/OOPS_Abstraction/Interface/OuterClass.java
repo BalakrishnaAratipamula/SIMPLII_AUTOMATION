@@ -11,7 +11,7 @@ public class OuterClass {
 			public void display() {
 				System.out.println("Anonymous inner class example");
 			}
-			
+		
 		};
 		innerClass.display();
 		
