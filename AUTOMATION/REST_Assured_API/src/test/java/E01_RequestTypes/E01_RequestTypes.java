@@ -41,7 +41,7 @@ public class E01_RequestTypes {	// https://reqres.in/
 	
 	@Test(priority=2) //create user
 	void createUser() {	//create - post
-			
+		
 		String[] strArr = new String[] {"C", "C++"};
 		
 		HashMap hm = new HashMap();
