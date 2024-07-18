@@ -4,11 +4,19 @@ package TypeCasting;
   double -> float -> long -> int -> char -> short -> byte */
 
 public class NarrowingCasting {
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 	    double myDouble = 9.78d;
 	    int myInt = (int) myDouble; // Manual casting: double to int
 
-	    System.out.println("double: "+myDouble);   // Outputs 9.78
-	    System.out.println("int: "+myInt);      // Outputs 9
-	  }
+	    System.out.println("double: "+myDouble);   // Output 9.78
+	    System.out.println("int: "+myInt);      // Output 9
+	} //*/
+	
+	 public static void main(String args[]) {
+         float f = 3.142f;
+         int  i = (int) f;
+
+         System.out.println("float = " +f);
+         System.out.println("int = " +i);
+    }
 }

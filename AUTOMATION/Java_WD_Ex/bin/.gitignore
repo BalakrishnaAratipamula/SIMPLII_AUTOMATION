@@ -1,11 +1,3 @@
-/Baby Boy Name
-/OraneHRM_Login.xml
-/TestNG_Annotations.xml
-/TestNG_CrossBrowser_Testing/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
-/inputdata.properties
-/test-output/
 /AbstractClass/
 /AccessModifier/
 /ArrayOfObjects/
@@ -44,6 +36,7 @@
 /RuntimeP_or_MethodOverridingE3/
 /RuntimeP_or_MethodOverridingE4/
 /Singleton_Class/
+/SortArrayListUsing_Comparable_nd_Comparator/
 /TestNG_Pass_App_Login_Parametrs/
 /TestNG_Simple1/
 /TestNG_Simple2/
@@ -54,4 +47,8 @@
 /WD_Examples/
 /Why_Interface_Intraduced/
 /com/
-/SortArrayListUsing_Comparable_nd_Comparator/
+/test-output/
+/TestNG_CrossBrowser_Testing/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/
+/Program_to_cover_all_OOPS_Concepts/

@@ -1,5 +1,8 @@
 package Java_Examples;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class AAA_java {
@@ -95,17 +98,50 @@ public static void main(String args[]){
  	
 	/*/-----------------------to find number of occurrence of "char"
 	public static void main(String[] args) {
-		String str = "LiveTech EE";
-		int count=0;
+		String str = "LT LiveTech EE";
+		int ecount=0;
+		int tcount=0;
 		String ucStr = str.toLowerCase();
 		System.out.println(ucStr);
 		for(int i=0; i<=ucStr.length()-1; i++) {
 			if(ucStr.charAt(i)=='e') {	//comparing with lower letter take toLowerCase() or comparing with higher letter take toUpperCase()
-				count++;
+				ecount++;
 			}
 		}
-		System.out.println("occurence of e is: "+count); 
-	*/
+		for(int i=0; i<=ucStr.length()-1; i++) {
+			if(ucStr.charAt(i)=='t') {	//comparing with lower letter take toLowerCase() or comparing with higher letter take toUpperCase()
+				tcount++;
+			}
+		}
+		System.out.println("occurence of e is: "+ecount); 
+		System.out.println("occurence of t is: "+tcount); 
+	//*/
+	
+	
+	
+	//-----------------------to find number of occurrence of "char's"
+	public static void main(String[] args) {
+		String str = "java";
+		
+        HashMap<Character, Integer> charCount = new HashMap<Character, Integer>();	//(key, value)
+
+        char[] charArray = str.toCharArray();	//toCharArray() - is used to put objects into array
+        System.out.println(Arrays.toString(charArray));
+        
+        for(char ch : charArray) {
+              if (charCount.containsKey(ch)) {	//containsKey(key | value): is used to check whether the specified key | value is avl in Map and it ret Boolean value.
+                    charCount.put(ch, (charCount.get(ch)+1)); //put(key, value): is used to insert the elements in Map in the form of <key, value> pair format
+              } else {                                        //get(key): is used to return the value for specified key.
+                    charCount.put(ch, 1);
+              }
+        }
+        for(Map.Entry entry : charCount.entrySet()) {	//Map.Entry<String, Integer> - Entry interface enables to work with a map entry		
+        												//entrySet() - Creates a set and stores the map elements into them
+              System.out.println("Character "+"'"+ entry.getKey() +"'"+ " Occurred " + entry.getValue() +" Times");
+        }
+        
+	
+        
 	
 	
 	
@@ -128,7 +164,7 @@ public static void main(String args[]){
 	
 	
 	
-	//----------------------print statement infinite times
+	/*/----------------------print statement infinite times
 	public static void subMethod() {
 		System.out.println("Hello");
 		subMethod();
@@ -138,7 +174,7 @@ public static void main(String args[]){
 		
 	//Result: java.lang.StackOverflowError    
 	
-	 
+	 //*/
 	 
 	}
 }
