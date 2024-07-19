@@ -1,3 +1,13 @@
+/Baby Boy Name
+/OraneHRM_Login.xml
+/TestNG_Annotations.xml
+/TestNG_CrossBrowser_Testing/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/
+/inputdata.properties
+/test-output/
+/to execuete all classes.xml
+/to execute some of methods only.xml
 /AbstractClass/
 /AccessModifier/
 /ArrayOfObjects/
@@ -26,8 +36,10 @@
 /POM_objectRepository/
 /Packages_Types_E1A/
 /Packages_Types_E1B/
+/Pass_by_value_nd_pass_by_reference/
 /PrimitiveDataTypes/
 /ProFile/
+/Program_to_cover_all_OOPS_Concepts/
 /ReRun_Failed_TCs_usingIRetryAnalyzer/
 /ReRun_Failed_TCs_usingTestNgFailedXMLfile/
 /Relationships_or_Associations/
@@ -47,8 +59,7 @@
 /WD_Examples/
 /Why_Interface_Intraduced/
 /com/
-/test-output/
-/TestNG_CrossBrowser_Testing/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
-/Program_to_cover_all_OOPS_Concepts/
+/SubClass_nd_InnerClass.class
+/SubClass_nd_InnerClass/
+/GarbageCollectorEx.class
+/GarbageCollectorEx/

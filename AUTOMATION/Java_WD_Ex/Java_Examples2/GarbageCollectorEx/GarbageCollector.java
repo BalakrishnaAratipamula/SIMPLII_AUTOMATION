@@ -1,6 +1,6 @@
-package Java_Examples;
+package GarbageCollectorEx;
 
-// Some examples of when an object maybe deleted by the garbage collector
+//Some examples of when an object maybe deleted by the garbage collector
 public class GarbageCollector {
 	
 	/*/ Ex 1 - when an object is assigned to null
@@ -36,3 +36,4 @@ public class GarbageCollector {
 	} //*/
 	
 }
+
