@@ -1,5 +1,7 @@
 package Java_Examples;
 
+import java.util.Arrays;
+
 public class StringMethods {
 public static void main(String args[]) {
 	String str = "BalaKrishna";
@@ -9,6 +11,8 @@ public static void main(String args[]) {
 	String str5 = "Chander";
 	String str6 = " Bhanu ";
 	String str7 = "Bhanu Chander";
+	String str8 = "Academy";
+	String str9 = "ACE Acadamic year";
 	
 			//length()
 			System.out.println("length()");
@@ -27,7 +31,7 @@ public static void main(String args[]) {
 			System.out.println("toUpperCase()");
 			System.out.println(str.toUpperCase());
 			System.out.println();
-			//toLowerCase
+			//toLowerCase()
 			System.out.println("toLowerCase");
 			System.out.println(str.toLowerCase());
 			System.out.println();
@@ -77,6 +81,25 @@ public static void main(String args[]) {
 			System.out.println(str.replace("a", "@"));
 			System.out.println(str7.replace(" ", ""));
 			System.out.println();
+			System.out.println("replace()");
+			String newString = str8.replace("my","-replacetest");
+			System.err.println("original String is '"+str8+"' after replace" +newString); //*/
+			//replaceAll(); - Replaces each substring of this string that matches the given regular expression with the given replacement
+			System.out.println("replaceAll()");
+			String newString2 = str9.toLowerCase().replaceAll("a","o");
+			System.out.println(newString2);
+			//replaceFirst(); 
+			System.out.println("replaceFirst()");
+			String newString3 = str8.toLowerCase().replaceFirst("a","O"); 
+			System.out.println(newString3); //*/
+			//split();
+			System.out.println("split()");
+			String[] newString4 = str9.split(" ");
+			System.out.println(Arrays.toString(newString4));
+			//toCharArray();
+			System.out.println("toCharArray()");
+			char[] charArray = str8.toCharArray();
+			System.out.println(Arrays.toString(charArray));
 			//substring()
 			System.out.println("substring()");
 			//To read Krishna
@@ -86,6 +109,6 @@ public static void main(String args[]) {
 			//To read K
 			System.out.println(str.substring(4,5));
 			//To read Kri
-			System.out.println(str.substring(4,7));
+			System.out.println(str.substring(4,7)); //*/
 }
 }
