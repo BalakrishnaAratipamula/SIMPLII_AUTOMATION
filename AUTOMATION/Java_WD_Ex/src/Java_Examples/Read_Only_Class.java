@@ -13,9 +13,9 @@ class Fruit {
 public class Read_Only_Class {
 	public static void main(String[] args) {
 
-		Fruit f = new Fruit();
+		Fruit fruit = new Fruit();
 
-		String result = f.getFruitName();
+		String result = fruit.getFruitName();
 		System.out.println("Name of the Fruit:" + " " + result);
 	}
 }
