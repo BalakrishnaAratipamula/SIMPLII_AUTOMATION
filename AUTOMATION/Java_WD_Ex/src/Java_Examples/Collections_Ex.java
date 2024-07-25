@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Collections_Ex {
+	// collection frameworks: Map, List, Set, Queue
 	// adding
 	public static void main(String a[]) {
 		List<String> list = new ArrayList<String>();

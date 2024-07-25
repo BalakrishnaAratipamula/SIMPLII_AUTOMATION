@@ -10,7 +10,7 @@ class Fruit {
 	}
 }
 
-public class Read_Only_Class {
+public class ReadOnly_Class {
 	public static void main(String[] args) {
 
 		Fruit fruit = new Fruit();
