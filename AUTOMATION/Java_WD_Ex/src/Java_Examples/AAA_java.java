@@ -21,6 +21,26 @@ public static void main(String[] args) {
 		}
 	} */
 	
+	public static boolean isPrime(int num) {
+
+		if (num <= 1)
+			return false;
+
+		// Logic to check if a number is prime or not. If its Prime, returns true else return false
+		for (int i=2; i<num; i++) {
+			if (num % i == 0) {
+				return false;
+			}
+		}
+		return true;
+		}
+
+		public static void main(String[] args) {
+
+			System.out.println(isPrime(8));
+
+		
+
 	
 	
 /*/--------------------fibonacci numbers print based on given value
@@ -119,7 +139,7 @@ public static void main(String args[]){
 	
 	
 	
-	//-----------------------to find number of occurrence of "char's"
+	/*/-----------------------to find number of occurrence of "char's"
 	public static void main(String[] args) {
 		String str = "java";
 		
@@ -145,7 +165,7 @@ public static void main(String args[]){
 	
 	
 	
-	/*/-----------------------Palindrome
+	//-----------------------Palindrome
 	public static void main(String[] args) {
 	String str = "refeR";
 	String strRev = "";
@@ -159,12 +179,12 @@ public static void main(String args[]){
 	}
 	else {
 		System.out.println("Given string is not palindrome");
-	} */
+	} 
 	
 	
 	
 	
-	/*/----------------------print statement infinite times
+	//----------------------print statement infinite times
 	public static void subMethod() {
 		System.out.println("Hello");
 		subMethod();
