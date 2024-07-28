@@ -8,8 +8,8 @@ public class MaxConsecitivesOnesInArray {
 		int count = 0;
 		int max = 0;
 
-		for (int i = 0; i < arr.length; i++) {
-			while (i < arr.length && arr[i] == 1) {
+		for (int i=0; i<arr.length; i++) {
+			while (i<arr.length && arr[i]==1) {
 				count++;
 				i++;
 			}
