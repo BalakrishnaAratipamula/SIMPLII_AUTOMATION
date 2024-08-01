@@ -30,7 +30,5 @@ public class Iterateor_iterate_HashMap {
 			Entry<String, String> entry = map_entry.next();
 			System.out.println(entry.getKey() + " ==> " + entry.getValue());
 		}
-
 	}
-
 }

@@ -57,10 +57,13 @@ public static WebDriver driver;
 				
 				WebElement checkBox = driver.findElement(By.xpath("//*[@id='productTable']/tbody/tr["+ j +"]/td[4]/input")); //iterating checkboxes by row count
 				checkBox.click(); //clicking checkboxes
+				/*/ to click only 'odd' check boxes ---- for this comment above line 'checkBox.click();' 
+				if(j%2!=0) { //id2
+					checkBox.click();
+				} //*/
+				}
 			}
 //			Thread.sleep(2000);
-		}
 		driver.quit();
 	}
-
 }

@@ -14,7 +14,6 @@ class VolatileEx {
 }
 
 public class VolatileExample {
-
 	public static void main(String[] args) {
 		VolatileEx obj = new VolatileEx();
 		obj.incrementCount();

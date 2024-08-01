@@ -16,7 +16,7 @@ public class Hashset_nd_HashMap { // HashSet stores data as objects && HashMap s
 		set.add("");		//HashSet allow only one null element
 		set.add("");
 		System.out.println("HashSet:  " + set);
-
+		
 		// creating HashMap
 		Map<String, String> map = new HashMap<>();
 		map.put("Name", "Avanish");
