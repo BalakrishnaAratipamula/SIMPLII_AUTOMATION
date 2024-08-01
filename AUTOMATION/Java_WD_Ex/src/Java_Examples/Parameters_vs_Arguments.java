@@ -8,9 +8,10 @@ public class Parameters_vs_Arguments {
 	}
 
 	public static void main(String[] args) {
-
 		// the variables x and y are Arguments
-		int product = multiply(2, 5);
+		int x = 2, y=5;
+		
+		int product = multiply(x, y); //(or) int product = multiply(2, 5);
 
 		System.out.println("PRODUCT IS: " + product);
 	}

@@ -15,7 +15,7 @@ public class HashMap_to_ArrayList_conv {
 		hash_map.put("Australia", "Canberra");
 
 		// convert HashMap keys to ArrayList
-		List<String> hmKeys = new ArrayList<>(hash_map.keySet());
+		List<String> hmKeys = new ArrayList<>(hash_map.keySet()); //.keySet() - Return all keys in map
 		System.out.println("HashMap keys :: ");
 		for (String s : hmKeys) {
 			System.out.println(s);
