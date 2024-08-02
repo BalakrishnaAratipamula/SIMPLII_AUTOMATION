@@ -15,7 +15,7 @@ public class Iterateor_iterate_HashMap {
 
 		////1) Iterator : Iterate by using keySet()
 		java.util.Iterator<String> it = hash_map.keySet().iterator();
-
+		
 		while (it.hasNext()) {
 			String key = it.next();
 			String value = hash_map.get(key);
