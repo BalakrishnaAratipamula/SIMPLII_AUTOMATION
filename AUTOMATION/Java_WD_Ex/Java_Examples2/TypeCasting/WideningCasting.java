@@ -34,5 +34,4 @@ public class WideningCasting {
 		String str = String.valueOf(i);		
 		System.out.println(str);
 	}
-	
 }

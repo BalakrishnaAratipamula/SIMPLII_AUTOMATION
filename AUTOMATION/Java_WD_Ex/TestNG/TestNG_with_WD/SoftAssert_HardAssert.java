@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class SoftAssert_HardAssert {
 
-	//--------------------HardAssert
+	//HardAssert
 	@Test
 	public void x() {
 		Assert.assertEquals(true, true); //pass
@@ -17,7 +17,8 @@ public class SoftAssert_HardAssert {
 		System.out.println("Xstatement3");
 	} //*/
 	
-	/*/--------------------SoftAssert
+	
+	/*/SoftAssert
 	@Test
 	public void y() {
 		SoftAssert softassert = new SoftAssert();
