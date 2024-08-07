@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class EX52_Dynamic_elements { //--------------- https://youtu.be/c53R_9HauhU
+public class EX52_DDDDDDynamic_elements { //--------------- https://youtu.be/c53R_9HauhU
 	@Test
 	public void HandleDynamicElements() {
 		// to initialize browser

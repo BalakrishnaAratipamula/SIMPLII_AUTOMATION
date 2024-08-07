@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class EX18C_Dynamic_WebTable {
+public class EX18C_DDDDDDynamic_WebTable {
 	public static void main(String[] args) throws InterruptedException {
 		// to initialize browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");

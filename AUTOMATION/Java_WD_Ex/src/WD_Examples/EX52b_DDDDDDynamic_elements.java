@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.WebElement;
 
-public class EX52b_Dynamic_elements {
+public class EX52b_DDDDDDynamic_elements {
 public static WebDriver driver;
 	
 	public static void fluentWaitForElements(WebElement eleXpath, int withTimeout,int pollingEvery) {
