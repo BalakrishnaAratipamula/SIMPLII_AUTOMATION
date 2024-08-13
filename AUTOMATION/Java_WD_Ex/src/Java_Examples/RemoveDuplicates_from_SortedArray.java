@@ -2,7 +2,7 @@ package Java_Examples;
 
 import java.util.Arrays;
 
-public class RemoveDuplicate_from_SortedArray {
+public class RemoveDuplicates_from_SortedArray {
 	
 	/*Input array: 1 2 3 2 2 3 4
 	 *Sorted array: 1 2 2 2 3 3 4 (all 2’s and 3’s are grouped together). 

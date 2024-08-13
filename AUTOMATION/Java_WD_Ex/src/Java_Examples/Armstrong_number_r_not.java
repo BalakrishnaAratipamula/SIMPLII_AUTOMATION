@@ -1,5 +1,7 @@
 package Java_Examples;
 
+import java.util.Scanner;
+
 /* An Armstrong Number is a number in which the sum of the cubes of each digit is equal to the number itself. For ex:
  * 371 = 3*3*3 + 7*7*7 + 1*1*1 = 371 
  */
@@ -18,7 +20,7 @@ public class Armstrong_number_r_not {
     } //*/
 	
 	
-	// Armstrong_number_or_not
+	/*/ Armstrong_number_or_not
 	public static void main(String[] args) {
 
 		int num = 371;	//153, 371
@@ -37,4 +39,24 @@ public class Armstrong_number_r_not {
 			System.out.println(num + " is not an Armstrong number");
 		}
 	} //*/
+	
+	
+	public static void main(String[] args) {
+		int arm=0, x, y, num;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any number: ");
+		num = sc.nextInt();
+		y=num;
+		
+		while(num>0) {
+			x=num%10;
+			num=num/10;
+			arm=arm+x*x*x;
+		}
+		if(arm==y)
+			System.out.println("Armstrong number");
+		else
+			System.out.println("Is not Armstrong number");
+	}
 }

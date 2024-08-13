@@ -3,9 +3,9 @@ package Java_Examples;
 import java.util.stream.IntStream;
 
 public class Integer_Sum_of_digits {
-	/*/
+	//
 	public static void main(String[] args) {
-		int num = 12;
+		int num = 121;
 		int sum = 0;
 
 		while (num != 0) {
@@ -16,7 +16,7 @@ public class Integer_Sum_of_digits {
 		System.out.println(sum);
 	} // */
 
-	
+	/*/
 	public static void main(String[] args) {
 		int num = 1346;
 		IntStream stream = String.valueOf(num).chars();

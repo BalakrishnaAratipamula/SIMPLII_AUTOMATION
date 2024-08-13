@@ -19,8 +19,8 @@ public static void main(String[] args) {
 		if(count==2) {
 			System.out.print(n+", ");
 		}
-	} */
-	
+	} //*/
+	/*/
 	public static boolean isPrime(int num) {
 
 		if (num <= 1)
@@ -43,7 +43,7 @@ public static void main(String[] args) {
 
 	
 	
-/*/--------------------fibonacci numbers print based on given value
+//--------------------fibonacci numbers print based on given value
 public static void main(String[] args) {
 	int a=0
 	b=1,
@@ -79,7 +79,7 @@ public static void main(String[] args) {
 
 	
 	
-	 /*/-----------------factorial for given given number
+	 /*/-----------------factorial of given given number
 public static void main(String args[]){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter any number: ");
@@ -165,7 +165,7 @@ public static void main(String args[]){
 	
 	
 	
-	//-----------------------Palindrome
+	//-----------------------Palindrome String
 	public static void main(String[] args) {
 	String str = "refeR";
 	String strRev = "";
@@ -179,12 +179,33 @@ public static void main(String args[]){
 	}
 	else {
 		System.out.println("Given string is not palindrome");
-	} 
+	} //*/
 	
 	
-	
-	
-	//----------------------print statement infinite times
+	//-----------------------Palindrome Number
+			public static void main(String[] args) {
+			int num = 12321;
+			int intRev = 0;
+			
+			if(isPalindrome(num)) 
+				System.out.println("Given string is palindrome");
+			else 
+				System.out.println("Given string is not palindrome");
+			}
+
+			public static boolean isPalindrome(int num) {
+				int originalNum = num;
+				int revNum = 0;
+				
+				while(num != 0) {
+					int digit = num%10;
+					revNum = revNum*10+digit;
+					num = num/10;
+				}
+				return originalNum==revNum;
+		}
+			
+	/*/----------------------print statement infinite times
 	public static void subMethod() {
 		System.out.println("Hello");
 		subMethod();
@@ -194,7 +215,8 @@ public static void main(String args[]){
 		
 	//Result: java.lang.StackOverflowError    
 	
-	 //*/
+	//*/
 	 
-	}
+	
 }
+
