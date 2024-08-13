@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class RemoveDuplicate_char_from_String {
+public class RemoveDuplicates_char_from_String {
 	//Remove duplicate characters from string using 'Loop cond only'
 	public static void main(String[] args){
 		String input = new String("aba");   // (or) String input = "abbbb_bbaabb bbb bbbb_bcc**ccd";

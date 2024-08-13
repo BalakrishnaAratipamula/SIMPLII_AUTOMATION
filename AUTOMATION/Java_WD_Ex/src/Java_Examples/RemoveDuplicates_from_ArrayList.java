@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 
-public class RemoveDuplicate_from_ArrayList {
+public class RemoveDuplicates_from_ArrayList {
 	// Function to remove duplicates from an ArrayList 
 	public static <T> ArrayList<T> removeDuplicates(ArrayList<T> list) { /////  <T> is type parameter (use any letter/word like variable)
 		// Create a new ArrayList 								 /////  ArrayList<T> in method sig is bcz method return type is ArrayList
