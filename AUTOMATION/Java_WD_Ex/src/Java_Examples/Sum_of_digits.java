@@ -2,7 +2,7 @@ package Java_Examples;
 
 import java.util.stream.IntStream;
 
-public class Integer_Sum_of_digits {
+public class Sum_of_digits {
 	//
 	public static void main(String[] args) {
 		int num = 121;
