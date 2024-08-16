@@ -139,7 +139,7 @@ public static void main(String args[]){
 	
 	
 	
-	/*/-----------------------to find number of occurrence of "char's"
+	/*/-----------------------number of occurrence of "char's"
 	public static void main(String[] args) {
 		String str = "java";
 		
@@ -158,14 +158,35 @@ public static void main(String args[]){
         for(Map.Entry entry : charCount.entrySet()) {	//Map.Entry<String, Integer> - Entry interface enables to work with a map entry		
         												//entrySet() - Creates a set and stores the map elements into them
               System.out.println("Character "+"'"+ entry.getKey() +"'"+ " Occurred " + entry.getValue() +" Times");
-        }
+        } //*/
         
 	
-        
+	//-------------------count the occurrence of each character
+	 public static void main(String[] args) {
+		String str = "Selenium WebDriver Section";
+		
+		Map<Character, Integer> hm = new HashMap<Character, Integer>();
+		
+		//convert String to character Array
+		char[] arr = str.toCharArray();
+		for(char ch : arr) {
+			if(ch!=' ') {
+				if(hm.containsKey(ch)) {
+					hm.put(ch, hm.get(ch)+1);
+				}
+				else {
+					hm.put(ch, 1);
+				}
+			}
+		}
+		for(Map.Entry entry:hm.entrySet()) {
+			System.out.println(entry.getKey()+" = "+entry.getValue());
+		}
+	}
 	
 	
 	
-	//-----------------------Palindrome String
+	/*/-----------------------Palindrome String
 	public static void main(String[] args) {
 	String str = "refeR";
 	String strRev = "";
@@ -182,7 +203,7 @@ public static void main(String args[]){
 	} //*/
 	
 	
-	//-----------------------Palindrome Number
+	/*/-----------------------Palindrome Number
 			public static void main(String[] args) {
 			int num = 12321;
 			int intRev = 0;
@@ -203,7 +224,7 @@ public static void main(String args[]){
 					num = num/10;
 				}
 				return originalNum==revNum;
-		}
+		} //*/
 			
 	/*/----------------------print statement infinite times
 	public static void subMethod() {

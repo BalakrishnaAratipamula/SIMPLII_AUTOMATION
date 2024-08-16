@@ -14,7 +14,7 @@ public class Change_LCtoUCandUCtoLC_In_String {	//replace method available only 
 
 
 
-	// Method to convert characters of a string to opposite case 
+	// Method to convert characters of a string to opposite case (Toggle Cases)
 	public static void convertOpposite(StringBuffer sb){ 
 		// Conversion using predefined/Built in methods
 		for (int i=0; i<=sb.length()-1; i++){ 
@@ -25,8 +25,8 @@ public class Change_LCtoUCandUCtoLC_In_String {	//replace method available only 
 			if (Character.isUpperCase(c)) {
 				sb.replace(i, i+1, Character.toLowerCase(c)+""); 
 			}
-		} 
-	}   														   
+		}
+	}										   
 	//Driver function
 	public static void main(String[] args){ 
 		StringBuffer sb = new StringBuffer("A bR d"); 
@@ -34,6 +34,5 @@ public class Change_LCtoUCandUCtoLC_In_String {	//replace method available only 
 
 		System.out.println(sb); 
 	} 
-
 	
 }
