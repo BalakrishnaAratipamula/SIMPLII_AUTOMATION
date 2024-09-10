@@ -1,3 +1,11 @@
+/Baby Boy Name
+/OraneHRM_Login.xml
+/TestNG_Annotations.xml
+/TestNG_CrossBrowser_Testing/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/
+/inputdata.properties
+/test-output/
 /AA_Types_of_Constructors/
 /AbstractClass/
 /AccessModifier/
@@ -27,6 +35,7 @@
 /ModularFrameWork/
 /Multiple_Inheritance/
 /Mutable_nd_Immutable_Objects/
+/Object_nd_Instance/
 /POM_TestCases/
 /POM_objectRepository/
 /Packages_Types_E1A/
@@ -59,9 +68,4 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
-/test-output/
-/TestNG_CrossBrowser_Testing/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
 /Object_nd_Instance.class
-/Object_nd_Instance/
