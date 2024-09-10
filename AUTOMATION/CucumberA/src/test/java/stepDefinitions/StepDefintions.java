@@ -25,6 +25,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.ITestResult;
+import org.testng.reporters.jq.Main;
 
 /*import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -128,7 +129,6 @@ public class StepDefintions extends Utility{
 
 	@Then("Home page should be shown$")
 	public void login_page_should_be_shown() throws Throwable {
-
 		String actual_Homepage_URL = driver.getCurrentUrl();
 		String expected_Homepage_URL = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
 
@@ -139,7 +139,7 @@ public class StepDefintions extends Utility{
 		}
 
 	}
-
+	
 	@When("^Browser is close$")
 	public void Browser_is_close() throws Throwable {
 //		String testName = result.getName();

@@ -10,7 +10,7 @@
 	
 	<name>APIPetStoreAutomation</name>
 	<url>http://maven.apache.org</url>
-
+	
 	<description>Simple Description about project from 'description' tag</description>
 	
 	<properties>
