@@ -14,7 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Ex27_Fileuplod_using_RobotClass {
+public class Ex27_Fileuplod_using_RobotClass_KB_Events_r_Operators {
 	public static void main(String[] args) throws Exception {
 		// To initialize browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
@@ -40,13 +40,11 @@ public class Ex27_Fileuplod_using_RobotClass {
 		// to Select String i.e. path of file "F:\\dd.jpg"
 		StringSelection filePath = new StringSelection("F:\\dd.jpg");
 		// to copy & maintain it in system clipboard
-		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filePath, null);// or we have to declare 'filePath'
-																						// also
-
-		// Create obj for Robot class //setContents - the transferable object
-		// representing the clipboard content
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filePath, null);// or we have to declare 'filePath' also
+		
+		// Create obj for Robot class //setContents - the transferable object representing the clipboard content
 		Robot rbt = new Robot();
-
+		
 		// paste : ctrl+V
 		rbt.keyPress(KeyEvent.VK_CONTROL);
 		rbt.keyPress(KeyEvent.VK_V);
