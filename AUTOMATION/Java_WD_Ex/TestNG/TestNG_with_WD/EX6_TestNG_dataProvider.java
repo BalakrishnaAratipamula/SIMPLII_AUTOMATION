@@ -24,14 +24,15 @@ public class EX6_TestNG_dataProvider {
 		ChromeOptions ops = new ChromeOptions();
 		ops.addArguments("--disable-notifications");
 		
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver(ops);
 		driver.get("https://en-gb.facebook.com/");
 		driver.manage().window().maximize();
 	}
 	
-	@DataProvider(name="TestData")
-	public Object[][] getData(){ //return value by submethod
+	//Approach 1
+	@DataProvider(name="TestData")	//give any name
+	public Object[][] getData(){ //return value by sub method
 		Object[][] data = new Object[4][2];
 		
 		data[0][0] = "user1";
@@ -46,10 +47,23 @@ public class EX6_TestNG_dataProvider {
 		data[3][0] = "bhanu10205@gmail.com";
 		data[3][1] = "sr786bhanu786";
 		
+		
 		return data;
 	}
 	
-	@Test(dataProvider="TestData")
+	//Approach 2
+	@DataProvider(name="TestData2")	//give any name
+	public Object[][] getData2(){ //return value by sub method
+		return new Object[][] {
+			{"user1", "pwd1"},
+			{"user2", "pwd2"},
+			{"user3", "pwd3"},
+			{"bhanu10205@gmail.com", "sr786bhanu786"}
+		};
+		
+	}
+	
+	@Test(dataProvider="TestData2")	//dataProvider name same as above
 	public void login(String un, String pass) throws Exception {
 		driver.findElement(By.name("email")).clear();
 		driver.findElement(By.name("email")).sendKeys(un);
@@ -57,7 +71,7 @@ public class EX6_TestNG_dataProvider {
 		driver.findElement(By.name("pass")).clear();
 		driver.findElement(By.name("pass")).sendKeys(pass);
 		Thread.sleep(600);
-		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[2]/button[1]")).click();
+		driver.findElement(By.xpath("//button[@name='login']")).click();
 		Thread.sleep(1000);
 		
 		String pgTitle = driver.getTitle();
@@ -71,9 +85,10 @@ public class EX6_TestNG_dataProvider {
 			FileHandler.copy(myFile,new File("F:\\Failed screenshot2222 - "+ getTimeStamp()+".png"));
 			
 			Thread.sleep(500);
-			driver.navigate().back(); 
+			driver.navigate().back();
 		}
 	}
+	
 	public String getTimeStamp() {
 		
 		//to get Date stamping with file

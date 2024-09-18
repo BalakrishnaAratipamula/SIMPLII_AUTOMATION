@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReRun_Failed_TCs_usingIRetryAnalyzer2.MyTests">
+      <class name="TestNG_with_WD.EX6_TestNG_dataProvider">
         <methods>
-          <include name="test1"/>
-          <include name="test2"/>
+          <include name="login" invocation-numbers="1 2 3"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- ReRun_Failed_TCs_usingIRetryAnalyzer2.MyTests -->
+      </class> <!-- TestNG_with_WD.EX6_TestNG_dataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
