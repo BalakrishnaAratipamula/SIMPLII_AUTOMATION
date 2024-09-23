@@ -110,5 +110,11 @@
 	<classpathentry kind="lib" path="E:/Jar files/WD_jar_4.14.1/lib/opentelemetry-sdk-metrics-1.28.0.jar"/>
 	<classpathentry kind="lib" path="E:/Jar files/WD_jar_4.14.1/lib/opentelemetry-sdk-trace-1.28.0.jar"/>
 	<classpathentry kind="lib" path="E:/Jar files/WD_jar_4.14.1/lib/opentelemetry-semconv-1.28.0-alpha.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/extent report 5.12/jar_files/extentreports-5.1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/extent report 5.12/jar_files/freemarker-2.3.32.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/extent report 5.12/jar_files/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/extent report 5.12/jar_files/lombok-1.18.26.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/extent report 5.12/jar_files/reactive-streams-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/extent report 5.12/jar_files/rxjava-3.1.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

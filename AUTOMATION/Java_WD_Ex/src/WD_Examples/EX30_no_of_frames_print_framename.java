@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class EX30_no_of_frames_print_framename {
 	public static void main(String[] args) throws Exception {
 		//to initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://seleniumhq.github.io/selenium/docs/api/java/index.html");
 		driver.manage().window().maximize();
@@ -28,7 +28,6 @@ public class EX30_no_of_frames_print_framename {
 		for(WebElement frame: totalframes) {
 			//System.out.println( frame.getAttribute(frame));//result will display frame html code
 			System.out.println(frame.getAttribute("name"));//getAttribute("name")-------here i want to read attribute value so, to read attribute value of element this is common while working with frames to find Text of frame tag
-
 		}
 		driver.quit();
 	}

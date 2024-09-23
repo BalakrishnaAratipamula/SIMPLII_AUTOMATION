@@ -27,7 +27,10 @@ public class C06_AddScreenshotToReport {
 		File file = new File("report.html");
 		ExtentSparkReporter spartreporter = new ExtentSparkReporter(file);
 		extentreports.attachReporter(spartreporter);
-
+		
+		// incase if we put 'String path' here we will get below Exception //String path = captureScreenshot("Google.jpg"); 
+		//Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "takesScreenshot" is null
+		
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 
