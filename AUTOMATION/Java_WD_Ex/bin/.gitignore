@@ -1,5 +1,6 @@
 /Baby Boy Name
 /OraneHRM_Login.xml
+/ReRun_Failed_TCs_usingIAnnotationTransformer/
 /TestNG_Annotations.xml
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
@@ -45,6 +46,7 @@
 /ProFile/
 /Program_to_cover_all_OOPS_Concepts/
 /ReRun_Failed_TCs_usingIRetryAnalyzer/
+/ReRun_Failed_TCs_usingIRetryAnalyzer2/
 /ReRun_Failed_TCs_usingTestNgFailedXMLfile/
 /Relationships_or_Associations/
 /RuntimeP_or_MethodOverriding/
@@ -69,5 +71,3 @@
 /Why_Interface_Intraduced/
 /com/
 /Object_nd_Instance.class
-/ReRun_Failed_TCs_usingIRetryAnalyzer2/
-/ReRun_Failed_TCs_usingIAnnotationTransformer/
