@@ -8,8 +8,6 @@ import org.openqa.selenium.support.Color;
 public class EX54_HandleColorsWithWD {
 
 	public static void main(String[] args) throws InterruptedException {
-		// to initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://blazedemo.com");
 		driver.manage().window().maximize();
