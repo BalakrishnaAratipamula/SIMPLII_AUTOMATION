@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class EX10_StaticDD {
+public class EX10a_StaticDD {
 	public static void main(String[] args) throws Exception {
 		//to initialize browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
