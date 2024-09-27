@@ -12,9 +12,12 @@ public class EX01e_CookieValidation {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://example.cypress.io/commands/cookies");
 		driver.manage().window().maximize();
-
-		WebElement ele = driver.findElement(By.cssSelector(".set-a-cookie"));
+		
+		//actuval class  = "set-a-cookie btn btn-success"
+		WebElement ele = driver.findElement(By.cssSelector(".set-a-cookie")); 
 //OR		WebElement ele = driver.findElement(By.cssSelector(".btn-success"));
+//OR		WebElement ele = driver.findElement(By.cssSelector(".set-a-cookie.btn.btn-success"));
+//OR		WebElement ele = driver.findElement(By.cssSelector("button.set-a-cookie.btn.btn-success"));
 		ele.click();
 		
 		Cookie var = driver.manage().getCookieNamed("token");
