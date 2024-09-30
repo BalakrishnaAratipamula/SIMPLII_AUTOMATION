@@ -20,7 +20,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class EX59_Practice_iFrame_Maps_EReport {
+public class EX59_iFrame_Maps_EReport {
 
 	public static WebDriver driver;
 	public static String state = "new-mexico"; // won't work with 'florida' bcz an appln error
@@ -30,10 +30,10 @@ public class EX59_Practice_iFrame_Maps_EReport {
 		File file = new File("reports.html");
 		ExtentSparkReporter sparkreporter = new ExtentSparkReporter(file);
 		extentreports.attachReporter(sparkreporter);
-
+		
 		ChromeOptions ops = new ChromeOptions();
 		ops.addArguments("--disable-notifications-");
-
+		
 		driver = new ChromeDriver(ops);
 		driver.navigate().to("https://petdiseasealerts.org/forecast-map");
 		driver.manage().window().maximize();

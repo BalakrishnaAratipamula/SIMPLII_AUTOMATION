@@ -13,7 +13,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class InvocationCount_E {
+public class InvocationCount {
 	WebDriver driver;
 
 	@BeforeMethod
@@ -27,13 +27,15 @@ public class InvocationCount_E {
 	}
 
 	@Test(invocationCount = 3)
-	public void verifyLinkedIn() {
+	public void verifyLinkedIn() throws Exception {
 
 		System.out.println("Test Case 1 with Thread Id - " + Thread.currentThread().getId());
 
 		driver.manage().window().maximize();
 		Boolean linkedInIcon = driver.findElement(By.xpath("//a[@href='https://www.linkedin.com/company/orangehrm/mycompany/']//*[name()='svg']")).isEnabled();
 		assertTrue(linkedInIcon);
+		System.out.println("Successfully verified");
+		Thread.sleep(600);
 	}
 
 	@Test(invocationCount = 2)
@@ -44,8 +46,10 @@ public class InvocationCount_E {
 		driver.findElement(By.name("username")).sendKeys("Admin");
 		driver.findElement(By.name("password")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		System.out.println("Succesfully Logged in");
 //		String expectedTitle = driver.findElement(By.xpath("//*[@id='content']/div/div[1]/h1")).getText();
 //		Assert.assertTrue(expectedTitle.contains("Dashboard"));
+		Thread.sleep(600);
 	}
 
 	@AfterMethod
