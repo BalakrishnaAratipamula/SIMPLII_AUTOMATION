@@ -13,7 +13,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class EX39b_Read_Tooltip_HeadlessExec_Complex{
+public class EX39b_Read_Tooltip_SVG_eles_Headless{
 	public static void main(String[] args) throws InterruptedException {
 		//Headless mode
 		WebDriverManager.chromedriver().setup();

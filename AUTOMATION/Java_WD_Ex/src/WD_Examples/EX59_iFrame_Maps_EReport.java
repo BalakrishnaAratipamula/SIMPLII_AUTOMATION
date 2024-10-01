@@ -42,7 +42,7 @@ public class EX59_iFrame_Maps_EReport {
 		ExtentTest test1 = extentreports.createTest("TestCase 1", "Log level description 1");
 		test1.info("---URL opened---")
 		.addScreenCaptureFromPath(captureScreenshot("1.jpg"), "#1");
-		
+
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0, 400)", "");
 		
