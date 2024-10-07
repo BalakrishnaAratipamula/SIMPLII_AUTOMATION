@@ -12,9 +12,12 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
+		<maven.compiler.source>21</maven.compiler.source> <!-- to overcome "Source option 5 is no longer supported. Use 7 or later" error -->
+		<maven.compiler.target>21</maven.compiler.target> <!-- to overcome "Target option 5 is no longer supported. Use 7 or later" error -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium-java.version>4.14.1</selenium-java.version>
 		<testng.version>7.8.0</testng.version>
+		<ashot.version>1.5.4</ashot.version>
 	</properties>
 
 	<dependencies>
@@ -43,6 +46,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>ru.yandex.qatools.ashot</groupId>
+			<artifactId>ashot</artifactId>
+			<version>${ashot.version}</version>
+		</dependency>
 
 	</dependencies>
 </project>

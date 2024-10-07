@@ -7,12 +7,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
-public class EX01e_CookieValidation {
+public class EX01e_CookieValidation_nd_Adding {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://example.cypress.io/commands/cookies");
 		driver.manage().window().maximize();
 		
+		/*/1 - Cookie Validation
 		//actuval class  = "set-a-cookie btn btn-success"
 		WebElement ele = driver.findElement(By.cssSelector(".set-a-cookie")); 
 //OR		WebElement ele = driver.findElement(By.cssSelector(".btn-success"));
@@ -22,7 +23,13 @@ public class EX01e_CookieValidation {
 		
 		Cookie var = driver.manage().getCookieNamed("token");
 		
-		Assert.assertEquals(var.getValue(), "123ABC");
+		Assert.assertEquals(var.getValue(), "123ABC"); */
+		
+		
+		//2 - Cookie Adding
+		Cookie cookie = new Cookie("cookieKey123", "cookieValue123");
+		driver.manage().addCookie(cookie);
+		System.out.println(driver.manage().getCookieNamed("cookieKey123"));
 		
 		driver.quit();
 	}

@@ -140,5 +140,20 @@
 	<classpathentry kind="lib" path="E:/Jar files/webdrivermanager_from_group_io.github.bonigarcia_5.6.2/jna-5.13.0.jar"/>
 	<classpathentry kind="lib" path="E:/Jar files/webdrivermanager_from_group_io.github.bonigarcia_5.6.2/slf4j-api-2.0.9.jar"/>
 	<classpathentry kind="lib" path="E:/Jar files/webdrivermanager_from_group_io.github.bonigarcia_5.6.2/webdrivermanager-5.6.2.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/ashot-1.5.4.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/selenium-api-2.53.0.jar"/>
+	<classpathentry kind="lib" path="E:/Jar files/ashot/selenium-remote-driver-2.53.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
