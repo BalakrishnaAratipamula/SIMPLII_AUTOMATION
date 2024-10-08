@@ -4,7 +4,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class EX41b_generate_Alert {
+public class EX41b_JsE_generate_Alert {
 	public static void main(String[] args) throws InterruptedException {
 		//to initialize browser
 		System.setProperty("webdriver.chrome.driver", "E://Drivers//chromedriver.exe");
