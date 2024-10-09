@@ -1,14 +1,4 @@
-/Baby Boy Name
-/OraneHRM_Login.xml
-/ReRun_Failed_TCs_usingIAnnotationTransformer/
-/TestNG_Annotations.xml
-/TestNG_CrossBrowser_Testing/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
-/inputdata.properties
 /test-output/
-/to execuete all classes.xml
-/to execute some of methods only.xml
 /AA_Types_of_Constructors/
 /AbstractClass/
 /AccessModifier/
@@ -72,4 +62,8 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
+/ReRun_Failed_TCs_usingIAnnotationTransformer/
+/TestNG_CrossBrowser_Testing/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/
 /Object_nd_Instance.class
