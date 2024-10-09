@@ -8,10 +8,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+//https://youtu.be/rOAkHQWApmI?si=VhvmFIrEYlt7ENs_
 public class EX65_ADsBlocking_nd_AddExtensionsToWdLaunchedBrowser {
-	static WebDriver driver;
+	static WebDriver driver; //
 	public static void main(String[] args) throws InterruptedException {
+		/*pre: to show (after RC) 'download crx for this extension'
+		 * crx extractor downloader --> CRX Extractor/Downloader - Chrome Web Store - Google --> ADD Extension to chrome
+		 */
+		
 		/*/ChromeBrowser
 		ChromeOptions ops = new ChromeOptions();
 		File file = new File("E:\\CRX\\uBlock.crx");
