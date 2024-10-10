@@ -10,14 +10,14 @@ public class conditionalstmts_Switch_case {
 		switch(myColour.toUpperCase()) {
 		case "R" :
 			System.out.println("Your choice is: RED");
-			break;
+			break; //optional
 		case "G":
 			System.out.println("Your choice is: GREEN");
-			break;
+			break; //optional
 		case "B":
 			System.out.println("Your choice is: BLUE");
-			break;
-		default:
+			break; //optional
+		default: //code to be executed if all cases are not matched
 			System.out.println("Invalid entry" );
 		} */
 
@@ -54,7 +54,7 @@ public class conditionalstmts_Switch_case {
 		case 11: monthstring="11 - November";  
 		break;    
 		case 12: monthstring="12 - December";  
-		break;    
+		break; //code to be executed if all cases are not matched
 		default:System.out.println("Invalid Month!");    
 		}    
 		System.out.println(monthstring); 
