@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class EX30_no_of_frames_print_framename {
+public class EX30_frames_print_num_framename {
 	public static void main(String[] args) throws Exception {
 		//to initialize browser
 //		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
