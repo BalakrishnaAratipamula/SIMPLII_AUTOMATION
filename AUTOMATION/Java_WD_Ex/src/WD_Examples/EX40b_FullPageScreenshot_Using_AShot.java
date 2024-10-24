@@ -2,9 +2,13 @@ package WD_Examples;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Paths;
 
 import javax.imageio.ImageIO;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,7 +17,7 @@ import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 public class EX40b_FullPageScreenshot_Using_AShot {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException, IOException {
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://github.com/pazone/ashot"); // AShot dependency path
 		driver.manage().window().maximize();
@@ -27,7 +31,7 @@ public class EX40b_FullPageScreenshot_Using_AShot {
 			ImageIO.write(screenshot.getImage(), "jpg", new File("./fullImage.jpg")); // (gettingImage, formatName,
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		} //*/
 
 		driver.quit();
 	}
