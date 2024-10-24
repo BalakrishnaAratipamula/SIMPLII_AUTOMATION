@@ -19,6 +19,7 @@ public class EX39b_Read_Tooltip_SVG_eles_Headless{
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");	//--headless=new //--headless=chrome
+		//(OR) options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200", "--ignore-certificate-errors");
 		WebDriver driver= new ChromeDriver(options);
 		//*/
 		//WebDriverManager.chromedriver().setup();

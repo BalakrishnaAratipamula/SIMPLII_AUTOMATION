@@ -92,6 +92,7 @@ public class EX64_DownloadFiles {
 		
 		
 		driver.get("https://file-examples.com/");
+		//(OR-try this URL for Ex practice) https://www.telerik.com/try/telerik-testing-framework
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		Thread.sleep(5000);
