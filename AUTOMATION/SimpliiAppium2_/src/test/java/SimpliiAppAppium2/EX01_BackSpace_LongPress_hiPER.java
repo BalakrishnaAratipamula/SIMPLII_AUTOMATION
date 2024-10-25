@@ -1,4 +1,4 @@
-package Appium2.SimpliiAppium2;
+package SimpliiAppAppium2;
 
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -56,8 +56,8 @@ public class EX01_BackSpace_LongPress_hiPER {
 	
 	static void longPress(WebElement backSpace) {
 		Point location = backSpace.getLocation(); //get x,y position or points
-		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger"); //TOUCH type operation
-		Sequence longPress = new Sequence(finger, 1); //initial length is always '1' //Sequence of steps involve
+		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger"); //TOUCH type operation PointerInput class to create sequence of actions (like press, move, release...) //make sure objRef and name must be same (finger or finger1...)
+		Sequence longPress = new Sequence(finger, 1); //initial length is always '1' //Sequence of steps involve or sequence of actions
 		longPress.addAction(finger.createPointerMove(Duration.ofMillis(0), PointerInput.Origin.viewport(), location.x, location.y)); //to move finger //don't need initial duration so '0', here 'viewport' is our mobile screen, x position, y position
 		longPress.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg())); //to move downwards and press finger
 		longPress.addAction(finger.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), location.x, location.y)); //to long press finger
