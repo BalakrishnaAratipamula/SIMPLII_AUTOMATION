@@ -48,8 +48,9 @@ public class EX02_Text_Checkbox_Radiobutton_Dropdown {
 		//Dropdown
 		driver.findElement(By.id("android:id/text1")).click();
 		List<WebElement> ddValues = driver.findElements(By.xpath("//android.widget.CheckedTextView[@resource-id=\"android:id/text1\"]")); ////android.widget.CheckedTextView[@resource-id="android:id/text1" and @text="Jupiter"]
-		System.out.println(ddValues.size());
-		for(int i=0; i<8; i++) {
+		int size = ddValues.size();
+		System.out.println(size);
+		for(int i=0; i<size; i++) {
 			String value = ddValues.get(i).getText();
 			if(value.equalsIgnoreCase("Jupiter")) {
 				ddValues.get(i).click();
