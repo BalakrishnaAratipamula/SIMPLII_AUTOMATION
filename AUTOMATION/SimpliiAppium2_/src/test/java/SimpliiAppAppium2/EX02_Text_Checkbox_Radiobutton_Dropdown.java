@@ -3,13 +3,15 @@ package SimpliiAppAppium2;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
+import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class EX02_Text_Checkbox_Radiobutton {
+public class EX02_Text_Checkbox_Radiobutton_Dropdown {
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		DesiredCapabilities dc = new DesiredCapabilities();
 		
@@ -42,6 +44,19 @@ public class EX02_Text_Checkbox_Radiobutton {
 		driver.findElement(By.id("io.appium.android.apis:id/toggle2")).click();
 		driver.findElement(By.id("io.appium.android.apis:id/toggle2")).click();
 		driver.findElement(By.id("io.appium.android.apis:id/toggle1")).click();
+		
+		//Dropdown
+		driver.findElement(By.id("android:id/text1")).click();
+		List<WebElement> ddValues = driver.findElements(By.xpath("//android.widget.CheckedTextView[@resource-id=\"android:id/text1\"]")); ////android.widget.CheckedTextView[@resource-id="android:id/text1" and @text="Jupiter"]
+		System.out.println(ddValues.size());
+		for(int i=0; i<8; i++) {
+			String value = ddValues.get(i).getText();
+			if(value.equalsIgnoreCase("Jupiter")) {
+				ddValues.get(i).click();
+				System.out.println(value+" clicked");
+				break;
+			}
+		}
 		
 		System.out.println("Done");
 		Thread.sleep(8000);
