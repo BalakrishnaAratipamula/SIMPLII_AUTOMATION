@@ -31,6 +31,7 @@ public class EX01_BackSpace_LongPress_hiPER {
 		//capabilities to interact with installed mobile application
 		dc.setCapability("appium:appPackage", "cz.hipercalc");
 		dc.setCapability("appium:appActivity", "app.hipercalc.CalculatorActivity");
+		
 		URL url = URI.create("http://127.0.0.1:4723/").toURL();
 
 		driver = new AndroidDriver(url, dc);
