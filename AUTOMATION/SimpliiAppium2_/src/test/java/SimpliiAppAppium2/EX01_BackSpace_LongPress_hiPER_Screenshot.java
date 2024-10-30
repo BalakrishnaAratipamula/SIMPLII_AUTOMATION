@@ -1,13 +1,17 @@
 package SimpliiAppAppium2;
 
-import java.net.MalformedURLException;
+import java.io.File;
+import java.io.IOException;
 import java.net.URI;
 import java.net.URL;
 import java.time.Duration;
 import java.util.Collections;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
@@ -16,9 +20,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
-public class EX01_BackSpace_LongPress_hiPER {
+public class EX01_BackSpace_LongPress_hiPER_Screenshot {
 	static AndroidDriver driver;
-	public static void main(String[] args) throws MalformedURLException, InterruptedException {
+	public static void main(String[] args) throws InterruptedException, IOException {
 		DesiredCapabilities dc = new DesiredCapabilities();
 
 		dc.setCapability("platformName", "Android");
@@ -45,11 +49,16 @@ public class EX01_BackSpace_LongPress_hiPER {
 		driver.findElement(By.xpath("//android.widget.Button[@text=\"<U>6\"]")).click();
 		driver.findElement(By.xpath("//android.widget.Button[@text=\"<U>9\"]")).click();
 
+		TakesScreenshot takescreenshot = (TakesScreenshot)driver;
+		File myFile = takescreenshot.getScreenshotAs(OutputType.FILE);
+		File destFile = new File("./Screenshots\\sc.png");
+		FileUtils.copyFile(myFile, destFile);
+		/*
 		WebElement backSpace = driver.findElement(By.xpath("//android.widget.Button[@text=\"<U><BS>\"]"));
 		backSpace.click();
 		driver.findElement(By.xpath("//android.widget.Button[@text=\"<U>0\"]")).click();
 		Thread.sleep(2000);
-		longPress(backSpace);
+		longPress(backSpace); */
 		
 		Thread.sleep(10000);
 		driver.quit();

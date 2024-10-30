@@ -1,18 +1,22 @@
 package SimpliiAppAppium2;
 
-import java.net.MalformedURLException;
+import java.io.File;
+import java.io.IOException;
 import java.net.URI;
 import java.net.URL;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 
 public class EX02_Text_Checkbox_Radiobutton_Dropdown {
-	public static void main(String[] args) throws MalformedURLException, InterruptedException {
+	public static void main(String[] args) throws InterruptedException, IOException {
 		DesiredCapabilities dc = new DesiredCapabilities();
 		
 		dc.setCapability("platformName", "Android");
@@ -32,6 +36,7 @@ public class EX02_Text_Checkbox_Radiobutton_Dropdown {
 		driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Views\"]")).click();
 		driver.findElements(By.id("android:id/text1")).get(4).click(); ////android.widget.TextView[@content-desc=\"Controls\"]
 		driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"1. Light Theme\"]")).click();
+		
 		//TextBox
 		driver.findElement(By.xpath("//android.widget.EditText[@resource-id=\"io.appium.android.apis:id/edit\"]")).sendKeys("Selenium WebDriver");
 		//CheckBox
@@ -57,7 +62,12 @@ public class EX02_Text_Checkbox_Radiobutton_Dropdown {
 				System.out.println(value+" clicked");
 				break;
 			}
-		}
+		} 
+		
+		TakesScreenshot takescreenshot = (TakesScreenshot)driver;
+		File myFile = takescreenshot.getScreenshotAs(OutputType.FILE);
+		File destFile = new File("./Screenshots\\sc.png");
+		FileUtils.copyFile(myFile, destFile);
 		
 		System.out.println("Done");
 		Thread.sleep(8000);
