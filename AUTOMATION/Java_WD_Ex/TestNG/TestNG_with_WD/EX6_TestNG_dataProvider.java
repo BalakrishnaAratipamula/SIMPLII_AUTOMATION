@@ -82,7 +82,7 @@ public class EX6_TestNG_dataProvider {
 		}
 		else {//wrong data
 			File myFile= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			FileHandler.copy(myFile,new File("F:\\Failed screenshot2222 - "+ getTimeStamp()+".png"));
+			FileHandler.copy(myFile,new File("F:\\  screenshot2222 - "+ getTimeStamp()+".png"));
 			
 			Thread.sleep(500);
 			driver.navigate().back();

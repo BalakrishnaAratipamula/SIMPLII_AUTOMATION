@@ -1,6 +1,6 @@
 package Mutable_nd_Immutable_Objects;
 
-public class Prove_Strings_r_Immutable {
+public class ImmutableString2 {
 	public static void main(String[] args) {
 		String s1 = "WebDriver";
 		String s2 = s1;
