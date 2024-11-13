@@ -14,13 +14,13 @@ public class EX49_find_BrokenLinks { /////////////////////////// -------- https:
 
 	public static void main(String[] args) {
 		// to initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.theworldsworstwebsiteever.com/");
+		driver.get("https://www.amazon.in/"); //try- https://www.theworldsworstwebsiteever.com/
 		driver.manage().window().maximize();
 		
 		// to get links information
-		List<WebElement> links = driver.findElements(By.tagName("a")); // tagName 'a' is common for all links
+		List<WebElement> links = driver.findElements(By.tagName("a")); // tagName 'a' or 'link' is common for all links
 		System.out.println("num of language links are: " + links.size());
 
 		for (int i = 0; i < links.size(); i++) {
@@ -29,13 +29,13 @@ public class EX49_find_BrokenLinks { /////////////////////////// -------- https:
 			verifyLinkActive(url);	
 		}
 
-		driver.close();
+		driver.quit();
 	}
 
 	// method to validate the response
 	public static void verifyLinkActive(String linkUrl) {
 		try {
-			URL url = new URI(linkUrl).toURL();		//URL(linkUrl) ----> this is deprecated
+			URL url = URI.create(linkUrl).toURL(); //(or) new URI(linkUrl).toURL();		//new URL(linkUrl) ----> this is deprecated
 			HttpURLConnection httpurlconnection = (HttpURLConnection) url.openConnection(); // to create connection by
 																							// using URL connection
 			httpurlconnection.setConnectTimeout(3500); // to set timeout
