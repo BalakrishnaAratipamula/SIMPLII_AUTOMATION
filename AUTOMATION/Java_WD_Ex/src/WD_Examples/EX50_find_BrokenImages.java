@@ -1,6 +1,7 @@
 package WD_Examples;
 
 import java.net.HttpURLConnection;
+import java.net.URI;
 import java.net.URL;
 import java.util.List;
 
@@ -15,11 +16,12 @@ public class EX50_find_BrokenImages { ///// -----https://youtu.be/6NXZQYs-Eig (o
 	// no need to create the object bcz sub method is static method
 	public static void main(String[] args) throws InterruptedException {
 		// to initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.theworldsworstwebsiteever.com/");
+		driver.get("https://www.amazon.in/"); //https://www.theworldsworstwebsiteever.com/
 		driver.manage().window().maximize();
 
+		
 		Thread.sleep(3000);
 		// to get links information
 		List<WebElement> images = driver.findElements(By.tagName("img"));// tagName 'a' is common for all links
@@ -30,15 +32,15 @@ public class EX50_find_BrokenImages { ///// -----https://youtu.be/6NXZQYs-Eig (o
 			verifyBrokenImage(img);
 		}
 
-		driver.close();
+		driver.quit();
 
 	}
 
 	public static void verifyBrokenImage(String imgUrl) { /////////////// same as links
 		try {
-			URL url = new URL(imgUrl);
+			URL url = new URL(imgUrl); //URI.create(imgUrl).toURL(); //
 			HttpURLConnection httpurlconnection = (HttpURLConnection) url.openConnection(); // to create connection by
-																							// using URL connection
+																			// using URL connection
 			httpurlconnection.setConnectTimeout(5000); // to set timeout
 			httpurlconnection.connect(); // to connect image link
 
