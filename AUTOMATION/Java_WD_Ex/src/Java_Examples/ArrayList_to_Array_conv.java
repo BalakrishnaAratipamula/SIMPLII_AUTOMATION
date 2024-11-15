@@ -30,14 +30,11 @@ public class ArrayList_to_Array_conv {
 	public static void main(String[] args) {
 		// create object of ArrayList
 		ArrayList<Integer> al = new ArrayList<Integer>();
-
-		// Add elements
 		al.add(32);
 		al.add(67);
 		al.add(98);
 		al.add(100);
 
-		// print ArrayList
 		System.out.println("ArrayList: " + al);
 
 		// Get the array of the elements of the ArrayList using toArray() method
