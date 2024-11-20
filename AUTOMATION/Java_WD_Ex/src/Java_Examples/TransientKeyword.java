@@ -31,12 +31,12 @@ public class TransientKeyword implements Serializable {
 		ObjectInputStream ois = new ObjectInputStream(fis);
 
 		TransientKeyword obj = (TransientKeyword) ois.readObject();
-		System.out.println("i = " + obj.i);
-		System.out.println("j = " + obj.j);
-		System.out.println("t1 = " + obj.t1);
-		System.out.println("t2 = " + obj.t2);
-		System.out.println("l = " + obj.l);
-		System.out.println("m = " + obj.m);
+		System.out.println("i = 10 <==> new i = "  + obj.i);
+		System.out.println("j = 20 <==> new j = " + obj.j);
+		System.out.println("t1 = 30 <==> new t1 = " + obj.t1);
+		System.out.println("t2 = 20 <==> new t2 = " + obj.t2);
+		System.out.println("l = 40 <==> new l = " + obj.l);
+		System.out.println("m = 50 <==> new m = " + obj.m);
 
 	}
 }

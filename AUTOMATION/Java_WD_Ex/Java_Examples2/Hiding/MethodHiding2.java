@@ -1,4 +1,4 @@
-package Java_Examples;
+package Hiding;
 
 class Parent2{
 	public static void print() {
