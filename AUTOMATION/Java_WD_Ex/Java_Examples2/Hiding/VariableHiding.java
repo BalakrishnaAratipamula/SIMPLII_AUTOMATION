@@ -1,4 +1,4 @@
-package Java_Examples;
+package Hiding;
 
 public class VariableHiding {
 	

@@ -1,4 +1,4 @@
-package Java_Examples;
+package Hiding;
 
 class Super {
 	String className = "Super";	//super class variable
