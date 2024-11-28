@@ -7,8 +7,6 @@
 /TestNG_ParallelTesting/
 /inputdata.properties
 /test-output/
-/to execuete all classes.xml
-/to execute some of methods only.xml
 /AA_Types_of_Constructors/
 /AbstractClass/
 /AccessModifier/
@@ -24,6 +22,7 @@
 /ExceptionHandling/
 /GarbageCollectorEx/
 /GerericClass/
+/Hiding/
 /Hybrid_FW_com/
 /Inheritance/
 /InitializerBlocks/
@@ -74,5 +73,3 @@
 /com/
 /Object_nd_Instance.class
 /Prove_Strings_r_Mutable.class
-/VariableHiding/
-/Hiding/
