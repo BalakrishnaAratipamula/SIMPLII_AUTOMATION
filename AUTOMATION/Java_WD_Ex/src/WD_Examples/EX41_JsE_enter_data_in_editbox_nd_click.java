@@ -26,6 +26,6 @@ public class EX41_JsE_enter_data_in_editbox_nd_click {
 		Thread.sleep(1500);
 		//to click on webElement
 		WebElement ele = driver.findElement(By.name("Login"));
-		js.executeScript("arguments[0].click();", ele);
+		js.executeScript("arguments[0].click();", ele); //js.executeScript("arguments[0].click()", ele);
 	}
 }

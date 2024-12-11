@@ -27,6 +27,9 @@ public class EX36_Drag_And_Drop {
 		//to perform Drag & Drop
 		act.dragAndDrop(source, target).build().perform(); //WebElement source (ele1), WebElement target(ele1)
 
+		// (((OR)))
+		//act.clickAndHold(WebElementRef).perform();
+		
 		Thread.sleep(2500);
 		driver.quit();
 	}

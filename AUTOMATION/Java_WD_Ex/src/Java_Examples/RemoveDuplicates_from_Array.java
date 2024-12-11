@@ -5,6 +5,19 @@ import java.util.Set;
 
 public class RemoveDuplicates_from_Array {
 	
+	//Java int coding qns : #9 Remove Duplicates from Array
+	public static void main(String[] args) {
+		int[] arr = {1, 2, 2, 3, 4, 4};
+			
+		Set<Integer> hs = new HashSet();
+		for(int num: arr) {
+			hs.add(num);
+		}
+		System.out.println(hs);
+	}
+		
+		
+	/*/ #2
 	static int[] removeDuplicates(int[] arr) {
 		Set<Integer> set = new HashSet<>();
 		
@@ -29,6 +42,6 @@ public class RemoveDuplicates_from_Array {
 		for(int num : uniqueArr) {
 			System.out.print(num+" ");
 		}
-	}
+	} //*/
 	
 }

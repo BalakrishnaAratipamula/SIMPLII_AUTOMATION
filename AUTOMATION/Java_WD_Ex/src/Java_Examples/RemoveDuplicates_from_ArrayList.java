@@ -3,9 +3,11 @@ package Java_Examples;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
-
+//Java int coding qns : #10b Remove Duplicates from ArrayList
 public class RemoveDuplicates_from_ArrayList {
+	
 	// Function to remove duplicates from an ArrayList 
 	public static <T> ArrayList<T> removeDuplicates(ArrayList<T> list) { /////  <T> is type parameter (use any letter/word like variable)
 		// Create a new ArrayList 								 /////  ArrayList<T> in method sig is bcz method return type is ArrayList
@@ -30,7 +32,7 @@ public class RemoveDuplicates_from_ArrayList {
 		ArrayList<Integer> newList1 = removeDuplicates(list); 
 		// Print the ArrayList with duplicates removed 
 		System.out.println("ArrayList by duplicates removed: " + newList1);  
-	} 
+	} //*/
 
 
 

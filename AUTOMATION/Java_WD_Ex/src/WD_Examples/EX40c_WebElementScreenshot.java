@@ -25,7 +25,7 @@ public class EX40c_WebElementScreenshot {
 		
 		File myFile = ele.getScreenshotAs(OutputType.FILE);
 		try { //=============see Result in folder explorer then only image will visible
-			FileUtils.copyFile(myFile, new File("./webElementScreenshot.jpg"));
+			FileUtils.copyFile(myFile, new File("./webElementScreenshot.jpg")); //.png
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
