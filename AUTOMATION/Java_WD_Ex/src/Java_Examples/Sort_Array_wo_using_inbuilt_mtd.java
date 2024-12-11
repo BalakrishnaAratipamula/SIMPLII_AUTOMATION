@@ -1,7 +1,18 @@
 package Java_Examples;
 
-public class Sort_Array_wo_using_inbuilt_mtd {
+import java.util.Arrays;
 
+public class Sort_Array_wo_using_inbuilt_mtd {
+	//Java int coding qns : #7 Sort An Array
+	public static void main(String[] args) {
+		int[] arr = {5, 2, 8, 1, 3};
+		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
+	}
+	
+	
+	
+	/*/#2
 	public static void main(String[] args) {
 		int[] arr = {5, 2, 9, 1, 6};
 		
@@ -27,5 +38,5 @@ public class Sort_Array_wo_using_inbuilt_mtd {
 			arr[i] = arr[minIndex];
 			arr[minIndex] = temp;
 		}
-	}
+	} //*/
 }

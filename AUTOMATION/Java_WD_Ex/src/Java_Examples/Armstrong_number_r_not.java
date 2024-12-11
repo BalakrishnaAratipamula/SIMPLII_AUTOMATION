@@ -7,7 +7,13 @@ import java.util.Scanner;
  */
 
 public class Armstrong_number_r_not {
-	/*/pre-req program
+	//pre-req program
+	/*/
+	public static void main(String[] args) {
+        System.out.println(Math.sqrt(16)); // Error: Ambiguity
+    } //*/
+	
+	/*/
 	public static void main(String args[]){
         double a = 4;
         double b = 4;
@@ -18,6 +24,20 @@ public class Armstrong_number_r_not {
         b = 6.9;
         System.out.println(Math.pow(a, b)); //'a' power 'b'
     } //*/
+	
+	//Java int coding qns : #11 Check Armstrong Number or Not
+	//Armstrong_number_or_not //sum of the cubes of each digit is equal to the number itself
+	public static void main(String[] args) {
+		int num = 153, sum = 0, temp = num;
+		while(temp != 0) {
+			int digit = temp % 10;
+			sum += java.lang.Math.pow(digit, 3);
+			temp /= 10;
+		}
+		System.out.println(num == sum); 
+	} //*/
+	
+	
 	
 	
 	/*/ Armstrong_number_or_not
@@ -41,6 +61,7 @@ public class Armstrong_number_r_not {
 	} //*/
 	
 	
+	/*/
 	public static void main(String[] args) {
 		int arm=0, x, y, num;
 		
@@ -58,5 +79,5 @@ public class Armstrong_number_r_not {
 			System.out.println("Armstrong number");
 		else
 			System.out.println("Is not Armstrong number");
-	}
+	} //*/
 }

@@ -6,6 +6,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.time.Duration;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -46,7 +47,7 @@ public class Ex27_Fileuplod_using_RobotClass_KB_Events_r_Operators {
 		Robot rbt = new Robot();
 		
 		// paste : ctrl+V
-		rbt.keyPress(KeyEvent.VK_CONTROL);
+		rbt.keyPress(KeyEvent.VK_CONTROL); //VK_anyKeyWeWant
 		rbt.keyPress(KeyEvent.VK_V);
 		// to release keys
 		rbt.keyRelease(KeyEvent.VK_V);
@@ -65,6 +66,6 @@ public class Ex27_Fileuplod_using_RobotClass_KB_Events_r_Operators {
 		rbt.keyRelease(KeyEvent.VK_ENTER);
 
 		System.out.println("**** file uploades sucessfully ****");
-
+		
 	}
 }
