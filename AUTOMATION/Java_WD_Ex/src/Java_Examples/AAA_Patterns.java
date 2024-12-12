@@ -274,7 +274,7 @@ public class AAA_Patterns { //////// https://youtu.be/xzstcj3Cuso
 
 
 
-
+	//Java int coding qns : #19 Pascal's Triangle
 	//Right Pascals Triangle
 	/*/pattern incT of *--DecT of * 
 	public static void submethod(int n) {

@@ -119,7 +119,8 @@ public static void main(String args[]){
 	} //*/
 	
 	
- 	
+ 	//Java int coding qns : #26 Number of occurrence of given char in a string
+	//Java int coding qns : #26b Each char occurrence from given string
 	/*/-----------------------to find number of occurrence of "char"
 	public static void main(String[] args) {
 		String str = "LT LiveTech EE";
@@ -187,6 +188,47 @@ public static void main(String args[]){
 		}
 	} //*/
 
+	
+	
+	
+	/*/Java int coding qns : #27 Number of occurrence of given word in a string
+	public static void main(String[] args) {
+		String string = "Java is a programming language. java is widely used in software testing";
+		String word = "java";
+		
+		String[] words = string.toLowerCase().split(" ");
+		int occurrence = 0;
+		for(int i=0; i<words.length; i++) {
+			if(words[i].equals(word)) {
+				occurrence++;
+			}
+		}
+		System.out.println(occurrence);
+	} //*/
+	
+	
+	//Java int coding qns : #27b Each word occurrence from a given string
+	public static void main(String[] args) {
+		String string = "Alice is a Girl and Bob is a Boy";
+		Map<String, Integer> hm = new HashMap<>(); //or HashMap<String, Integer>();
+		
+		String[] words = string.split(" ");
+		for(String word: words) {
+			if(hm.containsKey(word)) {
+				hm.put(word, hm.get(word)+1);
+			}
+			else {
+				hm.put(word, 1);
+			}
+		}
+		System.out.println(hm);
+	}
+	
+	
+	
+	
+	
+	
 	/*/ Java int coding qns : #2 Check for Palindrome
 	// -----------------------Palindrome String
 	public static void main(String[] args) {

@@ -25,10 +25,11 @@ public class AnegramRnot_Strings {
 	} //*/
 	
 	
+	
+	//Java int coding qns : #14 Check Anegram
 	//AnegramRnot_Strings
 	public static void main(String[] args) {
-		String str1 = "Brag";
-		String str2 = "Grab";
+		String str1 = "Army", str2 = "Mary"; //Brag, Grab
 
 		// Converting both the string to lower case.
 		str1 = str1.toLowerCase();

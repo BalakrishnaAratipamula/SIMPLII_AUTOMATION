@@ -2,7 +2,7 @@ package Java_Examples;
 
 import java.util.HashSet;
 import java.util.Set;
-
+//Java int coding qns : #24 Find Common Elements in Arrays
 public class Arrays_CommonElementsBnTwo {
 	
 	public static Set<Integer> findCommonElements(int[] arr1, int[] arr2){

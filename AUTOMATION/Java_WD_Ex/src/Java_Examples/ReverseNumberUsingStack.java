@@ -11,7 +11,7 @@ public class ReverseNumberUsingStack {
 			num = num / 10;
 		}
 	}
-
+	
 	static int reverse_number(int num) {
 		push_digits(num);
 		int reverse = 0;
