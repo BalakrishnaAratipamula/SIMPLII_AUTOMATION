@@ -2,8 +2,8 @@ package Java_Examples;
 
 import java.util.Arrays;
 
-public class Sort_Array_wo_using_inbuilt_mtd {
-	//Java int coding qns : #7 Sort An Array
+public class Sort_Array_with_nd_wo_using_inbuilt_mtd {
+	//Java int coding qns : #7 Sort An Array using inbuilt method
 	public static void main(String[] args) {
 		int[] arr = {5, 2, 8, 1, 3};
 		Arrays.sort(arr);
@@ -11,7 +11,7 @@ public class Sort_Array_wo_using_inbuilt_mtd {
 	}
 	
 	
-	
+	//Java int coding qns : #7b Sort An Array Without using inbuilt method
 	/*/#2
 	public static void main(String[] args) {
 		int[] arr = {5, 2, 9, 1, 6};
