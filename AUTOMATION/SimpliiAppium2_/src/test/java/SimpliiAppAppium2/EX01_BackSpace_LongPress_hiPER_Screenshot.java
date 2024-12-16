@@ -24,7 +24,7 @@ public class EX01_BackSpace_LongPress_hiPER_Screenshot {
 	static AndroidDriver driver;
 	public static void main(String[] args) throws InterruptedException, IOException {
 		DesiredCapabilities dc = new DesiredCapabilities();
-
+		
 		dc.setCapability("platformName", "Android");
 		dc.setCapability("appium:platformVersion", "12");
 		dc.setCapability("appium:automationName", "uiautomator2");
