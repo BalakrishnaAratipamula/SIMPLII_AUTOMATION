@@ -13,5 +13,6 @@ public class TestClass implements Interface1{
 		TestClass tc = new TestClass();
 //		tc.print("");	//check:   if(!isNull(str))
 		tc.isNull("abc");	//null, "" both are different in this case of comparision
+		Interface1.isNull("abc");
 	}
 }

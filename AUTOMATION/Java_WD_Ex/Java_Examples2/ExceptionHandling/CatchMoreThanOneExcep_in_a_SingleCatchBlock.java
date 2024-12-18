@@ -1,15 +1,7 @@
 package ExceptionHandling;
 
-public class try_catch {
+public class CatchMoreThanOneExcep_in_a_SingleCatchBlock {
 	public static void main(String[] args) {
-		/*/
-		int a = 10;
-		int b = 0;
-		int c = a / b;// here arithmetic exception is there so hole program can terminate
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c); // */
-
 		try {
 			int a = 10;
 			int b = 0;
@@ -17,7 +9,8 @@ public class try_catch {
 			System.out.println(a);
 			System.out.println(b);
 			System.out.println(c);
-		} catch (Exception e) {
+		} catch (ArithmeticException | ArrayIndexOutOfBoundsException | NullPointerException e) {
+			// Here 'e' is final so we can't assign or modify 'e' in the catch statement
 			e.printStackTrace();// this is one type of method to trace exception
 			System.out.println("inside of catch block");
 		}
