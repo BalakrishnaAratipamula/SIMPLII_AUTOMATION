@@ -1,0 +1,606 @@
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 11 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:07:14 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\Temp\testng-eclipse--376893538\testng-customsuite.xml
+
+2024-12-19 15:07:14 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 14 ms.
+2024-12-19 15:07:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2d8f2f3a: 84 ms
+2024-12-19 15:07:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@3c1e3314: 137 ms
+2024-12-19 15:07:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@437e951d: 14 ms
+2024-12-19 15:07:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@58cd06cb: 33 ms
+2024-12-19 15:07:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@35e52059: 11 ms
+2024-12-19 15:07:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6e5bfdfc: 10 ms
+2024-12-19 15:07:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3d829787: 0 ms
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1676900419\testng-customsuite.xml
+
+2024-12-19 15:10:22 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2024-12-19 15:10:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@27f9e982: 34 ms
+2024-12-19 15:10:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@24b52d3e: 232 ms
+2024-12-19 15:10:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@54a3ab8f: 20 ms
+2024-12-19 15:10:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@63a5e46c: 41 ms
+2024-12-19 15:10:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@df5f5c0: 23 ms
+2024-12-19 15:10:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3b65e559: 25 ms
+2024-12-19 15:10:22 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@bae47a0: 1 ms
+2024-12-19 15:17:35 INFO  Utils:112 - [TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 15:18:03 INFO  TC001_AccountRegistrationTest:14 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 15:18:04 INFO  TC001_AccountRegistrationTest:19 - Clicked on MyAccount Link.. 
+2024-12-19 15:18:05 INFO  TC001_AccountRegistrationTest:22 - Clicked on Register Link.. 
+2024-12-19 15:18:05 INFO  TC001_AccountRegistrationTest:26 - Providing customer details...
+2024-12-19 15:18:07 INFO  TC001_AccountRegistrationTest:40 - Validating expected message..
+2024-12-19 15:18:07 INFO  TC001_AccountRegistrationTest:45 - Test passed
+2024-12-19 15:18:07 INFO  TC001_AccountRegistrationTest:50 - ***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 17:51:19 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 17 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\Admin\AppData\Local\Temp\testng-eclipse--75020611\testng-customsuite.xml
+
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@27f9e982: 196 ms
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.jq.Main@24b52d3e: 155 ms
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.FailedReporter@54a3ab8f: 20 ms
+2024-12-19 17:51:20 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.XMLReporter@63a5e46c: 67 ms
+2024-12-19 17:51:21 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.EmailableReporter2@df5f5c0: 22 ms
+2024-12-19 17:51:21 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@bae47a0: 56 ms
+2024-12-19 17:51:21 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.internal.ExitCodeListener@74a9c4b0: 0 ms
+2024-12-19 17:51:48 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 17:52:03 INFO  TC001_AccountRegistrationTest:16 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 17:52:04 INFO  TC001_AccountRegistrationTest:21 -
+			Clicked on MyAccount Link.. 
+2024-12-19 17:52:05 INFO  TC001_AccountRegistrationTest:24 -
+			Clicked on Register Link.. 
+2024-12-19 17:52:05 INFO  TC001_AccountRegistrationTest:28 -
+			Providing customer details...
+2024-12-19 17:52:07 INFO  TC001_AccountRegistrationTest:42 -
+			Validating expected message..
+2024-12-19 17:52:07 INFO  TC001_AccountRegistrationTest:47 -
+			Test passed
+2024-12-19 17:52:07 INFO  TC001_AccountRegistrationTest:52 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 18:54:38 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 18:54:50 INFO  TC001_AccountRegistrationTest:16 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 18:54:52 INFO  TC001_AccountRegistrationTest:21 -
+			Clicked on MyAccount Link.. 
+2024-12-19 18:54:52 INFO  TC001_AccountRegistrationTest:24 -
+			Clicked on Register Link.. 
+2024-12-19 18:54:53 INFO  TC001_AccountRegistrationTest:28 -
+			Providing customer details...
+2024-12-19 18:55:04 ERROR TC001_AccountRegistrationTest:49 -
+			Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='agree@3']"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09f16209ffe181067785021983bae645, findElement {value=//input[@name='agree@3'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51002}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51002/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09f16209ffe181067785021983bae645
+2024-12-19 18:55:04 INFO  TC001_AccountRegistrationTest:52 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 19:01:12 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 19:01:20 INFO  TC001_AccountRegistrationTest:16 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 19:01:22 INFO  TC001_AccountRegistrationTest:21 -
+			Clicked on MyAccount Link.. 
+2024-12-19 19:01:23 INFO  TC001_AccountRegistrationTest:24 -
+			Clicked on Register Link.. 
+2024-12-19 19:01:23 INFO  TC001_AccountRegistrationTest:28 -
+			Providing customer details...
+2024-12-19 19:01:25 INFO  TC001_AccountRegistrationTest:42 -
+			Validating expected message..
+2024-12-19 19:01:25 INFO  TC001_AccountRegistrationTest:47 -
+			Test passed
+2024-12-19 19:01:25 INFO  TC001_AccountRegistrationTest:52 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 20:40:38 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 20:40:58 INFO  TC001_AccountRegistrationTest:29 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 20:41:00 INFO  TC001_AccountRegistrationTest:48 -
+			Clicked on MyAccount Link.. 
+2024-12-19 20:41:01 INFO  TC001_AccountRegistrationTest:52 -
+			Clicked on Register Link.. 
+2024-12-19 20:41:01 INFO  TC001_AccountRegistrationTest:56 -
+			Providing customer details...
+2024-12-19 20:41:04 INFO  TC001_AccountRegistrationTest:71 -
+			Validating expected message..
+2024-12-19 20:41:05 INFO  TC001_AccountRegistrationTest:76 -
+			Test passed
+2024-12-19 20:41:05 INFO  TC001_AccountRegistrationTest:81 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 20:42:55 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 20:43:01 INFO  TC001_AccountRegistrationTest:29 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 20:43:02 INFO  TC001_AccountRegistrationTest:48 -
+			Clicked on MyAccount Link.. 
+2024-12-19 20:43:04 INFO  TC001_AccountRegistrationTest:52 -
+			Clicked on Register Link.. 
+2024-12-19 20:43:05 INFO  TC001_AccountRegistrationTest:56 -
+			Providing customer details...
+2024-12-19 20:43:08 INFO  TC001_AccountRegistrationTest:71 -
+			Validating expected message..
+2024-12-19 20:43:08 INFO  TC001_AccountRegistrationTest:76 -
+			Test passed
+2024-12-19 20:43:08 INFO  TC001_AccountRegistrationTest:81 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 20:48:12 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 20:48:21 INFO  TC001_AccountRegistrationTest:29 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 20:48:23 INFO  TC001_AccountRegistrationTest:48 -
+			Clicked on MyAccount Link.. 
+2024-12-19 20:48:25 INFO  TC001_AccountRegistrationTest:52 -
+			Clicked on Register Link.. 
+2024-12-19 20:48:25 INFO  TC001_AccountRegistrationTest:56 -
+			Providing customer details...
+2024-12-19 20:48:28 INFO  TC001_AccountRegistrationTest:71 -
+			Validating expected message..
+2024-12-19 20:48:28 INFO  TC001_AccountRegistrationTest:76 -
+			Test passed
+2024-12-19 20:48:28 INFO  TC001_AccountRegistrationTest:81 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 20:50:32 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 20:50:39 INFO  TC001_AccountRegistrationTest:29 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 20:50:40 INFO  TC001_AccountRegistrationTest:48 -
+			Clicked on MyAccount Link.. 
+2024-12-19 20:50:42 INFO  TC001_AccountRegistrationTest:52 -
+			Clicked on Register Link.. 
+2024-12-19 20:50:42 INFO  TC001_AccountRegistrationTest:56 -
+			Providing customer details...
+2024-12-19 20:50:45 INFO  TC001_AccountRegistrationTest:71 -
+			Validating expected message..
+2024-12-19 20:50:46 INFO  TC001_AccountRegistrationTest:76 -
+			Test passed
+2024-12-19 20:50:46 INFO  TC001_AccountRegistrationTest:81 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 20:56:02 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 20:56:11 INFO  TC001_AccountRegistrationTest:29 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 20:56:12 INFO  TC001_AccountRegistrationTest:49 -
+			Clicked on MyAccount Link.. 
+2024-12-19 20:56:13 INFO  TC001_AccountRegistrationTest:53 -
+			Clicked on Register Link.. 
+2024-12-19 20:56:13 INFO  TC001_AccountRegistrationTest:57 -
+			Providing customer details...
+2024-12-19 20:56:15 INFO  TC001_AccountRegistrationTest:72 -
+			Validating expected message..
+2024-12-19 20:56:15 INFO  TC001_AccountRegistrationTest:77 -
+			Test passed
+2024-12-19 20:56:15 INFO  TC001_AccountRegistrationTest:82 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 11 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1120841830\testng-customsuite.xml
+
+2024-12-19 21:54:33 INFO  Utils:112 -
+			[Utils] DynamicGraphHelper.createDynamicGraph() took 15 ms.
+2024-12-19 21:54:34 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4593ff34: 260 ms
+2024-12-19 21:54:34 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.jq.Main@15deb1dc: 295 ms
+2024-12-19 21:54:34 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.FailedReporter@1968a49c: 26 ms
+2024-12-19 21:54:34 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.XMLReporter@7e8e8651: 31 ms
+2024-12-19 21:54:34 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.EmailableReporter2@308a6984: 22 ms
+2024-12-19 21:54:34 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@bae47a0: 32 ms
+2024-12-19 21:54:34 INFO  Utils:112 -
+			[TestNG] Time taken by org.testng.internal.ExitCodeListener@74a9c4b0: 0 ms
+2024-12-19 21:54:55 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 21:55:04 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 21:55:06 INFO  TC001_AccountRegistrationTest:50 -
+			Clicked on MyAccount Link.. 
+2024-12-19 21:55:06 ERROR TC001_AccountRegistrationTest:80 -
+			Test failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "takesScreenshot" is null
+2024-12-19 21:55:06 INFO  TC001_AccountRegistrationTest:83 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 21:57:03 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 21:57:12 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 21:57:15 INFO  TC001_AccountRegistrationTest:50 -
+			Clicked on MyAccount Link.. 
+2024-12-19 21:57:17 INFO  TC001_AccountRegistrationTest:54 -
+			Clicked on Register Link.. 
+2024-12-19 21:57:17 INFO  TC001_AccountRegistrationTest:58 -
+			Providing customer details...
+2024-12-19 21:57:21 INFO  TC001_AccountRegistrationTest:73 -
+			Validating expected message..
+2024-12-19 21:57:22 INFO  TC001_AccountRegistrationTest:78 -
+			Test passed
+2024-12-19 21:57:22 INFO  TC001_AccountRegistrationTest:83 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 21:59:05 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 21:59:13 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 21:59:15 INFO  TC001_AccountRegistrationTest:50 -
+			Clicked on MyAccount Link.. 
+2024-12-19 21:59:16 INFO  TC001_AccountRegistrationTest:54 -
+			Clicked on Register Link.. 
+2024-12-19 21:59:16 INFO  TC001_AccountRegistrationTest:58 -
+			Providing customer details...
+2024-12-19 21:59:18 INFO  TC001_AccountRegistrationTest:73 -
+			Validating expected message..
+2024-12-19 21:59:18 INFO  TC001_AccountRegistrationTest:78 -
+			Test passed
+2024-12-19 21:59:18 INFO  TC001_AccountRegistrationTest:83 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 22:15:29 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 22:15:46 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 22:15:47 INFO  TC001_AccountRegistrationTest:50 -
+			Clicked on MyAccount Link.. 
+2024-12-19 22:15:48 INFO  TC001_AccountRegistrationTest:54 -
+			Clicked on Register Link.. 
+2024-12-19 22:15:48 INFO  TC001_AccountRegistrationTest:58 -
+			Providing customer details...
+2024-12-19 22:15:50 INFO  TC001_AccountRegistrationTest:73 -
+			Validating expected message..
+2024-12-19 22:15:50 INFO  TC001_AccountRegistrationTest:78 -
+			Test passed
+2024-12-19 22:15:50 INFO  TC001_AccountRegistrationTest:83 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 22:29:27 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 22:29:34 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 22:29:36 INFO  TC001_AccountRegistrationTest:51 -
+			Clicked on MyAccount Link.. 
+2024-12-19 22:29:36 ERROR TC001_AccountRegistrationTest:81 -
+			Test failed: Cannot invoke "org.testng.ITestResult.getTestClass()" because "result" is null
+2024-12-19 22:29:36 INFO  TC001_AccountRegistrationTest:84 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 22:30:54 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 22:31:00 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 22:31:01 INFO  TC001_AccountRegistrationTest:51 -
+			Clicked on MyAccount Link.. 
+2024-12-19 22:31:01 ERROR TC001_AccountRegistrationTest:81 -
+			Test failed: Cannot invoke "org.testng.ITestResult.getTestClass()" because "result" is null
+2024-12-19 22:31:01 INFO  TC001_AccountRegistrationTest:84 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 22:52:49 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 22:53:00 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 22:53:04 INFO  TC001_AccountRegistrationTest:51 -
+			Clicked on MyAccount Link.. 
+2024-12-19 22:53:05 ERROR TC001_AccountRegistrationTest:81 -
+			Test failed: Cannot invoke "com.aventstack.extentreports.ExtentTest.addScreenCaptureFromPath(String)" because "utilities.ExtentReportManager.test" is null
+2024-12-19 22:53:05 INFO  TC001_AccountRegistrationTest:84 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 23:04:11 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 23:04:17 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 23:04:18 INFO  TC001_AccountRegistrationTest:51 -
+			Clicked on MyAccount Link.. 
+2024-12-19 23:04:19 ERROR TC001_AccountRegistrationTest:81 -
+			Test failed: Cannot invoke "com.aventstack.extentreports.ExtentTest.addScreenCaptureFromPath(String)" because "utilities.ExtentReportManager.test" is null
+2024-12-19 23:04:19 INFO  TC001_AccountRegistrationTest:84 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 23:06:44 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 23:06:52 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 23:06:52 INFO  TC001_AccountRegistrationTest:51 -
+			Clicked on MyAccount Link.. 
+2024-12-19 23:06:54 INFO  TC001_AccountRegistrationTest:55 -
+			Clicked on Register Link.. 
+2024-12-19 23:06:54 INFO  TC001_AccountRegistrationTest:59 -
+			Providing customer details...
+2024-12-19 23:06:57 INFO  TC001_AccountRegistrationTest:74 -
+			Validating expected message..
+2024-12-19 23:06:57 INFO  TC001_AccountRegistrationTest:79 -
+			Test passed
+2024-12-19 23:06:57 INFO  TC001_AccountRegistrationTest:84 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 23:08:25 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 23:08:32 INFO  TC001_AccountRegistrationTest:30 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 23:08:33 INFO  TC001_AccountRegistrationTest:51 -
+			Clicked on MyAccount Link.. 
+2024-12-19 23:08:34 INFO  TC001_AccountRegistrationTest:55 -
+			Clicked on Register Link.. 
+2024-12-19 23:08:34 INFO  TC001_AccountRegistrationTest:59 -
+			Providing customer details...
+2024-12-19 23:08:36 INFO  TC001_AccountRegistrationTest:75 -
+			Validating expected message..
+2024-12-19 23:08:36 INFO  TC001_AccountRegistrationTest:80 -
+			Test passed
+2024-12-19 23:08:36 INFO  TC001_AccountRegistrationTest:85 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 23:36:46 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 23:37:03 INFO  TC001_AccountRegistrationTest:33 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 23:37:04 INFO  TC001_AccountRegistrationTest:54 -
+			Clicked on MyAccount Link.. 
+2024-12-19 23:37:06 INFO  TC001_AccountRegistrationTest:58 -
+			Clicked on Register Link.. 
+2024-12-19 23:37:06 INFO  TC001_AccountRegistrationTest:62 -
+			Providing customer details...
+2024-12-19 23:37:10 INFO  TC001_AccountRegistrationTest:78 -
+			Validating expected message..
+2024-12-19 23:37:10 INFO  TC001_AccountRegistrationTest:83 -
+			Test passed
+2024-12-19 23:37:10 INFO  TC001_AccountRegistrationTest:88 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 23:38:39 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 23:38:47 INFO  TC001_AccountRegistrationTest:33 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 23:38:47 INFO  TC001_AccountRegistrationTest:54 -
+			Clicked on MyAccount Link.. 
+2024-12-19 23:38:49 INFO  TC001_AccountRegistrationTest:58 -
+			Clicked on Register Link.. 
+2024-12-19 23:38:49 INFO  TC001_AccountRegistrationTest:62 -
+			Providing customer details...
+2024-12-19 23:38:51 INFO  TC001_AccountRegistrationTest:78 -
+			Validating expected message..
+2024-12-19 23:38:51 INFO  TC001_AccountRegistrationTest:83 -
+			Test passed
+2024-12-19 23:38:51 INFO  TC001_AccountRegistrationTest:88 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-12-19 23:41:14 INFO  Utils:112 -
+			[TestNG] Running:
+  F:\SIMPLII\SIMPLII_AUTOMATION\AUTOMATION\OpencartV121\master.xml
+
+2024-12-19 23:41:21 INFO  TC001_AccountRegistrationTest:33 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-12-19 23:41:22 INFO  TC001_AccountRegistrationTest:54 -
+			Clicked on MyAccount Link.. 
+2024-12-19 23:41:23 INFO  TC001_AccountRegistrationTest:58 -
+			Clicked on Register Link.. 
+2024-12-19 23:41:23 INFO  TC001_AccountRegistrationTest:62 -
+			Providing customer details...
+2024-12-19 23:41:25 INFO  TC001_AccountRegistrationTest:78 -
+			Validating expected message..
+2024-12-19 23:41:25 INFO  TC001_AccountRegistrationTest:83 -
+			Test passed
+2024-12-19 23:41:25 INFO  TC001_AccountRegistrationTest:88 -
+			***** Finished TC001_AccountRegistrationTest *****
