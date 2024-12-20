@@ -18,47 +18,30 @@ import testBase.BaseClass;
 import utilities.ExtentReportManager;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
-/*/
-	public ExtentSparkReporter sparkReporter;
-	public ExtentReports extent;
-	public ExtentTest test;
-
-	String repName; */
-	
 	@Test(groups = { "Regression", "Master" })
 	public void verify_account_registration() {
-		String methodName = Thread.currentThread().getStackTrace()[2].getMethodName();
+		//code to captureScreenshot while script is executing
+		String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
+		System.out.println("MethodName: "+methodName );
 		ExtentTest test = ExtentReportManager.captureScreenshotOnExecution(methodName);
 		
-		logger.info("***** Starting TC001_AccountRegistrationTest  ****");
+		logger.info("***** Starting TC001_AccountRegistrationTest  *****");
 		logger.debug("This is a debug log message");
 		
-		/*/
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
-		repName = "Test-Report-" + timeStamp + ".html";
-		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
-
-		sparkReporter.config().setDocumentTitle("opencart Automation Report"); // Title of report
-		sparkReporter.config().setReportName("opencart Functional Testing"); // name of the report
-		sparkReporter.config().setTheme(Theme.DARK);
-		
-		extent = new ExtentReports();
-		extent.attachReporter(sparkReporter);
-		
-		test = extent.createTest("TestCaseName 1", "TestCase Description"); // (TC_Name, Description)
-		*/
 		try {
-//			ExtentReportManager.test = ExtentReportManager.extent.createTest("Sample Test");
+			//HomePage
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			logger.info("Clicked on MyAccount Link.. ");
-//			test.addScreenCaptureFromPath(captureScreenshot("Google.jpg"), "Clicked on MyAccount Link");
-			test.addScreenCaptureFromPath(new BaseClass().captureScreen(methodName));
+			//To captureScreenshot when script is executing
+			test.addScreenCaptureFromPath(captureScreenshot("MyAccountLinkDD.jpg"), "Clicked on MyAccount Link");
+//			test.addScreenCaptureFromPath(new BaseClass().captureScreen(methodName));
+			
 			hp.clickRegister();
 			logger.info("Clicked on Register Link.. ");
 
+			//AccountRegistrationPage
 			AccountRegistrationPage regpage = new AccountRegistrationPage(driver);
-
 			logger.info("Providing customer details...");
 			regpage.setFirstName(randomeString().toUpperCase());
 			regpage.setLastName(randomeString().toUpperCase());
@@ -71,8 +54,9 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			regpage.setConfirmPassword(password);
 
 			regpage.setPrivacyPolicy();
-//			test.addScreenCaptureFromPath(captureScreenshot("Google2.jpg"), "Clicked on MyAccount Link");
-			test.addScreenCaptureFromPath(new BaseClass().captureScreen(methodName));
+			//To captureScreenshot when script is executing
+			test.addScreenCaptureFromPath(captureScreenshot("CustomerRegistrationDetails.jpg"), "Customer registration details enterd");
+//			test.addScreenCaptureFromPath(new BaseClass().captureScreen(methodName));
 			regpage.clickContinue();
 
 			logger.info("Validating expected message..");

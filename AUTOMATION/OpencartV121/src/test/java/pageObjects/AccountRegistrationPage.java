@@ -73,24 +73,26 @@ public class AccountRegistrationPage extends BasePage {
 	}
 
 	public void clickContinue() {
-		// sol1
+		//different ways to perform click activity
+		
+		// #1
 		btnContinue.click();
 
-		// sol2
+		// #2
 		// btnContinue.submit();
 
-		// sol3
+		// #3
 		// Actions act=new Actions(driver);
 		// act.moveToElement(btnContinue).click().perform();
 
-		// sol4
+		// #4
 		// JavascriptExecutor js=(JavascriptExecutor)driver;
 		// js.executeScript("arguments[0].click();", btnContinue);
 
-		// Sol 5
+		// #5
 		// btnContinue.sendKeys(Keys.RETURN);
 
-		// Sol6
+		// #6
 		// WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		// mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
 

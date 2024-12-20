@@ -79,10 +79,10 @@ public class ExtentReportManager implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
-
+		
 		test.log(Status.FAIL, result.getName() + " got failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
-
+		
 		try {
 			String imgPath = new BaseClass().captureScreen(result.getName());
 			test.addScreenCaptureFromPath(imgPath);
@@ -94,19 +94,7 @@ public class ExtentReportManager implements ITestListener {
 
 	public static ExtentTest captureScreenshotOnExecution(String methodName) {
 		test = extent.createTest(methodName);
-//		test.assignCategory(result.getMethod().getGroups());
-//
-//		test.log(Status.FAIL, result.getName() + " got failed");
-//		test.log(Status.INFO, result.getThrowable().getMessage());
 
-		try {
-			String imgPath = new BaseClass().captureScreen(methodName);
-//			test.addScreenCaptureFromPath(imgPath);
-
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-		
 		return test;
 	}
 
@@ -147,22 +135,6 @@ public class ExtentReportManager implements ITestListener {
 		 * catch(Exception e) { e.printStackTrace(); }
 		 */
 
-	}
-
-	// Capturing Screenshot
-
-	// 1. 'for file path' - To capture screenshot and store it in Local machine
-	public static String captureScreenshot(String fileName) {
-		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		File destFile = new File("./Screenshots/" + fileName);
-		try {
-			FileUtils.copyFile(sourceFile, destFile);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		System.out.println("Screenshot - To capture screenshot and store it in Local machine");
-		return destFile.getAbsolutePath();
 	}
 
 }
