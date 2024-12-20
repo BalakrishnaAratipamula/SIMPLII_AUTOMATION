@@ -35,19 +35,19 @@ public class BaseClass {
 
 	public static WebDriver driver;
 	public Logger logger; // Log4j
-	public Properties p;
+	public Properties prop;
 
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" }) // grouping.xml parameters
 	public void setup(String os, String br) throws IOException, URISyntaxException {
 		// Loading config.properties file
 		FileReader file = new FileReader("./src//test//resources//config.properties");
-		p = new Properties();
-		p.load(file);
+		prop = new Properties();
+		prop.load(file);
 
 		logger = LogManager.getLogger(this.getClass()); // lOG4J2
 
-		if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+		if (prop.getProperty("execution_env").equalsIgnoreCase("remote")) {
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 
 			// os
@@ -82,8 +82,9 @@ public class BaseClass {
 			driver = new RemoteWebDriver(new URI("http://localhost:4444/wd/hub").toURL(), capabilities); // new
 																											// URL("http://localhost:4444/wd/hub")
 		}
+		
 
-		if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
+		if (prop.getProperty("execution_env").equalsIgnoreCase("local")) {
 
 			switch (br.toLowerCase()) {
 			case "chrome":
@@ -104,7 +105,7 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-		driver.get(p.getProperty("appURL2")); // reading url from properties file.
+		driver.get(prop.getProperty("appURL2")); // reading url from properties file.
 		driver.manage().window().maximize();
 	}
 
@@ -129,7 +130,9 @@ public class BaseClass {
 		return (generatedstring + "@" + generatednumber);
 	}
 
-	// Screenshot event for ExtentReportManager file (failEvent)
+	
+	// Capturing Screenshot
+	// #1 Screenshot event for ExtentReportManager file (failEvent)
 	public String captureScreen(String tname) throws IOException { // ExtentReportManager --> onTestFailure(ITestResult
 																	// result)
 
@@ -147,14 +150,12 @@ public class BaseClass {
 
 	}
 
-	// Screenshot event for passEvent
-	// Capturing Screenshot
-
+	// #2 Screenshot event for passEvent
 	// 1. 'for file path' - To capture screenshot and store it in Local machine
-	public static String captureScreenshot(String fileName) {
+	public String captureScreenshot(String fileName) {
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		File destFile = new File("./Screenshots/" + fileName);
+		File destFile = new File("./screenshots/" + fileName);
 		try {
 			FileUtils.copyFile(sourceFile, destFile);
 		} catch (IOException e) {
