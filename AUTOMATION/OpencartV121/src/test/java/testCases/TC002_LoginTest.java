@@ -21,6 +21,7 @@ public class TC002_LoginTest extends BaseClass {
 		ExtentTest test = ExtentReportManager.captureScreenshotOnExecution(methodName);
 
 		logger.info("***** Startign TC_002_LoginTest *****");
+		logger.debug("This is a debug log message");
 		
 		try {
 			// HomePage
@@ -41,6 +42,7 @@ public class TC002_LoginTest extends BaseClass {
 			// MyAccount
 			MyAccountPage macc = new MyAccountPage(driver);
 			boolean targetPage = macc.isMyAccountPageExists();
+			System.out.println("Page Title: "+driver.getTitle());
 			
 			Assert.assertTrue(targetPage);// Assert.assertEquals(targetPage, true,"Login failed");
 		
@@ -51,9 +53,13 @@ public class TC002_LoginTest extends BaseClass {
 			macc.clickLogout();
 			
 		} catch (Exception e) {
-			Assert.fail();
+			logger.error("Test failed: " + e.getMessage());
+			Assert.fail("Test failed: " + e.getMessage());
+			//or Assert.fail();
+		}finally {
+			logger.info("***** Finished TC_002_LoginTest *****");
 		}
-		logger.info("***** Finished TC_002_LoginTest *****");
+		
 	}
 
 }

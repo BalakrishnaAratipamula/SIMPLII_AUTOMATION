@@ -14,6 +14,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -32,7 +33,7 @@ public class ExtentReportManager implements ITestListener {
 	public ExtentSparkReporter sparkReporter;
 	public static ExtentReports extent;
 	public static ExtentTest test;
-	static WebDriver driver;
+//	static RemoteWebDriver driver;
 	String repName;
 
 	public void onStart(ITestContext testContext) {

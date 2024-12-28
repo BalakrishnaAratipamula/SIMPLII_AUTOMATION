@@ -3,6 +3,7 @@ package testBase;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -33,28 +34,29 @@ import org.apache.logging.log4j.Logger; //Log4j
 
 public class BaseClass {
 
-	public static WebDriver driver;
+	public static RemoteWebDriver driver; //RemoteWebDriver is using for docker execution. It works as normal WebDriver so no need to change for normal execution. suppose if u want to replace replace in all classes
 	public Logger logger; // Log4j
 	public Properties prop;
 
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" }) // grouping.xml parameters
-	public void setup(String os, String br) throws IOException, URISyntaxException {
+	public void setup(String os, String br) throws IOException, URISyntaxException, MalformedURLException {
 		// Loading config.properties file
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 		prop = new Properties();
 		prop.load(file);
-
+		
 		logger = LogManager.getLogger(this.getClass()); // lOG4J2
-
+		
 		if (prop.getProperty("execution_env").equalsIgnoreCase("remote")) {
 			DesiredCapabilities capabilities = new DesiredCapabilities();
-
+			
 			// os
 			if (os.equalsIgnoreCase("windows")) {
 				capabilities.setPlatform(Platform.WIN11);
 			} else if (os.equalsIgnoreCase("linux")) {
 				capabilities.setPlatform(Platform.LINUX);
+//				System.out.println("---Linux Platform---");
 
 			} else if (os.equalsIgnoreCase("mac")) {
 				capabilities.setPlatform(Platform.MAC);
@@ -66,7 +68,9 @@ public class BaseClass {
 			// browser
 			switch (br.toLowerCase()) {
 			case "chrome":
+//				capabilities.setVersion("132.0.6834.57");
 				capabilities.setBrowserName("chrome");
+//				System.out.println("---Chrome Browser---");
 				break;
 			case "edge":
 				capabilities.setBrowserName("MicrosoftEdge");
@@ -78,9 +82,11 @@ public class BaseClass {
 				System.out.println("No matching browser");
 				return;
 			}
-
-			driver = new RemoteWebDriver(new URI("http://localhost:4444/wd/hub").toURL(), capabilities); // new
-																											// URL("http://localhost:4444/wd/hub")
+			try {
+//			URL url = new URL("http://localhost:4444/wd/hub");
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities.merge(capabilities)); // new URL("http://localhost:4444/wd/hub")
+//			System.out.println("---driver = new RemoteWebDriver()---");
+			}catch(MalformedURLException e) {}
 		}
 		
 
@@ -102,7 +108,7 @@ public class BaseClass {
 			}
 		}
 
-		driver.manage().deleteAllCookies();
+//		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		driver.get(prop.getProperty("appURL2")); // reading url from properties file.
