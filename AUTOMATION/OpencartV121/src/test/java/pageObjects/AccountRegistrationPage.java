@@ -1,12 +1,12 @@
 package pageObjects;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 
 public class AccountRegistrationPage extends BasePage {
 
-	public AccountRegistrationPage(WebDriver driver) {
+	public AccountRegistrationPage(RemoteWebDriver driver) {
 		super(driver);
 	}
 

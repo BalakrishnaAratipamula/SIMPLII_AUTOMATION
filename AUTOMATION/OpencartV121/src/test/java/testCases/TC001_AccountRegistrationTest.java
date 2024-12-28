@@ -1,16 +1,9 @@
 package testCases;
 
-import java.lang.reflect.Method;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
@@ -35,7 +28,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			logger.info("Clicked on MyAccount Link.. ");
 			//To captureScreenshot when script is executing
 			test.addScreenCaptureFromPath(captureScreenshot("MyAccountLinkDD.jpg"), "Clicked on MyAccount Link");
-//			test.addScreenCaptureFromPath(new BaseClass().captureScreen(methodName));
+//			//test.addScreenCaptureFromPath(new BaseClass().captureScreen(methodName));
 			
 			hp.clickRegister();
 			logger.info("Clicked on Register Link.. ");
@@ -56,7 +49,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			regpage.setPrivacyPolicy();
 			//To captureScreenshot when script is executing
 			test.addScreenCaptureFromPath(captureScreenshot("CustomerRegistrationDetails.jpg"), "Customer registration details enterd");
-//			test.addScreenCaptureFromPath(new BaseClass().captureScreen(methodName));
+//			//test.addScreenCaptureFromPath(new BaseClass().captureScreen(methodName));
 			regpage.clickContinue();
 
 			logger.info("Validating expected message..");
@@ -72,7 +65,6 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			logger.info("***** Finished TC001_AccountRegistrationTest *****");
 		}
 
-//		extent.flush();
 	}
 
 }
