@@ -139,8 +139,7 @@ public class BaseClass {
 	
 	// Capturing Screenshot
 	// #1 Screenshot event for ExtentReportManager file (failEvent)
-	public String captureScreen(String tname) throws IOException { // ExtentReportManager --> onTestFailure(ITestResult
-																	// result)
+	public String captureScreen(String tname) throws IOException { // ExtentReportManager --> onTestFailure(ITestResult result)
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 

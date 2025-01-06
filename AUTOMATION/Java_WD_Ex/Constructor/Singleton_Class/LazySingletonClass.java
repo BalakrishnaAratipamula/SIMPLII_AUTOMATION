@@ -1,7 +1,7 @@
 package Singleton_Class;
 
 //Examples of Singleton Class is : Lazy initialization
-public class LazySingletonClass {
+public class LazySingletonClass { //A private constructor and static method is used to create a singleton class
 	
 	private static LazySingletonClass instance;
 	
