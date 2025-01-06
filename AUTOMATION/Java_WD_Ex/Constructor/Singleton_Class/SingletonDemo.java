@@ -5,7 +5,7 @@ class SingletonClass {
 	private static SingletonClass single_instance = null;
 	public int i;
 
-	private SingletonClass() {
+	private SingletonClass() {//A private constructor and static method is used to create a singleton class
 		i = 10;
 	}
 

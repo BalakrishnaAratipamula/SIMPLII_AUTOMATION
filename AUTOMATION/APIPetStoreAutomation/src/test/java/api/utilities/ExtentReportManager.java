@@ -38,7 +38,7 @@ public class ExtentReportManager implements ITestListener {
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt", "QA");
-		extent.setSystemInfo("user", "pavan");
+		extent.setSystemInfo("user", "Bala");
 	}
 
 	public void onTestSuccess(ITestResult result) {

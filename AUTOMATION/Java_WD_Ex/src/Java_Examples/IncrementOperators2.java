@@ -1,6 +1,8 @@
 package Java_Examples;
 
 public class IncrementOperators2 {
+	
+	/*/
 	public static void main(String[] args) {
 		int i=20, j=10;
 		
@@ -15,5 +17,11 @@ public class IncrementOperators2 {
 		System.out.println(1+j);//11	only print there is no return
 		System.out.println(j+1);//11	only print there is no return
 		System.out.println(j);  //10
+	} //*/
+	
+	public static void main(String[] args) {
+		int x=10;
+		int y=x++; //print + retun
+		System.out.println(y);
 	}
 }
