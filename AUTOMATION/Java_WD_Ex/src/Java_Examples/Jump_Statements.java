@@ -2,7 +2,7 @@ package Java_Examples;
 
 public class Jump_Statements {
 	
-	//*Jump statements: continue, break, return 
+	//**Jump statements: continue, break, return 
 	
 	/*/ @@@@@@@@@@@@@ use of 'continue' keyword in java
 	public static void main(String[] args) {
