@@ -13,6 +13,7 @@ public class StringMethods {
 		String str7 = "Bhanu Chander";
 		String str8 = "Academy";
 		String str9 = "ACE Acadamic year";
+		String str10 = "12345";
 
 		// length()
 		System.out.println("length()");
@@ -129,5 +130,9 @@ public class StringMethods {
 		System.out.println(str.substring(4, 5));
 		// To read Kri
 		System.out.println(str.substring(4, 7)); // */
+		
+		// matches();
+		boolean isNumber = str.matches("\\d+"); //'\\d+' represents 'one or more digits'
+		System.out.println(isNumber);
 	}
 }
