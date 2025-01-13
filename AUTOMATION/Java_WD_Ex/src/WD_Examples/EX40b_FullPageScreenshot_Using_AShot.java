@@ -25,13 +25,13 @@ public class EX40b_FullPageScreenshot_Using_AShot {
 
 		// Take_FullPage_Screenshot ######################
 		Screenshot screenshot = new AShot()
-				.shootingStrategy(ShootingStrategies.viewportPasting(100)) // scrollTimeot -
+				.shootingStrategy(ShootingStrategies.viewportPasting(100)) // scrollTimeot
 				.takeScreenshot(driver);
 		try {
 			ImageIO.write(screenshot.getImage(), "jpg", new File("./fullImage.jpg")); // (gettingImage, formatName,
 		} catch (IOException e) {
 			e.printStackTrace();
-		} //*/
+		} 
 
 		driver.quit();
 	}
