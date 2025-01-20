@@ -2,72 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-30T16:25:23 IST" name="Default suite" finished-at="2024-09-30T16:26:16 IST" duration-ms="52968">
+  <suite started-at="2025-01-20T14:34:34 IST" name="Default suite" finished-at="2025-01-20T14:34:34 IST" duration-ms="112">
     <groups>
     </groups>
-    <test started-at="2024-09-30T16:25:23 IST" name="Default test" finished-at="2024-09-30T16:26:16 IST" duration-ms="52968">
-      <class name="TestNG_with_WD.InvocationCount_E">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:23 IST" name="setup" finished-at="2024-09-30T16:25:33 IST" duration-ms="9592" status="PASS">
+    <test started-at="2025-01-20T14:34:34 IST" name="Default test" finished-at="2025-01-20T14:34:34 IST" duration-ms="112">
+      <class name="TestNG_with_WD.EX2c_Assigning_NegetivePriority_to_testMethods">
+        <test-method signature="testA2()[pri:-2, instance:TestNG_with_WD.EX2c_Assigning_NegetivePriority_to_testMethods@783a467b]" started-at="2025-01-20T14:34:34 IST" name="testA2" finished-at="2025-01-20T14:34:34 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validLoginTest()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:33 IST" name="validLoginTest" finished-at="2024-09-30T16:25:35 IST" duration-ms="2622" status="PASS">
+        </test-method> <!-- testA2 -->
+        <test-method signature="testA1()[pri:-1, instance:TestNG_with_WD.EX2c_Assigning_NegetivePriority_to_testMethods@783a467b]" started-at="2025-01-20T14:34:34 IST" name="testA1" finished-at="2025-01-20T14:34:34 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:35 IST" name="closeBrowser" finished-at="2024-09-30T16:25:36 IST" duration-ms="439" status="PASS">
+        </test-method> <!-- testA1 -->
+        <test-method signature="testB()[pri:0, instance:TestNG_with_WD.EX2c_Assigning_NegetivePriority_to_testMethods@783a467b]" started-at="2025-01-20T14:34:34 IST" name="testB" finished-at="2025-01-20T14:34:34 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:36 IST" name="setup" finished-at="2024-09-30T16:25:44 IST" duration-ms="8600" status="PASS">
+        </test-method> <!-- testB -->
+        <test-method signature="testC1()[pri:1, instance:TestNG_with_WD.EX2c_Assigning_NegetivePriority_to_testMethods@783a467b]" started-at="2025-01-20T14:34:34 IST" name="testC1" finished-at="2025-01-20T14:34:34 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validLoginTest()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:44 IST" name="validLoginTest" finished-at="2024-09-30T16:25:47 IST" duration-ms="2864" status="PASS">
+        </test-method> <!-- testC1 -->
+        <test-method signature="testC2()[pri:2, instance:TestNG_with_WD.EX2c_Assigning_NegetivePriority_to_testMethods@783a467b]" started-at="2025-01-20T14:34:34 IST" name="testC2" finished-at="2025-01-20T14:34:34 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:47 IST" name="closeBrowser" finished-at="2024-09-30T16:25:48 IST" duration-ms="365" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:48 IST" name="setup" finished-at="2024-09-30T16:25:57 IST" duration-ms="9180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLinkedIn()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:57 IST" name="verifyLinkedIn" finished-at="2024-09-30T16:25:58 IST" duration-ms="1062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLinkedIn -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:58 IST" name="closeBrowser" finished-at="2024-09-30T16:25:58 IST" duration-ms="352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:25:58 IST" name="setup" finished-at="2024-09-30T16:26:06 IST" duration-ms="7867" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLinkedIn()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:26:06 IST" name="verifyLinkedIn" finished-at="2024-09-30T16:26:07 IST" duration-ms="1180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLinkedIn -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:26:07 IST" name="closeBrowser" finished-at="2024-09-30T16:26:08 IST" duration-ms="349" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:26:08 IST" name="setup" finished-at="2024-09-30T16:26:15 IST" duration-ms="6964" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLinkedIn()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:26:15 IST" name="verifyLinkedIn" finished-at="2024-09-30T16:26:16 IST" duration-ms="1098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLinkedIn -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_with_WD.InvocationCount_E@51e69659]" started-at="2024-09-30T16:26:16 IST" name="closeBrowser" finished-at="2024-09-30T16:26:16 IST" duration-ms="344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestNG_with_WD.InvocationCount_E -->
+        </test-method> <!-- testC2 -->
+      </class> <!-- TestNG_with_WD.EX2c_Assigning_NegetivePriority_to_testMethods -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
