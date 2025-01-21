@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class Skip_TestMethod {
+public class EX7_Skip_TestMethod {
 	@Test(priority=2)  
 	public void C() {
 		Reporter.log("Method-C executed", true);
