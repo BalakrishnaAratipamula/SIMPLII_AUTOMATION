@@ -10,6 +10,12 @@ public class EX7a_Skip_TC_UsingTestNG {
 		if (condition) {
 			throw new SkipException("Skipping this test as the condition is true");
 		}
-		System.out.println("Executing Test Case 1");
+		System.out.println("Executing TestCase1()");
+//		System.out.println();
 	}
+	
+//	@Test
+//	private void main1() {
+//		System.out.println("sss");
+//	}
 }

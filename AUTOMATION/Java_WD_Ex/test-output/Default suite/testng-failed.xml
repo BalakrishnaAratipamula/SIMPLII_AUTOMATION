@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_with_WD.EX8_alwaysRun">
+      <class name="TestNG_with_WD.EX7a_Skip_TC_UsingTestNG">
         <methods>
-          <include name="patetTest"/>
+          <include name="testCase1"/>
         </methods>
-      </class> <!-- TestNG_with_WD.EX8_alwaysRun -->
+      </class> <!-- TestNG_with_WD.EX7a_Skip_TC_UsingTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
