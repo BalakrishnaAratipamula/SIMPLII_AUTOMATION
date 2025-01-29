@@ -1,6 +1,6 @@
 package Practice;
 
-public class JavaExamples {
+public class E1_JavaExamples {
 	public static void main(String[] args) {
 		int i = 10; //int - data type, 10-value, i=variable 
 		String str = "Rainbow"; //String - dt, "Rainbow"-value, str=variable

@@ -1,6 +1,6 @@
 package Practice;
 
-public class Diff_Between_printing_statements {
+public class E2_Diff_Between_printing_statements {
 	//Difference between printing statements available in java
 	public static void main(String[] args) {
 		int i =2, j=4, k=5, m=8;
