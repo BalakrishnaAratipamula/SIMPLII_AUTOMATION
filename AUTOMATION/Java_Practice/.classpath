@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/DIR000/Downloads/javafaker-1.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/DIR000/Downloads/testng-7.10.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
