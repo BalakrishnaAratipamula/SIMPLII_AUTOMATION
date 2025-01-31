@@ -1,10 +1,18 @@
 package Practice;
 
+import java.util.Arrays;
+
 public class E8_StringMethods {
 	public static void main(String[] args) {
 		String str = "Balakrishna"; 
 		String str2_ = "Balakrishna";
 		String str3_ = new String("Balakrishna");
+		String str4_ = null;
+		String str5_ = " ";
+		String str6_ = "";
+		String str7_ = "Aratipamula";
+		String str6 = " Bhanu Aratipamula ";
+		String str7 = "Java tutorial point";
 		
 		/*/length()
 		System.out.println(str.length()); //*/
@@ -38,7 +46,54 @@ public class E8_StringMethods {
 		/*/equalsIgnoreCase()
 		System.out.println(str.equalsIgnoreCase("balakRishNa")); ////String str = "Balakrishna"; //*/ 
 		
+		/*/startsWith()
+		System.out.println(str.startsWith("Bala")); //String str = "Balakrishna"; //true
+		System.out.println(str.startsWith("bala")); //String str = "Balakrishna"; //false
+		System.out.println(str.startsWith("shna")); //String str = "Balakrishna"; //false //*/
 		
+		/*/endsWith()
+		System.out.println(str.endsWith("shna")); //String str = "Balakrishna"; 
+		System.out.println(str.endsWith("Bala")); //String str = "Balakrishna"; 
+		System.out.println(str.endsWith("Shna")); //String str = "Balakrishna";  //*/
+		
+		/*/contains()
+		System.out.println(str.contains("kri")); //String str = "Balakrishna"; 
+		System.out.println(str.endsWith("kshna")); //String str = "Balakrishna"; //*/
+		
+		/*/isEmpty()
+		System.out.println(str.isEmpty()); //String str = "Balakrishna"; //false
+		System.out.println(str5_.isEmpty()); //String str5_ = " "; //false
+		System.out.println(str6_.isEmpty()); //String str6_ = ""; //true
+		System.out.println(str4_.isEmpty()); //String str4_ = null; //throw null pointer Exception //*/
+		
+		/*/concat()
+		System.out.println(str.concat(str7_)); //*/
+		
+		/*/trim()
+		System.out.println(str6.length()); //Retrieving length
+		System.out.println(str6.trim().length()); //printing length after trimming spaces //*/
+		
+		/*/replace()
+		System.out.println(str.replace("i", "O")); //String str = "Balakrishna"; //*/
+		
+		/*/replaceAll()
+		String str_ = str.toLowerCase().replaceAll("a", "U");
+		System.out.println(str_); //*/
+		
+		/*/replaceFirst()
+		String str_ = str.toLowerCase().replaceFirst("a", "@");
+		System.out.println(str_); //*/
+		
+		/*/subString()
+		System.out.println(str.substring(3)); //index //String str = "Balakrishna"; 
+		System.out.println(str.substring(7)); //index //String str = "Balakrishna"; //*/
+		
+		//split()
+		String[] newString = str6.split(" ");
+		System.out.println(Arrays.toString(newString));
+		
+		String[] newString2 = str7.split(" ");//String str7 = "Java tutorial point";
+		System.out.println(Arrays.toString(newString2));
 		
 	}
 }
