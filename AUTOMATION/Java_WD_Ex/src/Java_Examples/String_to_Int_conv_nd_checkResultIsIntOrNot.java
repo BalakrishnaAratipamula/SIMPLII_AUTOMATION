@@ -12,7 +12,7 @@ public class String_to_Int_conv_nd_checkResultIsIntOrNot {
 		boolean result = true;
 		for (int a = 0; a < input.length(); a++) {
 			if (a == 0 && input.charAt(a) == '-')
-				continue;
+				continue; //skip the current iteration and continue with next iteration
 			if (!Character.isDigit(input.charAt(a)))
 				result = false;
 		}
