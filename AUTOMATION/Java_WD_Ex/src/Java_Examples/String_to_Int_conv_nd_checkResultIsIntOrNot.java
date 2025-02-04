@@ -8,16 +8,6 @@ public class String_to_Int_conv_nd_checkResultIsIntOrNot {
 		System.out.println(i);
 
 		// Checking whether 'i' is integer or not
-		String input = String.valueOf(i);
-		boolean result = true;
-		for (int a = 0; a < input.length(); a++) {
-			if (a == 0 && input.charAt(a) == '-')
-				continue; //skip the current iteration and continue with next iteration
-			if (!Character.isDigit(input.charAt(a)))
-				result = false;
-		}
-		if (result) {
-			System.out.println("i value " + i + " is valid integer");
-		}
+		//Ref: //Ref: Java_Examples2\Check_Whether_Perfect_String_Int\Ex22_Check_IntOrNot
 	}
 }
