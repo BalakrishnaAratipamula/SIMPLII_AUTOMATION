@@ -8,15 +8,6 @@ public class Int_to_String_conv_nd_checkResultIsStringOrNot {
 		System.out.println(str);
 		
 		//Checking whether 'str' is String or not
-		boolean result = true;
-		for(int a=0; a<str.length(); a++) {
-			if(a==0 && str.charAt(a)=='-')
-				continue;//skip the current iteration and continue with next iteration
-			if(!Character.isDigit(str.charAt(a)))
-				result = false;
-		}
-		if(result) { 
-			System.out.println("str value "+ str +" containing Digits are in string format");
-		}
+		//Ref: Java_Examples2\Check_Whether_Perfect_String_Int\Ex23_Check_StringOrNot
 	}
 }
