@@ -1,33 +1,49 @@
 package Constructor_Chaining;
 
-class employee{
+class ParentEmployee {
 	private String name;
 	private int age;
-	
-	employee(){
-		this("\nJohn t", 32);
+
+	ParentEmployee() {
+		this("John t", 32); //at this step will call the matching parameterized constructor available in same class
 	}
 
-	employee(String n, int a) {
-//		this.name=n;
-//		this.age=a;
-		System.out.println(n);
-		System.out.println(a);
+	ParentEmployee(String n, int a) {
+		this.name = n;
+		this.age = a;
+		System.out.println("PE: "+n);
+		System.out.println("PE: "+a);
 	}
 }
 
-public class Constructor_Chaining extends employee{ //main class
+class ChildEmployee extends ParentEmployee { // main class
 	private String company;
-	Constructor_Chaining() {
-		super("john s", 42);	//Here we can use 'super()' and 'this' keywords together
-		this.company="Google";
+
+	ChildEmployee() {
+		super("john s", 42); //at this step will call the matching parameterized constructor available in Parent class
+		this.company = "Google"; // Here we can use 'super()' and 'this' keywords together
 		System.out.println(company);
 	}
-	
-	public static void main(String[] args) {
-		Constructor_Chaining cc = new Constructor_Chaining();
-		employee em = new employee();
-		
-	}
-	
+
 }
+
+public class Constructor_Chaining {
+	public static void main(String[] args) {
+//		ChildEmployee ce = new ChildEmployee(); //Execution 1
+		ParentEmployee pm = new ParentEmployee(); //Execution 2
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,19 +1,19 @@
 package ConstructorConcept;
 
+/*/1st scenario ---- Pass values by super()
 public class E1_XClass extends E1_SuperClass{
-
-	/*/1st scenario ---- Pass values by super()
-	public XClass() {
-		//super(10); //b
-		//super(10, 20); //c
-		//super();
+	
+	public E1_XClass() {
+//		super(10); //b
+//		super(10, 20); //c
+		super();
 		System.out.println("msg from Child class constructor");
 	} 
 
 	public static void main(String[] args) {
-		XClass obj1 = new XClass();
+		E1_XClass obj1 = new E1_XClass();
 
-	} */
+	} //*/
 
 	/*b. at this time default constr will not execute bcz explicitly we are trying to execute some parameterized constr with the help of 
 	 * super KW
@@ -24,10 +24,12 @@ public class E1_XClass extends E1_SuperClass{
 
 
 
-	//2nd scenario - constr to constr maping ---- Pass values By class
+
+//2nd scenario - constr to constr maping ---- Pass values By class
+public class E1_XClass extends E1_SuperClass{
 	public E1_XClass() {
 		super(); //b
-		//super(10, 20); //c
+//		super(10, 20); //c
 		System.out.println("msg from Child class constructor\n");
 	}
 
@@ -46,7 +48,7 @@ public class E1_XClass extends E1_SuperClass{
 		E1_XClass obj = new E1_XClass();
 		E1_XClass obj1 = new E1_XClass(10);
 		E1_XClass obj2 = new E1_XClass(20, 30); 
-	}
+	} //*/
 
 }
 

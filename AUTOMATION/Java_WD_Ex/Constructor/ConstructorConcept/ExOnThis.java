@@ -1,9 +1,9 @@
 package ConstructorConcept;
 
 public class ExOnThis {
-	/*/ EX1 - to refer current class instance variable
-	int a;
-	int b;
+	// EX1 - to refer current class instance variable
+	int a, b;
+	
 	ExOnThis(int a, int b){
 		this.a = a;		/////to refer current class instance variable
 		this.b = b;		/////to refer current class instance variable
