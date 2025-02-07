@@ -2,6 +2,7 @@ package ConstructorConcept;
 
 class Fruit{
 	int x=12;
+	
 	void print() {	//Overriding is possible with non-ststic methods
 		System.out.println("Fruit Class");
 	}

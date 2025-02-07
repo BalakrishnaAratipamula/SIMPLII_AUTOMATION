@@ -1,8 +1,7 @@
 package AA_Types_of_Constructors;
 
 class Academy2 {
-	int a = 0;
-	int b = 0;
+	int a = 0, b = 0;
 
 	// Parameterized Constructor
 	Academy2(int a, int b) {
