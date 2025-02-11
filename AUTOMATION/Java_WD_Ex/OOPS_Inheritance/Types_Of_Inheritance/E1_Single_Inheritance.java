@@ -16,5 +16,7 @@ public class E1_Single_Inheritance {
 	public static void main(String[] args) {
 		Animal si = new Dog();
 		si.eat();
+		
+		new Animal().eat();
 	}
 }

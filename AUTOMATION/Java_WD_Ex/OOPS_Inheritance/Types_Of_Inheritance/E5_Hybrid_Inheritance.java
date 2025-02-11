@@ -25,7 +25,6 @@ class Airbus extends Airplane{
 	}
 }
 
-
 public class E5_Hybrid_Inheritance {
 	public static void main(String[] args) {
 		Flyable f1 = new Bird();

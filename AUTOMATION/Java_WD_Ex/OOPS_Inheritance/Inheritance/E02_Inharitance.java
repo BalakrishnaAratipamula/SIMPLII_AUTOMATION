@@ -19,5 +19,6 @@ public class E02_Inharitance {
 		
 		//Method 2
 		System.out.println(new Dog().sound());
+		System.out.println(new Animal().sound());
 	}
 }

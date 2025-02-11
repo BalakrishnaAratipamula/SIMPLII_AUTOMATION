@@ -26,5 +26,6 @@ public class E4_Multiple_Inheritance{
 		Pet Mi2 = new Dog4();
 		Mi1.eat();
 		Mi2.eat();
+		Mi2.play();
 	}
 }

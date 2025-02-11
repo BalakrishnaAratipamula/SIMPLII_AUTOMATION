@@ -5,9 +5,10 @@
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
-/inputdata.properties
 /test-output/
-/AA_Types_of_Constructors/
+/to execuete all classes.xml
+/to execute some of methods only.xml
+/A1_Types_of_Constructors/
 /AbstractClass/
 /ArrayOfObjects/
 /Check_Whether_Perfect_String_Int/
@@ -69,8 +70,8 @@
 /RuntimeP_or_MethodOverridingE4/
 /Singleton_Class/
 /SortArrayListUsing_Comparable_nd_Comparator/
+/StaticBinding_DynamicBinding/
 /Static_Keywords/
-/Static_nd_Dynamic_Bindings/
 /SubClass_nd_InnerClass/
 /Synchronizatio_In_Java/
 /TestNG_Pass_App_Login_Parametrs/
@@ -84,3 +85,4 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
+/EncapuslationEx/
