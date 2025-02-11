@@ -11,9 +11,10 @@ public class E1CollectionEx {
 		fruits.add("Apple");
 		fruits.add("Banana");
 		fruits.add("Mango");
-
+		fruits.addAll(fruits); //to add same elements once more
+		
 		// Checking if "Banana" exists
-		System.out.println("Contains Banana? " + fruits.contains("Banana"));
+		System.out.println("Contains Banana? " + fruits.contains("Banana")); //*/
 
 		// Iterating through elements
 		for (String fruit : fruits) {
