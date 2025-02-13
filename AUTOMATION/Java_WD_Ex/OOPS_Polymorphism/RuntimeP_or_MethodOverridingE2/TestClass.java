@@ -1,6 +1,6 @@
 package RuntimeP_or_MethodOverridingE2;
 
-public class TestClass extends Chclass {
+public class TestClass extends A2Chclass {
 
 	public void setUp() {
 		super.setUp();  //It will call parent class method //must need to extend parent class
@@ -13,8 +13,8 @@ public class TestClass extends Chclass {
 
 	public static void main(String[] args) {
 		TestClass obj = new TestClass();
-		obj.setUp();
-		obj.userLogin();
-		obj.tearDown();
+		obj.setUp(); //A1ParClass, TC
+		obj.userLogin(); //TC
+		obj.tearDown(); //A1ParClass
 	}
 }

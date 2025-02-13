@@ -13,7 +13,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Ex32_frame {
 	public static void main(String[] args)throws Exception {
 		//to initialize the browser
-		System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
 		driver.get("https://netbanking.hdfcbank.com/netbanking/");
 		driver.manage().window().maximize();
