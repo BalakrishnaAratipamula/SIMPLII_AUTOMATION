@@ -1,6 +1,6 @@
 package RuntimeP_or_MethodOverridingE4;
 
-public class Main {
+public class TestClass {
 	
 	public static void main(String[] args) {
 		Animal myAnimal = new Animal();

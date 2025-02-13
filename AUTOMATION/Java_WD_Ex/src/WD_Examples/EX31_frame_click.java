@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class EX31_frame_click {
 	public static void main(String[] args) throws Exception {
 		//to initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://seleniumhq.github.io/selenium/docs/api/java/index.html");
 		driver.manage().window().maximize();
