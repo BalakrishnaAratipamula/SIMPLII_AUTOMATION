@@ -10,7 +10,7 @@ public class HDFCBank extends Bank {
 	
 	//extra feature only to HDFCBank
 	public void Funds() { //non-Overridden method
-		System.out.println("HDFCBank----Funds");
+		System.out.println("HDFCBank.Funds()----Funds");
 	}
 
 }

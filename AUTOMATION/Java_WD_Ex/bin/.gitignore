@@ -5,6 +5,7 @@
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
+/inputdata.properties
 /test-output/
 /to execuete all classes.xml
 /to execute some of methods only.xml
@@ -28,7 +29,7 @@
 /E4Public_AM/
 /E4Public_AM_Test/
 /EarlyBinding_LateBinding/
-/EncapuslationEx1/
+/EncapuslationEx/
 /ExceptionHandling/
 /GarbageCollectorEx/
 /GerericClass/
@@ -85,4 +86,3 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
-/EncapuslationEx/

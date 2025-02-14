@@ -2,12 +2,12 @@ package AbstractClass;
 
 public class TestBank {
 	public static void main(String[] args) {
-	/*/1st scenario --- DC
+	/*/1st scenario --- 
 	HDFCBank hb = new HDFCBank();
-	hb.Credit();
-	hb.Debit();
+	hb.Credit(); 
+	hb.Debit(); 
 	//Debit2();
-	hb.Loan1(); //Access bcz it is Overridden method
+	hb.Loan1(); //ch //Access bcz it is Overridden method
 	//Loan2();
 	hb.Funds(); //*/
 	
@@ -16,8 +16,8 @@ public class TestBank {
 	b.Credit(); 
 	b.Debit(); 
 	//Bank.Debit2(); ///(or) HDFCBank.Debt2() ----both will print parent class method only
-	b.Loan1();
-	//b.Loan2();
+	b.Loan1(); //ch
+//	b.Loan2();
 	//b.Funds();  //--not allow to access bcz 'Funds' method is only part of HDFCBank //*/
     
 	/*/3rd scenario --- DC

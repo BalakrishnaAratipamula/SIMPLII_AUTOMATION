@@ -25,12 +25,12 @@ class Car extends Vehicle {
 	public Car(String brand, int numberOfSeats) {
 		super(brand); // Calls the constructor of the abstract class
 		this.numberOfSeats = numberOfSeats;
-		System.out.println("Car() constrcutor called");
+		System.out.println("Car() constrcutor called: NumberOfSeats is "+numberOfSeats);
 	} //*/
 
 	@Override
 	public void drive() {
-		System.out.println(getBrand() + " car with " + numberOfSeats + " seats is driving.");
+		System.out.println("I'm driving "+getBrand() + " car with " + numberOfSeats + " seats..!");
 	}
 }
 
