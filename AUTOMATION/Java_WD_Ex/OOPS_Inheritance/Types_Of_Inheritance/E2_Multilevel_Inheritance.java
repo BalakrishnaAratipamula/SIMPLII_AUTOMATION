@@ -1,28 +1,28 @@
 package Types_Of_Inheritance;
 
-class Animal2{
-	void eat() {
-		System.out.println("the Animal2 is eating");
+class Parent{
+	void display() {
+		System.out.println("Parent class method is calling");
 	}
 }
 
-class Dog2 extends Animal2{
-	void eat() {
-		System.out.println("Dog2 is eating");
+class Child extends Parent{
+	void display() {
+		System.out.println("Child class method is calling");
 	}
 }
 
-class Pig extends Dog2{
-	void eat() {
-		System.out.println("Pig is eating");
+class Grandchild extends Child{
+	void display() {
+		System.out.println("Grandchild class method is calling");
 	}
 }
 
 public class E2_Multilevel_Inheritance {
 	public static void main(String[] args) {
-		Animal2 mi1 = new Dog2();
-		Animal2 mi2 = new Pig();
-		mi1.eat();
-		mi2.eat();
+		Parent mi1 = new Child();
+		Parent mi2 = new Grandchild();
+		mi1.display();
+		mi2.display();
 	}
 }

@@ -1,29 +1,29 @@
 package Types_Of_Inheritance;
 
-class Animal3{
-	void eat() {
-		System.out.println("the Animal3 is eating");
+class ParentA{
+	void display() {
+		System.out.println("the ParentA is calling");
 	}
 }
 
-class Dog3 extends Animal3{
+class Child1 extends ParentA{
 	void eat() {
-		System.out.println("Dog3 is eating");
+		System.out.println("the Child1 is calling");
 	}
 }
 
-class Cat extends Animal3{
+class Child2 extends ParentA{
 	void eat() {
-		System.out.println("Cat is eating");
+		System.out.println("the Child2 is calling");
 	}
 }
 
 public class E3_Hierarchical_Inheritance {
 	public static void main(String[] args) {
-		Animal3 hi1 = new Dog3();
-		Animal3 hi2 = new Cat();
-		hi1.eat();
-		hi2.eat();
+		ParentA hi1 = new Child1();
+		ParentA hi2 = new Child2();
+		hi1.display();
+		hi2.display();
 	}
 	
 }

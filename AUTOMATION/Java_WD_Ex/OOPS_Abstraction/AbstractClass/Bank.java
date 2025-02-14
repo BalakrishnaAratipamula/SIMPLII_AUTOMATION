@@ -6,6 +6,7 @@ public abstract class Bank {
 	final int rate = 10;	//final
 	static int loanRate = 5;	//static
 	
+	//abstract method 
 	public abstract void Loan1(); /////m1 //abstract method 
 	
 	public static void Loan2() { /////m2 //non-abstract method - Abstract method cannot be declared as a static bcz we have to Override ab method 
