@@ -17,13 +17,13 @@ public class MerkerInterface_NotSerializableClass {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		NotSerializableClass obj = new NotSerializableClass();
 		
-		try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("output.txt"))){
+		try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("output2.txt"))){
 			oos.writeObject(obj); //throws NotSerializableException
 		} catch(Exception e) {
 			System.out.println("searialization failed: "+e);
 //			e.printStackTrace();
 //			System.out.println(e.getMessage());
-			System.out.println("*****Check the doenloaded file in project folder*****");
+			System.out.println("*****Check the downloaded file in project folder*****");
 		}
 	}
 }

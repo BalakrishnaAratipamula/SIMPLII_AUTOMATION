@@ -5,7 +5,7 @@ public class TestClass implements Interface1{
 	public boolean isNull(String str) {
 		System.out.println("isNull() from TestClass class");
 		
-		System.out.println(str==null ? true:false);
+		System.out.println(str==null ? true:false); //ternary operator
 		return str==null ? true:false;
 	}
 	
