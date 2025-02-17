@@ -1,11 +1,11 @@
 /Baby Boy Name
+/inputdata.properties
 /OraneHRM_Login.xml
 /ReRun_Failed_TCs_usingIAnnotationTransformer/
 /TestNG_Annotations.xml
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
-/inputdata.properties
 /test-output/
 /to execuete all classes.xml
 /to execute some of methods only.xml
@@ -38,9 +38,9 @@
 /Inheritance/
 /InitializerBlocks/
 /Interface/
-/Interface2/
 /Interface_DefaultMtd_StaticMtd_1/
 /Interface_DefaultMtd_StaticMtd_2/
+/Interface_DefaultMtd_StaticMtd_3/
 /Interface_MarkerInterface/
 /Java_Examples/
 /Java_Quizs/
@@ -86,3 +86,4 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
+/A2_UnCheckedExceptions/

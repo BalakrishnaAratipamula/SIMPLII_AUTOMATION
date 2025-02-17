@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 class SerializableClass implements Serializable {
-	String data = "serializable";
+	String data = "serializable_serializable_serializable_serializable_serializable_serializable";
 	
 	public String getData() {
 		return data;
@@ -20,7 +20,7 @@ public class MerkerInterface_SerializableClass {
 		
 		try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("output.txt"))){
 			oos.writeObject(obj);
-			System.out.println("*****Check the doenloaded file in project folder*****");
+			System.out.println("*****Check the downloaded file in project folder*****");
 		}catch(Exception e) {
 			System.out.println("searialization failed: "+e);
 //			e.printStackTrace();
