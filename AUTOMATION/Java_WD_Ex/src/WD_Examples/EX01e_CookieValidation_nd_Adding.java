@@ -13,7 +13,7 @@ public class EX01e_CookieValidation_nd_Adding {
 		driver.get("https://example.cypress.io/commands/cookies");
 		driver.manage().window().maximize();
 		
-		/*/1 - Cookie Validation
+		//1 - Cookie Validation
 		//actuval class  = "set-a-cookie btn btn-success"
 		WebElement ele = driver.findElement(By.cssSelector(".set-a-cookie")); 
 //OR		WebElement ele = driver.findElement(By.cssSelector(".btn-success"));
@@ -23,7 +23,7 @@ public class EX01e_CookieValidation_nd_Adding {
 		
 		Cookie var = driver.manage().getCookieNamed("token");
 		
-		Assert.assertEquals(var.getValue(), "123ABC"); */
+		Assert.assertEquals(var.getValue(), "123ABC"); //*/
 		
 		
 		//2 - Cookie Adding

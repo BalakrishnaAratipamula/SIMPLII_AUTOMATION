@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class EX01a_editbox {
 	public static void main(String[] args) throws Exception {
 		//to initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://login.salesforce.com");
 		driver.manage().window().maximize();
