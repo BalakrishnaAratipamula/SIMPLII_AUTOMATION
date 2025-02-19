@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class EX03_isEnabled {
+public class EX03_CheckElement_isEnabled_or_Not {
 	public static void main(String[] args) throws Exception {
 		//to initialize browser
 		WebDriver driver = new ChromeDriver();
