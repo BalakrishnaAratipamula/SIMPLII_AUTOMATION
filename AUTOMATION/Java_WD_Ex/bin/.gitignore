@@ -1,9 +1,11 @@
+/Baby Boy Name
 /OraneHRM_Login.xml
 /ReRun_Failed_TCs_usingIAnnotationTransformer/
 /TestNG_Annotations.xml
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
+/inputdata.properties
 /test-output/
 /to execuete all classes.xml
 /to execute some of methods only.xml
@@ -84,3 +86,5 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
+/RuntimeP_or_MethodOverridingE5_RealTimeEx/
+/RuntimeP_or_MethodOverridingE6_RealTimeEx/

@@ -13,6 +13,9 @@ public class E1CollectionEx {
 		fruits.add("Mango");
 		fruits.addAll(fruits); //to add same elements once more
 		
+		// printing collection elements
+		System.out.println(fruits); // [Apple, Banana, Mango]
+		 
 		// Checking if "Banana" exists
 		System.out.println("Contains Banana? " + fruits.contains("Banana")); //*/
 

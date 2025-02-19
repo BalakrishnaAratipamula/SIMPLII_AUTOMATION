@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class EX05_uncheck_2nd_checkbox {
+public class EX04c_uncheck_2nd_checkbox {
 	public static void main(String[] args) throws Exception {
 		//to initialize the browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
