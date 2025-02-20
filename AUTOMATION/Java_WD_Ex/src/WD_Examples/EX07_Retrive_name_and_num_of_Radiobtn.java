@@ -12,17 +12,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class EX07_Retrive_name_and_num_of_Radiobtn {
 	public static void main(String[] args) throws Exception{
 		//to initialize the browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://en-gb.facebook.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(1500);
 
-		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[5]/a[1]")).click();
+		driver.findElement(By.xpath("//a[text()='Create new account']")).click();
 		Thread.sleep(3500);
 
 		//to find number of radio buttons
-		List<WebElement> radBtns = driver.findElements(By.className("_58mt"));
+		List<WebElement> radBtns = driver.findElements(By.xpath("//span/label")); //or try with - class '_58mt'
 		System.out.println("Number of Radiobuttons are: "+radBtns.size());
 
 		for(WebElement radBtn : radBtns) {

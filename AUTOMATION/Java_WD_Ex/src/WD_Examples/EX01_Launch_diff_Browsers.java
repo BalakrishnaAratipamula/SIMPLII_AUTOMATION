@@ -9,15 +9,16 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.SessionId;
 //LRBD012402594133
 //LRBD012402597582
-public class EX01_BrowserLaunch {
+public class EX01_Launch_diff_Browsers {
 	public static void main(String[] args) throws InterruptedException {
 		//geckoDriver
 //		System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		Thread.sleep(5000);
-		driver.navigate().to("https://www.google.com/"); //*/ 
+		driver.navigate().to("https://www.google.com/"); 
+		//to Print 'SessionId'
 		SessionId sessionId = ((RemoteWebDriver) driver).getSessionId();
-		System.out.println("Session ID: " + sessionId);
+		System.out.println("Session ID: " + sessionId); //*/
 		
 		/*/ChromeDriver
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");

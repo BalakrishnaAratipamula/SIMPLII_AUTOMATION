@@ -15,6 +15,7 @@ public class EX01d_BrowserCmds_setPositionNdSize_getSizeNdLocation {
 		
 		driver.manage().deleteAllCookies();
 		
+		//set browser dimension
 		Dimension dim = new Dimension(500, 500);
 		driver.manage().window().setSize(dim);
 		Thread.sleep(2000);
@@ -26,9 +27,10 @@ public class EX01d_BrowserCmds_setPositionNdSize_getSizeNdLocation {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		
+		//set WebElement 'size' and 'location' for 'Email or phone number' edit box
 		WebElement ele = driver.findElement(By.cssSelector("[name='email']"));
 		System.out.println("size: "+ele.getSize()+" \nlocation: "+ele.getLocation());
-		
+		//set WebElement 'size' and 'location' for 'Login' button
 		WebElement ele2 = driver.findElement(By.xpath("//button[text()='Log in']"));
 		System.out.println("size: "+ele2.getSize()+" \nlocation: "+ele2.getLocation());
 		
