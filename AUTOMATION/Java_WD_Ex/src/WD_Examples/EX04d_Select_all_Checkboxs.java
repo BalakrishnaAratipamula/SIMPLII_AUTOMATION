@@ -23,7 +23,7 @@ public class EX04d_Select_all_Checkboxs {
 
 		//to select mul checkboxes
 		for(WebElement ele: eles) {   
-			if(ele.isSelected()==false) { //isSelected() method will give boolean result so can take false/true
+			if(ele.isSelected()==false) { //or !checkBox.isSelected()//isSelected() method will give boolean result so can take false/true
 				ele.click();
 				Thread.sleep(1000);
 			}
