@@ -6,7 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class EX04_Check_uncheck_checkbox {
+public class EX04_CheckingCheckBox {
 	public static void main(String[] args) throws Exception{
 		//to initialize the browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe"); 
