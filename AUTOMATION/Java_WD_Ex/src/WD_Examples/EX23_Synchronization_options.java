@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-public class Ex23_Synchronization_options {
+public class EX23_Synchronization_options {
 
 	public static void main(String[] args) throws Exception {
 		// to Initialize browser
