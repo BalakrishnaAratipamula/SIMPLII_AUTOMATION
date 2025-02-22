@@ -44,7 +44,7 @@ public class EX10c2_GenericFun_to_Handle_StaticDD2 {
 
 		switch (type) {
 		case "index":
-			select.selectByIndex(Integer.parseInt(value));
+			select.selectByIndex(Integer.parseInt(value)); // conv String to int
 			break;
 		case "value":
 			select.selectByValue(value);
