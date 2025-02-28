@@ -21,7 +21,6 @@ public class EX13_check_select_given_opt_in_dd {
 		String scnr = sc.nextLine();
 
 		//to initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/test/newtours/");
 		driver.manage().window().maximize();
@@ -49,6 +48,7 @@ public class EX13_check_select_given_opt_in_dd {
 		}
 
 		sc.close();
+		driver.quit();
 	}
 }
 

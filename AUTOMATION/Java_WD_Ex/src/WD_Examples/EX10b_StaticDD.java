@@ -15,8 +15,9 @@ public class EX10b_StaticDD {
 		WebElement option1 = driver.findElement(By.cssSelector("option[value='1']"));
 		WebElement option2 = driver.findElement(By.cssSelector("option[value='2']"));
 		
+		Thread.sleep(5000);
 		option1.click();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		
 		Assert.assertTrue(option1.isSelected());
 		Assert.assertFalse(option2.isSelected());

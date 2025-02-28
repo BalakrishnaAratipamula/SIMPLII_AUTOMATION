@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 
-public class EX17_readdatafromWT {
+public class EX17_ReadWT_CellData_using_XPath {
 	public static void main(String[] args) {
 		//to initialize browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
