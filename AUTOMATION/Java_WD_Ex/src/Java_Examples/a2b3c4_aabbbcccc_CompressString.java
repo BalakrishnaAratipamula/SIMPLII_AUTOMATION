@@ -1,6 +1,8 @@
 package Java_Examples;
 
-public class a2b3c4_aabbbcccc {
+public class a2b3c4_aabbbcccc_CompressString {
+	
+	//Java int coding qns : #33 java program to compress String a2b3c4d2 --> aabbbccccdd and aabbbccccdd --> a2b3c4d2
 	public static void main(String[] args) {
 		/*/a2b3c4d2 --> aabbbccccdd
 		String str = "a2b3c4d2";
