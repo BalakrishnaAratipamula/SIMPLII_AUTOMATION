@@ -1,5 +1,6 @@
 package WD_Examples;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -10,14 +11,21 @@ import org.openqa.selenium.interactions.Actions;
 
 public class EX28_AuotoIT {
 	public static void main(String[] args) throws Exception{
-		//To Initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
-		WebDriver driver= new ChromeDriver();
+		// To initialize browser
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.ilovepdf.com/word_to_pdf"); //https://www.filemail.com/
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
-		driver.get("https://www.filemail.com/");
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
+		//click on select word files
+		driver.findElement(By.linkText("Select WORD files")).click();		
+		Thread.sleep(10000);
+				
+		//to call the autoIT script file (.exe file) into Eclipse using "Runtime" class
+		Runtime.getRuntime().exec("F:\\AutoIT\\FF2.exe");
+		
+		
+		/*/ old script - https://www.filemail.com/
 		WebElement ShareOption=driver.findElement(By.xpath("//span[contains(text(),'Share')]"));
 		Thread.sleep(4000);
 
@@ -38,17 +46,18 @@ public class EX28_AuotoIT {
 		////// solution for deprecated: https://stackoverflow.com/questions/21908645/command-in-runtime-getruntime-exec-not-working
 
 
-		/*;focus on "File Name" edit box
+		//
+		;focus on "File Name" edit box
 		ControlFocus("Open","","Edit1")        //("title","text(leave it)","control ID((property of the window component along with instance)")
 		;To enter file path					   /////Control ID (class+instance)	
 		ControlSetText("Open","","Edit1","F:\dd.jpg") //("title","text(leave it)","control ID((property of the window component along with instance))","String(path of the Image with extension)"
 		;to pause execution                       
 		Sleep(5000)
 		;to click on "Open" button
-		ControlClick("Open","","Button1")*/
-
-
+		ControlClick("Open","","Button1") //*/
+		
+		
 	}
 }
 
-//After completeting the script .au3 extension is require to Save As
+//After completing the script .au3 extension is require to Save As --> RC on '.au3' file in FileExplorer --> click on 'Show more options' --> click on 'Compile script (*64)' --> then .exe file will get generate
