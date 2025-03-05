@@ -1,26 +1,24 @@
 //Create ATS to validate login functionality using valid data in Gmail application
 package WD_Examples;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class EX24_get_page_title {
 	public static void main(String[] args) throws Exception{
 		// initialize browser and open gmail
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
-		WebDriver driver= new ChromeDriver();
-		driver.get("http://gmail.com");
+		WebDriver driver= new FirefoxDriver();
+		driver.get("http://gmail.com"); //try with facebook login 
 		driver.manage().window().maximize();
-
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
 		//to perform login operation
-		driver.findElement(By.id("identifierId")).sendKeys("aratipamula.balakrishna@gmail.com");
+		driver.findElement(By.id("identifierId")).sendKeys("bhanu10205@gmail.com");
 		driver.findElement(By.xpath("//*[text()='Next']")).click();
-
+		Thread.sleep(9000);
 
 		//Thread.sleep(5000);
 		driver.findElement(By.name("password")).sendKeys("sr786bhanu786");

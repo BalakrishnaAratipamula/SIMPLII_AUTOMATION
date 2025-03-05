@@ -8,23 +8,27 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class E14_PrintNumberOfLinksInaPage {
+public class E18_ReadALlCellValues_FromWebTable {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.google.co.in/");
+		driver.get("https://www.w3schools.com/html/html_tables.asp");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30)); 
 		
-		//to get all links
-		List<WebElement> links = driver.findElements(By.tagName("a"));
-		System.out.println("Number of links:  "+links.size());
+		WebElement parent = driver.findElement(By.id("customers")) ;
 		
-		//print links name
-		for(WebElement link : links) {
-			System.out.println(link.getText());
+		//to print table headers
+		List<WebElement> ths = parent.findElements(By.tagName("th"));
+		for(WebElement th : ths) {
+			System.out.println(th.getText());
 		}
 		
-		Thread.sleep(3000);
+		//to print table cell data
+		List<WebElement> tds = parent.findElements(By.tagName("td"));
+		for(WebElement td : tds) {
+			System.out.println(td.getText());
+		}
+		
 		driver.quit();
 	}
 }
