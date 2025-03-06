@@ -13,13 +13,10 @@ public class EX30_frames_print_num_framename {
 		//to initialize browser
 //		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
-		driver.get("https://seleniumhq.github.io/selenium/docs/api/java/index.html");
+		driver.get("http://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt");
 		driver.manage().window().maximize();
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 
-		//to click on frames Tab in application
-		driver.findElement(By.xpath("//header/nav[1]/div[1]/div[2]/ul[1]/li[1]/a[1]")).click();
-		Thread.sleep(2000);
 		//to find number of Frames in a page
 		List<WebElement> totalframes = driver.findElements(By.tagName("iframe")); //(or) tagName("frame") 
 		System.out.println("Number of frames are: "+totalframes.size());

@@ -26,7 +26,7 @@ public class EX32b_NestedFrames {
 		driver.get("https://demoqa.com/nestedframes");
 		driver.manage().window().maximize();
 
-		Path path = Paths.get("E:\\ExtensionLink\\ublock_origin-1.60.0.xpi");
+		Path path = Paths.get("E:\\ExtensionLink2\\ublock_origin-1.62.0.xpi"); //((or) older version)E:\\ExtensionLink\\ublock_origin-1.60.0.xpi
 		((FirefoxDriver) driver).installExtension(path);
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -35,7 +35,7 @@ public class EX32b_NestedFrames {
 		framesCountGeneric("iframe", "page"); // (locateFrameByTagName, identificationForConsoleMsg)
 
 		// Switch to parent frame
-		driver.switchTo().frame("frame1");
+		driver.switchTo().frame("frame1"); //id
 		// Number of Frames on Parent Frame
 		framesCountGeneric("iframe", "Parent Frame"); // (locateFrameByTagName, identificationForConsoleMsg)
 
@@ -45,7 +45,7 @@ public class EX32b_NestedFrames {
 		framesCountGeneric("iframe", "Child Frame"); // (locateFrameByTagName, identificationForConsoleMsg)
 
 		// Switch back to parent frame
-		driver.switchTo().parentFrame();
+		driver.switchTo().parentFrame(); //built-in method
 		// Number of Frames on Parent Frame
 		framesCountGeneric("iframe", "Parent Frame"); // (locateFrameByTagName, identificationForConsoleMsg)
 
@@ -57,12 +57,12 @@ public class EX32b_NestedFrames {
 		//Switch to default content
         driver.switchTo().defaultContent(); //Enter to main window from any frame (child or parent)
 
-        //Try to print the heading of the main page without swithcing
+        //Try to print the heading of the main page without switching
         WebElement mainPageText=driver.findElement(By.xpath("//*[@id='framesWrapper']/div[1]"));
         System.out.println("Main Page Text: \n"+mainPageText.getText());
 
         System.out.println("============End============");
-		driver.quit();
+		driver.quit(); //*/
 	}
 
 	static void parentFrameGeneric() {
@@ -79,5 +79,5 @@ public class EX32b_NestedFrames {
 		System.out.println("Number of iFrames inside the " + identificationForConsoleMsg + " : " + countIframes);
 		if (identificationForConsoleMsg.equals("Parent Frame") || identificationForConsoleMsg.equals("Child Frame")) 
 			System.out.println("Frame Text: " + driver.findElement(By.tagName("body")).getText());
-	}
+	} 
 }

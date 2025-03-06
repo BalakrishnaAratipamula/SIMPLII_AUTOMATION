@@ -30,7 +30,7 @@ public class EX65_ADsBlocking_nd_AddExtensionsToWdLaunchedBrowser {
 		//FirefoxBrowser
 		FirefoxDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-		Path path = Paths.get("E:\\ExtensionLink\\ublock_origin-1.60.0.xpi");
+		Path path = Paths.get("E:\\ExtensionLink\\ublock_origin-1.60.0.xpi"); //to download .xpi search 'ublock origin xpi versions' on browser --> (or) https://www.lakora.us/xpi-versions/?id=ublock-origin (or) https://sourceforge.net/projects/ublock-origin.mirror/files/
 		String extensionId = driver.installExtension(path);
 		
 		driver.get("https://text-compare.com/");
