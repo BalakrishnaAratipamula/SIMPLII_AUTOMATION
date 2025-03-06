@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Ex32_frame {
+public class Ex32_frame_Click {
 	public static void main(String[] args)throws Exception {
 		//to initialize the browser
 		WebDriver driver= new FirefoxDriver();
@@ -35,7 +35,7 @@ public class Ex32_frame {
 		Thread.sleep(2000);
 		driver.switchTo().defaultContent();
 		
-		driver.quit();
+		driver.quit(); //*/
 	}
 
 }
