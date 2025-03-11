@@ -12,7 +12,6 @@ import org.openqa.selenium.interactions.Actions;
 public class EX34_KB_Events_r_Operators {
 	public static void main(String[] args) throws Exception{
 		// To initialize browser
-		System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
 		driver.get("http:\\google.co.in");
 		driver.manage().window().maximize();
@@ -35,6 +34,5 @@ public class EX34_KB_Events_r_Operators {
 		txtSearch.sendKeys(Keys.ENTER); 
 
 		driver.quit();
-
 	}
 }

@@ -1,5 +1,7 @@
 package Java_Quizs;
 
+import java.lang.*;
+
 public class try_catch_finally2 {
 	
 	@SuppressWarnings("finally")

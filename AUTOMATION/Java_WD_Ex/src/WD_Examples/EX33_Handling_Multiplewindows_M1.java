@@ -11,7 +11,6 @@ import java.util.Set;
 public class EX33_Handling_Multiplewindows_M1 {
 	public static void main(String[] args) throws Exception{
 		// To initialize browser
-		System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
 		driver.get("http:\\gmail.com");
 		driver.manage().window().maximize();
@@ -25,7 +24,7 @@ public class EX33_Handling_Multiplewindows_M1 {
 		Thread.sleep(5000);
 
 		//to read window handles   ////// this method return type is 'Set<String>'
-		Set<String> pgHandles = driver.getWindowHandles(); //it will return id's of all opened windows into "set<String> variable" here return type is string
+		Set<String> pgHandles = driver.getWindowHandles(); //it will return id's of all opened win's into "set<String> variable" here return type is string
 		Iterator<String> winHandles = pgHandles.iterator(); //'Iterator' read each window id from "Set<String> variable" 
 		//Store each 'window handle value' into "String variable" by using Iterator class	
 		String w1 = winHandles.next();
@@ -48,8 +47,8 @@ public class EX33_Handling_Multiplewindows_M1 {
 		//to navigate 2nd window
 		driver.switchTo().window(w2);
 		System.out.println("----navigated to 2nd window----");
-		Thread.sleep(3000);
 		
+		Thread.sleep(3000);
 		driver.quit();
 		
 	}

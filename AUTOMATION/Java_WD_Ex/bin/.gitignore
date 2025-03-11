@@ -7,18 +7,8 @@
 /TestNG_ParallelTesting/
 /inputdata.properties
 /test-output/
-/DDT/
-/DDT_FW/
-/Java_Examples/
-/Java_Quizs/
-/MFW_com/
-/ModularFrameWork/
-/POM_TestCases/
-/POM_objectRepository/
-/ProFile/
-/ReRun_Failed_TCs_usingIRetryAnalyzer/
-/WD_Examples/
-/com/
+/to execuete all classes.xml
+/to execute some of methods only.xml
 /A1_Types_of_Constructors/
 /AbstractClass/
 /ArrayOfObjects/
@@ -29,6 +19,8 @@
 /Constructor_Chaining/
 /Constructor_Overloading/
 /Coupling/
+/DDT/
+/DDT_FW/
 /E1Private_AM/
 /E2Default_AM/
 /E2Default_AM_Test/
@@ -51,16 +43,24 @@
 /Interface_DefaultMtd_StaticMtd_2/
 /Interface_DefaultMtd_StaticMtd_3/
 /Interface_MarkerInterface/
+/Java_Examples/
+/Java_Quizs/
 /LinkedListEx/
+/MFW_com/
 /MethodReference/
+/ModularFrameWork/
 /Multiple_Inheritance/
 /Mutable_nd_Immutable_Objects/
 /Object_nd_Instance/
+/POM_TestCases/
+/POM_objectRepository/
 /Packages_Types_E1A/
 /Packages_Types_E1B/
 /Pass_by_value_nd_pass_by_reference/
 /PrimitiveDataTypes/
+/ProFile/
 /Program_to_cover_all_OOPS_Concepts/
+/ReRun_Failed_TCs_usingIRetryAnalyzer/
 /ReRun_Failed_TCs_usingIRetryAnalyzer2/
 /ReRun_Failed_TCs_usingTestNgFailedXMLfile/
 /Reflection/
@@ -86,5 +86,7 @@
 /Thread/
 /TypeCasting/
 /Types_Of_Inheritance/
+/WD_Examples/
 /WapperClass/
 /Why_Interface_Intraduced/
+/com/
