@@ -40,7 +40,7 @@ public class EX32b_NestedFrames {
 		framesCountGeneric("iframe", "Parent Frame"); // (locateFrameByTagName, identificationForConsoleMsg)
 
 		// switch to child frame
-		driver.switchTo().frame(0); //index
+		driver.switchTo().frame(0); //index-0 - bcz Number of iframes inside the Parent Frame :  1
 		// Number of Frames on Child Frame
 		framesCountGeneric("iframe", "Child Frame"); // (locateFrameByTagName, identificationForConsoleMsg)
 
@@ -63,15 +63,6 @@ public class EX32b_NestedFrames {
 
         System.out.println("============End============");
 		driver.quit(); //*/
-	}
-
-	static void parentFrameGeneric() {
-		// Locate the Element inside parent frame
-		WebElement frame1Element = driver.findElement(By.tagName("body"));
-
-		// Get the text for frame1 element
-		System.out.println("Frame1 is :" + frame1Element.getText());
-
 	}
 
 	static void framesCountGeneric(String locateFrameByTagName, String identificationForConsoleMsg) {

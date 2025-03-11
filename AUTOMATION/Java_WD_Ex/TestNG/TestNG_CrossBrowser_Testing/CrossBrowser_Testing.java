@@ -1,6 +1,7 @@
 package TestNG_CrossBrowser_Testing;
 
 import java.util.concurrent.TimeUnit;
+import java.lang.*;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

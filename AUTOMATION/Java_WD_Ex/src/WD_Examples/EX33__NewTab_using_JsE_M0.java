@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class EX33__NewTab_using_JsE_M0 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 
 		try {
@@ -20,8 +20,10 @@ public class EX33__NewTab_using_JsE_M0 {
 			js.executeScript("window.open();");
 
 			// Get all window handles
+			int i=1;
 			for (String handle : driver.getWindowHandles()) {
-				System.out.println("Handle: " + handle);
+				System.out.println("Handle"+i+": " + handle);
+				i++;
 			}
 
 			// Switch to the newly opened tab (last handle)
@@ -34,6 +36,7 @@ public class EX33__NewTab_using_JsE_M0 {
 			e.printStackTrace();
 
 		} finally {
+			Thread.sleep(6000);
 			driver.quit();
 		}
 	}
