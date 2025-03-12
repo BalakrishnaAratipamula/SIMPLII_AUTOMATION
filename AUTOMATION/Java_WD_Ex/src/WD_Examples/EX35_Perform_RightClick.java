@@ -14,21 +14,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class EX35_Perform_RightClick {
 	public static void main(String[] args) throws Exception {
 		// To initialize browser
-		System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
 		driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
 		driver.manage().window().maximize();
-		
-		
-		//Implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	//Deprecated in Selenium 3
 		
 		// Explicit wait
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));  //Bcz of Deprecation we use this cmd
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='right click me']")));
 		
-		
-
 		//create reference object for Button
 		WebElement button = driver.findElement(By.xpath("//span[text()='right click me']")); /////span[contains(text(),'right click me')]
 
