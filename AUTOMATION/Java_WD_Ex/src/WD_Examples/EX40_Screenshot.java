@@ -18,13 +18,13 @@ public class EX40_Screenshot {
 		
 		//to capture screenshot of page
 		File myFile= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File destination = new File("F:\\screenshots from eclipse\\screenshot1.png");
+		File destination = new File("F:\\screenshots from eclipse\\screenshot.png"); //"./Screenshots\\screenshot1.png"
 		Thread.sleep(6000);
 		//to save file in specified location
 		FileHandler.copy(myFile,destination);
 
 		//to save image file in Defects folder under java project
-		//FileHandler.copy(myFile,new File("F:\\LT eclipse-workspace\\Java_project\\Defects\\screenshot.png"));	//shortcut to path "./Defects\\screenshot2.png"
+		//FileHandler.copy(myFile,new File("F:\\screenshots from eclipse\\screenshot1.png"));	//shortcut to path "./Defects\\screenshot2.png"
 
 		driver.quit();
 	}

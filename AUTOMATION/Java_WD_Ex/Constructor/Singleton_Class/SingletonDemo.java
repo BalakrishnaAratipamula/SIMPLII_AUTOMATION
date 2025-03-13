@@ -1,7 +1,7 @@
 package Singleton_Class;
 
 class SingletonClass {
-//A Singleton class is a class that allows only one instance of itself to be created and provides a global point of access to that instance
+//A Singleton class is a class that allows only one instance to be created and provides a global point of access to that instance
 	private static SingletonClass single_instance = null;
 	public int i;
 

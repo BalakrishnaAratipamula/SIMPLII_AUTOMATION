@@ -20,7 +20,7 @@ public class EX38b_mousehover {
 		WebElement element = driver.findElement(By.xpath("//*[contains(text(),'name: user1')]"));
 		Assert.assertTrue(element.isDisplayed(), "user1 should appear bcz we hovered over the image");
 		
-		String str = driver.findElement(By.xpath("//*[@class=\"figcaption\"]/h5")).getText();
+		String str = driver.findElement(By.xpath("//*[@class='figcaption']/h5")).getText();
 		System.out.println(str);
 		
 		Thread.sleep(1000);

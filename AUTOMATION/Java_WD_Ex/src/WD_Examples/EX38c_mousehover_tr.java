@@ -25,7 +25,9 @@ public class EX38c_mousehover_tr {
 		act.moveToElement(ele2).build().perform();
 
 		driver.findElement(By.xpath("(//*[@class='menu-vertical'])[3]/li/a[text()='Klov']")).click();
-
+		Thread.sleep(2000);
+		System.out.println(driver.getTitle());
+		
 		Thread.sleep(5000);
 		driver.quit();
 	}

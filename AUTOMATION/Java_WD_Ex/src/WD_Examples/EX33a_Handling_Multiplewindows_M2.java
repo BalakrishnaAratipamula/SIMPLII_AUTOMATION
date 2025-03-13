@@ -16,7 +16,7 @@ public class EX33a_Handling_Multiplewindows_M2 { // in this method first we have
 
 		String parent = driver.getWindowHandle(); // parent
 		System.out.println("parent window id is:  " + parent);
-		System.out.println("parent window title is:  " + driver.getTitle());
+		System.out.println("parent window Page title is:  " + driver.getTitle());
 
 		// to click on "Click this link to start new Tab"
 		driver.findElement(By.linkText("Click this link to start new Tab")).click();
@@ -30,7 +30,7 @@ public class EX33a_Handling_Multiplewindows_M2 { // in this method first we have
 		for (String child : allwindows) {
 			if (!parent.equalsIgnoreCase(child)) {
 				driver.switchTo().window(child);
-				System.out.println("child window title is:  " + driver.getTitle());
+				System.out.println("child window Page title is:  " + driver.getTitle());
 				driver.findElement(By.name("q")).sendKeys("selenium webdriver");
 				Thread.sleep(3000);
 
@@ -39,7 +39,7 @@ public class EX33a_Handling_Multiplewindows_M2 { // in this method first we have
 		}
 		// navigate to parent window
 		driver.switchTo().window(parent);
-		System.out.println("parent window title is:  " + driver.getTitle());
+		System.out.println("parent window Page title is:  " + driver.getTitle());
 		Thread.sleep(3000);
 		driver.quit();
 	}
