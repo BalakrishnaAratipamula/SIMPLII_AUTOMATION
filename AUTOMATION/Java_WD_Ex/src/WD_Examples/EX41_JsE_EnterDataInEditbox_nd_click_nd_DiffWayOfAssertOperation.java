@@ -1,15 +1,17 @@
 package WD_Examples;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class EX41_JsE_enter_data_in_editbox_nd_click {
+public class EX41_JsE_EnterDataInEditbox_nd_click_nd_DiffWayOfAssertOperation {
 	public static void main(String[] args) throws InterruptedException  {
-		//to initialize browser
-		System.setProperty("webdriver.gecko.driver", "E://Drivers//geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();
 
@@ -24,8 +26,16 @@ public class EX41_JsE_enter_data_in_editbox_nd_click {
 		//to enter text in edit box
 		js.executeScript("window.document.getElementById('username').value='aaaaaaaaaaaaa'");//shortcut will get correct
 		Thread.sleep(1500);
-		//to click on webElement
-		WebElement ele = driver.findElement(By.name("Login"));
-		js.executeScript("arguments[0].click();", ele); //js.executeScript("arguments[0].click()", ele);
+		//to click on [Login] - For practice i  just want to use Explicit wait to find element
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement loginBtnEle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Login")));
+		//For practice i just want to perform Assert operation
+		assert loginBtnEle.isDisplayed();
+		
+		js.executeScript("arguments[0].click();", loginBtnEle); //js.executeScript("arguments[0].click()", ele);
+	
+		Thread.sleep(5000);
+		driver.quit();
+	
 	}
 }
