@@ -10,14 +10,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class EX41_JsE_EnterDataInEditbox_nd_click_nd_DiffWayOfAssertOperation {
+public class EX41_JsE_LaunchURL_EnterDataInEditbox_Click_nd_DiffWayOfAssertOperation {
 	public static void main(String[] args) throws InterruptedException  {
 		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();
 
 		//creating JavascriptExecutor interface object by TypeCasting ---- (JavascriptExecutor)driver)
 		//TypeCasting -----> we need to convert variable from one data type to another 
-		//TypeCasting -----> by type TypeCasting then only we can able to access the both WD & Js methods
+		//TypeCasting -----> by type TypeCasting only we can able to access the both WD & Js methods
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
 
 		//to open url
