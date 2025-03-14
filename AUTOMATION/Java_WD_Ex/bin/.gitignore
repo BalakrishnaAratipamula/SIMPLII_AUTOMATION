@@ -38,7 +38,9 @@
 /Hybrid_FW_com/
 /Inheritance/
 /InitializerBlocks/
+/InstanceOf_Operator/
 /Interface/
+/Interface_DefaultMtd/
 /Interface_DefaultMtd_StaticMtd_1/
 /Interface_DefaultMtd_StaticMtd_2/
 /Interface_DefaultMtd_StaticMtd_3/
@@ -52,6 +54,7 @@
 /Multiple_Inheritance/
 /Mutable_nd_Immutable_Objects/
 /Object_nd_Instance/
+/OptionalClass/
 /POM_TestCases/
 /POM_objectRepository/
 /Packages_Types_E1A/
@@ -90,6 +93,3 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
-/InstanceOf_Operator/
-/Interface_DefaultMtd/
-/OptionalClass/

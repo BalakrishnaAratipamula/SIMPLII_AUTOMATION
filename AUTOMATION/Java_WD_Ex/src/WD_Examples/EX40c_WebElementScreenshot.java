@@ -29,6 +29,9 @@ public class EX40c_WebElementScreenshot {
 		//2.cam screenshot
 		WebElement ele2 = driver.findElement(By.xpath("//*[local-name()='svg' and @class='Gdd5U']")); //for SVG elements
 		webElementScreenshot(ele2);
+		//3.search symbol screenshot
+		WebElement ele3 = driver.findElement(By.xpath("(//*[local-name()='svg' and @focusable='false'])[3]")); //for SVG elements
+		webElementScreenshot(ele3);
 		
 		//=============see Result in folder explorer then only image will visible
 		driver.quit();

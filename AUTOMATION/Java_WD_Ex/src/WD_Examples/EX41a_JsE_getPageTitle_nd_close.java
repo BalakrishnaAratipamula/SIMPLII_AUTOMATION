@@ -9,7 +9,6 @@ public class EX41a_JsE_getPageTitle_nd_close {
 
 	public static void main(String[] args) throws InterruptedException {
 		//to initialize browser
-		System.setProperty("webdriver.chrome.driver", "E://Drivers//chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 
