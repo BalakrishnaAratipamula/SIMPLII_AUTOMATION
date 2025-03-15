@@ -29,8 +29,8 @@ public class Ex27_Fileuplod_using_RobotClass_KB_Events_r_Operators {
 		// to copy & maintain it in system clipboard
 //		Toolkit.getDefaultToolkit().getSystemClipboard().setContents("F:\\API FileUpload\\SimpleWord.docx", null); // or we have to declare 'filePath' also
 		
-		 Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		 clipboard.setContents(filePath, null);
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		clipboard.setContents(filePath, null);
 		// Create obj for Robot class //setContents - the transferable object representing the clipboard content
 		Robot rbt = new Robot();
 		
