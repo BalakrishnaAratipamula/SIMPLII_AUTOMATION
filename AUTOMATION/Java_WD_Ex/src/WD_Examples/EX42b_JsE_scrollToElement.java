@@ -20,14 +20,16 @@ public class EX42b_JsE_scrollToElement {
 		driver.manage().window().maximize();
 		Thread.sleep(2000); 
 		
-		//imperfect 
+		//'other files' element
 		WebElement ele = driver.findElement(By.xpath("//h3[text()='Other files']/following-sibling::a")); 
-//		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", ele);
 		
-		//perfect
-		new Actions(driver).scrollToElement(ele).perform();
+		//perfectly working - using JsE 
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", ele);
+		
+		//perfect working - using Actions class
+//		new Actions(driver).scrollToElement(ele).perform();
 		
 		Thread.sleep(2000);
-		driver.quit();
+//		driver.quit();
 	}
 }

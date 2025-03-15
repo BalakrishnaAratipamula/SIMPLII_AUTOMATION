@@ -25,8 +25,6 @@ public class EX41a_JsE_getPageTitle_nd_close {
 		Thread.sleep(3000);
 		js.executeScript("window.close");
 
-
-
 	}
 
 }
