@@ -5,7 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+///////////////////https://www.letskodeit.com/practice - use this practice URL for both windows and Tabs
 public class EX33__NewTab_using_JsE_M0 {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();

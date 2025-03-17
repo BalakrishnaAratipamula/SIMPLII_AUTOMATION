@@ -13,23 +13,35 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class EX51_HandleSSLError { 
+public class EX51_HandleSSLError {
 
-public static void main(String[] args) { /////////---------- https://youtu.be/yWNFF5cpL70  ,  https://youtu.be/lvIXXilkw60
-	System.setProperty("webdriver.chrome.driver","E:\\Drivers\\chromedriver.exe");
-	//Global profile
-	DesiredCapabilities capabilities = new DesiredCapabilities(); // (Or) FirefoxOptions options = new FirefoxOptions();
-	
-	capabilities.setAcceptInsecureCerts(true); 
-	 			// (Or)
-	//capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true); //this will accept all the insecure certificates
-	//capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true); //this will accept all the SSL certificates
-	
-	////////////????? WebDriver driver= new ChromeDriver(capabilities); //arg - capabilities
-	//why this depricated
-	////////////????? driver.get("https://expired.badssl.com/");
-	//driver.get("https://badssl.com/");
-	//driver.findElement(By.linkText("expired")).click();
-	
-}
+	public static void main(String[] args) {
+
+		/*/Execution 1 -  For Chrome Browser
+		ChromeOptions capabilities = new ChromeOptions(); //
+
+		// capabilities.setAcceptInsecureCerts(true); 
+		// (Or)
+		capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true); // this will accept all the insecure certificates
+
+		WebDriver driver = new ChromeDriver(capabilities);
+		driver.get("https://expired.badssl.com/");
+		
+		System.out.println("The page title is : " + driver.getTitle()); // */
+
+		
+		
+		//Execution 2 - For Firefox Browser
+		FirefoxOptions capabilities = new FirefoxOptions();
+
+//		capabilities.setAcceptInsecureCerts(true);
+		// (Or)
+		capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true); // this will accept all the insecure certificates
+
+		WebDriver driver = new FirefoxDriver(capabilities);
+		driver.get("https://self-signed.badssl.com/");
+
+		System.out.println("The page title is : " + driver.getTitle()); // */
+
+	}
 }

@@ -7,8 +7,8 @@ import org.openqa.selenium.By;
 
 import java.util.Iterator;
 import java.util.Set;
-
-public class EX33_Handling_Multiplewindows_M1 {
+///////////////////https://www.letskodeit.com/practice - use this practice URL for both windows and Tabs
+public class EX33a_Handling_MultipleWindows_M1 {
 	public static void main(String[] args) throws Exception{
 		// To initialize browser
 		WebDriver driver= new FirefoxDriver();

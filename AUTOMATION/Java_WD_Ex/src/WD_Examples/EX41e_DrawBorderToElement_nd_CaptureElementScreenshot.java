@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class EX41e_DrawBorderNdSceenshot_Of_WE {
+public class EX41e_DrawBorderToElement_nd_CaptureElementScreenshot {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
@@ -25,7 +25,7 @@ public class EX41e_DrawBorderNdSceenshot_Of_WE {
 		jse.executeScript("arguments[0].style.border = '3px solid red'", ele);
 		Thread.sleep(2000);
 		
-		//To capture screenshot of WE
+		//To capture WebElement screenshot of WE
 		File myFile = ele.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(myFile, new File("./borderWebElement.jpg"));
 

@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class EX45_Oops_Diff_Langlinks_selection {
 	private WebDriver driver;    //take before the sub method because need to use 'driver' object in multiple sub methods
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver","E:\\Drivers\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver","E:\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://google.co.in");
 		driver.manage().window().maximize();
@@ -20,7 +20,7 @@ public class EX45_Oops_Diff_Langlinks_selection {
 	}
 	//to close application
 	public void tearDown() {
-		driver.close();
+		driver.quit();
 	}
 
 	public static void main(String[] args) throws Exception {

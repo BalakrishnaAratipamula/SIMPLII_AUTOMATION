@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -24,7 +25,7 @@ public class EX43_JsE_CheckElement_is_HiddenOrNot {
 		//Getting 'Edit Box' coordinates After click on [Hide]
 		GenericMethodToGetElementCoordinatesAndPrintInConsole("After");
 		
-		// getting HiddenElements
+		/*/getting Hidden Elements (Approach 1)-- It is lengthy approach
 		List<WebElement> elements = driver.findElements(By.cssSelector("[name='show-hide']")); // 'Edit Box'
 		int count = elements.size();
 		System.out.println("total Hidden elemnts  " + count);
@@ -39,6 +40,15 @@ public class EX43_JsE_CheckElement_is_HiddenOrNot {
 			} else {
 				System.out.println("Element not displaying on web page!");
 			}
+		} //*/
+		
+		//getting Hidden Elements (Approach 2) -- It is simple approach
+		try {
+			WebElement ele = driver.findElement(By.cssSelector("[name='show-hide']"));
+			ele.click();
+			System.out.println("Element is displaying on Web Page and clicked on element:  ");
+		} catch (ElementNotInteractableException e) {
+			System.out.println("Element is not displaying on Web Page:  " + e.getMessage());
 		}
 		
 		Thread.sleep(5000);

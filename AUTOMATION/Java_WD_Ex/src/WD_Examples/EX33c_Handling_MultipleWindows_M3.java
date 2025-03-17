@@ -6,8 +6,8 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-public class EX33b_Handling_Multiplewindows_M3 {
+///////////////////https://www.letskodeit.com/practice - use this practice URL for both windows and Tabs
+public class EX33c_Handling_MultipleWindows_M3 {
 	public static void main(String[] args) throws InterruptedException {
 		// To initialize browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");

@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 public class EX53_Copy_Paste {
 
 	public static void main(String[] args) throws InterruptedException {
-		//to initialize the browser
+		// to initialize the browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://en-gb.facebook.com/");
@@ -18,21 +18,20 @@ public class EX53_Copy_Paste {
 
 		driver.findElement(By.name("email")).sendKeys("Himaja");
 		Thread.sleep(3000);
-		
-		//to handle keyboard events
+
+		// to handle keyboard events
 		Actions actions = new Actions(driver);
-		
-		actions.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).build().perform(); //perform 'ctrl+a' activity
+
+		actions.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).build().perform(); // perform 'ctrl+a' activity
 		Thread.sleep(3000);
-		actions.keyDown(Keys.CONTROL).sendKeys("c").keyUp(Keys.CONTROL).build().perform(); //perform 'ctrl+c' activity
+		actions.keyDown(Keys.CONTROL).sendKeys("c").keyUp(Keys.CONTROL).build().perform(); // perform 'ctrl+c' activity
 		Thread.sleep(3000);
-		actions.sendKeys(Keys.TAB).build().perform(); //perform 'tab' activity
+		actions.sendKeys(Keys.TAB).build().perform(); // perform 'tab' activity
 		Thread.sleep(3000);
-		actions.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).build().perform(); //perform 'ctrl+v' activity
+		actions.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).build().perform(); // perform 'ctrl+v' activity
 		Thread.sleep(5000);
 
 		driver.quit();
-
 
 	}
 

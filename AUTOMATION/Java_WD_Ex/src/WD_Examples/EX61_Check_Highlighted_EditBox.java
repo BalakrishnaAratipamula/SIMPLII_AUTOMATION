@@ -19,6 +19,7 @@ public class EX61_Check_Highlighted_EditBox {
 		act.moveToElement(ele).click().perform();
 		Thread.sleep(1000);
 
+		//After click on 'Password' editbox that turns to orange color and one new node will added into DOM that having stye="color: orange;" AN & AV
 		Assert.assertTrue(driver.findElement(By.xpath("//*[@for='password1']")).getAttribute("style").contains("color: orange;"));
 		
 		driver.quit();

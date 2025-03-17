@@ -15,7 +15,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class EX43_JsE_HandlingHiddenElements_nd_PasteSytemClipboardCopiedDataIntoEclipseConsole { 
+public class EX43b_JsE_HandlingHiddenElements_nd_PasteSytemClipboardCopiedDataIntoEclipseConsole { 
 	static WebDriver driver;
 	
 	public static void main(String[] args) throws Exception { /////--------------https://youtu.be/2O5tnsJaHrY
