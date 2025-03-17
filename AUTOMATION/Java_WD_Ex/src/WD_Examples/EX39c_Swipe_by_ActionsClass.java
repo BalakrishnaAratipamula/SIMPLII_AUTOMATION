@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class EX68_Swipe_by_ActionsClass {
+public class EX39c_Swipe_by_ActionsClass {
 	public static void main(String[] args) {
 		// Set up WebDriver
 		WebDriver driver = new ChromeDriver();

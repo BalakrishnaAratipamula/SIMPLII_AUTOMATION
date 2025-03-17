@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-public class EX33a_Handling_Multiplewindows_M2 { // in this method first we have to know which window will open first
+///////////////////https://www.letskodeit.com/practice - use this practice URL for both windows and Tabs
+public class EX33b_Handling_MultipleWindows_M2 { // in this method first we have to know which window will open first
 	public static void main(String[] args) throws InterruptedException {
 		// To initialize browser
 		WebDriver driver = new ChromeDriver();
@@ -24,7 +24,7 @@ public class EX33a_Handling_Multiplewindows_M2 { // in this method first we have
 		Set<String> allwindows = driver.getWindowHandles();
 
 		int count = allwindows.size();
-		System.out.println("total windows is:  " + count);
+		System.out.println("total windows count:  " + count);
 
 		// navigate to child windows
 		for (String child : allwindows) {
