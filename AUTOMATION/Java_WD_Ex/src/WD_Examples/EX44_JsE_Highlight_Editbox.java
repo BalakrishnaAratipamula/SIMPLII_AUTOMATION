@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 
-public class EX43c_JsE_Highlight_Editbox {
+public class EX44_JsE_Highlight_Editbox {
 	public static void main(String[] args) throws Exception {
 //		System.setProperty("webdriver.gecko.driver", "E://Drivers//geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();

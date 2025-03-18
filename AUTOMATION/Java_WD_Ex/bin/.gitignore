@@ -1,6 +1,7 @@
 /Baby Boy Name
 /OraneHRM_Login.xml
 /ReRun_Failed_TCs_usingIAnnotationTransformer/
+/TakingSCreenshotOnlyForFailedTCs.xml
 /TestNG_Annotations.xml
 /TestNG_CrossBrowser_Testing/
 /TestNG_Grouping/
@@ -82,6 +83,7 @@
 /Static_Keywords/
 /SubClass_nd_InnerClass/
 /Synchronizatio_In_Java/
+/TakingScreenshotOnlyForFailedTestCases_UsingTestNG/
 /TestNG_Pass_App_Login_Parametrs/
 /TestNG_Simple1/
 /TestNG_Simple2/

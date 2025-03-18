@@ -3,12 +3,12 @@ package WD_Examples;
 import java.awt.HeadlessException;
 import java.awt.Toolkit;
 import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -29,10 +29,14 @@ public class EX43b_JsE_HandlingHiddenElements_nd_PasteSytemClipboardCopiedDataIn
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		//Execution 1. at this time given text will not enter in text box (it can see by click [show] after executing the script)
-		driver.findElement(By.id("hide-textbox")).click(); //Hide button is clicked
-		driver.findElement(By.id("hide-textbox")).sendKeys("AAAAAA"); 
+		try { //If element is Hidden we will get 'ElementNotInteractableException'
+			driver.findElement(By.id("hide-textbox")).click(); //clicked on [Hide]
+			driver.findElement(By.id("displayed-text")).sendKeys("AAAAAAAA"); //EditBox 
+		} catch(ElementNotInteractableException e) {
+			e.printStackTrace();
+			genericMethodToCopyTextIntoSystemClipBoardAndPastIntoConsole();
+		} //*/
 		
-		genericMethodToCopyTextIntoSystemClipBoardAndPastIntoConsole(); //*/
 		
 		/*/Execution 2. at this time given text will enter in text box (it can see by click [show] after executing the script)
 		driver.findElement(By.id("hide-textbox")).click(); //click on [Hide] 
