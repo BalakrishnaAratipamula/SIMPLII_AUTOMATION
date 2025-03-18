@@ -9,22 +9,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class E41b_JsE_getPagaeTitle_nd_closeWindow {
+public class E43c_JsE_Highlight_EditBox {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.get("https://login.salesforce.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
+		//'Edit Box' under Enabled/Disabled Example
+		WebElement editBox = driver.findElement(By.id("username"));
+		
+		//Highlight EditBox
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("arguments[0].style.border='2px solid red'", editBox);
 		
-		//to open URL
-		jse.executeScript("window.location='https://login.salesforce.com/'");
-		
-		//to getPageTitle
-		String pageTitle = (String) jse.executeScript("return document.title");
-		System.out.println("Page Title:  "+pageTitle);
-		
-		//to close browser window
-		jse.executeScript("window.close");
+		Thread.sleep(5000);
+//		driver.quit();
 	}
 }
