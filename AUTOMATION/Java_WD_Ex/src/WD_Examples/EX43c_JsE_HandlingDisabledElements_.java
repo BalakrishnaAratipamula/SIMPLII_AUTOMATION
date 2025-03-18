@@ -18,15 +18,17 @@ public class EX43c_JsE_HandlingDisabledElements_ {
 		
 		//'Edit Box' under Enabled/Disabled Example
 		WebElement editBox = driver.findElement(By.id("enabled-example-input"));
-		boolean result = editBox.isEnabled();
-		System.out.println("Before click on [Disable] status of 'Is element Enable?':  "+result);
+		boolean result1 = editBox.isEnabled(); //true
+		boolean result2 = editBox.isDisplayed(); //true
+		System.out.println("Before click on [Disable] status of 'Is element Enable?':  "+result1+"\tIs Element Displayed?:  "+result2);
 		
 		//click on [Disable]
 		driver.findElement(By.id("disabled-button")).click();
-		result = editBox.isEnabled();
-		System.out.println("Afeter click on [Disable] status of 'Is element Enable?':  "+result);
+		result1 = editBox.isEnabled(); //false
+		result2 = editBox.isDisplayed(); //true
+		System.out.println("Afeter click on [Disable] status of 'Is element Enable?':  "+result1+"\tIs Element Displayed?:  "+result2);
 //		editBox.sendKeys("AAAAAAAA");
-		if(result==false) { //If element is Disable we will get 'ElementNotInteractableException'
+		if(result1==false) { //If element is Disable we will get 'ElementNotInteractableException'
 			//to handle 'Disable' elements
 			JavascriptExecutor jse = (JavascriptExecutor)driver;
 			jse.executeScript("arguments[0].removeAttribute('disabled', 'disabled')", editBox);
