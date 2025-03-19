@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class EX69_StaleElementReferenceException_Handling {
 	public static void main(String[] args) { 
 		WebDriver driver = new ChromeDriver();
+		/////// Using retry mechanism
 		for (int i = 0; i < 3; i++) {
 			try {
 				WebElement element = driver.findElement(By.id("elementID"));
