@@ -11,33 +11,31 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class EX66_isElementPresent {
 	public static void main(String[] args) {
-        WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 
-        try {
-            driver.get("https://www.amazon.in/");
+		try {
+			driver.get("https://www.amazon.in/");
 
-            if (isElementPresent(driver, By.id("nav-search-submit-button"))) {
-                System.out.println("Element is present.");
-            } else {
-                System.out.println("Element is not present.");
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            driver.quit();
-        }
+			if (isElementPresent(driver, By.id("nav-search-submit-button"))) //true
+				System.out.println("Element is present.");
+			else 
+				System.out.println("Element is not present.");
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			driver.quit();
+		}
 	}
-	
+
 	public static boolean isElementPresent(WebDriver driver, By locator) {
-        try {
-            // Try finding the element
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.presenceOfElementLocated(locator));
-            return true;
-        } catch (Exception e) {
-            // If element is not found, return false
-            return false;
-        }
-    }
+		try {
+			// Try finding the element
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+			return true;
+		} catch (Exception e) {
+			// If element is not found, return false
+			return false;
+		}
+	}
 }
