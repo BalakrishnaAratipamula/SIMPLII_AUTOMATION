@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class EX52_DDDDDDynamic_elements { //--------------- https://youtu.be/c53R_9HauhU
 	@Test
-	public void HandleDynamicElements() {
+	public void HandleDynamicElements() throws InterruptedException {
 		// to initialize browser
 		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
@@ -15,7 +15,7 @@ public class EX52_DDDDDDynamic_elements { //--------------- https://youtu.be/c53
 		driver.manage().window().maximize();
 
 		//1. to handle dynamic table	
-//		getCellValue(driver, 2, 2); //driver, row, column
+		getCellValue(driver, 2, 2); //driver, row, column
 
 		//2. to handle dynamic Links
 		getTabName(driver, "Insurance Project");
@@ -24,16 +24,17 @@ public class EX52_DDDDDDynamic_elements { //--------------- https://youtu.be/c53
 	}
 
 	//1.
-	public void getCellValue(WebDriver driver, int row, int column) {
+	static void getCellValue(WebDriver driver, int row, int column) {
 		String innerText = driver.findElement(By.xpath("//table/tbody/tr["+row+"]/td["+column+"]")).getText();
 		System.out.println("cell text is:  "+innerText);
 
 	} //*/
 
 	//2.
-	public void getTabName(WebDriver driver, String tabname) {
-		String tabNameEle = driver.findElement(By.xpath("//ul[@class='nav navbar-nav']/li/a[contains(text(),'"+tabname+"')]")).getText();
-		System.out.println("Tab name is:  "+tabNameEle);
+	static void getTabName(WebDriver driver, String tabName) throws InterruptedException {
+		driver.findElement(By.xpath("//ul[@class='nav navbar-nav']/li/a[contains(text(),'" + tabName + "')]")).click();
+		Thread.sleep(2000);
+		System.out.println("Window Page Title is:  " + driver.getTitle());
 	} //*/
 
 }

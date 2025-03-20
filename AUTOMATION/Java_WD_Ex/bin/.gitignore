@@ -1,15 +1,15 @@
-/DDT/
-/DDT_FW/
-/Java_Examples/
-/Java_Quizs/
-/MFW_com/
-/ModularFrameWork/
-/POM_TestCases/
-/POM_objectRepository/
-/ProFile/
+/Baby Boy Name
+/OraneHRM_Login.xml
 /ReRun_Failed_TCs_usingIAnnotationTransformer/
-/WD_Examples/
-/com/
+/TakingSCreenshotOnlyForFailedTCs.xml
+/TestNG_Annotations.xml
+/TestNG_CrossBrowser_Testing/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/
+/inputdata.properties
+/test-output/
+/to execuete all classes.xml
+/to execute some of methods only.xml
 /A1_Types_of_Constructors/
 /AbstractClass/
 /ArrayOfObjects/
@@ -20,6 +20,8 @@
 /Constructor_Chaining/
 /Constructor_Overloading/
 /Coupling/
+/DDT/
+/DDT_FW/
 /E1Private_AM/
 /E2Default_AM/
 /E2Default_AM_Test/
@@ -44,16 +46,23 @@
 /Interface_DefaultMtd_StaticMtd_2/
 /Interface_DefaultMtd_StaticMtd_3/
 /Interface_MarkerInterface/
+/Java_Examples/
+/Java_Quizs/
 /LinkedListEx/
+/MFW_com/
 /MethodReference/
+/ModularFrameWork/
 /Multiple_Inheritance/
 /Mutable_nd_Immutable_Objects/
 /Object_nd_Instance/
 /OptionalClass/
+/POM_TestCases/
+/POM_objectRepository/
 /Packages_Types_E1A/
 /Packages_Types_E1B/
 /Pass_by_value_nd_pass_by_reference/
 /PrimitiveDataTypes/
+/ProFile/
 /Program_to_cover_all_OOPS_Concepts/
 /ReRun_Failed_TCs_usingIRetryAnalyzer/
 /ReRun_Failed_TCs_usingIRetryAnalyzer2/
@@ -75,9 +84,6 @@
 /SubClass_nd_InnerClass/
 /Synchronizatio_In_Java/
 /TakingScreenshotOnlyForFailedTestCases_UsingTestNG/
-/TestNG_CrossBrowser_Testing/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
 /TestNG_Pass_App_Login_Parametrs/
 /TestNG_Simple1/
 /TestNG_Simple2/
@@ -85,5 +91,7 @@
 /Thread/
 /TypeCasting/
 /Types_Of_Inheritance/
+/WD_Examples/
 /WapperClass/
 /Why_Interface_Intraduced/
+/com/

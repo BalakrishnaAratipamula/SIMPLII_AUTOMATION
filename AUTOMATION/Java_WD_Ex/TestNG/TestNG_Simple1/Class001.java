@@ -6,11 +6,16 @@ import org.testng.annotations.Test;
 public class Class001 {
 	@Test
 	public void method01(){
-		Reporter.log("Method01 from Class001",true);
+		Reporter.log("Method01 from Class001", true);
 	}
 	
 	@Test
 	public void method02(){
-		Reporter.log("Method02 from Class001",true);
+		Reporter.log("Method02 from Class001", false);
+	}
+	
+	@Test
+	public void method03(){
+		Reporter.log("Method03 from Class001", false);
 	}
 }
