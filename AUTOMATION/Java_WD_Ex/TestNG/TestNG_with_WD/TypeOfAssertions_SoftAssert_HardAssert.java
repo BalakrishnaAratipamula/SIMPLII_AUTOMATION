@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class SoftAssert_HardAssert {
+public class TypeOfAssertions_SoftAssert_HardAssert {
 
 	//HardAssert
 	@Test

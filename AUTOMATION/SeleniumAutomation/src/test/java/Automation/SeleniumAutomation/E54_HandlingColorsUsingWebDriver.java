@@ -1,4 +1,5 @@
-package WD_Examples;
+package Automation.SeleniumAutomation;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -7,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.Color;
 
-public class EX54_HandleColorsWithWD {
+public class E54_HandlingColorsUsingWebDriver {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -16,7 +17,6 @@ public class EX54_HandleColorsWithWD {
 		
 		//Find button
 		WebElement ele = driver.findElement(By.xpath("//*[@class='container']/input"));
-		
 		//to get clor in 'rgba' 
 		String rgbBackgroungColor = ele.getCssValue("background-color");
 		System.out.println("RGB Value is:  "+rgbBackgroungColor);

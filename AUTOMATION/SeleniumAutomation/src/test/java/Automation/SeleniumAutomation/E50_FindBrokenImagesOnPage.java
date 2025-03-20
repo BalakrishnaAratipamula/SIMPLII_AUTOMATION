@@ -11,20 +11,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class E49_FindBrokenLinksOnPage {
+public class E50_FindBrokenImagesOnPage {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.amazon.in/");
+		driver.get("https://the-internet.herokuapp.com/broken_images");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		//to get links information
-		List<WebElement> links = driver.findElements(By.tagName("a")); //a - is common tag for all links
+		List<WebElement> links = driver.findElements(By.tagName("img")); //a - is common tag for all links
 		System.out.println("Number of Links are:  "+links.size());
 		
 		//to read 'href' attribute value
 		for(int i=0; i<links.size(); i++) {
-			String linkUrl = links.get(i).getAttribute("href");
+			String linkUrl = links.get(i).getAttribute("src");
 			
 			verifyLinkActive(linkUrl);
 		}
@@ -52,5 +52,5 @@ public class E49_FindBrokenLinksOnPage {
 		} catch(Exception e) {
 			System.err.println(linkUrl);
 		}
-	} 
+	}
 }
