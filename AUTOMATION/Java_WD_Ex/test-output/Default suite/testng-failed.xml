@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_with_WD.EX6_TestNG_dataProvider">
+      <class name="TestNG_with_WD.dependsOnMethods">
         <methods>
-          <include name="login" invocation-numbers="0 1 2 3"/>
-          <include name="launchBrowser"/>
+          <include name="userLogin"/>
+          <include name="userReg"/>
         </methods>
-      </class> <!-- TestNG_with_WD.EX6_TestNG_dataProvider -->
+      </class> <!-- TestNG_with_WD.dependsOnMethods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

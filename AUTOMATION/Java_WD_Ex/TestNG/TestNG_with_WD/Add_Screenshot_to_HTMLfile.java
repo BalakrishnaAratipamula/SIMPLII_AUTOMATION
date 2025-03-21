@@ -69,7 +69,9 @@ public class Add_Screenshot_to_HTMLfile {
 	//to close application
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+		if(driver!=null) {
+			driver.quit();
+		}
 	}
 
 }
