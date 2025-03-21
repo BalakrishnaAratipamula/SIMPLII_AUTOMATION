@@ -24,6 +24,7 @@ import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 //https://youtu.be/15-ayP0sukA?si=0dJ7MbrtB0qVjYoj
+//https://www.youtube.com/watch?v=vmwc_TK07SU --- Must try for one more practice url
 public class EX64_DownloadFiles { 
 	static WebDriver driver;
 	
