@@ -13,8 +13,9 @@ public class Class002 {
 		WebDriver driver = new ChromeDriver();
 		Thread.sleep(2000);
 		driver.get("https://www.facebook.com/");
+		System.out.println("******Facebook Application Opend on CH Browser******"+driver.getTitle());
 		Thread.sleep(25000);
-		System.out.println("******Facebook Application closed on CH Browser******");
+		System.out.println("******Facebook Application Closed on CH Browser******");
 		driver.quit();
 	}
 

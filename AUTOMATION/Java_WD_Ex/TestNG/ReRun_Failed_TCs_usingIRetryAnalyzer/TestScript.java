@@ -17,7 +17,7 @@ public class TestScript {
 		driver.get("https://www.google.com");
 	}
 	
-	@Test(retryAnalyzer = IRetryAnalyzer_Implementation.class)
+	@Test(retryAnalyzer = IRetryAnalyzer_Implementation.class) //className.class
 	public void testMethod() {
 		String title = driver.getTitle();
 		Assert.assertEquals(title, "google");	//Actual: Google

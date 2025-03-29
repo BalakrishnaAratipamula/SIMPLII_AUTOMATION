@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<groups>
+  		<run>
+  			<include name="Smoke"/>
+  			<include name="Regression"/> 	<!--include - consider this method at the time of execution, exclude - not consider this method at the time of execution-->
+  			<exclude name="Re-test"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="TestNG_Grouping.Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
