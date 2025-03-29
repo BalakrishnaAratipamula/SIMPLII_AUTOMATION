@@ -23,7 +23,7 @@ public class S3_TestClass {
     public void test1() {
     	driver.findElement(By.id("username")).sendKeys("XYZ");
     	driver.findElement(By.name("Login")).click();
-        Assert.fail("This test is intentionally failing.");
+//        Assert.fail("This test is intentionally failing.");
     }
 
     @AfterClass

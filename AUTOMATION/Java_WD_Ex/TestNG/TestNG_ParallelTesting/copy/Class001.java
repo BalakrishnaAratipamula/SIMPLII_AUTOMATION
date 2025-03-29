@@ -12,8 +12,10 @@ public class Class001 {
 //		System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		Thread.sleep(2000);
-		driver.navigate().to("https://netbanking.hdfcbank.com/");
-		System.out.println("******Netbanking Application closed on FF Browser******");
+		driver.get("https://netbanking.hdfcbank.com/");
+		System.out.println("******Netbanking Application Closed on FF Browser******"+driver.getTitle());
+		Thread.sleep(2000);
+		System.out.println("******Netbanking Application Closed on FF Browser******");
 		driver.quit();
 	}
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="----DemoSuite----">
+	<test name="----DemoTest----">
+		<parameter name="urlfromsuite" value="https://opensource-demo.orangehrmlive.com/" />
+		<parameter name="uidfromsuite" value="Admin" />
+		<parameter name="pwdfromsuite" value="admin123" />
+		<classes>
+			<class name="Pass_Parameters_through_xmlFile.OrangeHRM_Login" />
+		</classes>
+	</test> 
+</suite> 
