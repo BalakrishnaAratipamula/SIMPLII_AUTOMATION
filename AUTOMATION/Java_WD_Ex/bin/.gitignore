@@ -94,3 +94,5 @@
 /Pass_Parametrs_through_xmlFile/
 /Pass_Parameters_through_xmlFile/
 /OraneHRM_Login_2.xml
+/ReRun_Failed_TCs_using_IAnnotationTransformer/
+/ReRun_Failed_TCs_using_IRetryAnalyzer/

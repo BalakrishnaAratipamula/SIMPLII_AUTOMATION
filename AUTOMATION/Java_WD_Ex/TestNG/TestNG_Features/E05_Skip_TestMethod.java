@@ -41,7 +41,7 @@ public class E05_Skip_TestMethod {
     } //*/
 	
 	
-	/*/Approach 2b: Using Conditional Skip Based on a Condition ---- It works perfectly
+	//Approach 2b: Using Conditional Skip Based on a Condition ---- It works perfectly
 	boolean skipTest = true;
 
     @Test
@@ -58,7 +58,7 @@ public class E05_Skip_TestMethod {
         System.out.println("Test 2 is running");
     } //*/
     
-    //Approach 3: Using ITestResult interface //status of this Approach is 'fail' it is not a good Approach
+    /*/Approach 3: Using ITestResult interface //status of this Approach is 'fail' it is not a good Approach
 	@Test
     public void testMethod1() {
         System.out.println("Executing testMethod1");
@@ -72,6 +72,6 @@ public class E05_Skip_TestMethod {
     @Test
     public void testMethod3() {
         System.out.println("Executing testMethod3");
-    }
+    } //*/
 
 }

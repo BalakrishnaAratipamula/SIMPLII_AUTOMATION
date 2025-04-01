@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReRun_Failed_TCs_usingIRetryAnalyzer2.MyTests">
+      <class name="TestNG_Features.E05_Skip_TestMethod">
         <methods>
-          <include name="test1"/>
           <include name="test2"/>
         </methods>
-      </class> <!-- ReRun_Failed_TCs_usingIRetryAnalyzer2.MyTests -->
+      </class> <!-- TestNG_Features.E05_Skip_TestMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
