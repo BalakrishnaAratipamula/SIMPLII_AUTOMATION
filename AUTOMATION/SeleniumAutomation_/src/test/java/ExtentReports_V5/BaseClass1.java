@@ -18,7 +18,7 @@ public class BaseClass1 {
 	public static WebDriver driver;
 	
 	//1. captureScreen - for Fail & Skip event
-	public String captureScreen(String tname) throws IOException{
+	public String captureScreenshotForFailSkipEvent(String tname) throws IOException{
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		
 		TakesScreenshot takesscreenshot = (TakesScreenshot)driver;
@@ -35,7 +35,7 @@ public class BaseClass1 {
 	
 	
 	//2. captureScreenshotOnExecution - Capture screenshot while executing the script
-	public String captureScreenshot(String methodName){
+	public String captureScreenshotWhileExecutingTheScript(String methodName){
 		TakesScreenshot takesscreenshot = (TakesScreenshot)driver;
 		File sourceFile = takesscreenshot.getScreenshotAs(OutputType.FILE);
 		File destFile = new File("./Screenshots"+methodName);
