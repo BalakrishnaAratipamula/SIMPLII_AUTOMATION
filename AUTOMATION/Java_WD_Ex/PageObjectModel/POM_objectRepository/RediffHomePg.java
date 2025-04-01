@@ -12,11 +12,11 @@ public class RediffHomePg {
 	WebElement signin; */
 		 	//////(or)
 	//Assign locator value to obj
-	@FindBy(linkText="Sign in")
+	@FindBy(linkText="Sign in") //[Sign in]
 	WebElement signin; 
 
 	//to return obj
-	public WebElement signinObj(WebDriver driver){ //WebElement----acts as DataType  ////return value by submethod
+	public WebElement signinObj(WebDriver driver){ //WebElement----acts as DataType  //return value by submethod
 		return(signin);
 	}
 }

@@ -23,32 +23,29 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-//import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ExtentDemo {
-
+	
 	//ExtentHtmlReporter extenthtmlReporter;
 	ExtentReports extentreports;
 	ExtentTest extenttest;
 	WebDriver driver;
-
+	
 	@BeforeClass
 	public void extentInfo() {
 		// to specify the file location
-		//extenthtmlReporter = new ExtentHtmlReporter("./TestResults//ExtentReporter.html"); // ./-means current working
+//		extenthtmlReporter = new ExtentHtmlReporter("./TestResults//ExtentReporter.html"); // ./-means current working
 																							// folder
 		// Title of the Report
-		//extenthtmlReporter.config().setDocumentTitle("/*******Title of the Report*******/"); // @@@@@@@@// Browser Title
+//		extenthtmlReporter.config().setDocumentTitle("/*******Title of the Report*******/"); // @@@@@@@@// Browser Title
 																								// level
 		// Name of the Report
-		//extenthtmlReporter.config().setReportName("/*******Name of the Report*******/"); // @@@@@@@@// Report Name
+//		extenthtmlReporter.config().setReportName("/*******Name of the Report*******/"); // @@@@@@@@// Report Name
 		// To Specify Theme like STANDARD/DARK
-		//extenthtmlReporter.config().setTheme(Theme.STANDARD);
-
-		// To create ExtentReports object and to attach Reports and to entry data in
-		// reports
+//		extenthtmlReporter.config().setTheme(Theme.STANDARD);
+		
+		// To create ExtentReports object and to attach Reports and to entry data in reports
 		extentreports = new ExtentReports();
 		// to attach Reports
 		//extentreports.attachReporter(extenthtmlReporter);
@@ -57,11 +54,11 @@ public class ExtentDemo {
 		extentreports.setSystemInfo("OS", "Windows10");
 		extentreports.setSystemInfo("Tester Name", "Balakrishna");
 		extentreports.setSystemInfo("Browser", "Chrome");
-
+		
 		/// To create ExtentTest object and specify Report Title
 		extenttest = extentreports.createTest("OrangeHRM_TitleTest"); // which test //@@@@@@@@// Test Name
 	}
-
+	
 	@BeforeMethod
 	public void setUp() throws IOException {
 		// System.setProperty("webdriver.chrome.driver",
@@ -69,7 +66,7 @@ public class ExtentDemo {
 		driver = new ChromeDriver();
 //		WebDriverManager.firefoxdriver().setup();
 //	    driver = new FirefoxDriver();
-
+		
 		extenttest.log(Status.INFO, "Chrome browser launched");
 		driver.manage().window().maximize();
 		driver.get("https://practicetestautomation.com/practice-test-login/"); // https://opensource-demo.orangehrmlive.com/
@@ -79,7 +76,7 @@ public class ExtentDemo {
 		FileHandler.copy(myFile, destination);
 		extenttest.log(Status.INFO, "Navigated Orange HRM Application");
 	}
-
+	
 	@Test
 	public void titleTest() throws IOException, InterruptedException {
 		driver.findElement(By.xpath("//*[@id='username']")).sendKeys("student");
@@ -104,15 +101,14 @@ public class ExtentDemo {
 		extenttest.addScreenCaptureFromPath("F:\\titleScreenshot102" + df1.format(dt) + ".png");// adding screen shot //
 		extenttest.log(Status.INFO, "ScreenShot Taken");
 		driver.findElement(By.xpath("//a[text()='Log out']")).click();
-
 	}
-
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
 		extenttest.log(Status.INFO, "Browser Closed");
 	}
-
+	
 	@AfterClass
 	public void endReport() {
 		extentreports.flush();
