@@ -78,7 +78,7 @@ public class ExtentReportManager implements ITestListener{
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		
 		try {
-			String imgPath = new BaseClass1().captureScreen(result.getName());
+			String imgPath = new BaseClass1().captureScreenshotForFailSkipEvent(result.getName());
 			test.addScreenCaptureFromPath(imgPath);
 
 		} catch (IOException e1) {
@@ -94,7 +94,7 @@ public class ExtentReportManager implements ITestListener{
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		
 		try {
-			String imgPath = new BaseClass1().captureScreen(result.getName()); //result.getName() - return Test Name
+			String imgPath = new BaseClass1().captureScreenshotForFailSkipEvent(result.getName()); //result.getName() - return Test Name
 			test.addScreenCaptureFromPath(imgPath);
 
 		} catch (IOException e1) {
@@ -116,8 +116,8 @@ public class ExtentReportManager implements ITestListener{
 		}
 	}
 	
-	//returning 'ExtentText' object by creating Test
-	public static ExtentTest captureScreenshotOnExecution(String methodName) {
+	//getting Method Name To 'CreateTest' For Execution Time Screenshot and returning 'ExtentText' object to TestScript class
+	public static ExtentTest gettingMethodNameToCreateTestForExecutionTimeScreenshot(String methodName) {
 		test = extent.createTest(methodName);
 
 		return test;

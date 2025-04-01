@@ -36,7 +36,7 @@ public class ExtentReportManager implements ITestListener {
 		extent.attachReporter(sparkReporter);	//Spark Reporter
 		extent.setSystemInfo("Application", "Pest Store Users API");
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
-		extent.setSystemInfo("User Name", System.getProperty("user.name"));
+		extent.setSystemInfo("User Name", System.getProperty("user.name")); //Laptop userName will get
 		extent.setSystemInfo("Environemnt", "QA");
 		extent.setSystemInfo("user", "Bala");
 	}

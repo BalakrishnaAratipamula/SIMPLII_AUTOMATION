@@ -15,7 +15,7 @@ public class T001_AccountRegistration extends BaseClass1{
 	public void verify_account_registration() throws InterruptedException {
 		String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		System.out.println("Executing methodName:  "+methodName);
-		ExtentTest test = ExtentReportManager.captureScreenshotOnExecution(methodName);
+		ExtentTest test = ExtentReportManager.gettingMethodNameToCreateTestForExecutionTimeScreenshot(methodName);
 		
 //		try {
 //			driver = new ChromeDriver(); //initialization done at 'BaseClass1.getBrowserDetails()'
@@ -23,18 +23,18 @@ public class T001_AccountRegistration extends BaseClass1{
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			
-			test.addScreenCaptureFromPath(captureScreenshot("HomePage.jpg"), "@@HomePage");
+			test.addScreenCaptureFromPath(captureScreenshotWhileExecutingTheScript("HomePage.jpg"), "@@HomePage");
 			//myAccount
 			driver.findElement(By.xpath("(//*[text()='My Account'])[1]")).click();
-			test.addScreenCaptureFromPath(captureScreenshot("MyAccountLinkClicked.jpg"), "@@MyAccountLinkClicked");
+			test.addScreenCaptureFromPath(captureScreenshotWhileExecutingTheScript("MyAccountLinkClicked.jpg"), "@@MyAccountLinkClicked");
 			
 			//Registor
 			driver.findElement(By.xpath("(//*[text()='Register'])[1]")).click();
-			test.addScreenCaptureFromPath(captureScreenshot("RegistorPage.jpg"), "@@RegistorPage Before Fill");
+			test.addScreenCaptureFromPath(captureScreenshotWhileExecutingTheScript("RegistorPage.jpg"), "@@RegistorPage Before Fill");
 			Thread.sleep(2000);
 			
 			//Intentionally i'm Failing the script
-//			Assert.fail("Intentionally i'm Failing the script");
+			Assert.fail("Intentionally i'm Failing the script");
 			
 			/*/Intentionally i'm Skipping the script
 			boolean skipTest = true;
@@ -46,7 +46,7 @@ public class T001_AccountRegistration extends BaseClass1{
 			
 			//Navigating back to HomePage
 			driver.navigate().back();
-			test.addScreenCaptureFromPath(captureScreenshot("Navigating_Back_to_HomePage.jpg"), "@@Navigating back to HomePage");
+			test.addScreenCaptureFromPath(captureScreenshotWhileExecutingTheScript("Navigating_Back_to_HomePage.jpg"), "@@Navigating back to HomePage");
 //		} catch(Exception e) {
 //			Assert.fail("Test Failed:  "+e.getMessage());
 //		} finally {
