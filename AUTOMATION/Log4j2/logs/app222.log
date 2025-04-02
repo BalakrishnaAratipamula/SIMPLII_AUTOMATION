@@ -1,0 +1,6 @@
+[2025-04-02 23:23:33] [main] TRACE Log4j2_usingXMLfile.T001_Demo_ - This is a TRACE message
+[2025-04-02 23:23:33] [main] DEBUG Log4j2_usingXMLfile.T001_Demo_ - This is a DEBUG message
+[2025-04-02 23:23:33] [main] INFO  Log4j2_usingXMLfile.T001_Demo_ - This is an INFO message
+[2025-04-02 23:23:33] [main] WARN  Log4j2_usingXMLfile.T001_Demo_ - This is a WARN message
+[2025-04-02 23:23:33] [main] ERROR Log4j2_usingXMLfile.T001_Demo_ - This is an ERROR message
+[2025-04-02 23:23:33] [main] FATAL Log4j2_usingXMLfile.T001_Demo_ - This is a FATAL message

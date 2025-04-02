@@ -1,0 +1,4 @@
+[2025-04-02 22:55:00] [main] INFO  Log4j2_usingPropertiesFile.T001_Demo - This is an INFO message
+[2025-04-02 22:55:00] [main] WARN  Log4j2_usingPropertiesFile.T001_Demo - This is a WARN message
+[2025-04-02 22:55:00] [main] ERROR Log4j2_usingPropertiesFile.T001_Demo - This is an ERROR message
+[2025-04-02 22:55:00] [main] FATAL Log4j2_usingPropertiesFile.T001_Demo - This is a FATAL message
