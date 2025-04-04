@@ -10,7 +10,6 @@ public class EX57_XPathAxes {
 
 		WebDriver driver = new FirefoxDriver();
 		driver.get("file:///F:/XAxes.html");
-		driver.manage().window().maximize();
 
 		// AND 
 		driver.findElement(By.xpath("//*[@class='Animal' and @align='center']"));

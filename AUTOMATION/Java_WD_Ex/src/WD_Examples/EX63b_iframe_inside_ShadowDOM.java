@@ -19,8 +19,10 @@ public class EX63b_iframe_inside_ShadowDOM {
 		driver.switchTo().frame("pact");
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		WebElement ele1 = (WebElement) js.executeScript("return document.querySelector(\"#snacktime\").shadowRoot.querySelector(\"#tea\")");
-		WebElement ele2 = (WebElement) js.executeScript("return document.querySelector(\"#snacktime\").shadowRoot.querySelector(\"#app2\").shadowRoot.querySelector(\"input\")");
+		//'Do you love tea' edit box
+		WebElement ele1 = (WebElement) js.executeScript("return document.querySelector('#snacktime').shadowRoot.querySelector('#tea')");
+		//'What would you like to have in lunch?' edit box
+		WebElement ele2 = (WebElement) js.executeScript("return document.querySelector('#snacktime').shadowRoot.querySelector('#app2').shadowRoot.querySelector('input')");
 		
 		String str1 = "arguments[0].setAttribute('value', 'Green Tea')";
 		String str2 = "arguments[0].setAttribute('value', 'Chiken Biriyani')";
