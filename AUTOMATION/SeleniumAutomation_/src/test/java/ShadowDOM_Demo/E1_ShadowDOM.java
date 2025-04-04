@@ -1,23 +1,19 @@
-package WD_Examples;
+package ShadowDOM_Demo;
 
-import java.time.Duration;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class EX63_ShadowDOM {
+public class E1_ShadowDOM {
 	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver= new ChromeDriver();
-		driver.navigate().to("chrome://settings/appearance");
+		WebDriver driver = new ChromeDriver();
+		driver.get("chrome://settings/appearance");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		/*/Exec - 1
+		/*/Exec 1
 		//Show bookmarks bar
-		WebElement eleShadowHost = driver.findElement(By.xpath("//settings-ui")).getShadowRoot()	//tagName
+		WebElement eleShadowHost = driver.findElement(By.xpath("//settings-ui")).getShadowRoot()
 								.findElement(By.cssSelector("settings-main#main")).getShadowRoot()
 								.findElement(By.cssSelector("settings-basic-page.cr-centered-card-container")).getShadowRoot()
 								.findElement(By.cssSelector("settings-section[section='appearance']"))
@@ -26,37 +22,39 @@ public class EX63_ShadowDOM {
 								.findElement(By.cssSelector("settings-toggle-button[label='Show bookmarks bar']")).getShadowRoot()
 								.findElement(By.cssSelector("cr-toggle#control"))
 								;
+		
 		System.out.println("Element identified:  "+eleShadowHost.isDisplayed());
-		Thread.sleep(2000);
+		
+		Thread.sleep(3000);
 		eleShadowHost.click();
 		Thread.sleep(4000);
-		eleShadowHost.click();
-		Thread.sleep(2000); //*/
+		eleShadowHost.click(); //*/
 		
 		
-		/*/Exec - 2
-		//Search settings
-		WebElement eleShadowHost = driver.findElement(By.xpath("//settings-ui")).getShadowRoot()	//tagName
+		/*/Exec 2
+		WebElement eleShadowHost = driver.findElement(By.xpath("//settings-ui")).getShadowRoot()
 								.findElement(By.cssSelector("cr-toolbar#toolbar")).getShadowRoot()
 								.findElement(By.cssSelector("cr-toolbar-search-field#search")).getShadowRoot()
 								.findElement(By.cssSelector("input"))
-								; 
+								;
+		
+		System.out.println("Element identified:  "+eleShadowHost.isDisplayed());
+		
 		Thread.sleep(3000);
-		eleShadowHost.sendKeys("Selenium-WebDriver");
-		Thread.sleep(3000); //*/
+		eleShadowHost.sendKeys("Selenium-WebDriver"); //*/
 		
 		
-		//Exec - 3
-		//Search settings
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		WebElement ele = (WebElement) js.executeScript("return document.querySelector('body > settings-ui').shadowRoot.querySelector('#toolbar').shadowRoot.querySelector('#search').shadowRoot.querySelector('#searchInput')");
+		//Exec 3
+		JavascriptExecutor jse = (JavascriptExecutor) driver;
+		WebElement eleShadowHost = (WebElement) jse.executeScript("return document.querySelector('body > settings-ui').shadowRoot"
+				+ ".querySelector('#toolbar').shadowRoot.querySelector('#search').shadowRoot.querySelector('#searchInput')");
 		
-		String str = "arguments[0].setAttribute('value', 'Selenium-WebDriver')";
+		Thread.sleep(3000);
+		eleShadowHost.sendKeys("Selenium-WebDriver"); //*/
 		
-		Thread.sleep(2000);
-		js.executeScript(str, ele);
-		Thread.sleep(2000); //*/
 		
-		driver.quit(); 
+		Thread.sleep(3000);
+		driver.quit();
 	}
+	
 }
