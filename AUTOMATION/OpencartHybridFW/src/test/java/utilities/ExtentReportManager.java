@@ -48,16 +48,22 @@ public class ExtentReportManager implements ITestListener{
 		
 //		String os = testContext.getCurrentXmlTest().getParameter("OS");
 //		extent.setSystemInfo("Operating System", os);
-		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
-		extent.setSystemInfo("OS Version", System.getProperty("os.version"));
+//		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
+//		extent.setSystemInfo("OS Version", System.getProperty("os.version"));
 		
 		
-		//@@@onStart() will trigger at initial so that time Browser will not launch so null will get print. Bcz of this i'm getting the browser details after launching the browser
+		/*/@@@onStart() will trigger at initial so that time Browser will not launch so null will get print. Bcz of this i'm getting the browser details after launching the browser
 		String[] browserDetails = new BaseClass().getBrowserDetails(); //both browserName & browserVersion returning from 'BaseClass1.getBrowserDetails()'
 		
 		extent.setSystemInfo("Browser Name", browserDetails[0]); //index will start from '0'
 		extent.setSystemInfo("Browser Version", browserDetails[1]);
+		//*/
+		
+		String os = testContext.getCurrentXmlTest().getParameter("os");
+		extent.setSystemInfo("Operating System", os);
 
+		String browser = testContext.getCurrentXmlTest().getParameter("browser");
+		extent.setSystemInfo("Browser", browser);
 		
 		List<String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups();
 		if (!includedGroups.isEmpty()) {
@@ -119,7 +125,7 @@ public class ExtentReportManager implements ITestListener{
 	
 	//getting Method Name To 'CreateTest' For Execution Time Screenshot and returning 'ExtentText' object to TestScript class
 	public static ExtentTest gettingMethodNameToCreateTestForExecutionTimeScreenshot(String methodName) {
-		test = extent.createTest(methodName);
+		test = extent.createTest(methodName); //create the Test in the name of executing method
 
 		return test;
 	}

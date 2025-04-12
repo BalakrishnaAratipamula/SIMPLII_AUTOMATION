@@ -34,7 +34,7 @@ public class BaseClass1 {
 	
 	
 	
-	//2. captureScreenshotOnExecution - Capture screenshot while executing the script
+	//2. captureScreenshotOnExecution - Capture screenshot while executing the script - pass event 
 	public String captureScreenshotWhileExecutingTheScript(String screenshotNameWithExtension){
 		TakesScreenshot takesscreenshot = (TakesScreenshot)driver;
 		File sourceFile = takesscreenshot.getScreenshotAs(OutputType.FILE);
