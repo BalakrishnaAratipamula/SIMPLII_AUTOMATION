@@ -30,5 +30,4 @@ public class HomePage extends BasePage {
 	public void clickLogin() {
 		linkLogin.click();
 	}
-
 }
