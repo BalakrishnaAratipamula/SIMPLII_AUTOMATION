@@ -34,7 +34,7 @@ public class EX23_Synchronization_options {
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='right click me']")));
 		//---------(OR)
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='right click me']")));
-		//take action and record result
+		wait.until(ExpectedConditions.refreshed(ExpectedConditions.stalenessOf(element)));		//take action and record result
 		Assert.assertTrue(element.isDisplayed());
 		
 		// to enter "NLR"

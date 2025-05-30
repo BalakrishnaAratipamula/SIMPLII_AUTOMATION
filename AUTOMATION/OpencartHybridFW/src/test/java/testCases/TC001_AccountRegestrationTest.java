@@ -19,7 +19,7 @@ public class TC001_AccountRegestrationTest extends BaseClass {
 		//capturing the method name to pass while capturing the screenshot
 		String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		System.out.println("Method Name:  "+methodName);
-		ExtentTest test = ExtentReportManager.gettingMethodNameToCreateTestForExecutionTimeScreenshot(methodName);
+		ExtentTest test = ExtentReportManager.gettingMethodNameToCreateTestForTestMethod(methodName);
 		
 		logger.info("*****Starting TC001_AccountRegestrationTest*****");
 		logger.debug("This is a debug log message");
@@ -64,9 +64,8 @@ public class TC001_AccountRegestrationTest extends BaseClass {
 
 			logger.info("Test Passed");
 			
-			//After Account Registration is done. it's navigated to 'Logged-in Page' so to perform Logout activity
+			//After Account Registration is done. it's navigated to 'Logged-in Page' so to perform Logout activity below method is calling
 			TC003_LogoutTest.verify_logout_test();
-			
 			
 		} catch(Exception e) {
 			logger.error("Test failed:  "+e.getMessage());
