@@ -17,7 +17,7 @@ public class TC003_LogoutTest extends BaseClass {
 		//capturing the method name to pass while capturing the screenshot
 		String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		System.out.println("Method Name:  "+methodName);
-		ExtentTest test = ExtentReportManager.gettingMethodNameToCreateTestForExecutionTimeScreenshot(methodName);
+		ExtentTest test = ExtentReportManager.gettingMethodNameToCreateTestForTestMethod(methodName);
 		
 		logger.info("*****Starting TC003_LogoutTest*****");
 		logger.debug("This is a debug log message");
@@ -52,4 +52,3 @@ public class TC003_LogoutTest extends BaseClass {
 		
 	}
 }
-

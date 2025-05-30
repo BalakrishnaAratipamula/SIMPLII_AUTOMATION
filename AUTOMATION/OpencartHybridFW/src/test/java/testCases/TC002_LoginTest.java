@@ -17,7 +17,7 @@ public class TC002_LoginTest extends BaseClass {
 		//capturing the method name to pass while capturing the screenshot
 		String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
 		System.out.println("Method Name:  "+methodName);
-		ExtentTest test = ExtentReportManager.gettingMethodNameToCreateTestForExecutionTimeScreenshot(methodName);
+		ExtentTest test = ExtentReportManager.gettingMethodNameToCreateTestForTestMethod(methodName);
 		
 		logger.info("*****Starting TC002_LoginTest*****");
 		logger.debug("This is a debug log message");

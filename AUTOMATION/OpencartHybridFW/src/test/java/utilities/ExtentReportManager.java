@@ -103,7 +103,7 @@ public class ExtentReportManager implements ITestListener{
 		try {
 			String imgPath = new BaseClass().captureScreenshotForFailSkipEvent(result.getName()); //result.getName() - return Test Name
 			test.addScreenCaptureFromPath(imgPath);
-
+			
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
@@ -112,7 +112,7 @@ public class ExtentReportManager implements ITestListener{
 	public void onFinish(ITestContext testContext) {
 
 		extent.flush();
-		
+
 		String pathOfExtentReport = System.getProperty("user.dir") + "\\reports\\" + repName;
 		File extentReport = new File(pathOfExtentReport);
 
@@ -122,13 +122,12 @@ public class ExtentReportManager implements ITestListener{
 			e.printStackTrace();
 		}
 	}
-	
+
 	//getting Method Name To 'CreateTest' For Execution Time Screenshot and returning 'ExtentText' object to TestScript class
-	public static ExtentTest gettingMethodNameToCreateTestForExecutionTimeScreenshot(String methodName) {
-		test = extent.createTest(methodName); //create the Test in the name of executing method
+	public static ExtentTest gettingMethodNameToCreateTestForTestMethod(String methodName) {
+		test = extent.createTest(methodName); //create the Test for executing method. And pass this 'test' to 'onTestFailure' & 'onTestSkipped' methods
 
 		return test;
 	}
 
-}
-
+} 

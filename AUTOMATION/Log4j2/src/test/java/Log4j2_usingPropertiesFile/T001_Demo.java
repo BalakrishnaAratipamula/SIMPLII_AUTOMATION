@@ -5,7 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 public class T001_Demo {
 	private static final Logger logger = LogManager.getLogger(T001_Demo.class);
-
+	
     public static void main(String[] args) {
         logger.trace("This is a TRACE message");
         logger.debug("This is a DEBUG message");

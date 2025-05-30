@@ -19,19 +19,19 @@ public class ExtentReportManager implements ITestListener {
 	public ExtentSparkReporter sparkReporter;	//responsible for UI of our report
 	public ExtentReports extent;
 	public ExtentTest test;
-
+	
 	String repName;
-
+	
 	public void onStart(ITestContext testContext) {		//it execute only once before starting all the tests
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		repName = "Test-Report-" + timeStamp + ".html";	//giving name to the report
-
+		
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report, above path
-
+		
 		sparkReporter.config().setDocumentTitle("RestAssuredAutomationProject"); // Title of report
 		sparkReporter.config().setReportName("Pet Store Users API"); // name of the report
 		sparkReporter.config().setTheme(Theme.DARK);
-
+		
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);	//Spark Reporter
 		extent.setSystemInfo("Application", "Pest Store Users API");
@@ -40,14 +40,14 @@ public class ExtentReportManager implements ITestListener {
 		extent.setSystemInfo("Environemnt", "QA");
 		extent.setSystemInfo("user", "Bala");
 	}
-
+	
 	public void onTestSuccess(ITestResult result) {
 		test = extent.createTest(result.getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.createNode(result.getName());
 		test.log(Status.PASS, "Test Passed");
 	}
-
+	
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getName());
 		test.createNode(result.getName());
@@ -55,7 +55,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.FAIL, "Test Failed");
 		test.log(Status.FAIL, result.getThrowable().getMessage());
 	}
-
+	
 	public void onTestSkipped(ITestResult result) {
 		test = extent.createTest(result.getName());
 		test.createNode(result.getName());
@@ -63,9 +63,9 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.SKIP, "Test Skipped");
 		test.log(Status.SKIP, result.getThrowable().getMessage());
 	}
-
+	
 	public void onFinish(ITestContext testContext) {
 		extent.flush();
 	}
-
+	
 }
