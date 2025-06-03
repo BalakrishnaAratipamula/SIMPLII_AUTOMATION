@@ -1,9 +1,13 @@
 package WD_Examples;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +22,6 @@ public class EX23_Synchronization_options {
 
 	public static void main(String[] args) throws Exception {
 		// to Initialize browser
-		System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		// -------------------pageLoadTimeout
@@ -45,11 +48,15 @@ public class EX23_Synchronization_options {
 		// ------------------ExplicitWait
 		// to pause execution based on "KOVUR-NLR" WebElement availability
 		Wait<WebDriver> wt = new WebDriverWait(driver, Duration.ofSeconds(6)); // don't need to mention seconds or minutes or hours
-		wt.until(ExpectedConditions.presenceOfElementLocated(By.linkText("KOVUR-NLR")));
+//		wt.until(ExpectedConditions.presenceOfElementLocated(By.linkText("KOVUR-NLR")));
+		wt.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.linkText("KOVUR-NLR"))); //it will work when frame is present in this case frame is not present so it doen't work
+		WebElement ele = driver.findElement(By.linkText("KOVUR-NLR"));
+		wait.until(ExpectedConditions.refreshed(ExpectedConditions.stalenessOf(ele)));
+		wt.until(ExpectedConditions.stalenessOf(ele));
 
 		driver.findElement(By.linkText("KOVUR-NLR")).click();
 
-		/*//Deprecated FluentWait
+		/*Deprecated FluentWait
 		 * FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 		 * .withTimeout(30, TimeUnit.SECONDS) .pollingEvery(5, TimeUnit.SECONDS)
 		 * .ignoring(NoSuchElementException.class); WebElement ele = wait.until(new
@@ -57,18 +64,33 @@ public class EX23_Synchronization_options {
 		 * 
 		 * public WebElement apply(WebDriver driver ) { return
 		 * driver.findElement(By.name("destination")); }
-		 * 
 		 * });
 		 */
 		
-		// ------------------FluentWait
+		/*/1 ------------------FluentWait
 		Wait<WebDriver> wait2 = new FluentWait<WebDriver>(driver)
 				.withTimeout(Duration.ofSeconds(30))
 				.pollingEvery(Duration.ofSeconds(5))
-				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class);
+//				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class);
+				//(or) .ignoring(NoSuchElementException.class, TimeoutException.class);
 		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.name("destination")));
-
-		driver.quit();
+		//*/
+		
+		/*/Or2 ------------------FluentWait
+		List allExceptions = new ArrayList();
+    	allExceptions.add(NoSuchElementException.class);
+    	allExceptions.add(ElementNotVisibleException.class);
+    	allExceptions.add(StaleElementReferenceException.class);
+    	allExceptions.add(ElementClickInterceptedException.class); 
+		Wait<WebDriver> wait2 = new FluentWait<WebDriver>(driver)
+				.withTimeout(Duration.ofSeconds(30))
+				.pollingEvery(Duration.ofSeconds(5))
+				.ignoreAll(allExceptions);
+		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.name("destination")));
+		//*/
+		
+		System.out.println("sys");
+//		driver.quit();
 
 	}
 }

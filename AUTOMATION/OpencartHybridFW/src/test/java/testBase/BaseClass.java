@@ -140,7 +140,7 @@ public class BaseClass {
 		String generateNumeric = RandomStringUtils.randomNumeric(3);
 		return (generateAlpha+ "@" +generateNumeric); //can use for email
 	}
-
+	
 	
 	//1. captureScreen - for Fail & Skip event
 	public String captureScreenshotForFailSkipEvent(String tname) throws IOException{
