@@ -1,4 +1,4 @@
-package ReRun_Failed_TCs_usingIRetryAnalyzer;
+package ReRun1_Failed_TCs_usingIRetryAnalyzer;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

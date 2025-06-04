@@ -1,4 +1,4 @@
-package ReRun_Failed_TCs_using_IAnnotationTransformer;
+package ReRun2_Failed_TCs_using_IAnnotationTransformer;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

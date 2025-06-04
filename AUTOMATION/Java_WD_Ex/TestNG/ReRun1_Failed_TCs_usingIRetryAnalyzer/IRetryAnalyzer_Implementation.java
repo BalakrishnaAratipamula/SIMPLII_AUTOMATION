@@ -1,4 +1,4 @@
-package ReRun_Failed_TCs_usingIRetryAnalyzer;
+package ReRun1_Failed_TCs_usingIRetryAnalyzer;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

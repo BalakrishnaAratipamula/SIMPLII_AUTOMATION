@@ -1,4 +1,4 @@
-package ReRun_Failed_TCs_usingTestNgFailedXMLfile;
+package ReRun3_Failed_TCs_usingTestNgFailedXMLfile;
 
 import java.time.Duration;
 
