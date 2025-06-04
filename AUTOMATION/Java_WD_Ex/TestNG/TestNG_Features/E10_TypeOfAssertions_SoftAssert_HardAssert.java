@@ -22,6 +22,7 @@ public class E10_TypeOfAssertions_SoftAssert_HardAssert {
 	@Test
 	public void y() {
 		SoftAssert softassert = new SoftAssert();
+		
 		Assert.assertEquals(true, true); //pass
 		System.out.println("Ystatement1");
 		softassert.assertEquals(false, true); //fail
