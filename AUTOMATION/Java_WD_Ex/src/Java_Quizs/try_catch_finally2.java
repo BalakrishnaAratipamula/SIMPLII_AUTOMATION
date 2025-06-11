@@ -4,7 +4,7 @@ import java.lang.*;
 
 public class try_catch_finally2 {
 	
-	@SuppressWarnings("finally")
+//	@SuppressWarnings("finally")
 	static int anyMethod() {
 		int i=1;
 		try {

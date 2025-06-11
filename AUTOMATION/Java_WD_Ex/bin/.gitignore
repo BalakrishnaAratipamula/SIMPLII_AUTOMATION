@@ -7,7 +7,6 @@
 /TestNG_Features/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
-/inputdata.properties
 /test-output/
 /A1_Types_of_Constructors/
 /AbstractClass/
@@ -44,6 +43,7 @@
 /Interface_DefaultMtd_StaticMtd_1/
 /Interface_DefaultMtd_StaticMtd_2/
 /Interface_DefaultMtd_StaticMtd_3/
+/Interface_IQ/
 /Interface_MarkerInterface/
 /Java_Examples/
 /Java_Quizs/
@@ -83,6 +83,8 @@
 /Synchronizatio_In_Java/
 /TakesScreenshot_wh_AssertFunction_Fails_Automatically/
 /TakingScreenshotOnlyForFailedTestCases_UsingTestNG/
+/TestNG_ParallelExecutionWithDelays/
+/TestNG_ParallelExecutionWithDelays_usingXML/
 /Thread/
 /TypeCasting/
 /Types_Of_Inheritance/
@@ -90,4 +92,5 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
-/Interface_IQ/
+/Listner_Use_IExecutionListener_to_Mark_Executed_TCs/
+/Listener_Use_IExecutionListener_to_Mark_Executed_TCs/
