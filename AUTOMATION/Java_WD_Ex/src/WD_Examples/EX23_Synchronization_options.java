@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
@@ -29,6 +30,12 @@ public class EX23_Synchronization_options {
 		driver.navigate().to("https://www.apsrtconline.in/oprs-web/");
 		driver.manage().window().maximize();
 
+		//Static wait
+		Thread.sleep(2000);
+		//Or
+		TimeUnit.SECONDS.sleep(2);
+		
+		
 		// ------------------ImplicitlyWait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); // Deprecated in Selenium 3
 

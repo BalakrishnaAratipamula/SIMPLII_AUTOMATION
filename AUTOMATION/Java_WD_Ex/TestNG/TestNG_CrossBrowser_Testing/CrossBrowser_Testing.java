@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 public class CrossBrowser_Testing {
 	public static WebDriver driver;
-	@SuppressWarnings("deprecation")
+//	@SuppressWarnings("deprecation")
 	@BeforeClass
 	@Parameters({"Desired_Browser"})
 	public void setUp(String testBrowser) {
