@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts">
+      <class name="Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests">
         <methods>
-          <include name="m5"/>
-          <include name="m7"/>
-          <include name="m4"/>
-          <include name="skipIfAlreadyExecuted"/>
+          <include name="toGetExecutingClassName"/>
           <include name="m1"/>
-          <include name="m2"/>
           <include name="m3"/>
         </methods>
-      </class> <!-- Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts -->
+      </class> <!-- Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -56,6 +56,11 @@ public class E05_Skip_TestMethod {
             throw new SkipException("Condition met, skipping test");
         }
         System.out.println("Test 2 is running");
+    } 
+    
+    @Test
+    public void test3() {
+        System.out.println("Test 3 is running");
     } //*/
     
     /*/Approach 3: Using ITestResult interface //status of this Approach is 'fail' it is not a good Approach
