@@ -1,103 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-11T22:16:20 IST" name="Suite" finished-at="2025-06-11T22:16:20 IST" duration-ms="203">
+  <suite started-at="2025-06-12T19:11:57 IST" name="Suite" finished-at="2025-06-12T19:11:57 IST" duration-ms="137">
     <groups>
     </groups>
-    <test started-at="2025-06-11T22:16:20 IST" name="Test" finished-at="2025-06-11T22:16:20 IST" duration-ms="203">
-      <class name="Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts">
-        <test-method is-config="true" signature="skipIfAlreadyExecuted(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="skipIfAlreadyExecuted" finished-at="2025-06-11T22:16:20 IST" duration-ms="13" status="PASS">
+    <test started-at="2025-06-12T19:11:57 IST" name="Test" finished-at="2025-06-12T19:11:57 IST" duration-ms="137">
+      <class name="Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests">
+        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="toGetExecutingClassName" finished-at="2025-06-12T19:11:57 IST" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[void Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts.m1()]]>
+                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m1()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- skipIfAlreadyExecuted -->
-        <test-method signature="m1()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="m1" finished-at="2025-06-11T22:16:20 IST" duration-ms="15" status="PASS">
+        </test-method> <!-- toGetExecutingClassName -->
+        <test-method signature="m1()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="m1" finished-at="2025-06-12T19:11:57 IST" duration-ms="18" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m1
+at Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X2_SkipTestByNameUsingListener.beforeInvocation(X2_SkipTestByNameUsingListener.java:31)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:56)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:573)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method is-config="true" signature="skipIfAlreadyExecuted(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="skipIfAlreadyExecuted" finished-at="2025-06-11T22:16:20 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="toGetExecutingClassName" finished-at="2025-06-12T19:11:57 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[void Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts.m2()]]>
+                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m2()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- skipIfAlreadyExecuted -->
-        <test-method signature="m2()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="m2" finished-at="2025-06-11T22:16:20 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- toGetExecutingClassName -->
+        <test-method signature="m2()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="m2" finished-at="2025-06-12T19:11:57 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method is-config="true" signature="skipIfAlreadyExecuted(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="skipIfAlreadyExecuted" finished-at="2025-06-11T22:16:20 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="toGetExecutingClassName" finished-at="2025-06-12T19:11:57 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[void Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts.m3()]]>
+                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m3()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- skipIfAlreadyExecuted -->
-        <test-method signature="m3()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="m3" finished-at="2025-06-11T22:16:20 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- toGetExecutingClassName -->
+        <test-method signature="m3()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="m3" finished-at="2025-06-12T19:11:57 IST" duration-ms="4" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m3
+at Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X2_SkipTestByNameUsingListener.beforeInvocation(X2_SkipTestByNameUsingListener.java:31)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
+at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:56)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:573)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method is-config="true" signature="skipIfAlreadyExecuted(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="skipIfAlreadyExecuted" finished-at="2025-06-11T22:16:20 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="toGetExecutingClassName" finished-at="2025-06-12T19:11:57 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[void Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts.m4()]]>
+                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m4()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- skipIfAlreadyExecuted -->
-        <test-method signature="m4()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="m4" finished-at="2025-06-11T22:16:20 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- toGetExecutingClassName -->
+        <test-method signature="m4()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="m4" finished-at="2025-06-12T19:11:57 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m4 -->
-        <test-method is-config="true" signature="skipIfAlreadyExecuted(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="skipIfAlreadyExecuted" finished-at="2025-06-11T22:16:20 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="toGetExecutingClassName" finished-at="2025-06-12T19:11:57 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[void Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts.m5()]]>
+                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m5()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- skipIfAlreadyExecuted -->
-        <test-method signature="m5()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="m5" finished-at="2025-06-11T22:16:20 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- toGetExecutingClassName -->
+        <test-method signature="m5()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-12T19:11:57 IST" name="m5" finished-at="2025-06-12T19:11:57 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m5 -->
-        <test-method is-config="true" signature="skipIfAlreadyExecuted(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="skipIfAlreadyExecuted" finished-at="2025-06-11T22:16:20 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[void Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts.m7()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- skipIfAlreadyExecuted -->
-        <test-method signature="m7()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts@5a45133e]" started-at="2025-06-11T22:16:20 IST" name="m7" finished-at="2025-06-11T22:16:20 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m7 -->
-      </class> <!-- Listener_Use_IExecutionListener_to_Mark_Executed_TCs.TestScripts -->
+      </class> <!-- Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,4 +1,6 @@
 /Baby Boy Name
+/Listener_Use_IExecutionListener_to_Mark_Executed_TCs/
+/Listener_Use_IExecutionListener_to_Mark_Executed_TCs2/
 /Pass_Parameters_through_xmlFile/
 /ReRun2_Failed_TCs_using_IAnnotationTransformer/
 /ReRun4_Failed_TCs_using_TestNgFailedXMLfile/
@@ -92,5 +94,3 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
-/Listner_Use_IExecutionListener_to_Mark_Executed_TCs/
-/Listener_Use_IExecutionListener_to_Mark_Executed_TCs/
