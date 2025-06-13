@@ -9,7 +9,7 @@ import org.testng.ITestResult;
 // @.Suppose 400 test cases are running and after 150 test cases got executed the system got crashed or network was gone or application got crashed. How to run only the test cases which are not executed?
 //N: If we are trying to execute remaining 150 not executed TCs through 'testng.xml' file we didn't able to see the the Passed & Skipped count see in 'console' but we can see in 'Results of running class (i.e. TestNG result)'
 //N: If we are trying to execute remaining 150 not executed TCs through 'Test Class' file we can able to see the the Passed & Skipped count see in 'console' but we can see in 'Results of running class (i.e. TestNG result)'
-public class X1_TestExecutionTracker implements ITestListener {
+public class X1_TestExecutionManager implements ITestListener {
 	private static final String LOG_FILE = "executed_tests.txt";
 
 	@Override
