@@ -9,6 +9,7 @@
 /TestNG_Features/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
+/inputdata.properties
 /test-output/
 /A1_Types_of_Constructors/
 /AbstractClass/
@@ -94,4 +95,3 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
-/Listener_Use_ExecutionOrderControl_by_IMethodInterceptor.class
