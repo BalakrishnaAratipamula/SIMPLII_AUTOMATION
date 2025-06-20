@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
-public class EX38c_mousehover_tr {
+public class EX38c_mousehover_tr { //tricky
 	public static void main(String[] args) throws Exception {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://extentreports.com/");
