@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="ReRunFailedTCs_immediatlyAfterExecution.E2_RetryListener"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="0" skipped="2">
+<testng-results retried="3" ignored="0" total="5" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-13T12:05:56 IST" name="Default suite" finished-at="2025-06-13T12:05:56 IST" duration-ms="199">
+  <suite started-at="2025-06-25T21:06:13 IST" name="Suite" finished-at="2025-06-25T21:06:13 IST" duration-ms="393">
     <groups>
     </groups>
-    <test started-at="2025-06-13T12:05:56 IST" name="Default test" finished-at="2025-06-13T12:05:56 IST" duration-ms="199">
-      <class name="Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests">
-        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="toGetExecutingClassName" finished-at="2025-06-13T12:05:56 IST" duration-ms="30" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m1()]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-06-25T21:06:13 IST" name="Test" finished-at="2025-06-25T21:06:13 IST" duration-ms="393">
+      <class name="ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB">
+        <test-method signature="testCase3()[pri:0, instance:ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB@273e7444]" started-at="2025-06-25T21:06:13 IST" name="testCase3" finished-at="2025-06-25T21:06:13 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- toGetExecutingClassName -->
-        <test-method signature="m1()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="m1" finished-at="2025-06-13T12:05:56 IST" duration-ms="26" status="SKIP">
-          <exception class="org.testng.SkipException">
+        </test-method> <!-- testCase3 -->
+        <test-method retried="true" signature="testCase4()[pri:0, instance:ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB@273e7444]" started-at="2025-06-25T21:06:13 IST" name="testCase4" finished-at="2025-06-25T21:06:13 IST" duration-ms="11" status="SKIP">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m1]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m1
-at Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X2_SkipTestByNameUsingListener.beforeInvocation(X2_SkipTestByNameUsingListener.java:34)
-at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
-at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:56)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:573)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB.testCase4(S2_ClassB.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -53,49 +51,28 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="toGetExecutingClassName" finished-at="2025-06-13T12:05:56 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m2()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toGetExecutingClassName -->
-        <test-method signature="m2()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="m2" finished-at="2025-06-13T12:05:56 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m2 -->
-        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="toGetExecutingClassName" finished-at="2025-06-13T12:05:56 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m3()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toGetExecutingClassName -->
-        <test-method signature="m3()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="m3" finished-at="2025-06-13T12:05:56 IST" duration-ms="7" status="SKIP">
-          <exception class="org.testng.SkipException">
+        </test-method> <!-- testCase4 -->
+        <test-method retried="true" signature="testCase4()[pri:0, instance:ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB@273e7444]" started-at="2025-06-25T21:06:13 IST" name="testCase4" finished-at="2025-06-25T21:06:13 IST" duration-ms="3" status="SKIP">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m3]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m3
-at Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X2_SkipTestByNameUsingListener.beforeInvocation(X2_SkipTestByNameUsingListener.java:34)
-at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
-at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:56)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:573)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB.testCase4(S2_ClassB.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
@@ -118,41 +95,99 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m3 -->
-        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="toGetExecutingClassName" finished-at="2025-06-13T12:05:56 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m4()]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testCase4 -->
+        <test-method retried="true" signature="testCase4()[pri:0, instance:ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB@273e7444]" started-at="2025-06-25T21:06:13 IST" name="testCase4" finished-at="2025-06-25T21:06:13 IST" duration-ms="26" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB.testCase4(S2_ClassB.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- toGetExecutingClassName -->
-        <test-method signature="m4()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="m4" finished-at="2025-06-13T12:05:56 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- testCase4 -->
+        <test-method signature="testCase4()[pri:0, instance:ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB@273e7444]" started-at="2025-06-25T21:06:13 IST" name="testCase4" finished-at="2025-06-25T21:06:13 IST" duration-ms="16" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB.testCase4(S2_ClassB.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m4 -->
-        <test-method is-config="true" signature="toGetExecutingClassName(java.lang.reflect.Method)[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="toGetExecutingClassName" finished-at="2025-06-13T12:05:56 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m5()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toGetExecutingClassName -->
-        <test-method signature="m5()[pri:0, instance:Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests@5d534f5d]" started-at="2025-06-13T12:05:56 IST" name="m5" finished-at="2025-06-13T12:05:56 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m5 -->
-      </class> <!-- Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testCase4 -->
+      </class> <!-- ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

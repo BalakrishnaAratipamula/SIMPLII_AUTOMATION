@@ -8,69 +8,27 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">199</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">393</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests</td><td><a href="#m0">m1</a></td><td rowspan="1">1749796556485</td><td rowspan="1">26</td></tr><tr class="skippedeven"><td><a href="#m1">m3</a></td><td rowspan="1">1749796556536</td><td rowspan="1">7</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests</td><td><a href="#m2">m2</a></td><td rowspan="1">1749796556523</td><td rowspan="1">5</td></tr><tr class="passedeven"><td><a href="#m3">m4</a></td><td rowspan="1">1749796556549</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m4">m5</a></td><td rowspan="1">1749796556565</td><td rowspan="1">7</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB</td><td><a href="#m0">testCase4</a></td><td rowspan="1">1750865773868</td><td rowspan="1">16</td></tr><tr><th colspan="4">Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB</td><td><a href="#m1">testCase4</a></td><td rowspan="3">1750865773758</td><td rowspan="3">3</td></tr><tr class="retriedeven"><td><a href="#m2">testCase4</a></td></tr><tr class="retriedeven"><td><a href="#m3">testCase4</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB</td><td><a href="#m4">testCase3</a></td><td rowspan="1">1750865773626</td><td rowspan="1">66</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests#m1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m1
-	at Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X2_SkipTestByNameUsingListener.beforeInvocation(X2_SkipTestByNameUsingListener.java:34)
-	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
-	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:56)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:573)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+<h2>Test</h2><h3 id="m0">ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB#testCase4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB.testCase4(S2_ClassB.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests#m3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping test method: Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests.m3
-	at Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X2_SkipTestByNameUsingListener.beforeInvocation(X2_SkipTestByNameUsingListener.java:34)
-	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:56)
-	at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:56)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:573)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB#testCase4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB.testCase4(S2_ClassB.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests#m2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Listener_Use_IExecutionListener_to_Mark_Executed_TCs2.X4_MyTests#m5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB#testCase4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB.testCase4(S2_ClassB.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB#testCase4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB.testCase4(S2_ClassB.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ReRun4_Failed_TCs_using_TestNgFailedXMLfile.S2_ClassB#testCase3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
