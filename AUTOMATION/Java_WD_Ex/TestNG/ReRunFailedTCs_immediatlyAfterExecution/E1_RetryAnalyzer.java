@@ -14,5 +14,16 @@ public class E1_RetryAnalyzer implements IRetryAnalyzer {
 	            return true; // Retry the test
 	        }
 	        return false;
+	        
 	    }
+	    
+	    void trye() {
+	    	try {
+		    	System.out.println();
+		    }finally {
+		    	System.out.println();
+		    }
+	    }
+	    
+	    
 }
