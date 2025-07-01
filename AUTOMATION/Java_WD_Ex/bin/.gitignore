@@ -4,12 +4,12 @@
 /Pass_Parameters_through_xmlFile/
 /ReRun2_Failed_TCs_using_IAnnotationTransformer/
 /ReRun4_Failed_TCs_using_TestNgFailedXMLfile/
+/ReRunFailedTCs_immediatlyAfterExecution/
 /TakingSCreenshotOnlyForFailedTCs.xml
 /TestNG_CrossBrowser_Testing/
 /TestNG_Features/
 /TestNG_Grouping/
 /TestNG_ParallelTesting/
-/inputdata.properties
 /test-output/
 /A1_Types_of_Constructors/
 /AbstractClass/
@@ -68,7 +68,6 @@
 /Program_to_cover_all_OOPS_Concepts/
 /ReRun1_Failed_TCs_usingIRetryAnalyzer/
 /ReRun3_Failed_TCs_usingTestNgFailedXMLfile/
-/ReRunFailedTCs_immediatlyAfterExecution/
 /Reflection/
 /Relationships_or_Associations/
 /Return_Keyword/
