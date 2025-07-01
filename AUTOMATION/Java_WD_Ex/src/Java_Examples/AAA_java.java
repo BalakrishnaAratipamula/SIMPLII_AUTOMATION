@@ -127,7 +127,6 @@ public static void main(String args[]){
 		int ecount=0;
 		int tcount=0;
 		String ucStr = str.toLowerCase();
-		System.out.println(ucStr);
 		for(int i=0; i<=ucStr.length()-1; i++) {
 			if(ucStr.charAt(i)=='e') {	//comparing with lower letter take toLowerCase() or comparing with higher letter take toUpperCase()
 				ecount++;
@@ -207,7 +206,7 @@ public static void main(String args[]){
 	} //*/
 	
 	
-	//Java int coding qns : #27b Each word occurrence from a given string
+	/*/Java int coding qns : #27b Each word occurrence from a given string
 	public static void main(String[] args) {
 		String string = "Alice is a Girl and Bob is a Boy";
 		Map<String, Integer> hm = new HashMap<>(); //or HashMap<String, Integer>();
@@ -222,7 +221,7 @@ public static void main(String args[]){
 			}
 		}
 		System.out.println(hm);
-	}
+	} //*/
 	
 	
 	
