@@ -18,7 +18,7 @@ class SingletonClass {
 	}
 }
 
-public class SingletonDemo {
+public class SingletonDemo2 {
 	public static void main(String args[]) {
 		SingletonClass one = SingletonClass.getInstance();
 		one.i = 50;
