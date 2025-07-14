@@ -3,14 +3,15 @@ package WD_Examples;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.Map;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 
 public class EX08_dropdownEx_addbtns {
 	public static void main(String[] args) throws Exception {
@@ -18,9 +19,10 @@ public class EX08_dropdownEx_addbtns {
 		//to disable notifications
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications-");
-
+		
 		//to initialize the browser
 		WebDriver driver = new ChromeDriver(options);
+//		options.addArguments("headless", "disable-extensions"); //to disable-extensions
 		driver.navigate().to("https://book.spicejet.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -57,7 +59,7 @@ public class EX08_dropdownEx_addbtns {
 		driver.findElement(By.xpath("//span[@class='pax-add pax-enabled'][@id='hrefIncInf']")).click();
 		Thread.sleep(800);
 	} */
-
+		
 		driver.findElement(By.xpath("//select[@id='ctl00_mainContent_ddl_Adult'][@name='ctl00$mainContent$ddl_Adult']")).click();
 		Select sc = new Select(driver.findElement(By.xpath("//select[@id='ctl00_mainContent_ddl_Adult'][@name='ctl00$mainContent$ddl_Adult']")));
 		sc.selectByIndex(3);
@@ -73,6 +75,6 @@ public class EX08_dropdownEx_addbtns {
 		Thread.sleep(1000);
 		refobjddn.sendKeys(Keys.ENTER);
 		Thread.sleep(1000);  //*/
-		driver.quit(); 
+		driver.quit();
 	}
 }
