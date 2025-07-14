@@ -1,16 +1,3 @@
-/Baby Boy Name
-/Listener_Use_IExecutionListener_to_Mark_Executed_TCs/
-/Listener_Use_IExecutionListener_to_Mark_Executed_TCs2/
-/Pass_Parameters_through_xmlFile/
-/ReRun2_Failed_TCs_using_IAnnotationTransformer/
-/ReRun4_Failed_TCs_using_TestNgFailedXMLfile/
-/ReRunFailedTCs_immediatlyAfterExecution/
-/TakingSCreenshotOnlyForFailedTCs.xml
-/TestNG_CrossBrowser_Testing/
-/TestNG_Features/
-/TestNG_Grouping/
-/TestNG_ParallelTesting/
-/test-output/
 /A1_Types_of_Constructors/
 /AbstractClass/
 /ArrayOfObjects/
@@ -23,6 +10,7 @@
 /Coupling/
 /DDT/
 /DDT_FW/
+/Default_nd_ParameterizedConstructor/
 /E1Private_AM/
 /E2Default_AM/
 /E2Default_AM_Test/
@@ -95,3 +83,14 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
+/test-output/
+/Listener_Use_IExecutionListener_to_Mark_Executed_TCs/
+/Listener_Use_IExecutionListener_to_Mark_Executed_TCs2/
+/Pass_Parameters_through_xmlFile/
+/ReRun2_Failed_TCs_using_IAnnotationTransformer/
+/ReRun4_Failed_TCs_using_TestNgFailedXMLfile/
+/ReRunFailedTCs_immediatlyAfterExecution/
+/TestNG_CrossBrowser_Testing/
+/TestNG_Features/
+/TestNG_Grouping/
+/TestNG_ParallelTesting/

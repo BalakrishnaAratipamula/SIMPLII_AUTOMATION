@@ -1,7 +1,9 @@
 package Java_Examples;
 
+
 public class TypesOf_Variables {
 	
+	/*/ M1
 	// instance variable
 	String instaceVar = "I am instance variable";
 	
@@ -32,5 +34,28 @@ public class TypesOf_Variables {
 		test.method2();
 	}
 	
+	//*/
 	
-}
+	
+	// M2
+	//Local Variable (We can do declaration at class level)
+	private int myLocalVar;
+	
+	//Instance Variable
+	private int myInstanceVar;
+	
+	//Static Variable 
+	private static int myStaticVar;
+	
+	public void myMethod() {
+		//Local variable
+		int myLocalVar = 10; //(LVs initialization can do inside the method only / Must be initialized before use)
+		
+		//Access Instance Variable
+		myInstanceVar = 20;
+		
+		//Access Static Variable
+		myStaticVar = 30;
+		
+	}
+} 

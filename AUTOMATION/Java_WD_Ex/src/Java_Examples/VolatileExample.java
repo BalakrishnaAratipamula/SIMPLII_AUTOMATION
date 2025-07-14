@@ -1,15 +1,15 @@
 package Java_Examples;
 
-class VolatileEx {
-
-	volatile int count=0;
+class VolatileEx { 
 	
+	volatile int count = 0;
+
 	void incrementCount() {
 		count++;
 	}
-	
+
 	void displayCount() {
-		System.out.println("count: "+count);
+		System.out.println("count: " + count);
 	}
 }
 
@@ -18,5 +18,6 @@ public class VolatileExample {
 		VolatileEx obj = new VolatileEx();
 		obj.incrementCount();
 		obj.displayCount();
-	}
+	} // */
+	
 }
