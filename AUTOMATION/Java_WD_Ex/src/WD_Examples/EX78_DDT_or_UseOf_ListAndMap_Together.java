@@ -2,19 +2,21 @@ package WD_Examples;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.v85.network.model.AuthChallengeResponse.Response;
 
 public class EX78_DDT_or_UseOf_ListAndMap_Together {
 	public static void main(String[] args) {
 		// Sample test data using List<Map<String, String>>
 		List<Map<String, String>> loginData = new ArrayList<>();
-
+		
 		// First set of credentials
 		Map<String, String> user1 = new HashMap<>();
 		user1.put("username", "admin");
