@@ -15,6 +15,7 @@ public class EX01_Launch_diff_Browsers {
 //		System.setProperty("webdriver.gecko.driver", "E:\\Drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		Thread.sleep(5000);
+		driver.manage().logs().get(null);
 		driver.navigate().to("https://www.google.com/"); 
 		//to Print 'SessionId'
 		SessionId sessionId = ((RemoteWebDriver) driver).getSessionId();
