@@ -118,6 +118,30 @@ public static void main(String args[]){
     System.out.println("Factorial of "+n+" is: "+fact); //or num   
 	} //*/
 	
+	/*/factorial program in java using recursion
+	// Recursive method to calculate factorial
+    static long factorial(int n) {
+        if (n == 0 || n == 1) {
+            return 1;  // base case
+        } else {
+            return n * factorial(n - 1);  // recursive call
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        if (num < 0) {
+            System.out.println("Factorial is not defined for negative numbers.");
+        } else {
+            long result = factorial(num);
+            System.out.println("Factorial of " + num + " is: " + result);
+        }
+
+        sc.close();
+    } //*/
 	
  	//Java int coding qns : #26 Number of occurrence of given char in a string
 	//Java int coding qns : #26b Each char occurrence from given string

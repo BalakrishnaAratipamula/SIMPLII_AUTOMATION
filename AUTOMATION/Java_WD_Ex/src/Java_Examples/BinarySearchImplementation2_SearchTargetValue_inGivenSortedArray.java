@@ -1,6 +1,6 @@
 package Java_Examples;
 
-public class SearchTargetValue_UsingBinarySearch_inGivenSortedArray {
+public class BinarySearchImplementation2_SearchTargetValue_inGivenSortedArray {
 	// Binary Search Method (Iterative)
 	public static int binarySearch(int[] arr, int target) {
 		int left = 0;
