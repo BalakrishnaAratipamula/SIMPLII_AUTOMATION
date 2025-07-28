@@ -19,6 +19,7 @@
 	<classpathentry kind="src" path="Java_Examples2"/>
 	<classpathentry kind="src" path="OOPS"/>
 	<classpathentry kind="src" path="AccessModifiers"/>
+	<classpathentry kind="src" path="PageFactoryEx"/>
 	<classpathentry kind="lib" path="E:/Jar files/XLS &amp; XLSX jar Files/poi-5.0.0/batik-all-1.13.jar"/>
 	<classpathentry kind="lib" path="E:/Jar files/XLS &amp; XLSX jar Files/poi-5.0.0/bcpkix-jdk15on-1.68.jar"/>
 	<classpathentry kind="lib" path="E:/Jar files/XLS &amp; XLSX jar Files/poi-5.0.0/bcprov-jdk15on-1.68.jar"/>

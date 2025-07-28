@@ -13,6 +13,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+// How to handle HTTPS website in selenium / or How to accept the SSL untrusted connection
 public class EX51_HandleSSLError {
 
 	public static void main(String[] args) {
