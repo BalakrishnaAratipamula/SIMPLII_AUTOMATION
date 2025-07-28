@@ -1,14 +1,11 @@
 package WD_Examples;
 
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
-import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -74,13 +71,26 @@ public class EX23_Synchronization_options {
 		 * });
 		 */
 		
-		/*/1 ------------------FluentWait
+		//1 ------------------FluentWait
 		Wait<WebDriver> wait2 = new FluentWait<WebDriver>(driver)
 				.withTimeout(Duration.ofSeconds(30))
 				.pollingEvery(Duration.ofSeconds(5))
-//				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class);
+				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class);
 				//(or) .ignoring(NoSuchElementException.class, TimeoutException.class);
-		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.name("destination")));
+		//Approach 2
+//		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.name("destination")));
+		//Approach 1
+		WebElement ele2 = wait2.until(new Function<WebDriver, WebElement>(){
+			@Override
+			public WebElement apply(WebDriver driver){
+				WebElement text = driver.findElement(By.xpath("//*[@id='value']"));
+				if(text.isDisplayed())
+					return text;
+				else
+					return null;
+			}
+		});
+
 		//*/
 		
 		/*/Or2 ------------------FluentWait
