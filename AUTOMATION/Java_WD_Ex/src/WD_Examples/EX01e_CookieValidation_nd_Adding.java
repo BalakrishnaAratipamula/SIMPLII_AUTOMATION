@@ -1,5 +1,7 @@
 package WD_Examples;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -25,7 +27,6 @@ public class EX01e_CookieValidation_nd_Adding {
 		Cookie var = driver.manage().getCookieNamed("token"); //getting cookie by name
 		String val = var.getValue(); //getting cookie value
 		Assert.assertEquals(val, "123ABC"); //Error message will print when assertion statement is get fails
-		
 		
 		//2 - Cookie Adding
 		Cookie cookie = new Cookie("cookieKey123", "cookieValue123");

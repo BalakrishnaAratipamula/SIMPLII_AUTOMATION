@@ -39,13 +39,13 @@ public class E01_RequestTypes {	// https://reqres.in/
 			
 	}
 	
-	@Test(priority=2) //create user
+//	@Test(priority=2) //create user
 	void createUser() {	//create - post
 		
 		String[] strArr = new String[] {"C", "C++"};
 		
 		HashMap hm = new HashMap();
-		hm.put("id", "1");
+		hm.put("id", "12");
 		hm.put("name", "Bala");
 		hm.put("location", "India");
 		hm.put("phone", "123456789");
@@ -55,17 +55,17 @@ public class E01_RequestTypes {	// https://reqres.in/
 			.contentType("application/json")
 			.body(hm)
 		.when()
-			.post("https://reqres.in/api/users")
+			.post("https://jsonplaceholder.typicode.com/posts") //https://reqres.in/api/users
 		.then()	
 			.statusCode(201)
 			.log().all();
-				
 		}
 	
-	//@Test(priority=2) //create user and return id from response
+	@Test(priority=2) //create user and return id from response
 	void createUserAndReturnId() {	//create - post
 			
 		HashMap hm = new HashMap();
+		hm.put("id", "12");
 		hm.put("name", "Bala");
 		hm.put("job", "Tester");
 		
@@ -73,26 +73,28 @@ public class E01_RequestTypes {	// https://reqres.in/
 			.contentType("application/json")
 			.body(hm)
 		.when()
-			.post("https://reqres.in/api/users")
+			.post("https://jsonplaceholder.typicode.com/posts") //https://reqres.in/api/users
 			.jsonPath().getInt("id"); //getString()  to get id from response 
 //		.then()	
 //			.statusCode(201)
 //			.log().all();
 				
 		}
-		
-	//@Test(priority=3, dependsOnMethods= {"createUserAndReturnId"})
+	
+	@Test(priority=3, dependsOnMethods= {"createUserAndReturnId"})
 	void updateUser() {	//update - put
-			
+		
 		HashMap hm = new HashMap();
 		hm.put("name", "Bala222");
 		hm.put("job", "Tester222");
+		
+		System.out.println("id:  "+id);
 		
 		given()
 			.contentType("application/json")
 			.body(hm)
 		.when()
-			.put("https://reqres.in/api/users/"+id)
+			.put("https://jsonplaceholder.typicode.com/posts/"+id) //https://reqres.in/api/users/
 			
 		.then()	
 			.statusCode(200)
