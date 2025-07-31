@@ -18,7 +18,7 @@ public class UserEndPoints {
 		Response response=given()	//Note: "-H" represents header
 			.contentType(ContentType.JSON)	//specified in Requirements
 			.accept(ContentType.JSON)	//specified in Requirements
-			.body(payload) 	//body implementation was in payload class
+			.body(payload)	//body implementation was in payload class 	
 		.when()
 			.post(Routes.post_url);	//Routes class
 		
