@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,7 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class EX23_Synchronization_options {
-
+	
 	public static void main(String[] args) throws Exception {
 		// to Initialize browser
 		WebDriver driver = new ChromeDriver();
@@ -71,7 +72,7 @@ public class EX23_Synchronization_options {
 		 * });
 		 */
 		
-		//1 ------------------FluentWait
+		//1 ------------------ 'FluentWait' to handle 1 or 2 Exceptions
 		Wait<WebDriver> wait2 = new FluentWait<WebDriver>(driver)
 				.withTimeout(Duration.ofSeconds(30))
 				.pollingEvery(Duration.ofSeconds(5))
@@ -90,14 +91,14 @@ public class EX23_Synchronization_options {
 					return null;
 			}
 		});
-
+		
 		//*/
 		
-		/*/Or2 ------------------FluentWait
+		/*/Or 2 ------------------ 'FluentWait' to handle multiple Exceptions
 		List allExceptions = new ArrayList();
     	allExceptions.add(NoSuchElementException.class);
-    	allExceptions.add(ElementNotVisibleException.class);
     	allExceptions.add(StaleElementReferenceException.class);
+    	allExceptions.add(ElementNotVisibleException.class);
     	allExceptions.add(ElementClickInterceptedException.class); 
 		Wait<WebDriver> wait2 = new FluentWait<WebDriver>(driver)
 				.withTimeout(Duration.ofSeconds(30))
