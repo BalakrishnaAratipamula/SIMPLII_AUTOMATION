@@ -14,11 +14,11 @@ public class EX80_RegExpression_or_regex {
 		
 		WebElement priceElement = driver.findElement(By.id("price"));
 		String priceText = priceElement.getText(); // e.g. "$123.45"
-
+		
 		// Regex to check price format: $ followed by digits, optional decimal
 		Pattern pattern = Pattern.compile("^\\$\\d+(\\.\\d{2})?$");
 		Matcher matcher = pattern.matcher(priceText);
-
+		
 		if (matcher.matches()) {
 		    System.out.println("Price format is correct");
 		} else {
