@@ -5,8 +5,8 @@ public class Ternary_Operator {
 	public static void main(String args[]) {
 		int a = 10;
 		int b = 5;				  //cond ? val1:val2
-		int min = (a<b) ? a:b;    //(10<5) ? 10:5	//if cond 'false' print 'min' value    //Syntax:: variable=Expression1 ? Expression2:Expression3
-		System.out.println(min);					//if cond 'true' print 'max' value
+		int min = (a<b) ? a:b;    //(10<5) ? 10:5	//if cond 'false' print '2nd' value    //Syntax:: variable=Expression1 ? Expression2:Expression3
+		System.out.println(min); //5				//if cond 'true' print '1st' value
 	} //*/
 	
 	
@@ -15,9 +15,28 @@ public class Ternary_Operator {
 		int a = 10;
 		int b = 5;
 		int max = (a>b) ? a:b;    //Syntax:: variable=Expression1 ? Expression2:Expression3
-		System.out.println(max);
+		System.out.println(max); //10
 	} //*/
 	
+	/*/
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		System.out.println(a>b?a:b); //20
+	} //*/
+	
+	/*/
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		System.out.println(a==b?a:b); //20
+	} //*/
+	
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		System.out.println(a!=b?a:b); //20
+	}
 	
 	/*/
 	public static void main(String[] args) {
@@ -70,7 +89,7 @@ public class Ternary_Operator {
 		to.print(null);
 	} //*/
 	
-	
+	/*/
 	void print(String str) {
 		boolean res;
 		res= str==null?true : "".equals(str)?true:false; //see below
@@ -80,5 +99,5 @@ public class Ternary_Operator {
 	public static void main(String[] args) {
 		Ternary_Operator to = new Ternary_Operator();
 		to.print("xyz");	//chheck with null, "", strContent
-	}
+	} //*/
 }
