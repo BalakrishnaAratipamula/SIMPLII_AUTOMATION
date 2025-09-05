@@ -10,7 +10,7 @@ class BankAccount3 {
 		this.accountHolder = accountHolder;
 		this.balance = balance;
 	}
-
+	
 	// Getter (read-only access)
 	public double getBalance() {
 		return balance;
