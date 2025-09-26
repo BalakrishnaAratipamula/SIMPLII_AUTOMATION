@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Custom_TestNGAnnotation2.E2_LoginTest">
+      <class name="TestNG_Features.E16_ExceptionTestExample">
         <methods>
-          <include name="setUp"/>
-          <include name="loginByFacebook"/>
+          <include name="testDivideByZero"/>
         </methods>
-      </class> <!-- Custom_TestNGAnnotation2.E2_LoginTest -->
+      </class> <!-- TestNG_Features.E16_ExceptionTestExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -15,6 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class EX71_Ensure_PageLoadedCompletely {
 	static WebDriver driver;
 
+	/*/M1 
 	public static boolean waitForPageLoad(WebDriver driver, Duration timeout) {
 		ExpectedCondition<Boolean> pageLoadCondition = new ExpectedCondition<Boolean>() {
 			public Boolean apply(WebDriver driver) {
@@ -35,5 +36,15 @@ public class EX71_Ensure_PageLoadedCompletely {
 		System.out.println("PageLoad Test: " + waitForPageLoad(driver, Duration.ofSeconds(40)));
 
 		driver.quit();
+	} //*/
+	
+	
+	//M2
+	public static void main(String[] args) {
+
+		driver = new ChromeDriver();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		new WebDriverWait(driver, Duration.ofSeconds(30))
+				.until(webDriver -> js.executeScript("return document.readyState").equals("complete"));
 	}
 }

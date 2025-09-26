@@ -8,13 +8,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class EX81_ScrollAndValidate_LaztLoadedContent {
+//H to validate content that loads only when scrolling?
+public class EX81_ScrollAndValidate_LazyLoadedContentOrInfiniteScroll {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://example-lazyload-site.com"); // Replace with your site
 		driver.manage().window().maximize();
 
-		// Initial elements loaded
+		/*/M1
+		//Initial elements loaded
 		List<WebElement> items = driver.findElements(By.cssSelector(".item-class"));
 		System.out.println("Initially loaded items: " + items.size());
 
@@ -45,5 +47,21 @@ public class EX81_ScrollAndValidate_LaztLoadedContent {
 		}
 
 		driver.quit();
-	}
+		//*/
+		
+		
+		//M2
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		long lastHeight = (long) js.executeScript("return document.body.scrollHeight");
+
+		while (true) {
+		    js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+		    Thread.sleep(2000);
+		    long newHeight = (long) js.executeScript("return document.body.scrollHeight");
+		    if (newHeight == lastHeight) {
+		        break;
+		    }
+		    lastHeight = newHeight;
+		}
+	} 
 }
