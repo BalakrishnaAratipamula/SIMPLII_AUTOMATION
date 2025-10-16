@@ -12,14 +12,14 @@ public class EX40a_Screenshot {
 	public static void main(String[] args) throws Exception {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.example.com/");
-
+        
         //screenshot of the entire page
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         byte[] screenshotBytes = screenshot.getScreenshotAs(OutputType.BYTES);
-
+        
         // Save the screenshot to a file
         FileUtils.writeByteArrayToFile(new File("screenshot.png"), screenshotBytes);
-
+        
         driver.quit();
     }
 }
