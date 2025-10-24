@@ -1,6 +1,6 @@
 package Java_Examples;
 
-public class Final_Variable_Initializations {
+public class FinalVariable_Initializations {
 
 	// Type-1 : Initialize at the time of declaration
 	private final int myVar = 100; // Instance variable
@@ -18,7 +18,7 @@ public class Final_Variable_Initializations {
 	// Type-3 : Initialized from constructor
 	private final int myVal3; // Instance variable
 
-	Final_Variable_Initializations() {
+	FinalVariable_Initializations() {
 		myVal3 = 120;
 	}
 }
