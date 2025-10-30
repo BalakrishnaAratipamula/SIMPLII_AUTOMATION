@@ -1,4 +1,4 @@
-package HTMLUnitDriver_Practice;
+package Pr_HTMLUnitDriver_Practice;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
