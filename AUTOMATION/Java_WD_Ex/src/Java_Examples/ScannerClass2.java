@@ -2,7 +2,7 @@ package Java_Examples;
 
 import java.util.Scanner;
 
-public class ScannerEx {
+public class ScannerClass2 {
 	public static void main(String args[]) {
 
 		// adding two numbers

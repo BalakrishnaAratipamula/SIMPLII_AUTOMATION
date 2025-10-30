@@ -28,10 +28,17 @@ public class WideningCasting {
 		System.out.println(i);
 	} //*/
 	
-	//int to String  
+	/*/int to String  
 	public static void main(String args[]) {
 		int i = 200;
 		String str = String.valueOf(i);		
 		System.out.println(str);
-	}
+	} //*/
+	
+	public static void main(String[] args) {
+        int num = 10;
+        double d = num;  // int → double (automatic)
+        System.out.println("Integer value: " + num);
+        System.out.println("Double value: " + d);
+    }
 }

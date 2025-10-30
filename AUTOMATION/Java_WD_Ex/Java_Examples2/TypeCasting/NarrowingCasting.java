@@ -12,11 +12,19 @@ public class NarrowingCasting {
 	    System.out.println("int: "+myInt);      // Output 9
 	} //*/
 	
-	 public static void main(String args[]) {
-         float f = 3.142f;
-         int  i = (int) f;
+	/*
+	public static void main(String args[]) {
+        float f = 3.142f;
+        int  i = (int) f;
 
-         System.out.println("float = " +f);
-         System.out.println("int = " +i);
+        System.out.println("float = " +f);
+        System.out.println("int = " +i);
+    } //*/
+	
+	public static void main(String[] args) {
+        double d = 10.99;
+        int num = (int) d;  // double → int (explicit)
+        System.out.println("Double value: " + d);
+        System.out.println("Integer value: " + num);
     }
 }
