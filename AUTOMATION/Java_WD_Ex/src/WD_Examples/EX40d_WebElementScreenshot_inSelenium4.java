@@ -18,7 +18,7 @@ public class EX40d_WebElementScreenshot_inSelenium4 {
         WebElement logo = driver.findElement(By.id("logo"));
         File screenshot = logo.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshot, new File("logo.png"));
-
+        
         driver.quit();
     }
 }
