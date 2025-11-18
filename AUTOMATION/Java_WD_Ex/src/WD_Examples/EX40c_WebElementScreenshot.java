@@ -21,7 +21,7 @@ public class EX40c_WebElementScreenshot {
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
+		
 //		WebElement ele = driver.findElement(By.xpath("//*[@name='login']"));
 		//1.mic screenshot
 		WebElement ele = driver.findElement(By.xpath("//*[local-name()='svg' and @class='goxjub']")); //for SVG elements
@@ -35,7 +35,6 @@ public class EX40c_WebElementScreenshot {
 		
 		//=============see Result in folder explorer then only image will visible
 		driver.quit();
-		
 	}
 	
 	public static void webElementScreenshot(WebElement ele) throws InterruptedException{
