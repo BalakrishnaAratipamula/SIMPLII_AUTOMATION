@@ -3,7 +3,7 @@ package Java_Examples;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RemoveDuplicates_from_Array {
+public class RemoveDuplicates_from_Array_WndWO_Using_HMndHS {
 	
 	/*/Java int coding qns : #9 Remove Duplicates from Array Using HashSet
 	public static void main(String[] args) {
@@ -62,7 +62,7 @@ public class RemoveDuplicates_from_Array {
 	} //*/
 	
 	
-	// #4 -without using HashMap
+	/*/ #4 -without using HashMap
 	public static void main(String[] args) {
 		
         int[] arr = {10, 20, 20, 30, 40, 10};
@@ -92,5 +92,5 @@ public class RemoveDuplicates_from_Array {
             System.out.print(temp[i] + " ");
         }
     } //*/
-	
+
 }
