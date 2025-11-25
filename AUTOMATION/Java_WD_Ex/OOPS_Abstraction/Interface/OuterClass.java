@@ -9,11 +9,9 @@ public class OuterClass {
 		AnonymousClassEx innerClass = new AnonymousClassEx() {
 			@Override
 			public void display() {
-				System.out.println("Anonymous inner class example");
+				System.out.println("Anonymous inner class ex");
 			}
-		
 		};
 		innerClass.display();
 	}
 }
-
