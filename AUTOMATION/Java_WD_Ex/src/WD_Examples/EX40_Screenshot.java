@@ -29,7 +29,7 @@ public class EX40_Screenshot {
 		// 
 		try {
             File sourceFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			File destFile=new File("F:\\screenshots from eclipse\\screenshot.png");
+			File destFile=new File("./screenshots from eclipse/test_"+System.currentTimeMillis()+".png");
             FileUtils.copyFile(sourceFile, destFile);
         } catch (Exception e) {
             e.printStackTrace();
