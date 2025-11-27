@@ -23,6 +23,7 @@ public class EX42b_JsE_scrollToElement {
 		//'other files' element
 		WebElement ele = driver.findElement(By.xpath("//h3[text()='Other files']/following-sibling::a")); 
 		
+		//Scroll To Element 
 		//perfectly working - using JsE 
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", ele);
 		

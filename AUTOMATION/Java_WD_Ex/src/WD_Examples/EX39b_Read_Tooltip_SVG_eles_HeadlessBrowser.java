@@ -13,12 +13,12 @@ import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class EX39b_Read_Tooltip_SVG_eles_Headless{
+public class EX39b_Read_Tooltip_SVG_eles_HeadlessBrowser{
 	public static void main(String[] args) throws InterruptedException {
 		//Headless mode
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");	//--headless=new //--headless=chrome
+		options.addArguments("--headless");	//--headless=new //--headless=chrome //ch, ff, Edge
 		//(OR) options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200", "--ignore-certificate-errors");
 		WebDriver driver= new ChromeDriver(options);
 		//*/

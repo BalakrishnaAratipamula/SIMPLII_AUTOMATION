@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class EX42_JsE_scrollBar {
+public class EX42_JsE_scrollBar_r_ScrollTo_Top_r_Bottom {
 public static void main(String[] args) throws Exception {
 	//to initialize browser
 //	System.setProperty("webdriver.gecko.driver", "E://Drivers//geckodriver.exe");
@@ -18,6 +18,7 @@ public static void main(String[] args) throws Exception {
 	//to create javascriptExecutor interface object by TypeCasting
 	JavascriptExecutor js = ((JavascriptExecutor)driver);
 	
+	//SCroll to Top or Bottom
 	//ScrollUp and scrollDown using JsE command 
 //	js.executeScript("window.scrollBy(0,2500)"); //to scrolldown 
 /*OR*/	js.executeScript("window.scrollTo(0, document.body.scrollHeight)"); //scrollDown to End 

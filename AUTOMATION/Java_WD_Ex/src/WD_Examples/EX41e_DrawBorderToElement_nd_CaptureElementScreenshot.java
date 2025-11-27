@@ -20,7 +20,7 @@ public class EX41e_DrawBorderToElement_nd_CaptureElementScreenshot {
 		WebElement ele = driver.findElement(By.linkText("Images"));
 
 		Thread.sleep(2000);
-		//To border WE
+		//To border WE (or) Highlight element
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		jse.executeScript("arguments[0].style.border = '3px solid red'", ele);
 		Thread.sleep(2000);
