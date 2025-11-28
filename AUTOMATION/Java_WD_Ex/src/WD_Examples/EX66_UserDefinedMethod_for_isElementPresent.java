@@ -1,6 +1,7 @@
 package WD_Examples;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,6 +29,14 @@ public class EX66_UserDefinedMethod_for_isElementPresent {
 	}
 
 	public static boolean isElementPresent(WebDriver driver, By locator) {
+		/*/ Approach 2
+		List<WebElement> element = driver.findElements(By.id("idValue"));
+		if(element.size() > 0) 
+			System.out.println("Element is present");
+		else
+			System.out.println("Element is not present");
+		*/
+		
 		try {
 			// Try finding the element
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
