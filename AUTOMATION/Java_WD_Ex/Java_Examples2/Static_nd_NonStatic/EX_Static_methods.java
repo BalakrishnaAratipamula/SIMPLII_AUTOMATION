@@ -1,4 +1,4 @@
-package Java_Examples;
+package Static_nd_NonStatic;
 
 public class EX_Static_methods {
 
