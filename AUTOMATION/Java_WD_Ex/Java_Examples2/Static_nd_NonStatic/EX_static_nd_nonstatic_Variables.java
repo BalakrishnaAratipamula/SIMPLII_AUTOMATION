@@ -1,4 +1,4 @@
-package Java_Examples;
+package Static_nd_NonStatic;
 
 public class EX_static_nd_nonstatic_Variables {
 	static int staticVar = 10; // Static variable (shared across all instances)
