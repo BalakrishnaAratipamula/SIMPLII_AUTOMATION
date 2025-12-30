@@ -2,7 +2,7 @@ package Singleton_Class;
 
 class Singleton {
     private static Singleton instance;
-
+    
     // Private constructor prevents object creation
     private Singleton() {}
 
