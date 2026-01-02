@@ -20,7 +20,7 @@ public class EX26b_Authentification_popup {
 		if (actualText.trim().contains("Congratulations! You must have the proper credentials.")) {
 			System.out.println("Authentication popup get handled");
 		}
-
+		
 		Thread.sleep(8000);
 		driver.quit();
 	}

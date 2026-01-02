@@ -18,6 +18,9 @@ public class EX01d_BrowserCmds_setWinPositionNdSize_getWEleSizeNdLocation {
 		
 		driver.manage().deleteAllCookies();
 		
+		//get window size
+		System.out.println(driver.manage().window().getSize());
+		
 		//set window size
 		Dimension dim = new Dimension(500, 500);
 		driver.manage().window().setSize(dim);
