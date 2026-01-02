@@ -2,10 +2,13 @@ package WD_Examples;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class EX26e_JS_AlertHandling_SendingText_iframe {
@@ -23,10 +26,13 @@ public class EX26e_JS_AlertHandling_SendingText_iframe {
 	    //Click confirm button ("Try it" button)
 	    promptButton.click();
 	    //Send "SW Test Academy" to Alert's text box
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 	    driver.switchTo().alert().sendKeys("Selenium WebDriver");
 	    Thread.sleep(5000);
 //	    Accept the alert (Click Ok button)
-	    driver.switchTo().alert().accept();
+//	    driver.switchTo().alert().accept();
+	    alert.accept();
 	    //Assertion
 	    Assert.assertEquals("Hello Selenium WebDriver! How are you today?", actualPromptMessage.getText());
 

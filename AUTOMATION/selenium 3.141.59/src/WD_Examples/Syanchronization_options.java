@@ -58,7 +58,7 @@ public static void main(String[] args) throws InterruptedException {
 		});
 		
 		
-		//Fluent wait - Latest - https://www.scaler.com/topics/selenium-tutorial/fluent-wait-in-selenium/
+		/*/Fluent wait - Latest - https://www.scaler.com/topics/selenium-tutorial/fluent-wait-in-selenium/
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 			    .withTimeout(Duration.ofSeconds(30))
 			    .pollingEvery(Duration.ofSeconds(5))
@@ -71,6 +71,6 @@ public static void main(String[] args) throws InterruptedException {
 		driver.findElement(By.name("destination")).sendKeys("AAAAAAAAA");
 		Thread.sleep(3000);
 		
-		driver.quit();
+		driver.quit(); //*/
 }
 }
