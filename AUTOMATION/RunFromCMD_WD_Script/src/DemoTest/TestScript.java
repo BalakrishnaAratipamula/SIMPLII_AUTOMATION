@@ -11,7 +11,6 @@ public class TestScript {
 		driver.get("http://google.co.in");
 		driver.manage().window().maximize();
 
-
 		System.out.println("----DONE TestScript----");
 
 		Thread.sleep(1000);
