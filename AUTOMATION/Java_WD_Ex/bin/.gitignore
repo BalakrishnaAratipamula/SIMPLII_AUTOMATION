@@ -5,6 +5,7 @@
 /ReRun2_Failed_TCs_using_IAnnotationTransformer/
 /ReRun4_Failed_TCs_using_TestNgFailedXMLfile/
 /ReRunFailedTCs_immediatlyAfterExecution/
+/SomeTCsRunInSequential_nd_SomeTCsRunInParallel/
 /TakingSCreenshotOnlyForFailedTCs.xml
 /TestNG_CrossBrowser_Testing/
 /TestNG_Features/
@@ -104,4 +105,3 @@
 /WapperClass/
 /Why_Interface_Intraduced/
 /com/
-/SomeTCsRunInSequential_nd_SomeTCsRunInParallel/
