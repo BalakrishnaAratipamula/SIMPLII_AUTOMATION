@@ -17,13 +17,15 @@ public class EX40e_Screenshot_onFailure {
 	@AfterMethod
 	public void tearDown(ITestResult result) {
 		if(ITestResult.FAILURE == result.getStatus()) {
-			File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			File screenshotOnFailure = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             try {
-				FileUtils.copyFile(screenshot, new File("./screenshots/failure_"+result.getName()+".png"));
+				FileUtils.copyFile(screenshotOnFailure, new File("./screenshots/failure_"+result.getName()+".png"));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-
 		}
 	}
 }
+/*/For visual reports integarte with Extent Report
+   extent.attachFile(screenshotPath);
+   extent.attachBase64String((TakesScreenshot)driver).getScreenshotAs(OutputType.BASE64)); //*/
