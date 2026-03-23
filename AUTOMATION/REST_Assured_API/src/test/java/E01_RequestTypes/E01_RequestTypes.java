@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+///// Free API Testing practice applications list - https://dev.to/mdmoeenajazkhan/api-testing-demo-site-1ef5
+
 /* given() - all pre-requisites - like content type, set cookies, add auth, add param, set headers info, etc....
  * when() - Get - to get the data
  *			Post - to insert the data  
@@ -25,7 +27,7 @@ public class E01_RequestTypes {	// https://reqres.in/
 	
 	int id;	//to capture id from response
 	
-	//@Test(priority=1)
+//	@Test(priority=1)
 	void getListOfUsers() {	// get
 		
 		given()
@@ -39,7 +41,7 @@ public class E01_RequestTypes {	// https://reqres.in/
 			
 	}
 	
-//	@Test(priority=2) //create user
+	@Test(priority=2) //create user
 	void createUser() {	//create - post
 		
 		String[] strArr = new String[] {"C", "C++"};

@@ -34,7 +34,7 @@ public class EX10e_Handle_AutoSuggest_DD {
         for (WebElement suggestion : suggestions) {
             String text = suggestion.getText();
             System.out.println("Suggestion: " + text);
-            if (text.equalsIgnoreCase("selenium webdriver")) {
+            if (text.equalsIgnoreCase("selenium downloads")) {
                 suggestion.click();
                 break;
             }
@@ -43,7 +43,7 @@ public class EX10e_Handle_AutoSuggest_DD {
         // Optional: verify page title
         System.out.println("Page title after selection: " + driver.getTitle());
 
-        driver.quit();
+//        driver.quit();
     }
 
 }

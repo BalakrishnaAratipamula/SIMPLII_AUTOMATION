@@ -38,7 +38,7 @@ public class E08a_CreateUser {
 			.jsonPath().getInt("id");
 		
 		System.out.println("Generated ID is :     "+ id);
-			
+		
 		//Approach 1 - //this will return id value to all classes	//make availability in <test> //this case execute testng.xml
 		//context.setAttribute("user_id", id);
 		//Approach 2 - //this will return id value to all classes	//make availability in <suite> //this case execute testng2.xml

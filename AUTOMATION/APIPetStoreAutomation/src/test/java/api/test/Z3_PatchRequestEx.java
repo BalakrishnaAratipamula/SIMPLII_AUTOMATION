@@ -18,7 +18,7 @@ public class Z3_PatchRequestEx {
     public static void setup() {
         RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
     }
-
+	
     @Test
     public void patchRequest() {
         Response response = given()
@@ -29,7 +29,7 @@ public class Z3_PatchRequestEx {
                 .patch("/posts/1")
                 .then()
                 .extract().response();
-
+        	
         Assert.assertEquals(200, response.statusCode());
         Assert.assertEquals("bax", response.jsonPath().getString("title"));
         Assert.assertEquals("1", response.jsonPath().getString("userId"));
