@@ -11,5 +11,7 @@ public class AlternativeWayOfUsing_PairClassMethods {
         System.out.println(pair1.getValue());    // Apple
         System.out.println(pair1.toString());    // 1=Apple
         System.out.println(pair1.equals(pair2)); // true
+        
+//        System.out.printf("Age: %d", 25); //just printf practice 
     }
 }
