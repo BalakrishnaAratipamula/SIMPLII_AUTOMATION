@@ -13,7 +13,7 @@ class ByImplementingRunnableInterface implements Runnable {
 		ByImplementingRunnableInterface iri = new ByImplementingRunnableInterface();
 		Thread thread = new Thread(iri);
 		System.out.println("Thread about to start...");		//1st print
-		thread.start();
+		thread.start(); // Calls run() internally in a new thread
 	}
 	
 }
