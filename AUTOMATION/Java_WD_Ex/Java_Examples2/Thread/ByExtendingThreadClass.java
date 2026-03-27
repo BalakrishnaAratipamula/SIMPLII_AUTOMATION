@@ -12,7 +12,7 @@ class ByExtendingThreadClass extends Thread {
 	public static void main(String args[]) {
 		ByExtendingThreadClass t1 = new ByExtendingThreadClass();
 		System.out.println("Thread about to start...");		//1st print
-		t1.start();
+		t1.start(); // Calls run() internally in a new thread
 	}
 	
 }

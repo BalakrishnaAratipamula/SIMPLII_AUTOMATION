@@ -13,7 +13,7 @@ class MyThread extends Thread {
     }
 }
 
-public class join_mtd {
+public class Join_mtd {
 	public static void main(String[] args) throws InterruptedException {
         MyThread t1 = new MyThread();
         MyThread t2 = new MyThread();
