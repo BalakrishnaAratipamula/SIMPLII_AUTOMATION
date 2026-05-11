@@ -14,7 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class EX64b_Handle_FileUpload_nd_Download_nd_VeryingDownloadedFile {
+public class EX64c_Handle_FileUpload_nd_Download_nd_VeryingDownloadedFile {
 	static WebDriver driver;
 	
 	public static void main(String[] args) throws AWTException {
