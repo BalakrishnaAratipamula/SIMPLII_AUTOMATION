@@ -5,6 +5,8 @@ import java.util.logging.Level;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
 
@@ -23,10 +25,17 @@ public class EX01g_CaptureBrowserLogs {
 		
 		driver.get("https://www.google.com/");
 		
-		// 4. Fetch browser logs
+		/*/ 4. Fetch browser logs
 		driver.manage().logs().get(LogType.BROWSER).forEach(logEntry -> {
 			System.out.println(logEntry.getLevel() + " : " + logEntry.getMessage());
-		});
+		}); //*/
+		
+		//(OR) 4. Fetch browser logs
+		LogEntries logs = driver.manage().logs().get("browser");
+
+		for (LogEntry entry : logs) {
+		    System.out.println(entry.getLevel() + " : " + entry.getMessage());
+		}
 		
 		driver.quit();
 	}
