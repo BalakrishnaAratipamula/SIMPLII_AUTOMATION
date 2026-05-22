@@ -1,4 +1,4 @@
-package Custom_TestNGAnnotation;
+package CustomListener_TestNGAnnotation;
 
 import org.testng.annotations.Test;
 

@@ -1,10 +1,10 @@
-package Custom_TestNGAnnotation2;
+package CustomListener_TestNGAnnotation2;
 
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(Custom_TestNGAnnotation2.E1_MyListeners.class)
+@Listeners(CustomListener_TestNGAnnotation2.E1_MyListeners.class)
 public class E2_LoginTest {
 	@Test
 	void setUp() {
