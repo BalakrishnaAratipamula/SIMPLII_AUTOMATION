@@ -6,8 +6,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.ElementClickInterceptedException;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -76,8 +78,9 @@ public class EX23_Synchronization_options {
 		Wait<WebDriver> wait2 = new FluentWait<WebDriver>(driver)
 				.withTimeout(Duration.ofSeconds(30))
 				.pollingEvery(Duration.ofSeconds(5))
-				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class);
-				//(or) .ignoring(NoSuchElementException.class, TimeoutException.class);
+//				.ignoring(NoSuchElementException.class, StaleElementReferenceException.class);
+//				.ignoring(ElementClickInterceptedException.class, TimeoutException.class);
+				.ignoring(ElementNotInteractableException.class, TimeoutException.class);
 		//Approach 2
 //		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.name("destination")));
 		//Approach 1
