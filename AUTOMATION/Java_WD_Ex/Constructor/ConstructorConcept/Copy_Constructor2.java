@@ -1,7 +1,7 @@
 package ConstructorConcept;
 
 class Employee {
-    int id;
+	int id;
     String name;
 
     // Regular constructor

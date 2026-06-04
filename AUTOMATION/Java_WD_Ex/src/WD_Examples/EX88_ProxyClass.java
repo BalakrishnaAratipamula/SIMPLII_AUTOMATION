@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class EX88_ProxyClass {
 	public static void main(String[] args) {
 		Proxy proxy = new Proxy();
-		proxy.setHttpProxy("myproxy:8080");
+		proxy.setHttpProxy("myproxy:8080"); //ipaddress:port
 
 		ChromeOptions options = new ChromeOptions();
 		options.setProxy(proxy);
