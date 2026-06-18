@@ -3,7 +3,7 @@ package Java_Examples;
 import java.util.HashMap;
 import java.util.Map;
 
-//Java int coding qns : #36 java program to check givrn characters can form a palindrome
+//Java int coding qns : #36 java program to check given characters can form a palindrome
 public class Check_GivenCharacters_can_form_a_Palindrome {
 	public static boolean canFormPalindrome(String str) {
 		// Remove spaces and convert to lowercase for uniformity
