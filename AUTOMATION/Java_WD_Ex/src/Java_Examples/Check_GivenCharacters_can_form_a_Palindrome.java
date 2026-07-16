@@ -8,13 +8,13 @@ public class Check_GivenCharacters_can_form_a_Palindrome {
 	public static boolean canFormPalindrome(String str) {
 		// Remove spaces and convert to lowercase for uniformity
 		str = str.replaceAll("\\s+", "").toLowerCase();
-
+		
 		// Count character frequencies
 		Map<Character, Integer> freqMap = new HashMap<>();
 		for (char c : str.toCharArray()) {
 			freqMap.put(c, freqMap.getOrDefault(c, 0) + 1);
 		}
-
+		
 		// Count odd occurrences
 		int oddCount = 0;
 		for (int count : freqMap.values()) {

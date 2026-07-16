@@ -1,16 +1,19 @@
 package Default_nd_ParameterizedConstructor;
 
-public class DefaultConstructor2 {
-	class Parent {
-	    Parent() {
-	        System.out.println("Parent constructor");
-	    }
-	}
+class Parent {
+    Parent() {
+        System.out.println("Parent Constructor");
+    }
+}
 
-	class Child extends Parent {
-	    Child() {
-	        // super();  // Automatically inserted by Java (Default constructor)
-	        System.out.println("Child constructor");
-	    }
+class Child extends Parent {
+    Child() {
+        System.out.println("Child Constructor");
+    }
+}
+
+public class DefaultConstructor2 {
+	public static void main(String[] args) {
+		new Child();
 	}
 }
