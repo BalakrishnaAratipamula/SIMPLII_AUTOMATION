@@ -21,7 +21,7 @@ class LiskovSubstitutionPrinciple {
     public static void main(String[] args) {
         Bird bird = new Bird();
         Sparrow sparrow = new Sparrow();
-
+        
         makeItFly(bird);      // Bird can fly
         makeItFly(sparrow);   // Sparrow is flying
     }
