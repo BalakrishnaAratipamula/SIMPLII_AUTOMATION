@@ -102,6 +102,5 @@
 			<version>${javafaker.version}</version>
 		</dependency>
 
-
 	</dependencies>
 </project>
